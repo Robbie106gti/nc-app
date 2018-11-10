@@ -1,0 +1,43 @@
+<mat-toolbar class="brand-color">
+  <div class="whiteLine"></div>
+  <a [routerLink]="['..']" class="brand-logo">
+    <img class="imageLogo" src="/assets/icons/logoNC.png" alt="Nickels Cabinets" />
+    <span>Nickels Custom Cabinets</span>
+  </a>
+  <div class="align-right menu"><span class="user-name">Robert Leeuwerink</span>
+    <button mat-icon-button [matMenuTriggerFor]="menuUser">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    <mat-menu #menuUser="matMenu">
+      <button mat-menu-item>
+        <mat-icon>person_pin</mat-icon>
+        <span>Profile</span>
+      </button>
+      <button mat-menu-item disabled>
+        <mat-icon>recent_actors</mat-icon>
+        <span>Users</span>
+      </button>
+      <button mat-menu-item disabled>
+        <mat-icon>power_settings_new</mat-icon>
+        <span>Logout</span>
+      </button>
+    </mat-menu>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>dialpad</mat-icon>
+        <span>Catalog</span>
+      </button>
+      <button mat-menu-item disabled>
+        <mat-icon>voicemail</mat-icon>
+        <span>SOP</span>
+      </button>
+      <button mat-menu-item disabled>
+        <mat-icon>notifications_off</mat-icon>
+        <span>MDS</span>
+      </button>
+    </mat-menu>
+  </div>
+</mat-toolbar>
