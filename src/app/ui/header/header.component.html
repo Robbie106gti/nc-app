@@ -4,37 +4,48 @@
     <img class="imageLogo" src="/assets/icons/logoNC.png" alt="Nickels Cabinets" />
     <span>Nickels Custom Cabinets</span>
   </a>
-  <div class="align-right menu"><span class="user-name">Robert Leeuwerink</span>
+  <div class="align-right menu"><span class="user-name">Guest mode</span>
     <button mat-icon-button [matMenuTriggerFor]="menuUser">
       <mat-icon>account_circle</mat-icon>
     </button>
     <mat-menu #menuUser="matMenu">
-      <button mat-menu-item>
+      <button mat-menu-item [routerLink]="['profile']">
         <mat-icon>person_pin</mat-icon>
         <span>Profile</span>
       </button>
-      <button mat-menu-item disabled>
+      <button mat-menu-item [routerLink]="['users']">
         <mat-icon>recent_actors</mat-icon>
         <span>Users</span>
       </button>
-      <button mat-menu-item disabled>
-        <mat-icon>power_settings_new</mat-icon>
+      <button mat-menu-item [routerLink]="['logout']">
+        <mat-icon>eject</mat-icon>
         <span>Logout</span>
       </button>
+      <button mat-menu-item [routerLink]="['login']">
+        <mat-icon>settings_power</mat-icon>
+        <span>Login</span>
+      </button>
+      <button mat-menu-item [routerLink]="['inbox']">
+        <mat-icon>inbox</mat-icon>
+        <span>Inbox</span>
+      </button>
     </mat-menu>
+    <a mat-icon-button [routerLink]="['search']">
+      <mat-icon>search</mat-icon>
+    </a>
     <button mat-icon-button [matMenuTriggerFor]="menu">
       <mat-icon>more_vert</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item>
+      <button mat-menu-item [routerLink]="['catalog']">
         <mat-icon>dialpad</mat-icon>
         <span>Catalog</span>
       </button>
-      <button mat-menu-item disabled>
+      <button mat-menu-item [routerLink]="['sop']">
         <mat-icon>voicemail</mat-icon>
         <span>SOP</span>
       </button>
-      <button mat-menu-item disabled>
+      <button mat-menu-item [routerLink]="['mds']">
         <mat-icon>notifications_off</mat-icon>
         <span>MDS</span>
       </button>
