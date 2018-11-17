@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // environment
 import { environment } from '../environments/environment';
+import { AngularFireModule } from '@angular/fire';
 
 // Root entry
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +14,7 @@ import { AppComponent } from './app.component';
 import * as fromGuards from './guards';
 
 // services
+import * as fromServices from './services';
 
 // store
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
@@ -20,6 +22,10 @@ import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './store/reducers';
 import { EffectsModule } from '@ngrx/effects';
 import { AppEffects } from './store/effects/app.effects';
+import {
+  StoreRouterConnectingModule,
+  RouterStateSerializer
+} from '@ngrx/router-store';
 
 // components
 import { HeaderComponent } from './ui/header/header.component';
@@ -55,11 +61,17 @@ import { InboxComponent } from './users/inbox/inbox.component';
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production
     }),
+    AngularFireModule.initializeApp(environment.firebase),
     StoreModule.forRoot(reducers, { metaReducers }),
     EffectsModule.forRoot([AppEffects]),
+    StoreRouterConnectingModule,
     !environment.production ? StoreDevtoolsModule.instrument() : []
   ],
-  providers: [...fromGuards.guards],
+  providers: [
+    ...fromServices.services,
+    ...fromGuards.guards,
+    { provide: RouterStateSerializer, useClass: CustomSerializer }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
