@@ -144,3 +144,41 @@ body {
   color: #800;
   cursor: pointer;
 }
+
+@supports(display: grid) {
+  .detail-card {
+    width: 50%;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1em;
+    -ms-grid-columns: (minmax(2em, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
+  }
+
+  .grid {
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1em;
+    -ms-grid-columns: (minmax(18em, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  }
+
+  .grid2 {
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1em;
+    -ms-grid-columns: (minmax(12em, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  }
+
+  .doorGrid {
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1em;
+    -ms-grid-columns: 2;
+    grid-template-columns: 1fr 1fr;
+  }
+}
