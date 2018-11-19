@@ -3,17 +3,11 @@ import {
   AngularFirestore,
   AngularFirestoreCollection,
   AngularFirestoreDocument
-} from 'angularfire2/firestore';
-import { Observable } from 'rxjs/Observable';
+} from '@angular/fire/firestore';
+import { Observable, of } from 'rxjs';
+import { map, take, tap, switchMap } from 'rxjs/operators';
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
-import { WQUser, User } from '../models/user.model';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/operator/take';
-import 'rxjs/add/operator/toPromise';
-import 'rxjs/add/operator/switchMap';
-import { of } from 'rxjs/observable/of';
 
 type CollectionPredicate<T> = string | AngularFirestoreCollection<T>;
 type DocPredicate<T> = string | AngularFirestoreDocument<T>;
@@ -35,31 +29,25 @@ export class FirestoreService {
   /// Get Data
   /// **************
   doc$<T>(ref: DocPredicate<T>): Observable<T> {
-    return this.doc(ref)
-      .snapshotChanges()
-      .map(doc => {
-        return doc.payload.data() as T;
-      });
+    return this.doc(ref).valueChanges();
   }
   col$<T>(ref: CollectionPredicate<T>, queryFn?): Observable<T[]> {
-    return this.col(ref, queryFn)
-      .snapshotChanges()
-      .map(docs => {
-        return docs.map(a => a.payload.doc.data()) as T[];
-      });
+    return this.col(ref, queryFn).valueChanges();
   }
   /// with Ids
   colWithIds$<T>(ref: CollectionPredicate<T>, queryFn?): Observable<any[]> {
     // console.log(ref);
     return this.col(ref, queryFn)
       .snapshotChanges()
-      .map(actions => {
-        return actions.map(a => {
-          const data = a.payload.doc.data();
-          const id = a.payload.doc.id;
-          return { id, ...data };
-        });
-      });
+      .pipe(
+        map(actions => {
+          return actions.map(a => {
+            const data = a.payload.doc.data() as unknown;
+            const id = a.payload.doc.id;
+            return { id, ...data };
+          });
+        })
+      );
   }
 
   refreshCustomClaims(token) {
@@ -149,7 +137,7 @@ export class FirestoreService {
   geopoint(lat: number, lng: number) {
     return new firebase.firestore.GeoPoint(lat, lng);
   }
-  /// If doc exists update, otherwise set
+  /*   /// If doc exists update, otherwise set
   upsert<T>(ref: DocPredicate<T>, data: any) {
     // console.log(ref, data);
     const doc = this.doc(ref)
@@ -160,7 +148,7 @@ export class FirestoreService {
       // console.log(snap.payload);
       return snap.payload.exists ? this.update(ref, data) : this.set(ref, data);
     });
-  }
+  } */
   /// If doc exists update, otherwise set
   exists<T>(ref: DocPredicate<T>) {
     // console.log(ref, data);
@@ -170,7 +158,7 @@ export class FirestoreService {
   trimit(str) {
     return str ? str.trim() : null;
   }
-  /// **************
+  /*   /// **************
   /// Inspect Data
   /// **************
   inspectDoc(ref: DocPredicate<any>): void {
@@ -194,7 +182,7 @@ export class FirestoreService {
         console.log(`Loaded Collection in ${tock}ms`, c);
       })
       .subscribe();
-  }
+  } */
   /// **************
   /// Create and read doc references
   /// **************
@@ -202,7 +190,7 @@ export class FirestoreService {
   connect(host: DocPredicate<any>, key: string, doc: DocPredicate<any>) {
     return this.doc(host).update({ [key]: this.doc(doc).ref });
   }
-  /// returns a documents references mapped to AngularFirestoreDocument
+  /*   /// returns a documents references mapped to AngularFirestoreDocument
   docWithRefs$<T>(ref: DocPredicate<T>) {
     return this.doc$(ref).map(doc => {
       for (const k of Object.keys(doc)) {
@@ -212,7 +200,7 @@ export class FirestoreService {
       }
       return doc;
     });
-  }
+  } */
   /// **************
   /// Atomic batch example
   /// **************

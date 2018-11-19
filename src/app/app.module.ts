@@ -26,6 +26,7 @@ import {
   StoreRouterConnectingModule,
   RouterStateSerializer
 } from '@ngrx/router-store';
+import { CustomSerializer } from './store/reducers/';
 
 // components
 import { HeaderComponent } from './ui/header/header.component';
