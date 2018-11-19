@@ -4,7 +4,8 @@
     <img class="imageLogo" src="/assets/icons/logoNC.png" alt="Nickels Cabinets" />
     <span>Nickels Custom Cabinets</span>
   </a>
-  <div class="align-right menu"><span class="user-name">Guest mode</span>
+  <div class="align-right menu" *ngIf="user$ | async as user"><span class="user-name">{{user.data.firstName }}
+      {{user.data.lastName }}</span>
     <button mat-icon-button [matMenuTriggerFor]="menuUser">
       <mat-icon>account_circle</mat-icon>
     </button>

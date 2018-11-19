@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Store } from '@ngrx/store';
+import * as fromStore from '../../store/reducers';
 
 @Component({
   selector: 'app-profile',
@@ -6,10 +9,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.scss']
 })
 export class ProfileComponent implements OnInit {
+  user$: Observable<any>;
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private store: Store<fromStore.State>) {
+    this.user$ = this.store.select(fromStore.getUser);
   }
 
+  ngOnInit() {}
 }

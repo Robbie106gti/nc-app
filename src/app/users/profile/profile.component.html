@@ -1,3 +1,4 @@
-<p>
+<p *ngIf="user$ | async as user">
   profile works!
+  {{ user | json }}
 </p>
