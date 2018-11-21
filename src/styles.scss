@@ -64,9 +64,17 @@ body {
   }
 }
 
+.main {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .brand-logo {
   position: fixed;
   left: 0;
+  margin-left: -2px;
 
   span {
     position: relative;

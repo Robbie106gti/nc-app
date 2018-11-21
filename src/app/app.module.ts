@@ -34,12 +34,8 @@ import { FooterComponent } from './ui/footer/footer.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { DemoMaterialModule } from './material-module';
 import { SliderComponent } from './ui/slider/slider.component';
-import { ProfileComponent } from './users/profile/profile.component';
-import { UsersComponent } from './users/users/users.component';
 import { HomeComponent } from './ui/home/home.component';
-import { LoginComponent } from './users/login/login.component';
-import { LogoutComponent } from './users/logout/logout.component';
-import { InboxComponent } from './users/inbox/inbox.component';
+import { LoginComponent } from './ui/login/login.component';
 
 @NgModule({
   declarations: [
@@ -47,12 +43,8 @@ import { InboxComponent } from './users/inbox/inbox.component';
     HeaderComponent,
     FooterComponent,
     SliderComponent,
-    ProfileComponent,
-    UsersComponent,
     HomeComponent,
-    LoginComponent,
-    LogoutComponent,
-    InboxComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule,
