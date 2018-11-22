@@ -40,7 +40,7 @@
 
 // scss tips and tricks https://sass-lang.com/guide
 
-$primary-color: rgb(66, 35, 35);
+$primary-color: #4e342e;
 $secondary-color: rgba(255, 255, 255, 1);
 
 html,
@@ -74,7 +74,6 @@ body {
 .brand-logo {
   position: fixed;
   left: 0;
-  margin-left: -2px;
 
   span {
     position: relative;
@@ -122,6 +121,91 @@ body {
   max-height: 3rem;
   left: 0;
   top: 0;
+}
+
+.image20 {
+  max-height: 20vw;
+  max-width: 15vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.card {
+  .card-image {
+    img {
+      width: auto !important;
+    }
+  }
+
+  .card-content {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+
+    .card-title {
+      display: block;
+      line-height: 32px;
+      margin-bottom: 8px;
+      font-size: 24px;
+      font-weight: 300;
+    }
+  }
+}
+
+.card20 {
+  max-height: 20vw;
+  overflow: hidden;
+}
+
+.card-empl {
+  max-height: 10vw;
+  max-width: 100%;
+}
+
+.of-hidden {
+  overflow: hidden !important;
+}
+
+.inactive {
+  background-color: #263238;
+}
+
+.bgd1 {
+  background-color: rgba(66, 96, 121, 0.459)
+}
+
+.collection .collection-item.active {
+  background-color: #fde0b2 !important;
+}
+
+.materialboxed.active {
+  background-color: #fff;
+  padding: 3em;
+}
+
+.padding {
+  padding: 0.5em;
+
+  material-placeholder {
+    margin-bottom: 1em;
+  }
+
+  span {
+    position: relative;
+    margin-top: 1em;
+    background-color: rgba(96, 125, 139, 0.5);
+    padding: 0.2em;
+    left: 1em;
+  }
+}
+
+.ordercode {
+  font-weight: bold;
+  color: #800;
+  cursor: pointer;
 }
 
 .whiteLine {
@@ -188,5 +272,107 @@ body {
     grid-gap: 1em;
     -ms-grid-columns: 2;
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+.noteitem {
+  background-color: rgb(255, 157, 157);
+  border-radius: 0.2em;
+  border: solid 1px rgb(59, 3, 3);
+}
+
+.nritem {
+  display: list-item;
+  /* This has to be "list-item"                                               */
+  list-style-type: circle;
+  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;
+  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+}
+
+.discontinued {
+  background-color: rgba(65, 90, 114, 0.5) !important;
+}
+
+.half {
+  width: 50%;
+  display: block;
+}
+
+.full {
+  width: 100%;
+}
+
+@media print {
+  .page-break {
+    page-break-after: always;
+  }
+
+  .break-page {
+    page-break-before: always;
+  }
+
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+
+  .card,
+  .card-panel,
+  .col {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0px solid #fff !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    box-shadow: 0px !important;
+  }
+
+  .z-depth-1,
+  nav,
+  .card-panel,
+  .card,
+  .toast,
+  .btn,
+  .btn-large,
+  .btn-small,
+  .btn-floating,
+  .dropdown-content,
+  .collapsible {
+    box-shadow: none !important;
+  }
+
+  .half {
+    max-width: 50% !important;
+    max-height: 50% !important;
+    page-break-inside: avoid;
+  }
+
+  #topic {
+    font-size: 16pt;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-style: hidden;
+  }
+
+  .collection-header,
+  h5 {
+    font-size: 12pt !important;
+    margin: 0 !important;
+    padding: 0.2rem !important;
+  }
+
+  .collection-item {
+    font-size: 9pt;
+    margin: 0 !important;
+    padding: 0.2rem 0.2rem 0.2rem 0.5rem !important;
+  }
+
+  .timenuser {
+    font-size: 7pt;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: fixed;
+    right: 0;
+    top: 0;
   }
 }
