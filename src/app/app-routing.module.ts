@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import * as fromGuards from './guards';
+
 import { HomeComponent } from './ui/home/home.component';
 import { LoginComponent } from './ui/login/login.component';
 
@@ -11,15 +13,18 @@ const routes: Routes = [
   },
   {
     path: 'sop',
-    loadChildren: './sop/sop.module#SopModule'
+    loadChildren: './sop/sop.module#SopModule',
+    canActivate: [fromGuards.LoginGuard]
   },
   {
     path: 'mds',
-    loadChildren: './mds/mds.module#MdsModule'
+    loadChildren: './mds/mds.module#MdsModule',
+    canActivate: [fromGuards.LoginGuard]
   },
   {
     path: 'edit',
-    loadChildren: './editor/editor.module#EditorModule'
+    loadChildren: './editor/editor.module#EditorModule',
+    canActivate: [fromGuards.LoginGuard]
   },
   {
     path: 'search',
@@ -27,7 +32,8 @@ const routes: Routes = [
   },
   {
     path: 'dashboard',
-    loadChildren: './dashboard/dashboard.module#DashboardModule'
+    loadChildren: './dashboard/dashboard.module#DashboardModule',
+    canActivate: [fromGuards.LoginGuard]
   },
   {
     path: '',
