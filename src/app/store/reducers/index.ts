@@ -10,12 +10,15 @@ import { RouterStateSerializer } from '@ngrx/router-store';
 import { environment } from '../../../environments/environment';
 import * as fromRouter from '@ngrx/router-store';
 import * as fromUser from './user.reducer';
+import * as fromUi from './ui.reducer';
 import { User } from 'src/app/models/user';
 import { Injectable } from '@angular/core';
+import { Ui } from 'src/app/models/ui';
 
 export interface State {
   routerState: fromRouter.RouterReducerState<Router>;
   userState: User;
+  uiState: Ui;
 }
 export interface Router {
   state: RouterState;
@@ -29,7 +32,8 @@ export interface RouterState {
 
 export const reducers: ActionReducerMap<State> = {
   routerState: fromRouter.routerReducer,
-  userState: fromUser.reducer
+  userState: fromUser.reducer,
+  uiState: fromUi.reducer
 };
 
 export const metaReducers: MetaReducer<State>[] = !environment.production
@@ -39,6 +43,7 @@ export const selectReducerState = createFeatureSelector<
   fromRouter.RouterReducerState<Router>
 >('routerState');
 export const getUser = createFeatureSelector<fromUser.UserState>('userState');
+export const getUi = createFeatureSelector<fromUi.UiState>('uiState');
 
 @Injectable()
 export class CustomSerializer implements RouterStateSerializer<RouterState> {
