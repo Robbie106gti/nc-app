@@ -29,7 +29,7 @@ export const initialState: UserState = {
       mds: false
     }
   },
-  loaded: true,
+  loaded: false,
   enterypoint: '',
   firestore: false,
   loading: false,

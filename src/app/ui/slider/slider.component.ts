@@ -9,6 +9,7 @@ declare var M: any;
 
 @Component({
   selector: 'app-slider',
+  changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './slider.component.html',
   styleUrls: ['./slider.component.scss']
 })
