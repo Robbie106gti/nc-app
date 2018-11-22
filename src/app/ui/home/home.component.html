@@ -1,7 +1,7 @@
 <div class="main">
   <div class="grid" *ngIf="categories$ | async as cats">
     <div *ngFor="let cat of cats" [ngClass]="['card', cat.color]">
-      <a [routerLink]="[cat.link]">
+      <a [routerLink]="['',cat.link]">
         <div class="card-image card20">
           <img [src]="cat.image" [alt]="cat.title" class="responsive-img">
         </div>

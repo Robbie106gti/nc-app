@@ -9,13 +9,13 @@ import * as fromStore from '../store';
 @Injectable({
   providedIn: 'root'
 })
-export class LoginGuard implements CanActivate {
+export class LoggedGuard implements CanActivate {
   constructor(private store: Store<fromStore.State>, private router: Router) {}
   canActivate(): Observable<boolean> {
     return this.checkStore().pipe(
       map(logged_in => {
-        if (logged_in === false) {
-          this.router.navigate(['login']);
+        if (logged_in === true) {
+          this.router.navigate(['dashboard', 'profile']);
         }
         return logged_in;
       }),

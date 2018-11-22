@@ -14,17 +14,17 @@ const routes: Routes = [
   {
     path: 'sop',
     loadChildren: './sop/sop.module#SopModule',
-    canActivate: [fromGuards.LoginGuard]
+    canActivate: [fromGuards.LoginGuard, fromGuards.SopGuard]
   },
   {
     path: 'mds',
     loadChildren: './mds/mds.module#MdsModule',
-    canActivate: [fromGuards.LoginGuard]
+    canActivate: [fromGuards.LoginGuard, fromGuards.MdsGuard]
   },
   {
     path: 'edit',
     loadChildren: './editor/editor.module#EditorModule',
-    canActivate: [fromGuards.LoginGuard]
+    canActivate: [fromGuards.LoginGuard, fromGuards.EditGuard]
   },
   {
     path: 'search',
@@ -41,9 +41,16 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
+    path: 'home',
+    pathMatch: 'full',
+    redirectTo: '',
+    component: HomeComponent
+  },
+  {
     path: 'login',
     pathMatch: 'full',
-    component: LoginComponent
+    component: LoginComponent,
+    canActivate: [fromGuards.LoggedGuard]
   }
 ];
 

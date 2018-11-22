@@ -9,13 +9,13 @@ import * as fromStore from '../store';
 @Injectable({
   providedIn: 'root'
 })
-export class LoginGuard implements CanActivate {
+export class SopGuard implements CanActivate {
   constructor(private store: Store<fromStore.State>, private router: Router) {}
   canActivate(): Observable<boolean> {
     return this.checkStore().pipe(
       map(logged_in => {
         if (logged_in === false) {
-          this.router.navigate(['login']);
+          this.router.navigate(['home']);
         }
         return logged_in;
       }),
@@ -25,6 +25,6 @@ export class LoginGuard implements CanActivate {
 
   checkStore(): Observable<boolean> {
     // this.store.dispatch({ type: fromStore.ENTERY_POINT, payload: this.route.url });
-    return this.store.select(fromStore.getUserLoggedin);
+    return this.store.select(fromStore.getUserSopRights);
   }
 }

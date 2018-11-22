@@ -27,6 +27,7 @@ export interface Roles {
   sop?: boolean;
   editor?: boolean;
   canEditor?: boolean;
+  mds?: boolean;
 }
 
 export interface Address {

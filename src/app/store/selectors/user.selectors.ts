@@ -8,7 +8,22 @@ export const getUserState = createSelector(
   (state: UserState) => state
 );
 
-export const gerUserLoggedin = createSelector(
+export const getUserLoggedin = createSelector(
   getUserState,
   user => user.loaded
+);
+
+export const getUserSopRights = createSelector(
+  getUserState,
+  user => user.data.roles.sop
+);
+
+export const getUserMdsRights = createSelector(
+  getUserState,
+  user => user.data.roles.mds
+);
+
+export const getUserEditRights = createSelector(
+  getUserState,
+  user => user.data.roles.editor
 );

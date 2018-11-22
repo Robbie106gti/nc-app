@@ -18,9 +18,18 @@ export const initialState: UserState = {
   data: {
     class: 'Guest',
     firstName: 'Guest',
-    lastName: 'mode'
+    lastName: 'mode',
+    roles: {
+      admin: false,
+      dealer: false,
+      editor: false,
+      nickels: false,
+      reader: false,
+      sop: false,
+      mds: false
+    }
   },
-  loaded: false,
+  loaded: true,
   enterypoint: '',
   firestore: false,
   loading: false,
