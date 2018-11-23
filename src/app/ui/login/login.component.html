@@ -18,16 +18,16 @@
         </div>
         <div class="input-field login80">
           <mat-form-field class="">
-            <input matInput #username maxlength="75" placeholder="Username">
+            <input matInput #username maxlength="65" placeholder="Username" aria-label="Username">
             <mat-hint align="start"><strong>Enter your webquoin user name</strong> </mat-hint>
             <mat-hint align="end">{{username.value.length}} / 75</mat-hint>
           </mat-form-field>
           <mat-form-field class="input-field">
-            <input matInput class="input-field" #password type="password" placeholder="Pasword">
+            <input matInput class="input-field" #password type="password" placeholder="Password" aria-label="Password">
           </mat-form-field>
         </div>
       </form>
     </div>
-    <button mat-flat-button (click)="Login()" color="primary" class="right">Login</button>
+    <button mat-flat-button aria-label="login" (click)="Login()" color="primary" class="right">Login</button>
   </div>
 </div>

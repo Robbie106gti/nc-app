@@ -6,7 +6,7 @@
   </a>
   <div class="align-right menu" *ngIf="user$ | async as user"><span class="user-name">{{user.data.firstName }}
       {{user.data.lastName }}</span>
-    <button mat-icon-button [matMenuTriggerFor]="menuUser">
+    <button mat-icon-button [matMenuTriggerFor]="menuUser" aria-label="dashboard dropdown">
       <mat-icon>account_circle</mat-icon>
     </button>
     <mat-menu #menuUser="matMenu">
@@ -15,10 +15,10 @@
         <span>{{dash.title}}</span>
       </a>
     </mat-menu>
-    <a mat-icon-button [routerLink]="['search']">
+    <a mat-icon-button [routerLink]="['','search']" aria-labelledby="search">
       <mat-icon>search</mat-icon>
     </a>
-    <button mat-icon-button [matMenuTriggerFor]="menu">
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="categories dropdown">
       <mat-icon>more_vert</mat-icon>
     </button>
     <mat-menu #menu="matMenu">

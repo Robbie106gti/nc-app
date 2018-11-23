@@ -84,7 +84,8 @@ body {
 }
 
 .brand-logo {
-  position: fixed;
+  position: absolute;
+  position: -ms-page;
   left: 0;
 
   span {
@@ -98,7 +99,8 @@ body {
 }
 
 .align-right {
-  position: fixed;
+  position: absolute;
+  position: -ms-page;
   right: 0;
 }
 
@@ -119,8 +121,13 @@ body {
 }
 
 .mat-form-field-infix {
-  width: 350px !important;
+  width: 100% !important;
+  min-width: 99%;
   margin-bottom: 1rem;
+}
+
+.mat-form-field {
+  display: block !important;
 }
 
 .background-color {
@@ -133,6 +140,7 @@ body {
 }
 
 .imageLogo {
+  position: -ms-page;
   margin-top: 0.2rem;
   margin-right: 0.3rem;
   max-height: 3rem;
