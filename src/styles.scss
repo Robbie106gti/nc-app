@@ -22,7 +22,7 @@
 // @import "~materialize-css/sass/components/buttons";
 // @import "~materialize-css/sass/components/dropdown";
 // @import "~materialize-css/sass/components/waves";
-// @import "~materialize-css/sass/components/modal";
+@import "~materialize-css/sass/components/modal";
 // @import "~materialize-css/sass/components/collapsible";
 // @import "~materialize-css/sass/components/chips";
 // @import "~materialize-css/sass/components/materialbox";
@@ -42,6 +42,7 @@
 
 $primary-color: #4e342e;
 $secondary-color: rgba(255, 255, 255, 1);
+$primary: red;
 
 html,
 body {
@@ -69,6 +70,13 @@ body {
   margin-bottom: 1rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+#login {
+  .modal {
+    width: 400px !important;
+    height: 300px !important;
+  }
 }
 
 .hidden {
@@ -108,6 +116,11 @@ body {
 .user-name {
   font-size: 9pt;
   font-weight: 300;
+}
+
+.mat-form-field-infix {
+  width: 350px !important;
+  margin-bottom: 1rem;
 }
 
 .background-color {

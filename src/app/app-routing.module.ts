@@ -49,8 +49,7 @@ const routes: Routes = [
   {
     path: 'login',
     pathMatch: 'full',
-    component: LoginComponent,
-    canActivate: [fromGuards.LoggedGuard]
+    component: LoginComponent
   }
 ];
 

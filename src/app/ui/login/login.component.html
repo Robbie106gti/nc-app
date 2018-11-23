@@ -1,1 +1,31 @@
 <app-slider></app-slider>
+<div class="modal-overlay" style="z-index: 1002; display: block; opacity: 0.5;"></div>
+<div id="login" class="row login card">
+  <div class="modal-content">
+    <p class="grey-text center-align">
+      <small>
+        <i>Use webquoin login for access to Catalog.</i>
+      </small>
+    </p>
+    <form class="row">
+      <div class="login20 hide-on-small-only">
+        <div class="valign-wrapper">
+          <h2 class="center-align">
+            <i class="large material-icons">account_box</i>
+          </h2>
+        </div>
+      </div>
+      <div class="input-field login80">
+        <mat-form-field class="">
+          <input matInput #username maxlength="75" placeholder="Username">
+          <mat-hint align="start"><strong>Enter your webquoin user name</strong> </mat-hint>
+          <mat-hint align="end">{{username.value.length}} / 75</mat-hint>
+        </mat-form-field>
+        <mat-form-field class="input-field">
+          <input matInput class="input-field" #password type="password" placeholder="Pasword">
+        </mat-form-field>
+      </div>
+    </form>
+  </div>
+  <button mat-flat-button (click)="Login()" color="primary" class="right">Login</button>
+</div>

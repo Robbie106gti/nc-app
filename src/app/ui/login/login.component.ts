@@ -1,4 +1,8 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import {
+  Component,
+  AfterViewInit,
+  ChangeDetectionStrategy
+} from '@angular/core';
 
 @Component({
   selector: 'app-login',
@@ -6,8 +10,12 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent implements AfterViewInit {
   constructor() {}
 
-  ngOnInit() {}
+  ngAfterViewInit(): void {}
+
+  Login() {
+    console.log('hello');
+  }
 }
