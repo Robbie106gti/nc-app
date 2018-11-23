@@ -1,10 +1,11 @@
 <mat-toolbar class="brand-color">
   <div class="whiteLine"></div>
   <a [routerLink]="['..']" class="brand-logo">
-    <img class="imageLogo" src="/assets/icons/logoNC.svg" alt="Nickels Cabinets" />
+    <img class="imageLogo" src="/assets/icons/logoNC.svg" alt="Nickels Cabinets" aria-label="company logo" />
   </a>
-  <div class="hide-on-small-only company-name"><span>Nickels Custom Cabinets</span></div>
-  <div class="align-right menu" *ngIf="user$ | async as user"><span class="user-name">{{user.data.firstName }}
+  <div class="hide-on-small-only company-name"><span aria-label="company name">Nickels Custom Cabinets</span></div>
+  <div class="align-right menu" *ngIf="user$ | async as user"><span aria-label="user name" class="user-name">{{user.data.firstName
+      }}
       {{user.data.lastName }}</span>
     <button mat-icon-button [matMenuTriggerFor]="menuUser" aria-label="dashboard dropdown">
       <mat-icon>account_circle</mat-icon>
@@ -15,7 +16,7 @@
         <span>{{dash.title}}</span>
       </a>
     </mat-menu>
-    <a mat-icon-button [routerLink]="['','search']" aria-labelledby="search">
+    <a mat-icon-button [routerLink]="['','search']" aria-label="search">
       <mat-icon>search</mat-icon>
     </a>
     <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="categories dropdown">

@@ -21,7 +21,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './store/reducers';
 import { EffectsModule } from '@ngrx/effects';
-import { AppEffects } from './store/effects/app.effects';
+import { Effects } from './store/effects';
 import {
   StoreRouterConnectingModule,
   RouterStateSerializer
@@ -56,7 +56,7 @@ import { LoginComponent } from './ui/login/login.component';
     }),
     AngularFireModule.initializeApp(environment.firebase),
     StoreModule.forRoot(reducers, { metaReducers }),
-    EffectsModule.forRoot([AppEffects]),
+    EffectsModule.forRoot([...Effects]),
     StoreRouterConnectingModule,
     !environment.production ? StoreDevtoolsModule.instrument() : []
   ],
