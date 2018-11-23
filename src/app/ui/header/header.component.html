@@ -2,8 +2,8 @@
   <div class="whiteLine"></div>
   <a [routerLink]="['..']" class="brand-logo">
     <img class="imageLogo" src="/assets/icons/logoNC.svg" alt="Nickels Cabinets" />
-    <span>Nickels Custom Cabinets</span>
   </a>
+  <div class="hide-on-small-only company-name"><span>Nickels Custom Cabinets</span></div>
   <div class="align-right menu" *ngIf="user$ | async as user"><span class="user-name">{{user.data.firstName }}
       {{user.data.lastName }}</span>
     <button mat-icon-button [matMenuTriggerFor]="menuUser" aria-label="dashboard dropdown">

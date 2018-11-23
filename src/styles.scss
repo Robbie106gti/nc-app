@@ -72,36 +72,35 @@ body {
   margin-right: 0.5rem;
 }
 
-#login {
-  .modal {
-    width: 400px !important;
-    height: 300px !important;
-  }
-}
-
 .hidden {
   display: none;
 }
 
 .brand-logo {
   position: absolute;
-  position: -ms-page;
   left: 0;
+  top: 0.5rem;
 
-  span {
-    position: relative;
-    top: -.7rem;
-    color: $secondary-color;
-    font-style: normal !important;
-    font-weight: 350;
-    text-decoration: none !important;
+  .imageLogo {
+    height: 3rem;
   }
+}
+
+.company-name {
+  position: relative;
+  left: 14rem;
+  top: 0;
 }
 
 .align-right {
   position: absolute;
   position: -ms-page;
   right: 0;
+}
+
+.align-center {
+  position: relative;
+  left: 50%;
 }
 
 .version {
@@ -137,15 +136,6 @@ body {
 .padding {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.imageLogo {
-  position: -ms-page;
-  margin-top: 0.2rem;
-  margin-right: 0.3rem;
-  max-height: 3rem;
-  left: 0;
-  top: 0;
 }
 
 .image20 {

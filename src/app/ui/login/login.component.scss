@@ -1,11 +1,29 @@
 .login {
-  position: relative;
-  min-width: 460px;
-  width: 33% !important;
-  padding-bottom: 4rem !important;
+  display: block;
+  padding-bottom: 3rem !important;
   padding-right: 1rem !important;
   background-color: #fafafa;
+  max-width: 25rem;
+  width: 100%;
   margin: auto;
+}
+
+.form-flex {
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1em;
+  -ms-grid-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.flex1 {
+  grid-column: 1;
+}
+
+.flex2 {
+  grid-column: span 2;
+  margin-left: 1rem;
 }
 
 .full-width {
