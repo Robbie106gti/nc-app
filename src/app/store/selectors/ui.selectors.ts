@@ -4,7 +4,7 @@ import * as fromFeature from '../reducers';
 import { Ui } from 'src/app/models/ui';
 
 export const getUiState = createSelector(
-  fromFeature.getUi,
+  fromFeature.getUiFeature,
   (state: Ui) => state
 );
 

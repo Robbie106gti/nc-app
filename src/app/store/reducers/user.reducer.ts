@@ -1,4 +1,4 @@
-import { Action } from '@ngrx/store';
+import * as fromUser from '../actions/user.actions';
 import { User, Favorites, Notes } from '../../models/user';
 
 export interface UserState {
@@ -38,8 +38,15 @@ export const initialState: UserState = {
   fails: -1
 };
 
-export function reducer(state = initialState, action: Action): User {
+export function reducer(
+  state = initialState,
+  action: fromUser.ActionsUser
+): User {
   switch (action.type) {
+    case fromUser.GET_USER: {
+      return { ...state };
+    }
+
     default:
       return state;
   }

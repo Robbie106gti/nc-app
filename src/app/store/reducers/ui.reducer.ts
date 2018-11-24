@@ -1,4 +1,4 @@
-import { Action } from '@ngrx/store';
+import * as fromUi from '../actions/ui.actions';
 import { Init } from './init';
 import { Categories, Header, Slides, Dashboard } from '../../models/ui';
 
@@ -16,8 +16,15 @@ export const initialState: UiState = {
   dashboard: Init.Dashboard
 };
 
-export function reducer(state = initialState, action: Action): UiState {
+export function reducer(
+  state = initialState,
+  action: fromUi.ActionsUI
+): UiState {
   switch (action.type) {
+    case fromUi.UI_UPDATE: {
+      return { ...state };
+    }
+
     default:
       return state;
   }

@@ -1,8 +1,6 @@
 import {
-  ActionReducer,
   ActionReducerMap,
   createFeatureSelector,
-  createSelector,
   MetaReducer
 } from '@ngrx/store';
 import { RouterStateSnapshot, Params } from '@angular/router';
@@ -11,14 +9,17 @@ import { environment } from '../../../environments/environment';
 import * as fromRouter from '@ngrx/router-store';
 import * as fromUser from './user.reducer';
 import * as fromUi from './ui.reducer';
+import * as fromSearch from './search.reducer';
 import { User } from 'src/app/models/user';
 import { Injectable } from '@angular/core';
 import { Ui } from 'src/app/models/ui';
+import { SearchState } from './search.reducer';
 
 export interface State {
   routerState: fromRouter.RouterReducerState<Router>;
   userState: User;
   uiState: Ui;
+  searchState: SearchState;
 }
 export interface Router {
   state: RouterState;
@@ -33,17 +34,21 @@ export interface RouterState {
 export const reducers: ActionReducerMap<State> = {
   routerState: fromRouter.routerReducer,
   userState: fromUser.reducer,
-  uiState: fromUi.reducer
+  uiState: fromUi.reducer,
+  searchState: fromSearch.reducer
 };
 
 export const metaReducers: MetaReducer<State>[] = !environment.production
   ? []
   : [];
-export const selectReducerState = createFeatureSelector<
-  fromRouter.RouterReducerState<Router>
->('routerState');
-export const getUser = createFeatureSelector<fromUser.UserState>('userState');
-export const getUi = createFeatureSelector<fromUi.UiState>('uiState');
+export const getRouterFeature = createFeatureSelector<Router>('routerState');
+export const getUserFeature = createFeatureSelector<fromUser.UserState>(
+  'userState'
+);
+export const getUiFeature = createFeatureSelector<fromUi.UiState>('uiState');
+export const getSearchFeature = createFeatureSelector<fromSearch.SearchState>(
+  'searchState'
+);
 
 @Injectable()
 export class CustomSerializer implements RouterStateSerializer<RouterState> {
