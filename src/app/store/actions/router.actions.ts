@@ -1,12 +1,17 @@
 import { Action } from '@ngrx/store';
 import { NavigationExtras } from '@angular/router';
+import {
+  ROUTER_CANCEL,
+  ROUTER_ERROR,
+  ROUTER_NAVIGATION,
+  ROUTER_CONFIG
+} from '@ngrx/router-store';
 
 export const GO = '[Router] Go';
 export const START = '[Router] NavigationStart';
 export const BACK = '[Router] Back';
 export const FORWARD = '[Router] Forward';
 export const CANCEL = '[Router] Cancel extras';
-export const CANCEL_ROUTE = '[Router] CAnceled routed';
 
 export class Go implements Action {
   readonly type = GO;
@@ -20,7 +25,9 @@ export class Go implements Action {
 }
 export class Start implements Action {
   readonly type = GO;
-  constructor(public payload) {}
+  constructor(public payload) {
+    // console.log(payload);
+  }
 }
 
 export class Back implements Action {
@@ -42,9 +49,4 @@ export class Cancel implements Action {
   ) {}
 }
 
-export class CancelRouter implements Action {
-  readonly type = CANCEL_ROUTE;
-  constructor(public payload) {}
-}
-
-export type ActionsRouter = Go | Start | Back | Forward | Cancel | CancelRouter;
+export type ActionsRouter = Go | Start | Back | Forward | Cancel;

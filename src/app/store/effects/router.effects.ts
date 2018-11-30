@@ -3,12 +3,13 @@ import { Router, NavigationStart } from '@angular/router';
 import { Location } from '@angular/common';
 import { Actions, Effect } from '@ngrx/effects';
 
-import { Store } from '@ngrx/store';
-
 import * as fromStore from '../../store';
 import * as routerActions from '../actions';
-import { switchMap, map, tap } from 'rxjs/operators';
-import { of } from 'rxjs';
+import { ROUTER_CANCEL, ROUTER_NAVIGATION } from '@ngrx/router-store';
+import * as userActions from '../actions/user.actions';
+import { switchMap, map, tap, skipWhile, takeWhile } from 'rxjs/operators';
+import { of, Observable } from 'rxjs';
+import { RouterCancel, RouterNav } from 'src/app/models/router';
 
 @Injectable()
 export class RouterEffects {
@@ -21,7 +22,7 @@ export class RouterEffects {
   @Effect({ dispatch: false })
   navigate$ = this.actions$.ofType(routerActions.GO).pipe(
     map((action: routerActions.Go) => {
-      // console.log(action);
+      // console.log({ go: action });
       return action.payload;
     }),
     tap(({ path, query: queryParams, extras }) => {
@@ -40,11 +41,27 @@ export class RouterEffects {
     .ofType(routerActions.FORWARD)
     .pipe(tap(() => this.location.forward()));
 
-  @Effect({ dispatch: false })
-  navigator$ = this.actions$.ofType(routerActions.CANCEL).pipe(
-    map((action: routerActions.Go) => action.payload),
-    tap(({ path, query: queryParams, extras }) => {
-      // console.log(path, { queryParams, ...extras });
-    })
+  @Effect()
+  entrypoint$ = this.actions$.ofType(ROUTER_NAVIGATION).pipe(
+    takeWhile(
+      (action: { type: string; payload: RouterNav }) =>
+        action.payload.event.id === 1
+    ),
+    map(
+      (action: { type: string; payload: RouterNav }) =>
+        new userActions.SetEntrypoint(action.payload.event.url)
+    )
+  );
+
+  @Effect()
+  cancelled$ = this.actions$.ofType(ROUTER_CANCEL).pipe(
+    takeWhile(
+      (action: { type: string; payload: RouterCancel }) =>
+        action.payload.event.id >= 1
+    ),
+    map(
+      (action: { type: string; payload: RouterCancel }) =>
+        new userActions.SetRedirect(action.payload.event.url)
+    )
   );
 }

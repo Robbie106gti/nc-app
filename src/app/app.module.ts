@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 
-// Root entry
+// Root
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -36,6 +36,9 @@ import { DemoMaterialModule } from './material-module';
 import { SliderComponent } from './ui/slider/slider.component';
 import { HomeComponent } from './ui/home/home.component';
 import { LoginComponent } from './ui/login/login.component';
+import { FirestoreService } from './services/firestore.service';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -54,14 +57,16 @@ import { LoginComponent } from './ui/login/login.component';
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production
     }),
-    AngularFireModule.initializeApp(environment.firebase),
     StoreModule.forRoot(reducers, { metaReducers }),
     EffectsModule.forRoot([...Effects]),
     StoreRouterConnectingModule,
-    !environment.production ? StoreDevtoolsModule.instrument() : []
+    !environment.production ? StoreDevtoolsModule.instrument() : [],
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [
-    ...fromServices.services,
+    FirestoreService,
     ...fromGuards.guards,
     { provide: RouterStateSerializer, useClass: CustomSerializer }
   ],

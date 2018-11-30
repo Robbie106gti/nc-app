@@ -26,4 +26,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
     // this.test$.subscribe(state => console.log(state));
   }
+
+  LogoutUser() {
+    this.store.dispatch({ type: fromStore.LOGOUT });
+  }
 }

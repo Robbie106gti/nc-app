@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ChangeDetectionStrategy } from '@angular/compiler/src/core';
+import { Store } from '@ngrx/store';
+import * as fromStore from '../../store';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-logout',
@@ -7,8 +10,13 @@ import { ChangeDetectionStrategy } from '@angular/compiler/src/core';
   templateUrl: './logout.component.html',
   styleUrls: ['./logout.component.css']
 })
-export class LogoutComponent implements OnInit {
-  constructor() {}
+export class LogoutComponent {
+  constructor(private store: Store<fromStore.State>, private router: Router) {
+    this.LogoutUser();
+  }
 
-  ngOnInit() {}
+  LogoutUser() {
+    this.router.navigate(['']);
+    this.store.dispatch({ type: fromStore.LOGOUT });
+  }
 }
