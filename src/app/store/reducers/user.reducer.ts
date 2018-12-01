@@ -14,6 +14,7 @@ export interface UserState {
   cookie: boolean;
   status?: string;
   users?: any;
+  loginerror?: string;
 }
 
 export const initialState: UserState = {
@@ -41,7 +42,8 @@ export const initialState: UserState = {
   cookie: false,
   favorites: new Array(),
   notes: new Array(),
-  fails: -1
+  fails: 0,
+  loginerror: ''
 };
 
 export function reducer(
@@ -49,7 +51,7 @@ export function reducer(
   action: fromUser.ActionsUser
 ): UserState {
   switch (action.type) {
-    case fromUser.GET_USER: {
+    case fromUser.GET_USER_COOKIE: {
       const nickels = action.payload.class;
       const username = action.payload.username;
       const email = action.payload.email;
@@ -65,6 +67,22 @@ export function reducer(
         loading: true,
         cookie: true
       };
+    }
+    case fromUser.GET_USER: {
+      const data = action.payload.user;
+      return { ...state, data, loaded: true };
+    }
+    case fromUser.LOGINWQ: {
+      return {
+        ...state,
+        data: { username: action.payload.username },
+        loading: true
+      };
+    }
+    case fromUser.LOGIN_WRONG: {
+      const fails = state.fails + 1;
+      const loginerror = action.payload;
+      return { ...state, fails, loginerror };
     }
     case fromUser.LOGIN_SUCCESS: {
       const data = action.payload;

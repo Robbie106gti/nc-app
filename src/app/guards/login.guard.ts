@@ -25,6 +25,6 @@ export class LoginGuard implements CanActivate {
 
   checkStore(): Observable<boolean> {
     // this.store.dispatch({ type: fromStore.ENTERY_POINT, payload: this.route.url });
-    return this.store.select(fromStore.getUserLoggedin);
+    return this.store.select(fromStore.getUserLogedin);
   }
 }

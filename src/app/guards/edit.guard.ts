@@ -13,11 +13,11 @@ export class EditGuard implements CanActivate {
   constructor(private store: Store<fromStore.State>, private router: Router) {}
   canActivate(): Observable<boolean> {
     return this.checkStore().pipe(
-      map(logged_in => {
-        if (logged_in === false) {
+      map(loged_in => {
+        if (loged_in === false) {
           this.router.navigate(['home']);
         }
-        return logged_in;
+        return loged_in;
       }),
       catchError(() => of(false))
     );

@@ -8,9 +8,19 @@ export const getUserState = createSelector(
   (state: UserState) => state
 );
 
-export const getUserLoggedin = createSelector(
+export const getUserLogedin = createSelector(
   getUserState,
   user => user.loaded
+);
+
+export const getLoginTries = createSelector(
+  getUserState,
+  user => user.fails
+);
+
+export const getLoginError = createSelector(
+  getUserState,
+  user => user.loginerror
 );
 
 export const getUserSopRights = createSelector(

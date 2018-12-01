@@ -24,7 +24,7 @@ export interface Res {
   };
 }
 
-export class Login {
+export interface Login {
   username: string;
   password: string;
 }

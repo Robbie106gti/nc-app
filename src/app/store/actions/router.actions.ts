@@ -1,11 +1,5 @@
 import { Action } from '@ngrx/store';
 import { NavigationExtras } from '@angular/router';
-import {
-  ROUTER_CANCEL,
-  ROUTER_ERROR,
-  ROUTER_NAVIGATION,
-  ROUTER_CONFIG
-} from '@ngrx/router-store';
 
 export const GO = '[Router] Go';
 export const START = '[Router] NavigationStart';

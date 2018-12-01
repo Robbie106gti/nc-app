@@ -19,14 +19,18 @@
         <mat-form-field class="">
           <input matInput #username maxlength="65" placeholder="Username" aria-label="Username" autocomplete="username">
           <mat-hint align="start"><strong>Enter your webquoin user name</strong> </mat-hint>
-          <mat-hint align="end">{{username.value.length}} / 75</mat-hint>
+          <mat-hint align="end">{{username.value.length}} / 65</mat-hint>
         </mat-form-field>
         <mat-form-field class="input-field">
           <input matInput class="input-field" #password type="password" placeholder="Password" aria-label="Password"
-            autocomplete="current-password">
+            autocomplete="current-password" (keyup.enter)="Login({username: username.value, password: password.value})">
         </mat-form-field>
       </div>
     </form>
-    <button mat-flat-button aria-label="login" (click)="Login()" color="primary" class="align-center">Login</button>
+    <button mat-flat-button aria-label="login" [disabled]="username.value.length <= 3 || password.value.length <= 3"
+      (click)="Login({username: username.value, password: password.value})" color="primary" class="align-center">Login</button>
+    <div *ngIf="(attempt$ | async) !== 0" class="errormessage orange darken-3"><span class="white-text">{{ loginerror$
+        |
+        async }}</span></div>
   </div>
 </div>
