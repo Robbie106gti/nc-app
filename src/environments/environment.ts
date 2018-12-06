@@ -5,11 +5,11 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'AIzaSyB6Lv_upLAZxOdr1pSrHmsfO7obSBLlp6I',
-    authDomain: 'nickels-app.firebaseapp.com',
-    databaseURL: 'https://nickels-app.firebaseio.com',
+    apiKey: 'AIzaSyDB21DFI98in8MfOgbNUX6myz0R6wnmB0c',
+    authDomain: 'nickels-catalog.firebaseapp.com',
+    databaseURL: 'https://nickels-catalog.firebaseio.com',
     projectId: 'nickels-app',
-    storageBucket: 'nickels-app.appspot.com',
+    storageBucket: 'nickels-catalog.appspot.com',
     messagingSenderId: '311839445330'
   }
 };
