@@ -1,9 +1,24 @@
-<mat-toolbar class="brand-color appheader">
+<mat-toolbar class="brand-color appheader" *ngIf="section$ | async as section">
   <div class="whiteLine"></div>
   <a [routerLink]="['..']" class="brand-logo">
     <img class="imageLogo" src="/assets/icons/logoNC.svg" alt="Nickels Cabinets" aria-label="company logo" />
   </a>
-  <div class="hide-on-small-only company-name"><span aria-label="company name or section">{{ (section$ | async ) }}</span></div>
+  <div class="hide-on-small-only company-name"><span aria-label="company name or section">{{
+      section.title }} - </span>
+  </div>
+  <div *ngIf="section.button" class="company-name">
+    <button mat-icon-button [matMenuTriggerFor]="menuCat" aria-label="dashboard dropdown">
+      <mat-icon>collections_bookmark</mat-icon>
+      <span> {{(qparams$ | async)?.catalogue}}</span>
+    </button>
+    <mat-menu #menuCat="matMenu">
+      <a *ngFor="let cat of section.dropdown" mat-menu-item [routerLink]="[]" [queryParams]="{ catalogue: cat.param }"
+        queryParamsHandling="merge" routerLinkActive="active">
+        <mat-icon>{{cat.icon}}</mat-icon>
+        <span>{{cat.title}}</span>
+      </a>
+    </mat-menu>
+  </div>
   <div class="align-right menu" *ngIf="user$ | async as user"><span aria-label="user name" class="user-name">{{user.data.firstName
       }}
       {{user.data.lastName }}</span>

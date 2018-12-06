@@ -1,13 +1,19 @@
 import * as fromUi from '../actions/ui.actions';
 import { Init } from './init';
-import { Categories, Header, Slides, Dashboard } from '../../models/ui';
+import {
+  Categories,
+  Header,
+  Slides,
+  Dashboard,
+  Section
+} from '../../models/ui';
 
 export interface UiState {
   categories: Categories[];
   header: Header[];
   slides: Slides[];
   dashboard: Dashboard[];
-  section: string;
+  section: Section;
 }
 
 export const initialState: UiState = {
@@ -15,7 +21,7 @@ export const initialState: UiState = {
   header: Init.Header,
   slides: Init.Slides,
   dashboard: Init.Dashboard,
-  section: 'Nickels Custom Cabinets'
+  section: Init.Section
 };
 
 export function reducer(
@@ -85,7 +91,8 @@ export function reducer(
     }
 
     case fromUi.UI_SECTION: {
-      const section = action.payload;
+      const button = action.payload === 'Catalogues' ? true : false;
+      const section = { ...state.section, title: action.payload, button };
       return { ...state, section };
     }
 

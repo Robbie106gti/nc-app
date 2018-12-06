@@ -12,7 +12,7 @@ export class CatalogComponent implements OnInit {
   constructor(private store: Store<fromStore.State>) {
     this.store.dispatch({
       type: fromStore.UI_SECTION,
-      payload: 'Custom Catalogue'
+      payload: 'Catalogues'
     });
   }
 

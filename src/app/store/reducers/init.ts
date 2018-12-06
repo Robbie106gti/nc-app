@@ -128,9 +128,16 @@ export const Dashboard = [
   }
 ];
 
+export const Section = {
+  title: 'Nickels Custom Cabinets',
+  dropdown: Catalogues,
+  button: false
+};
+
 export const Init = {
   Categories,
   Header,
   Slides,
-  Dashboard
+  Dashboard,
+  Section
 };

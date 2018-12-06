@@ -42,10 +42,22 @@ export interface Catalogues {
   title: string;
 }
 
+export interface Section {
+  title: string;
+  dropdown: Catalogues[];
+  button: boolean;
+}
+
+export interface Dropdown {
+  title: string;
+  param: string;
+  icon: string;
+}
+
 export interface Ui {
   categories: Categories[];
   header: Header[];
   slides: Slides[];
   dashboard: Dashboard[];
-  section: string;
+  section: Section;
 }

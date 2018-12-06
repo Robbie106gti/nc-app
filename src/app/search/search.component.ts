@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import * as fromStore from '../store';
 
 @Component({
   selector: 'app-search',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search.component.scss']
 })
 export class SearchComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private store: Store<fromStore.State>) {
+    this.store.dispatch({
+      type: fromStore.UI_SECTION,
+      payload: 'Search'
+    });
   }
 
+  ngOnInit() {}
 }
