@@ -8,7 +8,7 @@
       </small>
     </p>
     <app-spinner *ngIf="(loading$ | async) === true"></app-spinner>
-    <form class="form-flex">
+    <form class="form-flex" [ngClass]="{hidden: (loading$ | async) === true}">
       <div class="hide-on-small-only flex1">
         <div class="valign-wrapper">
           <h2 class="center-align">
@@ -29,7 +29,8 @@
       </div>
     </form>
     <button mat-flat-button aria-label="login" [disabled]="username.value.length <= 3 || password.value.length <= 3"
-      (click)="Login({username: username.value, password: password.value})" color="primary" class="align-center">Login</button>
+      (click)="Login({username: username.value, password: password.value})" color="primary" class="align-center"
+      [ngClass]="{hidden: (loading$ | async) === true}">Login</button>
     <div *ngIf="(attempt$ | async) !== 0" class="errormessage orange darken-3"><span class="white-text">{{ loginerror$
         |
         async }}</span></div>

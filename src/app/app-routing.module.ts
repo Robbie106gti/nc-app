@@ -5,6 +5,7 @@ import * as fromGuards from './guards';
 
 import { HomeComponent } from './ui/home/home.component';
 import { LoginComponent } from './ui/login/login.component';
+import { SpinnerComponent } from './ui/spinner/spinner.component';
 
 const routes: Routes = [
   {
@@ -50,6 +51,11 @@ const routes: Routes = [
     path: 'login',
     pathMatch: 'full',
     component: LoginComponent
+  },
+  {
+    path: 'spinner',
+    pathMatch: 'full',
+    component: SpinnerComponent
   }
 ];
 
