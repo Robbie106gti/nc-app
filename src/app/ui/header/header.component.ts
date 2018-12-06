@@ -3,7 +3,6 @@ import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
 import * as fromStore from '../../store';
 import { Categories, Dashboard, Section } from 'src/app/models/ui';
-
 @Component({
   selector: 'app-header',
   changeDetection: ChangeDetectionStrategy.OnPush,

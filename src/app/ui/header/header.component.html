@@ -9,7 +9,7 @@
   <div *ngIf="section.button" class="company-name">
     <button mat-icon-button [matMenuTriggerFor]="menuCat" aria-label="dashboard dropdown">
       <mat-icon>collections_bookmark</mat-icon>
-      <span> {{(qparams$ | async)?.catalogue}}</span>
+      <span> {{(qparams$ | async)?.catalogue || 'Choose a catalogue'}}</span>
     </button>
     <mat-menu #menuCat="matMenu">
       <a *ngFor="let cat of section.dropdown" mat-menu-item [routerLink]="[]" [queryParams]="{ catalogue: cat.param }"

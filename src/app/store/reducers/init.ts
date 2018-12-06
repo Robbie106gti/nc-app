@@ -4,35 +4,35 @@ export const Catalogues = [
     color: '#4e342e',
     icon: 'filter_1',
     param: 'custom',
-    title: 'custom catalog'
+    title: 'Custom'
   },
   {
     active: false,
     color: '#883B3E',
     icon: 'filter_2',
     param: 'cornerstone',
-    title: 'cornerstone'
+    title: 'Cornerstone'
   },
   {
     active: true,
     color: '#FFFF7C',
     icon: 'filter_3',
     param: 'lighthouse',
-    title: 'lighthouse'
+    title: 'Lighthouse'
   },
   {
     active: false,
     color: '#00FF99',
     icon: 'filter_4',
     param: 'modal',
-    title: 'modal'
+    title: 'Modal'
   },
   {
     active: true,
     color: '#00FF99',
     icon: 'filter_5',
     param: 'modcon',
-    title: 'modcon vanities'
+    title: 'Modcon'
   }
 ];
 
