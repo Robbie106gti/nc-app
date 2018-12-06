@@ -39,6 +39,7 @@ import { LoginComponent } from './ui/login/login.component';
 import { FirestoreService } from './services/firestore.service';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { HttpClientModule } from '@angular/common/http';
+import { SpinnerComponent } from './ui/spinner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     SliderComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    SpinnerComponent
   ],
   imports: [
     BrowserModule,

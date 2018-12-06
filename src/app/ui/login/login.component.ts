@@ -37,10 +37,12 @@ export class LoginComponent implements AfterViewInit {
         switchMap((entrypoint: any) => this.entry$.pipe(map(entry => entry)))
       )
       .subscribe(entrypoint => {
-        // console.log(entrypoint);
+        const url = entrypoint
+          .replace(/\%20/gi, ' ')
+          .replace(/\%25252520/gi, ' ');
         entrypoint === '/login'
           ? this.router.navigate([''])
-          : this.router.navigateByUrl(entrypoint);
+          : this.router.navigateByUrl(url);
       });
   }
 

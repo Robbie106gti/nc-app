@@ -7,6 +7,7 @@
         <i>Use webquoin login for access to Catalog.</i>
       </small>
     </p>
+    <app-spinner *ngIf="(loading$ | async) === true"></app-spinner>
     <form class="form-flex">
       <div class="hide-on-small-only flex1">
         <div class="valign-wrapper">
