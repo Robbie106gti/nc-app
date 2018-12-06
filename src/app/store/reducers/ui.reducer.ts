@@ -7,13 +7,15 @@ export interface UiState {
   header: Header[];
   slides: Slides[];
   dashboard: Dashboard[];
+  section: string;
 }
 
 export const initialState: UiState = {
   categories: Init.Categories,
   header: Init.Header,
   slides: Init.Slides,
-  dashboard: Init.Dashboard
+  dashboard: Init.Dashboard,
+  section: 'Nickels Custom Cabinets'
 };
 
 export function reducer(
@@ -80,6 +82,11 @@ export function reducer(
 
     case fromUi.UI_RESET: {
       return initialState;
+    }
+
+    case fromUi.UI_SECTION: {
+      const section = action.payload;
+      return { ...state, section };
     }
 
     default:

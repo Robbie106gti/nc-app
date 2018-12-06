@@ -14,10 +14,12 @@ export class HeaderComponent {
   user$: Observable<any>;
   dashboard$: Observable<Dashboard[]>;
   categories$: Observable<Categories[]>;
+  section$: Observable<string>;
 
   constructor(private store: Store<fromStore.State>) {
     this.user$ = this.store.select(fromStore.getUserState);
     this.dashboard$ = this.store.select(fromStore.getUiDashboard);
     this.categories$ = this.store.select(fromStore.getUiCategories);
+    this.section$ = this.store.select(fromStore.getUISection);
   }
 }

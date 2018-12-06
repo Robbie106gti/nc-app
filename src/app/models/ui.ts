@@ -47,4 +47,5 @@ export interface Ui {
   header: Header[];
   slides: Slides[];
   dashboard: Dashboard[];
+  section: string;
 }

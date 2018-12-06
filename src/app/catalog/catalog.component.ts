@@ -1,4 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Store } from '@ngrx/store';
+import * as fromStore from '../store';
 
 @Component({
   selector: 'app-catalog',
@@ -7,7 +9,12 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./catalog.component.scss']
 })
 export class CatalogComponent implements OnInit {
-  constructor() {}
+  constructor(private store: Store<fromStore.State>) {
+    this.store.dispatch({
+      type: fromStore.UI_SECTION,
+      payload: 'Custom Catalogue'
+    });
+  }
 
   ngOnInit() {}
 }

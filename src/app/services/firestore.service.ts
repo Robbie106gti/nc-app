@@ -29,7 +29,7 @@ export class FirestoreService {
   /// Get Data
   /// **************
   doc$<T>(ref: DocPredicate<T>): Observable<T> {
-    console.log(ref);
+    // console.log(ref);
     return this.doc(ref).valueChanges();
   }
   col$<T>(ref: CollectionPredicate<T>, queryFn?): Observable<T[]> {

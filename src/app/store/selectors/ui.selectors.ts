@@ -25,3 +25,7 @@ export const getUiDashboard = createSelector(
   getUiState,
   ui => ui.dashboard.filter(dash => !dash.default_hidden)
 );
+export const getUISection = createSelector(
+  getUiState,
+  ui => ui.section
+);

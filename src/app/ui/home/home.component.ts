@@ -3,7 +3,6 @@ import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
 import * as fromStore from '../../store';
 import { Categories } from 'src/app/models/ui';
-import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +15,10 @@ export class HomeComponent implements OnInit {
 
   constructor(private store: Store<fromStore.State>) {
     this.categories$ = this.store.select(fromStore.getUiCategories);
+    this.store.dispatch({
+      type: fromStore.UI_SECTION,
+      payload: 'Nickels Custom Cabinets'
+    });
   }
 
   ngOnInit() {}
