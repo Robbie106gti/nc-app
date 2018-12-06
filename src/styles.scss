@@ -65,6 +65,11 @@ body {
   }
 }
 
+.appheader {
+  position: relative !important;
+  z-index: 999 !important;
+}
+
 .main {
   margin-top: 1rem;
   margin-bottom: 1rem;

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Actions, Effect } from '@ngrx/effects';
 import * as userActions from '../actions/user.actions';
 import * as uiActions from '../actions/ui.actions';
-import { parseCookie, setCookie, resetCookie } from '../../common/cookie';
+import { parseCookie, resetCookie } from '../../common/cookie';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import {

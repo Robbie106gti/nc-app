@@ -1,14 +1,12 @@
 import { Injectable } from '@angular/core';
-import { Router, NavigationStart } from '@angular/router';
+import { Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { Actions, Effect } from '@ngrx/effects';
 
-import * as fromStore from '../../store';
 import * as routerActions from '../actions';
 import { ROUTER_CANCEL, ROUTER_NAVIGATION } from '@ngrx/router-store';
 import * as userActions from '../actions/user.actions';
-import { switchMap, map, tap, skipWhile, takeWhile } from 'rxjs/operators';
-import { of, Observable } from 'rxjs';
+import { map, tap, takeWhile } from 'rxjs/operators';
 import { RouterCancel, RouterNav } from 'src/app/models/router';
 
 @Injectable()

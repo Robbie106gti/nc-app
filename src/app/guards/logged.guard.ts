@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { CanActivate, Router } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { Observable, of } from 'rxjs';
-import { catchError, map } from 'rxjs/operators';
+import { catchError, map, skipWhile } from 'rxjs/operators';
 
 import * as fromStore from '../store';
 
@@ -13,11 +13,13 @@ export class LoggedGuard implements CanActivate {
   constructor(private store: Store<fromStore.State>, private router: Router) {}
   canActivate(): Observable<boolean> {
     return this.checkStore().pipe(
+      skipWhile(logged => logged === false),
       map(logged_in => {
         if (logged_in === true) {
           this.router.navigate(['dashboard', 'profile']);
+        } else {
+          return true;
         }
-        return logged_in;
       }),
       catchError(() => of(true))
     );

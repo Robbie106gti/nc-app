@@ -70,7 +70,7 @@ export function reducer(
     }
     case fromUser.GET_USER: {
       const data = action.payload.user;
-      return { ...state, data, loaded: true };
+      return { ...state, data, loading: true };
     }
     case fromUser.LOGINWQ: {
       return {
@@ -85,7 +85,26 @@ export function reducer(
       return { ...state, fails, loginerror };
     }
     case fromUser.LOGIN_SUCCESS: {
-      const data = action.payload;
+      let data = action.payload;
+      let roles = {
+        admin: false,
+        dealer: true,
+        editor: false,
+        nickels: false,
+        reader: true,
+        sop: false,
+        mds: false
+      };
+      if (action.payload.class === 'NICKELSM') {
+        roles = {
+          ...roles,
+          nickels: true,
+          sop: true,
+          mds: true,
+          dealer: false
+        };
+      }
+      data = { ...data, roles };
       return { ...state, data, loaded: true, loading: false, firestore: true };
     }
     case fromUser.LOGIN_FAIL: {
