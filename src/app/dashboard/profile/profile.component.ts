@@ -1,4 +1,7 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Store } from '@ngrx/store';
+import * as fromStore from '../../store';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-profile',
@@ -7,7 +10,15 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  constructor() {}
+  user$: Observable<any>;
+  favorites$: Observable<any>;
+  notes$: Observable<any>;
+
+  constructor(private store: Store<fromStore.State>) {
+    this.user$ = this.store.select(fromStore.getUser);
+    this.favorites$ = this.store.select(fromStore.getUserFavorites);
+    this.notes$ = this.store.select(fromStore.getUserNotes);
+  }
 
   ngOnInit() {}
 }

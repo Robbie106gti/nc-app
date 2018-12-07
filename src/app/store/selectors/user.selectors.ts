@@ -47,3 +47,18 @@ export const getUserEditRights = createSelector(
   getUserState,
   user => user.data.roles.editor
 );
+
+export const getUser = createSelector(
+  getUserState,
+  user => user.data
+);
+
+export const getUserFavorites = createSelector(
+  getUserState,
+  user => user.favorites
+);
+
+export const getUserNotes = createSelector(
+  getUserState,
+  user => user.notes
+);
