@@ -40,6 +40,7 @@ import { FirestoreService } from './services/firestore.service';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { HttpClientModule } from '@angular/common/http';
 import { SpinnerComponent } from './ui/spinner/spinner.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { SpinnerComponent } from './ui/spinner/spinner.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    SharedModule,
     BrowserAnimationsModule,
     DemoMaterialModule,
     ServiceWorkerModule.register('ngsw-worker.js', {

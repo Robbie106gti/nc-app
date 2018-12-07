@@ -9,10 +9,11 @@ import * as fromStore from '../store';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  title = 'Dashboard';
   constructor(private store: Store<fromStore.State>) {
     this.store.dispatch({
       type: fromStore.UI_SECTION,
-      payload: 'Dashboard'
+      payload: this.title
     });
   }
 

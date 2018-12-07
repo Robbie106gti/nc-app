@@ -8,10 +8,11 @@ import * as fromStore from '../store';
   styleUrls: ['./sop.component.scss']
 })
 export class SopComponent implements OnInit {
+  title = 'SOP';
   constructor(private store: Store<fromStore.State>) {
     this.store.dispatch({
       type: fromStore.UI_SECTION,
-      payload: 'SOP'
+      payload: this.title
     });
   }
 

@@ -9,10 +9,11 @@ import * as fromStore from '../store';
   styleUrls: ['./mds.component.scss']
 })
 export class MdsComponent implements OnInit {
+  title = 'MDS';
   constructor(private store: Store<fromStore.State>) {
     this.store.dispatch({
       type: fromStore.UI_SECTION,
-      payload: 'MDS'
+      payload: this.title
     });
   }
 

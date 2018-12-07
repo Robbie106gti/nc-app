@@ -9,10 +9,11 @@ import * as fromStore from '../store';
   styleUrls: ['./catalog.component.scss']
 })
 export class CatalogComponent implements OnInit {
+  title = 'Catalogues';
   constructor(private store: Store<fromStore.State>) {
     this.store.dispatch({
       type: fromStore.UI_SECTION,
-      payload: 'Catalogues'
+      payload: this.title
     });
   }
 

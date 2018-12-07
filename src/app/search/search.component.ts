@@ -8,10 +8,11 @@ import * as fromStore from '../store';
   styleUrls: ['./search.component.scss']
 })
 export class SearchComponent implements OnInit {
+  title = 'Search';
   constructor(private store: Store<fromStore.State>) {
     this.store.dispatch({
       type: fromStore.UI_SECTION,
-      payload: 'Search'
+      payload: this.title
     });
   }
 
