@@ -37,7 +37,7 @@ export class FirestoreService {
   }
   /// with Ids
   colWithIds$<T>(ref: CollectionPredicate<T>, queryFn?): Observable<any[]> {
-    // console.log(ref);
+    console.log(ref);
     return this.col(ref, queryFn)
       .snapshotChanges()
       .pipe(
@@ -52,6 +52,7 @@ export class FirestoreService {
   }
 
   refreshCustomClaims(token) {
+    console.log(token);
     return firebase
       .auth()
       .signInWithCustomToken(token)

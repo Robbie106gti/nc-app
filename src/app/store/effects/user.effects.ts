@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Actions, Effect } from '@ngrx/effects';
 import * as userActions from '../actions/user.actions';
 import * as uiActions from '../actions/ui.actions';
-import { parseCookie, resetCookie } from '../../common/cookie';
+import { parseCookie, resetCookie, Cookie } from '../../common/cookie';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import {
@@ -40,29 +40,36 @@ export class UserEffects {
 
   @Effect()
   get_user_cookie$ = this.actions$.ofType(userActions.GET_USER_COOKIE).pipe(
-    switchMap(
-      (cookie: {
-        type: string;
-        payload: { class: string; email: string; username: string };
-      }) => {
-        // console.log(cookie);
-        return this.firestoreService.doc$(`user/${cookie.payload.email}`).pipe(
-          map(user => {
-            // console.log(user);
-            return new userActions.LoginSuccess(user);
-          }),
-          catchError(error => of(new userActions.LoginFail(error)))
+    map((cookie: { type: string; payload: Cookie }) => {
+      this.http
+        .post(this.endpoint, { ...cookie, cookie: true })
+        .pipe(
+          map(success => this.firestoreService.refreshCustomClaims(success))
         );
-      }
-    )
+      return cookie;
+    }),
+    switchMap((cookie: { type: string; payload: Cookie }) => {
+      // console.log(cookie);
+      return this.firestoreService.doc$(`users/${cookie.payload.email}`).pipe(
+        map(user => {
+          // console.log(user);
+          return new userActions.LoginSuccess(user);
+        }),
+        catchError(error => of(new userActions.LoginFail(error)))
+      );
+    })
   );
 
   @Effect()
   get_user$ = this.actions$.ofType(userActions.GET_USER).pipe(
+    map((cookie: { type: string; payload: WQUser }) => {
+      this.firestoreService.refreshCustomClaims(cookie.payload.token);
+      return cookie;
+    }),
     switchMap((cookie: { type: string; payload: WQUser }) => {
       // console.log(cookie);
       return this.firestoreService
-        .doc$(`user/${cookie.payload.user.email}`)
+        .doc$(`users/${cookie.payload.user.email}`)
         .pipe(
           map(user => {
             // console.log(user);

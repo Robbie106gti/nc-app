@@ -22,7 +22,15 @@ export class GetUserCookie implements Action {
 
 export class GetUser implements Action {
   readonly type = GET_USER;
-  constructor(public payload: WQUser) {}
+  constructor(public payload: WQUser) {
+    console.log(payload);
+    const newuser = {
+      username: payload.user.username,
+      class: payload.user.class,
+      email: payload.user.email
+    };
+    setCookie(newuser, 30);
+  }
 }
 
 export class LoginWQ implements Action {
@@ -31,14 +39,7 @@ export class LoginWQ implements Action {
 }
 export class LoginSuccess implements Action {
   readonly type = LOGIN_SUCCESS;
-  constructor(public payload: User) {
-    const newuser = {
-      username: payload.username,
-      class: payload.class,
-      email: payload.email
-    };
-    setCookie(newuser, 30);
-  }
+  constructor(public payload: User) {}
 }
 export class LoginFail implements Action {
   readonly type = LOGIN_FAIL;
