@@ -1,14 +1,6 @@
 <div class="main">
   <div class="grid" *ngIf="categories$ | async as cats">
-    <div *ngFor="let cat of cats" [ngClass]="['card', cat.color]">
-      <a [routerLink]="['',cat.link]">
-        <div class="card-image card20">
-          <img [src]="cat.image" [alt]="cat.title" class="responsive-img">
-        </div>
-        <div class="card-content white-text">
-          <span class="card-title">{{cat.title}}</span>
-        </div>
-      </a>
-    </div>
+    <app-card *ngFor="let cat of cats" [card]="cat" [ngClass]="['card', cat.color]">
+    </app-card>
   </div>
 </div>
