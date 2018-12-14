@@ -5,8 +5,7 @@ import * as fromMain from '../reducers/main.reducer';
 
 export const getMainSopState = createSelector(
   fromFeature.getMainFeature,
-  (state: fromMain.MainState) => 
-    state
+  (state: fromMain.MainState) => state
 );
 
 export const getMainSopsLoaded = createSelector(
