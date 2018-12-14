@@ -4,7 +4,7 @@ import {
   MetaReducer
 } from '@ngrx/store';
 import { RouterStateSnapshot, Params } from '@angular/router';
-import { RouterStateSerializer, ROUTER_CANCEL } from '@ngrx/router-store';
+import { RouterStateSerializer } from '@ngrx/router-store';
 import { environment } from '../../../environments/environment';
 import * as fromRouter from '@ngrx/router-store';
 import * as fromUser from './user.reducer';

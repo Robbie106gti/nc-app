@@ -14,14 +14,13 @@ export class SopComponent implements OnInit {
   title = 'SOP';
   cats$: Observable<any>;
   constructor(
-    private store: Store<fromStore.SopsState>,
-    private storeRoot: Store<fromRoot.State>
+    private store: Store<fromStore.SopsState>
   ) {
     this.store.dispatch({
       type: fromRoot.UI_SECTION,
       payload: this.title
     });
-    this.cats$ = this.store.select(fromStore.getSopArray);
+    this.cats$ = this.store.select(fromStore.getMainSopArray);
   }
 
   ngOnInit() {}

@@ -1,4 +1,4 @@
-import { ActionReducerMap, createFeatureSelector } from '@ngrx/store';
+import { ActionReducerMap, createFeatureSelector, createSelector } from '@ngrx/store';
 import * as fromMain from './main.reducer';
 import * as fromSub from './sub.reducer';
 
@@ -12,7 +12,17 @@ export const reducers: ActionReducerMap<SopsState> = {
   subSops: fromSub.reducer
 };
 
-export const getMainFeature = createFeatureSelector<fromMain.MainState>(
-  'mainSops'
+export const getSopsStateFeature = createFeatureSelector<SopsState>(
+  'sopsState'
 );
-export const getSubFeature = createFeatureSelector<fromSub.SubState>('subSops');
+
+export const getSubFeature = createSelector(
+  getSopsStateFeature,
+  (state:  SopsState) => 
+    state.subSops
+);
+
+export const getMainFeature = createSelector(
+  getSopsStateFeature,
+  (state:  SopsState) => state.mainSops
+);

@@ -5,10 +5,8 @@ import * as fromMain from '../reducers/main.reducer';
 
 export const getMainSopState = createSelector(
   fromFeature.getMainFeature,
-  (state: any) => {
-    console.log(state);
-    return state;
-  }
+  (state: fromMain.MainState) => 
+    state
 );
 
 export const getMainSopsLoaded = createSelector(
@@ -18,7 +16,7 @@ export const getMainSopsLoaded = createSelector(
 
 export const getMainSopEntities = createSelector(
   getMainSopState,
-  entities => entities
+  state => state.entities
 );
 
 export const getMainSopArray = createSelector(
