@@ -5,6 +5,7 @@ import { Observable, of } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 
 import * as fromStore from '../store';
+import * as mainActions from '../sop/store/actions/';
 
 @Injectable({
   providedIn: 'root'
@@ -16,8 +17,11 @@ export class SopGuard implements CanActivate {
       map(logged_in => {
         if (logged_in === false) {
           this.router.navigate(['home']);
+          return logged_in;
+        } else {
+          this.store.dispatch({ type: mainActions.LOAD_MAIN_SOPS });
+          return logged_in;
         }
-        return logged_in;
       }),
       catchError(() => of(false))
     );

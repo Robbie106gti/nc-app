@@ -7,6 +7,6 @@ import { CardComponent } from './card/card.component';
 @NgModule({
   declarations: [UnderconstructionComponent, CardComponent],
   imports: [CommonModule, SharedRoutingModule],
-  exports: [UnderconstructionComponent, CardComponent]
+  exports: [UnderconstructionComponent, CardComponent ]
 })
 export class SharedModule {}

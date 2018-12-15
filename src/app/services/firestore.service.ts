@@ -12,7 +12,7 @@ import 'firebase/auth';
 type CollectionPredicate<T> = string | AngularFirestoreCollection<T>;
 type DocPredicate<T> = string | AngularFirestoreDocument<T>;
 
-@Injectable()
+@Injectable({providedIn: 'root'})
 export class FirestoreService {
   constructor(public afs: AngularFirestore) {}
 
