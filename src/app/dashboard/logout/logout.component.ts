@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { ChangeDetectionStrategy } from '@angular/compiler/src/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { Store } from '@ngrx/store';
 import * as fromStore from '../../store';
 import { Router } from '@angular/router';

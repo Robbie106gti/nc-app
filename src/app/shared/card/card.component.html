@@ -1,4 +1,4 @@
-<a [routerLink]="['', card.link]">
+<a [routerLink]="['', card.link]" queryParamsHandling="merge">
   <div class="card-image card20">
     <img [src]="card.image" [alt]="card.title" class="responsive-img">
   </div>

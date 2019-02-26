@@ -1,6 +1,6 @@
 <mat-toolbar class="brand-color appheader" *ngIf="section$ | async as section">
   <div class="whiteLine"></div>
-  <a [routerLink]="['..']" class="brand-logo">
+  <a [routerLink]="['..']" class="brand-logo" queryParamsHandling="merge">
     <img class="imageLogo" src="/assets/icons/logoNC.svg" alt="Nickels Cabinets" aria-label="company logo" />
   </a>
   <div class="hide-on-small-only company-name"><span aria-label="company name or section">{{
@@ -26,19 +26,20 @@
       <mat-icon>account_circle</mat-icon>
     </button>
     <mat-menu #menuUser="matMenu">
-      <a *ngFor="let dash of dashboard$ | async" mat-menu-item [routerLink]="dash.link" [disabled]="dash.default_disabled">
+      <a *ngFor="let dash of dashboard$ | async" mat-menu-item [routerLink]="dash.link" queryParamsHandling="merge"
+        [disabled]="dash.default_disabled">
         <mat-icon>{{dash.icon}}</mat-icon>
         <span>{{dash.title}}</span>
       </a>
     </mat-menu>
-    <a mat-icon-button [routerLink]="['','search']" aria-label="search">
+    <a mat-icon-button [routerLink]="['','search']" queryParamsHandling="merge" aria-label="search">
       <mat-icon>search</mat-icon>
     </a>
     <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="categories dropdown">
       <mat-icon>more_vert</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
-      <a *ngFor="let cat of categories$ | async" mat-menu-item [routerLink]="[cat.link]">
+      <a *ngFor="let cat of categories$ | async" mat-menu-item [routerLink]="[cat.link]" queryParamsHandling="merge">
         <mat-icon>{{cat.icon}}</mat-icon>
         <span>{{cat.title}}</span>
       </a>
