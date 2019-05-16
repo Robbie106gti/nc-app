@@ -51,7 +51,7 @@ export const Categories = [
     link: 'sop',
     title: 'SOP system',
     color: 'red darken-3',
-    hidden: false,
+    hidden: true,
     icon: 'voicemail'
   },
   {
@@ -59,7 +59,7 @@ export const Categories = [
     link: 'mds',
     title: 'MDS system',
     color: 'orange darken-3',
-    hidden: false,
+    hidden: true,
     icon: 'notifications_off'
   }
 ];

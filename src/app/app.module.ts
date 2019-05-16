@@ -63,7 +63,7 @@ import { SharedModule } from './shared/shared.module';
     }),
     StoreModule.forRoot(reducers, { metaReducers }),
     EffectsModule.forRoot([...Effects]),
-    StoreRouterConnectingModule,
+    StoreRouterConnectingModule.forRoot(),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),

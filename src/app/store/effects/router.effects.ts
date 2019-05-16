@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
-import { Actions, Effect } from '@ngrx/effects';
+import { Actions, Effect, ofType } from '@ngrx/effects';
 
 import * as routerActions from '../actions';
 import { ROUTER_CANCEL, ROUTER_NAVIGATION } from '@ngrx/router-store';
@@ -18,7 +18,8 @@ export class RouterEffects {
   ) {}
 
   @Effect({ dispatch: false })
-  navigate$ = this.actions$.ofType(routerActions.GO).pipe(
+  navigate$ = this.actions$.pipe(
+    ofType(routerActions.GO),
     map((action: routerActions.Go) => {
       // console.log({ go: action });
       return action.payload;
@@ -31,16 +32,18 @@ export class RouterEffects {
 
   @Effect({ dispatch: false })
   navigateBack$ = this.actions$
-    .ofType(routerActions.BACK)
-    .pipe(tap(() => this.location.back()));
+    .pipe(
+      ofType(routerActions.BACK),
+      tap(() => this.location.back()));
 
   @Effect({ dispatch: false })
   navigateForward$ = this.actions$
-    .ofType(routerActions.FORWARD)
-    .pipe(tap(() => this.location.forward()));
+    .pipe(
+      ofType(routerActions.FORWARD), tap(() => this.location.forward()));
 
   @Effect()
-  entrypoint$ = this.actions$.ofType(ROUTER_NAVIGATION).pipe(
+  entrypoint$ = this.actions$.pipe(
+    ofType(ROUTER_NAVIGATION),
     takeWhile(
       (action: { type: string; payload: RouterNav }) =>
         action.payload.event.id === 1
@@ -52,7 +55,8 @@ export class RouterEffects {
   );
 
   @Effect()
-  cancelled$ = this.actions$.ofType(ROUTER_CANCEL).pipe(
+  cancelled$ = this.actions$.pipe(
+    ofType(ROUTER_CANCEL),
     takeWhile(
       (action: { type: string; payload: RouterCancel }) =>
         action.payload.event.id >= 1

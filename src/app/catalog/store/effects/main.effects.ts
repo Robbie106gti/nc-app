@@ -14,10 +14,10 @@ export class MainEffects {
 
   @Effect()
   load_main_sop$ = this.actions$.pipe(
-    ofType(mainActions.LOAD_MAIN_SOPS),
+    ofType(mainActions.LOAD_MAIN_CATALOG),
     switchMap(() => {
-      return this.firestoreService.col$('/sops').pipe(map((sops: any) => {
-        let entities = sops.map(sop => sop = { ...sop, 'sub': 'main'});
+      return this.firestoreService.col$('/categories').pipe(map((cats: any) => {
+        let entities = cats.map(cat => cat = { ...cat, 'sub': 'main'});
         entities = sortAlfabet(entities);
         return new mainActions.LoadedMain(entities);
       }),

@@ -1,6 +1,8 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { Store } from '@ngrx/store';
-import * as fromStore from '../store';
+import * as fromStore from './store';
+import * as fromRoot from '../store';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-catalog',
@@ -10,11 +12,13 @@ import * as fromStore from '../store';
 })
 export class CatalogComponent implements OnInit {
   title = 'Catalogues';
-  constructor(private store: Store<fromStore.State>) {
+  cats$: Observable<any>;
+  constructor(private store: Store<fromStore.CatalogState>) {
     this.store.dispatch({
-      type: fromStore.UI_SECTION,
+      type: fromRoot.UI_SECTION,
       payload: this.title
     });
+    this.cats$ = this.store.select(fromStore.getMainCatalogArray);
   }
 
   ngOnInit() {}

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Actions, Effect } from '@ngrx/effects';
+import { Actions, Effect, ofType } from '@ngrx/effects';
 
 import { Store } from '@ngrx/store';
 
@@ -16,7 +16,8 @@ export class SearchEffects {
   ) {}
 
   @Effect()
-  search$ = this.actions$.ofType(searchActions.SEARCH).pipe(
+  search$ = this.actions$.pipe(
+    ofType(searchActions.SEARCH),
     switchMap(action => {
       return of(null);
     })

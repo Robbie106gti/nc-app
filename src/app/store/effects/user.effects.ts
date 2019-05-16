@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Actions, Effect } from '@ngrx/effects';
+import { Actions, Effect, ofType } from '@ngrx/effects';
 import * as userActions from '../actions/user.actions';
 import * as uiActions from '../actions/ui.actions';
 import { parseCookie, resetCookie, Cookie } from '../../common/cookie';
@@ -29,7 +29,8 @@ export class UserEffects {
   ) {}
 
   @Effect()
-  check_cookie$ = this.actions$.ofType(userActions.SET_USER_ENTRYPOINT).pipe(
+  check_cookie$ = this.actions$.pipe(
+    ofType(userActions.SET_USER_ENTRYPOINT),
     switchMap(() => parseCookie()),
     takeWhile(cookie => cookie !== null),
     map((cookie: { class: string; email: string; username: string }) => {
@@ -39,7 +40,8 @@ export class UserEffects {
   );
 
   @Effect()
-  get_user_cookie$ = this.actions$.ofType(userActions.GET_USER_COOKIE).pipe(
+  get_user_cookie$ = this.actions$.pipe(
+    ofType(userActions.GET_USER_COOKIE),
     map((cookie: { type: string; payload: Cookie }) => {
       this.http
         .post(this.endpoint, { ...cookie, cookie: true })
@@ -61,7 +63,8 @@ export class UserEffects {
   );
 
   @Effect()
-  get_user$ = this.actions$.ofType(userActions.GET_USER).pipe(
+  get_user$ = this.actions$.pipe(
+    ofType(userActions.GET_USER),
     map((cookie: { type: string; payload: WQUser }) => {
       this.firestoreService.refreshCustomClaims(cookie.payload.token);
       return cookie;
@@ -81,7 +84,8 @@ export class UserEffects {
   );
 
   @Effect()
-  loginWQ$ = this.actions$.ofType(userActions.LOGINWQ).pipe(
+  loginWQ$ = this.actions$.pipe(
+    ofType(userActions.LOGINWQ),
     skipWhile(
       (login: { type: string; payload: Login }) =>
         !login.payload.password && !login.payload.username
@@ -101,7 +105,8 @@ export class UserEffects {
   );
 
   @Effect()
-  loginWQ_nodata$ = this.actions$.ofType(userActions.LOGINWQ).pipe(
+  loginWQ_nodata$ = this.actions$.pipe(
+    ofType(userActions.LOGINWQ),
     skipWhile(
       (login: { type: string; payload: Login }) =>
         !!login.payload.password && !!login.payload.username
@@ -115,8 +120,8 @@ export class UserEffects {
 
   @Effect()
   update_ui$ = this.actions$
-    .ofType(userActions.GET_USER_COOKIE)
     .pipe(
+      ofType(userActions.GET_USER_COOKIE),
       map(
         (cookie: {
           type: string;
@@ -127,8 +132,8 @@ export class UserEffects {
 
   @Effect()
   update_ui_fb$ = this.actions$
-    .ofType(userActions.LOGIN_SUCCESS)
     .pipe(
+      ofType(userActions.LOGIN_SUCCESS),
       map(
         (cookie: { type: string; payload: any }) =>
           new uiActions.UIupdateFB(cookie.payload)
@@ -137,11 +142,13 @@ export class UserEffects {
 
   @Effect()
   reset_ui$ = this.actions$
-    .ofType(userActions.LOGIN_FAIL, userActions.LOGIN_WRONG)
-    .pipe(map(() => new uiActions.UIreset()));
+    .pipe(
+    ofType(userActions.LOGIN_FAIL, userActions.LOGIN_WRONG),
+    map(() => new uiActions.UIreset()));
 
   @Effect()
-  logout_ui$ = this.actions$.ofType(userActions.LOGOUT).pipe(
+  logout_ui$ = this.actions$.pipe(
+    ofType(userActions.LOGOUT),
     map(() => {
       resetCookie();
       return new uiActions.UIreset();
