@@ -1,7 +1,7 @@
 <mat-toolbar class="brand-color appheader" *ngIf="section$ | async as section">
   <div class="whiteLine"></div>
   <a [routerLink]="['..']" class="brand-logo" queryParamsHandling="merge">
-    <img class="imageLogo" src="/assets/icons/logoNC.svg" alt="Nickels Cabinets" aria-label="company logo" />
+    <img class="imageLogo" src="./assets/icons/logoNC.svg" alt="Nickels Cabinets" aria-label="company logo" />
   </a>
   <div class="hide-on-small-only company-name"><span aria-label="company name or section">{{
       section.title }} - </span>

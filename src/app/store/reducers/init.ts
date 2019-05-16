@@ -7,7 +7,7 @@ export const Catalogues = [
     title: 'Custom'
   },
   {
-    active: false,
+    active: true,
     color: '#883B3E',
     icon: 'filter_2',
     param: 'cornerstone',
@@ -38,7 +38,7 @@ export const Catalogues = [
 
 export const Categories = [
   {
-    image: '../../../assets/images/nc.jpg',
+    image: './assets/images/nc.jpg',
     link: 'catalog',
     title: 'Nickels Catalogues',
     color: 'blue-grey darken-1',
@@ -47,19 +47,19 @@ export const Categories = [
     icon: 'dialpad'
   },
   {
-    image: '../../../assets/images/SOP.jpg',
+    image: './assets/images/SOP.jpg',
     link: 'sop',
     title: 'SOP system',
     color: 'red darken-3',
-    hidden: true,
+    hidden: false,
     icon: 'voicemail'
   },
   {
-    image: '../../../assets/images/mds.jpg',
+    image: './assets/images/mds.jpg',
     link: 'mds',
     title: 'MDS system',
     color: 'orange darken-3',
-    hidden: true,
+    hidden: false,
     icon: 'notifications_off'
   }
 ];
@@ -73,17 +73,17 @@ export const Header = [
 export const Slides = [
   {
     description: 'Black walnut with clean lines',
-    image: '../../../assets/images/09.jpg',
+    image: './assets/images/09.jpg',
     title: 'Retro modern'
   },
   {
     description: 'Combing latest materials on more classical styles',
-    image: '../../../assets/images/img_8297-1024x708.jpg',
+    image: './assets/images/img_8297-1024x708.jpg',
     title: 'Old and new'
   },
   {
     description: 'Clean integrated handles accross all cabinets',
-    image: '../../../assets/images/oseen-kitchen-1024x579.jpg',
+    image: './assets/images/oseen-kitchen-1024x579.jpg',
     title: 'Clean modern kitchens'
   }
 ];
