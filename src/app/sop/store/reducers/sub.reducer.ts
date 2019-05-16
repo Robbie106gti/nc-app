@@ -11,8 +11,8 @@ export interface SubState {
 
 export const initialState: SubState = {
   entities: {
-    sop: {
-      image: '../assets/images/underconstruction.png',
+    start_item: {
+      image: './assets/images/underconstruction.png',
       title: 'Sub Sopies',
       link: 'linky'
     }

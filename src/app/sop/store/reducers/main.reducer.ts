@@ -14,8 +14,8 @@ export interface Line {
 
 export const initialState: MainState = {
   entities: {
-    sop: {
-      image: '../assets/images/underconstruction.png',
+    start_item: {
+      image: './assets/images/underconstruction.png',
       title: 'Main Sopies',
       link: 'linky'
     }
