@@ -33,11 +33,12 @@ export class FirestoreService {
     return this.doc(ref).valueChanges();
   }
   col$<T>(ref: CollectionPredicate<T>, queryFn?): Observable<T[]> {
+    // console.log(ref);
     return this.col(ref, queryFn).valueChanges();
   }
   /// with Ids
   colWithIds$<T>(ref: CollectionPredicate<T>, queryFn?): Observable<any[]> {
-    console.log(ref);
+    // console.log(ref);
     return this.col(ref, queryFn)
       .snapshotChanges()
       .pipe(

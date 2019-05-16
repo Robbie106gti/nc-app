@@ -10,7 +10,8 @@ import { SpinnerComponent } from './ui/spinner/spinner.component';
 const routes: Routes = [
   {
     path: 'catalog',
-    loadChildren: './catalog/catalog.module#CatalogModule'
+    loadChildren: './catalog/catalog.module#CatalogModule',
+    canActivate: [fromGuards.CatalogGuard]
   },
   {
     path: 'sop',

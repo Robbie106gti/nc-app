@@ -19,7 +19,7 @@ export class CatalogGuard implements CanActivate {
           this.router.navigate(['home']);
           return logged_in;
         } else {
-          this.store.dispatch({ type: mainActions.LOADED_MAIN_CATALOG });
+          this.store.dispatch({ type: mainActions.LOAD_MAIN_CATALOG });
           return logged_in;
         }
       }),

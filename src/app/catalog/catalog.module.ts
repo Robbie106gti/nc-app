@@ -11,7 +11,9 @@ import { EffectsModule } from '@ngrx/effects';
 import { reducers, effects } from './store';
 @NgModule({
   declarations: [CatalogComponent],
-  imports: [CommonModule, CatalogRoutingModule,
+  imports: [
+    CommonModule,
+    CatalogRoutingModule,
     SharedModule,
     StoreModule.forFeature('catalogState', reducers),
     EffectsModule.forFeature(effects)]

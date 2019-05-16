@@ -14,10 +14,11 @@ export interface Line {
 
 export const initialState: MainState = {
   entities: {
-    catalog: {
+    start_item: {
+      remove: true,
       image: './assets/images/underconstruction.png',
-      title: 'Main categories',
-      link: 'linky'
+      title: 'Main Catalog - verify your product line',
+      link: '#'
     }
   },
   loaded: false,
