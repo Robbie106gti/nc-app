@@ -39,7 +39,7 @@ export const Catalogues = [
 export const Categories = [
   {
     image: './assets/images/nc.jpg',
-    link: 'catalog',
+    link: '',
     title: 'Nickels Catalogues',
     color: 'blue-grey darken-1',
     hidden: false,
