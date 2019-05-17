@@ -9,11 +9,6 @@ import { SpinnerComponent } from './ui/spinner/spinner.component';
 
 const routes: Routes = [
   {
-    path: 'catalog',
-    loadChildren: './catalog/catalog.module#CatalogModule',
-    canActivate: [fromGuards.CatalogGuard]
-  },
-  {
     path: 'sop',
     loadChildren: './sop/sop.module#SopModule',
     canActivate: [fromGuards.LoginGuard, fromGuards.SopGuard]
@@ -39,14 +34,8 @@ const routes: Routes = [
   },
   {
     path: '',
-    pathMatch: 'full',
-    component: HomeComponent
-  },
-  {
-    path: 'home',
-    pathMatch: 'full',
-    redirectTo: '',
-    component: HomeComponent
+    loadChildren: './catalog/catalog.module#CatalogModule',
+    canActivate: [fromGuards.CatalogGuard]
   },
   {
     path: 'login',
