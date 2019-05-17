@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import * as fromGuards from './guards';
 
-import { HomeComponent } from './ui/home/home.component';
 import { LoginComponent } from './ui/login/login.component';
 import { SpinnerComponent } from './ui/spinner/spinner.component';
 
