@@ -16,7 +16,7 @@ import { Ui } from 'src/app/models/ui';
 import { SearchState } from './search.reducer';
 
 export interface State {
-  routerState: fromRouter.RouterReducerState<Router>;
+  routerState: fromRouter.RouterReducerState;
   userState: User;
   uiState: Ui;
   searchState: SearchState;

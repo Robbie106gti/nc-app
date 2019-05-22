@@ -15,9 +15,10 @@ export interface Line {
 export const initialState: MainState = {
   entities: {
     start_item: {
+      remove: true,
       image: './assets/images/underconstruction.png',
-      title: 'Main Sopies',
-      link: 'linky'
+      title: 'Main Catalog - verify your product line',
+      link: '#'
     }
   },
   loaded: false,
@@ -30,14 +31,14 @@ export function reducer(
   action: fromMain.ActionsMain
 ): MainState {
   switch (action.type) {
-    case fromMain.LOAD_MAIN_SOPS: {
+    case fromMain.LOAD_MAIN_CATALOG: {
       return { ...state, loading: true };
     }
-    case fromMain.LOADED_MAIN_SOPS: {
+    case fromMain.LOADED_MAIN_CATALOG: {
       state.entities = makeEntities(action.payload, state);
       return { ...state, loading: false, loaded: true };
     }
-    case fromMain.LOAD_FAIL_MAIN_SOPS: {
+    case fromMain.LOAD_FAIL_MAIN_CATALOG: {
       const error = action.payload;
       return { ...initialState, loading: false, loaded: false, error };
     }

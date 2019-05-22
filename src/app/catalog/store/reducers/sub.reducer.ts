@@ -11,7 +11,7 @@ export interface SubState {
 
 export const initialState: SubState = {
   entities: {
-    start_item: {
+    subCatalog: {
       image: './assets/images/underconstruction.png',
       title: 'Sub Sopies',
       link: 'linky'
@@ -26,7 +26,7 @@ export function reducer(
   action: fromSub.ActionsSub
 ): SubState {
   switch (action.type) {
-    case fromSub.LOAD_SUB_SOPS: {
+    case fromSub.LOAD_SUB_CATALOG: {
       const load = [...state.load, action.payload.id];
       return {
         ...state,
@@ -34,7 +34,7 @@ export function reducer(
       };
     }
 
-    case fromSub.LOAD_SUB_SOPS_SUCCESS: {
+    case fromSub.LOAD_SUB_CATALOG_SUCCESS: {
       const items = sortAlfabet(action.payload);
       let entity = {};
       items.map(item => {

@@ -3,15 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 
 import * as fromGuards from './guards';
 
-import { HomeComponent } from './ui/home/home.component';
 import { LoginComponent } from './ui/login/login.component';
 import { SpinnerComponent } from './ui/spinner/spinner.component';
 
 const routes: Routes = [
-  {
-    path: 'catalog',
-    loadChildren: './catalog/catalog.module#CatalogModule'
-  },
   {
     path: 'sop',
     loadChildren: './sop/sop.module#SopModule',
@@ -38,14 +33,8 @@ const routes: Routes = [
   },
   {
     path: '',
-    pathMatch: 'full',
-    component: HomeComponent
-  },
-  {
-    path: 'home',
-    pathMatch: 'full',
-    redirectTo: '',
-    component: HomeComponent
+    loadChildren: './catalog/catalog.module#CatalogModule',
+    canActivate: [fromGuards.CatalogGuard]
   },
   {
     path: 'login',

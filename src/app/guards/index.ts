@@ -5,6 +5,7 @@ import { SopGuard } from './sop.guard';
 import { MdsGuard } from './mds.guard';
 import { EditGuard } from './edit.guard';
 import { LoadSopGuard } from './load-sop.guard';
+import { CatalogGuard } from './catalog.guard';
 
 export const guards: any[] = [
   LoginGuard,
@@ -12,7 +13,8 @@ export const guards: any[] = [
   SopGuard,
   LoadSopGuard,
   MdsGuard,
-  EditGuard
+  EditGuard,
+  CatalogGuard
 ];
 
 // export * from ''
@@ -22,3 +24,4 @@ export * from './edit.guard';
 export * from './sop.guard';
 export * from './load-sop.guard';
 export * from './mds.guard';
+export * from './catalog.guard';
