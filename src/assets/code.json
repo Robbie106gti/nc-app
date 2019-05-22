@@ -1,0 +1,293 @@
+{
+  "active": true,
+  "lines": {
+    "custom": true,
+    "lighthouse": true,
+    "cornerstone": true,
+    "modal": false,
+    "modcon": false
+  },
+  "code": "BFD",
+  "title": "BFD : Base Full Door(s)",
+  "link": "cab",
+  "description": "A base cabinet with full height door(s).",
+  "attached": [
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "itemcodes": [
+        "BFD0918",
+        "BFD1218",
+        "BFD1518",
+        "BFD1818",
+        "BFD2118",
+        "BFD2418",
+        "BFD2718",
+        "BFD3018",
+        "BFD3318",
+        "BFD3618",
+        "BFD3918",
+        "BFD__18",
+        "BFD18"
+      ],
+      "height": "18",
+      "specifications": ["000", "100", "500"],
+      "iwhd": ["i18", "w0639", "h1218", "d0436"],
+      "images": [
+        {
+          "id": "0",
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/BFD__18.jpg"
+        },
+        {
+          "id": "1",
+          "title": "Drawing ",
+          "image": "https://webquoin.com/catalog/images/GIFs/Custom/Base/BFD__18.gif"
+        }
+      ],
+      "notes": ["1"],
+      "widths": [
+        "09",
+        "12",
+        "15",
+        "18",
+        "21",
+        "24",
+        "27",
+        "30",
+        "33",
+        "36",
+        "39"
+      ],
+      "options": ["ccd6", "ros"]
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "itemcodes": [
+        "BFD0924",
+        "BFD1224",
+        "BFD1524",
+        "BFD1824",
+        "BFD2124",
+        "BFD2424",
+        "BFD2724",
+        "BFD3024",
+        "BFD3324",
+        "BFD3624",
+        "BFD3924",
+        "BFD__24",
+        "BFD24"
+      ],
+      "height": "24",
+      "specifications": ["000", "100", "501"],
+      "iwhd": ["i18", "w0639", "h1824", "d0436"],
+      "images": [
+        {
+          "id": "0",
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/BFD__24.jpg"
+        },
+        {
+          "id": "1",
+          "title": "Drawing ",
+          "image": "https://webquoin.com/catalog/images/GIFs/Custom/Base/BFD__24.gif"
+        }
+      ],
+      "notes": ["1"],
+      "widths": [
+        "09",
+        "12",
+        "15",
+        "18",
+        "21",
+        "24",
+        "27",
+        "30",
+        "33",
+        "36",
+        "39"
+      ],
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "itemcodes": [
+        "BFD0930",
+        "BFD1230",
+        "BFD1530",
+        "BFD1830",
+        "BFD2130",
+        "BFD2430",
+        "BFD2730",
+        "BFD3030",
+        "BFD3330",
+        "BFD3630",
+        "BFD3930",
+        "BFD__30",
+        "BFD30"
+      ],
+      "height": "30",
+      "specifications": ["000", "100", "501"],
+      "iwhd": ["i18", "w0639", "h2430", "d0436"],
+      "images": [
+        {
+          "id": "0",
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/BFD__30.jpg"
+        },
+        {
+          "id": "1",
+          "title": "Drawing ",
+          "image": "https://webquoin.com/catalog/images/GIFs/Custom/Base/BFD__30.gif"
+        }
+      ],
+      "notes": ["1"],
+      "widths": [
+        "09",
+        "12",
+        "15",
+        "18",
+        "21",
+        "24",
+        "27",
+        "30",
+        "33",
+        "36",
+        "39"
+      ],
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "itemcodes": [
+        "BFD0936",
+        "BFD1236",
+        "BFD1536",
+        "BFD1836",
+        "BFD2136",
+        "BFD2436",
+        "BFD2736",
+        "BFD3036",
+        "BFD3336",
+        "BFD3636",
+        "BFD3936",
+        "BFD__36",
+        "BFD36"
+      ],
+      "height": "36",
+      "specifications": ["000", "100", "502"],
+      "iwhd": ["i18", "w0639", "h3036", "d0436"],
+      "images": [
+        {
+          "id": "0",
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/BFD__36.jpg"
+        },
+        {
+          "id": "1",
+          "title": "Drawing ",
+          "image": "https://webquoin.com/catalog/images/GIFs/Custom/Base/BFD__36.gif"
+        }
+      ],
+      "notes": ["1"],
+      "widths": [
+        "09",
+        "12",
+        "15",
+        "18",
+        "21",
+        "24",
+        "27",
+        "30",
+        "33",
+        "36",
+        "39"
+      ],
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "itemcodes": [
+        "BFD0948",
+        "BFD1248",
+        "BFD1548",
+        "BFD1848",
+        "BFD2148",
+        "BFD2448",
+        "BFD2748",
+        "BFD3048",
+        "BFD3348",
+        "BFD3648",
+        "BFD3948",
+        "BFD__48",
+        "BFD48"
+      ],
+      "height": "48",
+      "specifications": ["000", "100", "503"],
+      "iwhd": ["i18", "w0639", "h3648", "d0436"],
+      "images": [
+        {
+          "id": "0",
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/BFD__48.jpg"
+        },
+        {
+          "id": "1",
+          "title": "Drawing ",
+          "image": "https://webquoin.com/catalog/images/GIFs/Custom/Base/BFD__48.gif"
+        }
+      ],
+      "notes": ["1"],
+      "widths": [
+        "09",
+        "12",
+        "15",
+        "18",
+        "21",
+        "24",
+        "27",
+        "30",
+        "33",
+        "36",
+        "39"
+      ],
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+    }
+  ],
+  "image": "https://webquoin.com/catalog/images/BFD__18.jpg",
+  "tags": ["base", "full", "door"]
+}
