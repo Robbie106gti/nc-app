@@ -1,4 +1,4 @@
-import * as functions from 'firebase-functions';
+export login from './auth/login';
 
 // // Start writing Firebase Functions
 // // https://firebase.google.com/docs/functions/typescript
