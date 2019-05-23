@@ -1,0 +1,138 @@
+{
+  "restrictions": [
+    {
+      "id": "0",
+      "title": "Knotty Woods",
+      "content": "not available in Knotty Woods (knotty material will be replaced with clear Alder), all Melamines, Engineered Veneer, Euro materials, and Gloss."
+    },
+    {
+      "id": "1",
+      "title": "Maximum load",
+      "content": "restriction is 7 kg (15 lbs) per bracket, not including the shelf. Maximum 94\" inch wide."
+    },
+    {
+      "id": "2",
+      "title": "Maximum panel sizes VG and HG",
+      "type": "table",
+      "codes": ["CC-FJ"],
+      "astrixs": [
+        "5/8\", 1 1/2\" or Plywood cannot be Factory Joined",
+        "* Material can go beyond maximum sizes using a Factory Join - Order code: CC-FJ.",
+        "** 120\" material is only available in 3/4\" thick.",
+        "*** Available as a special order"
+      ],
+      "table": {
+        "headers": [
+          { "title": "Material", "key": "title" },
+          { "title": "Width VG Maximum", "key": "col1" },
+          { "title": "Height VG Maximum", "key": "col2" },
+          { "title": "Width HG Maximum", "key": "col3" },
+          { "title": "Height HG Maximum", "key": "col4" }
+        ],
+        "rows": [
+          {
+            "title": "Wood Veneer *, **",
+            "col1": "48\"",
+            "col2": "120\"",
+            "col3": "120\"",
+            "col4": "48\""
+          },
+          {
+            "title": "Melamine Patterned",
+            "col1": "48\"",
+            "col2": "96\"",
+            "col3": "96\"",
+            "col4": "48\""
+          },
+          {
+            "title": "Textured Melamine",
+            "col1": "48\"",
+            "col2": "96\"",
+            "col3": "96\"",
+            "col4": "48\""
+          },
+          {
+            "title": "Engineered Veneer",
+            "col1": "48\"",
+            "col2": "96\" (120\"***)",
+            "col3": "96\" (120\"***)",
+            "col4": "48\""
+          },
+          {
+            "title": "Euro Textured Melamine",
+            "col1": "84\"",
+            "col2": "104\"",
+            "col3": "104\"",
+            "col4": "84\""
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "title": "Maximum panel sizes",
+      "type": "table",
+      "codes": ["CC-FJ"],
+      "astrixs": [
+        "5/8\", 1 1/2\" or Plywood cannot be Factory Joined",
+        "* Material can go beyond maximum sizes using a Factory Join - Order code: CC-FJ.",
+        "** 120\" material is only available in 3/4\" thick.",
+        "*** Available as a special order"
+      ],
+      "table": {
+        "headers": [
+          { "title": "Material", "key": "title" },
+          { "title": "Width Maximum", "key": "col1" },
+          { "title": "Height Maximum", "key": "col2" }
+        ],
+        "rows": [
+          {
+            "title": "Wood Veneer *, **",
+            "col1": "48\"",
+            "col2": "120\""
+          },
+          {
+            "title": "Painted",
+            "col1": "48\"",
+            "col2": "120\""
+          },
+          {
+            "title": "Melamine Solid Color",
+            "col1": "48\"",
+            "col2": "96\""
+          },
+          {
+            "title": "Melamine Patterned",
+            "col1": "48\"",
+            "col2": "96\""
+          },
+          {
+            "title": "Textured Melamine",
+            "col1": "60\"",
+            "col2": "96\""
+          },
+          {
+            "title": "Engineered Veneer",
+            "col1": "48\"",
+            "col2": "96\" (120\"***)"
+          },
+          {
+            "title": "Euro Textured Melamine",
+            "col1": "84\"",
+            "col2": "104\""
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "title": "Maximum depth Return",
+      "content": "the return is limited to a maximum depth of 6\"."
+    },
+    {
+      "id": "5",
+      "title": "Materials",
+      "content": "Not available in Euro materials, Melamines, Textured Melamines and Gloss."
+    }
+  ]
+}
