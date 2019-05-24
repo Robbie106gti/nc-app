@@ -1,19 +1,21 @@
-const fs = require('fs');
+import * as fs from 'fs';
+import { createFile } from './create-json';
+import { checkLines, checkVersion } from './cabinet';
+
 const bc = JSON.parse(fs.readFileSync('src/assets/json/base cabinets.json'));
 const codes = JSON.parse(fs.readFileSync('src/assets/json/codes.json'));
-
-const createFile = require('./create-json')
-
-const Cabinet = require('./cabinet');
 // console.log(bc);
 
 const newData = bc['Base Cabinets'].map(cab => {
-    let cas = new Cabinet();
-    cas = cas.checkLines(cab);
-    cas = cas.checkVersion(cab);
+    cab = {...cab, ...checkLines(cab)};
+    cab['versions'] = cab.attached.map(version => checkVersion(version, cab.code));
+    delete cab.attached;
+
  return cab;
 });
 
 // console.log(newData);
 // When done with data manipulation, object to be stringified and title of file
 createFile({'base-cabinets': newData}, 'base-cabinets')
+
+// node --experimental-modules src/fs/combine.js
