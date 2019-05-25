@@ -14770,6 +14770,28 @@
       ]
     },
     {
+      "active": false,
+      "code": "BAF30",
+      "cat": "Base Cabinets",
+      "root": "BAF",
+      "height": "30",
+      "title": "Base Appliance Frame",
+      "description": "Base cabinet with a frame for an appliance.",
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "itemcodes": [
+        "BAF__30",
+        "BAF30"
+      ],
+      "csvitems": [
+      ]
+    },
+    {
       "active": true,
       "code": "BAF1D24",
       "cat": "Base Cabinets",
