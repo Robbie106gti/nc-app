@@ -7401,7 +7401,7 @@
       "root": "BCT3DD",
       "height": "24",
       "title": "Base Cooktop 3 Drawer Top False Double Drawer",
-      "description": "2 working drawers plus a false drawer at the top.",
+      "description": "2 working drawers plus a double false drawer at the top.",
       "specifications": ["602"],
       "iwhd": ["i18", "w2739", "h1824", "d1236"],
       "images": [
@@ -27177,7 +27177,7 @@
       "root": "TO1FM",
       "height": "86",
       "title": "Tall Oven 1 Flush Mount",
-      "description": "doors above, micro and walloven openings, drawer below.",
+      "description": "Tall cabinet for flush mounted appliances with doors above and a single drawer below.",
       "specifications": ["3002", "3006"],
       "iwhd": ["i18", "w2733", "h8086", "d2436"],
       "images": [
@@ -27481,7 +27481,7 @@
       "root": "TO2FM",
       "height": "86",
       "title": "Tall Oven 2 Flush Mount",
-      "description": "doors above, micro and walloven openings, drawer below.",
+      "description": "Tall cabinet for flush mounted appliances with doors above and a single drawer below.",
       "specifications": ["3003", "3005"],
       "iwhd": ["i18", "w2733", "h8086", "d2436"],
       "images": [
@@ -27785,7 +27785,7 @@
       "root": "TO3FM",
       "height": "86",
       "title": "Tall Oven 1 Flush Mount",
-      "description": "doors above, micro and walloven openings, drawer below.",
+      "description": "Tall cabinet for flush mounted appliances with doors above and a single drawer below.",
       "specifications": ["3004", "3006"],
       "iwhd": ["i18", "w2733", "h8086", "d2436"],
       "images": [
@@ -55760,7 +55760,7 @@
       "root": "CD",
       "height": "77",
       "title": "Wardrobe Double Hanging",
-      "description": "1 set shelf and 2 hanging rods.",
+      "description": "Tall cabinet with 2 hanging rods, 1 set shelf for 77\"H, 2 set shelves for 89\"H.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1236", "h6577", "d1236"],
       "images": [
@@ -55914,7 +55914,7 @@
       "root": "CD",
       "height": "89",
       "title": "Wardrobe Double Hanging",
-      "description": "2 set shelf and 2 hanging rods.",
+      "description": "Tall cabinet with 2 hanging rods, 1 set shelf for 77\"H, 2 set shelves for 89\"H.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1236", "h7789", "d1236"],
       "images": [
@@ -56068,7 +56068,7 @@
       "root": "CM",
       "height": "77",
       "title": "Wardrobe Mid Hanging",
-      "description": "1 adjustable shelf, 1 set shelf and 1 hanging rod.",
+      "description": "Wardrobe with 1 mid hanging rod, 1 set shelf and adj shelf(s) above.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1236", "h6577", "d1236"],
       "images": [
@@ -56222,7 +56222,7 @@
       "root": "CM",
       "height": "89",
       "title": "Wardrobe Mid Hanging",
-      "description": "2 adjustable shelves, 1 set shelf and 1 hanging rod.",
+      "description": "Wardrobe with 1 mid hanging rod, 1 set shelf and adj shelf(s) above.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1236", "h7789", "d1236"],
       "images": [
@@ -56376,7 +56376,7 @@
       "root": "CT",
       "height": "77",
       "title": "Wardrobe Tall Hanging",
-      "description": "1 set shelf and 1 hanging rod.",
+      "description": "1 set shelf and 1 hanging rod. 89\" has a set shelf",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1236", "h6577", "d1236"],
       "images": [
@@ -56530,7 +56530,7 @@
       "root": "CT",
       "height": "89",
       "title": "Wardrobe Tall Hanging",
-      "description": "1 adjustable shelf, 1 set shelf and 1 hanging rod.",
+      "description":  "1 set shelf and 1 hanging rod. 89\" has a set shelf",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1236", "h7789", "d1236"],
       "images": [
@@ -56684,7 +56684,7 @@
       "root": "CH",
       "height": "77",
       "title": "Wardrobe High Hanging",
-      "description": "1 hanging rod.",
+      "description": "1 hanging rod, 89\" has a set shelf.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1236", "h6577", "d1236"],
       "images": [
@@ -56838,7 +56838,7 @@
       "root": "CH",
       "height": "89",
       "title": "Wardrobe High Hanging",
-      "description": "1 set shelf and 1 hanging rod.",
+      "description": "1 hanging rod, 89\" has a set shelf.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1236", "h7789", "d1236"],
       "images": [
@@ -56992,7 +56992,7 @@
       "root": "C2D22T",
       "height": "77",
       "title": "Wardrobe Tall Hanging with 2 Drawer",
-      "description": "1 set shef and 1 hanging rod plus 2 drawers below.",
+      "description": "1 set shelf and 1 hanging rod plus 2 drawers below.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1236", "h6577", "d1236"],
       "images": [
@@ -58224,7 +58224,7 @@
       "root": "CDCL",
       "height": "77",
       "title": "Wardrobe Double Hanging Corner Left",
-      "description": "1 set shelf and 2 hanging rods.",
+      "description": "1 set shelf for 77\" H/ 2 shevles for 89\" and 2 hanging rods.",
       "specifications": ["2024"],
       "iwhd": ["i18", "w24r27", "h6577", "d1236"],
       "images": [
@@ -58282,7 +58282,7 @@
       "root": "CDCL",
       "height": "89",
       "title": "Wardrobe Double Hanging Corner Left",
-      "description": "2 set shelves and 2 hanging rods.",
+      "description": "1 set shelf for 77\" H/ 2 shevles for 89\" and 2 hanging rods.",
       "specifications": ["2024"],
       "iwhd": ["i18", "w24r27", "h7789", "d1236"],
       "images": [
@@ -58340,7 +58340,7 @@
       "root": "CDCR",
       "height": "77",
       "title": "Wardrobe Double Hanging Corner Left",
-      "description": "1 set shelf and 2 hanging rods.",
+      "description": "1 set shelf for 77\" H/ 2 shevles for 89\" and 2 hanging rods.",
       "specifications": ["2024"],
       "iwhd": ["i18", "w24r27", "h6577", "d1236"],
       "images": [
@@ -58398,7 +58398,7 @@
       "root": "CDCR",
       "height": "89",
       "title": "Wardrobe Double Hanging Corner Right",
-      "description": "2 set shelves and 2 hanging rods.",
+      "description": "1 set shelf for 77\" H/ 2 shevles for 89\" and 2 hanging rods.",
       "specifications": ["2024"],
       "iwhd": ["i18", "w24r27", "h7789", "d1236"],
       "images": [
@@ -58456,7 +58456,7 @@
       "root": "CBD",
       "height": "47",
       "title": "Wardrobe Bridge Double Hanging",
-      "description": "2 hanging rods.",
+      "description": "2 hanging rods for 47\" H and an additional set shelf for 59\" H.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1242", "h47", "d1236"],
       "images": [
@@ -58648,7 +58648,7 @@
       "root": "CBD",
       "height": "59",
       "title": "Wardrobe Bridge Double Hanging",
-      "description": "1 set shelf and 2 hanging rods.",
+      "description": "2 hanging rods for 47\" H and an additional set shelf for 59\" H.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1242", "h4759", "d1236"],
       "images": [
@@ -58840,7 +58840,7 @@
       "root": "CBM",
       "height": "27",
       "title": "Wardrobe Bridge Mid Hanging",
-      "description": "1 adjustable shelf and 1 hanging rod.",
+      "description": "at 27\" H 1 adjustable shelf/ at 39\" 2 shelves and 1 hanging rod.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1242", "h27", "d1236"],
       "images": [
@@ -59032,7 +59032,7 @@
       "root": "CBM",
       "height": "39",
       "title": "Wardrobe Bridge Mid Hanging",
-      "description": "2 adjustable shelves and 1 hanging rod.",
+      "description": "at 27\" H 1 adjustable shelf/ at 39\" 2 shelves and 1 hanging rod.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1242", "h2739", "d1236"],
       "images": [
@@ -59224,7 +59224,7 @@
       "root": "CBT",
       "height": "18",
       "title": "Wardrobe Bridge Tall Hanging",
-      "description": "1 hanging rod.",
+      "description": "1 hanging rod and for 30\" 1 adjustable shelf.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1242", "h18", "d1236"],
       "images": [
@@ -59416,7 +59416,7 @@
       "root": "CBT",
       "height": "30",
       "title": "Wardrobe Bridge Tall Hanging",
-      "description": "1 adjustable shelf and 1 hanging rod.",
+      "description": "1 hanging rod and for 30\" 1 adjustable shelf.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1242", "h1830", "d1236"],
       "images": [
@@ -59608,7 +59608,7 @@
       "root": "CBH",
       "height": "05",
       "title": "Wardrobe Bridge High Hanging",
-      "description": "1 hanging rod.",
+      "description": "1 hanging rod and at 17\" H 1 set shelf.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1242", "h05", "d1236"],
       "images": [
@@ -59800,7 +59800,7 @@
       "root": "CBH",
       "height": "17",
       "title": "Wardrobe Bridge High Hanging",
-      "description": "1 set shelf and 1 hanging rod.",
+      "description": "1 hanging rod and at 17\" H 1 set shelf.",
       "specifications": ["000", "99", "100", "2024"],
       "iwhd": ["i18", "w1242", "h0517", "d1236"],
       "images": [
