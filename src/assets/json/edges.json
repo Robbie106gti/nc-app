@@ -1,121 +1,439 @@
-[{
+[
+  {
     "title": "SQ",
     "image": "https://webquoin.com/catalog/images/Edge-Details/SQ.gif",
     "description": "Square",
+    "type": "de",
     "size": {
       "inch": "0",
       "mm": "0"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "SC",
     "image": "https://webquoin.com/catalog/images/Edge-Details/SC.gif",
     "description": "Step Cove",
+    "type": "de",
     "size": {
       "inch": "1/4",
       "mm": "6.35"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "OV",
     "image": "https://webquoin.com/catalog/images/Edge-Details/OV.gif",
     "description": "",
+    "type": "de",
     "size": {
       "inch": "1/4",
       "mm": "6.35"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "CA",
     "image": "https://webquoin.com/catalog/images/Edge-Details/CA.gif",
     "description": "",
+    "type": "de",
     "size": {
       "inch": "11/16",
       "mm": "17.4625"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "BV3",
     "image": "https://webquoin.com/catalog/images/Edge-Details/BV3.gif",
     "description": "Bevel",
+    "type": "de",
     "size": {
       "inch": "1/8",
       "mm": "3.175"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "BV5",
     "image": "https://webquoin.com/catalog/images/Edge-Details/BV5.gif",
     "description": "Bevel",
+    "type": "de",
     "size": {
       "inch": "3/16",
       "mm": "4.7625"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": true,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "CV6",
     "image": "https://webquoin.com/catalog/images/Edge-Details/CV6.gif",
     "description": "Cove",
+    "type": "de",
     "size": {
       "inch": "1/4",
       "mm": "6.35"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": true,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "CV11",
     "image": "https://webquoin.com/catalog/images/Edge-Details/CV11.gif",
     "description": "Cove",
+    "type": "de",
     "size": {
       "inch": "7/16",
       "mm": "11.1125"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": true,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "RD3",
     "image": "https://webquoin.com/catalog/images/Edge-Details/RD3.gif",
     "description": "Round",
+    "type": "de",
     "size": {
       "inch": "1/8",
       "mm": "3.175"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "RD6",
     "image": "https://webquoin.com/catalog/images/Edge-Details/RD6.gif",
     "description": "Round",
+    "type": "de",
     "size": {
       "inch": "1/4",
       "mm": "6.35"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "HS",
     "image": "https://webquoin.com/catalog/images/Edge-Details/HS.gif",
     "description": "",
+    "type": "de",
     "size": {
       "inch": "11/16",
       "mm": "17.4625"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
   },
   {
     "title": "SH",
     "image": "https://webquoin.com/catalog/images/Edge-Details/SH.gif",
     "description": "",
+    "type": "de",
     "size": {
       "inch": "7/16",
       "mm": "11.1125"
     },
-    "replaces": []
+    "replaces": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W1",
+    "image": "http://testquoin.com/catalog/images/W1.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W2",
+    "image": "http://testquoin.com/catalog/images/W2.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W3",
+    "image": "http://testquoin.com/catalog/images/W3.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W4",
+    "image": "http://testquoin.com/catalog/images/W4.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W5",
+    "image": "http://testquoin.com/catalog/images/W5.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W6",
+    "image": "http://testquoin.com/catalog/images/W6.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W7",
+    "image": "http://testquoin.com/catalog/images/W7.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W8",
+    "image": "http://testquoin.com/catalog/images/W8.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W9",
+    "image": "http://testquoin.com/catalog/images/W9.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W10",
+    "image": "http://testquoin.com/catalog/images/W10.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
+  },
+  {
+    "title": "W11",
+    "image": "http://testquoin.com/catalog/images/W11.gif",
+    "description": "",
+    "type": "we",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modal": false,
+      "modcon": false
+    }
   }
 ]

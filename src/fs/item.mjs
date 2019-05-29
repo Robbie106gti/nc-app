@@ -1,24 +1,41 @@
 import uuidv1 from 'uuid/v1';
+import _ from 'lodash';
 
 export function hasLines(item) {
   item.uid = uuidv1();
   item.id = _.toNumber(item.id);
-  const active = item.active ? true : false;
+  const active = item.active === true ? true : false;
   const lines = item.lines
     ? item.lines
     : {
+      custom: item.active === true ? true : false,
+      lighthouse: item.active === true ? true : false,
+      cornerstone: item.active === true ? true : false,
+      modal: item.active === true ? true : false,
+      modcon: item.active === true ? true : false
+    };
+  const type = item.type || 'default';
+  if (item.lines) {
+    lines.custom = item.lines.custom === true ? true : false;
+    lines.lighthouse = item.lines.lighthouse === true ? true : false;
+    lines.cornerstone = item.lines.cornerstone === true ? true : false;
+    lines.modal = item.lines.modal === true ? true : false;
+    lines.modcon = item.lines.modcon === true ? true : false;
+  }
+  return { ...item, active, lines, type };
+}
+
+export function changeActive() {
+  return {
+    active: true,
+    lines: {
       custom: true,
       lighthouse: true,
       cornerstone: true,
       modal: true,
       modcon: true
-    };
-  lines.custom = lines.custom ? true : false;
-  lines.lighthouse = lines.lighthouse ? true : false;
-  lines.cornerstone = lines.cornerstone ? true : false;
-  lines.modal = lines.modal ? true : false;
-  lines.modcon = lines.modcon ? true : false;
-  return { ...item, active, lines };
+    }
+  };
 }
 
 export function addonsCleanUp(addon) {
@@ -27,8 +44,8 @@ export function addonsCleanUp(addon) {
     addon.notes = addon.note;
     delete addon.note;
   }
-  addon.title = addon.title.trim();
-  addon.content = addon.content.trim();
+  addon.title = trimit(addon.title);
+  addon.content = trimit(addon.content);
   addon.content = _.endsWith(addon.content, '.') ? addon.content : addon.content + '.';
   return addon;
 }
@@ -44,13 +61,13 @@ export function notesCleanUp(note) {
 function contentNote(note) {
   note.content = commaContent(note.content);
   note.title = commaTitle(note.title);
-  note.contentLink = note.contentLink.trim();
+  note.contentLink = trimit(note.contentLink);
   if (note.contentLink === '') { delete note.contentLink; }
-  note.ccontent = note.ccontent.trim();
+  note.ccontent = trimit(note.ccontent);
   note.content = note.contentLink === '' ? note.content + note.ccontent : note.content + ' ' + note.contentLink + ' ' + note.ccontent;
   delete note.ccontent;
   note.content = _.lowerFirst(note.content);
-  note.content = note.content.trim();
+  note.content = trimit(note.content);
   note.content = _.endsWith(note.content, '.') ? note.content : note.content + '.';
   return note;
 }
@@ -64,5 +81,11 @@ function commaContent(con) {
 function commaTitle(con) {
   const com = con.indexOf(',');
   if (com >= 0) { con.replace(',', ''); }
-  return con.trim();
+  return trimit(con);
 }
+
+function trimit(str) {
+  if (!str || str === '' || str === null) { console.log(str); return str; }
+  return str.trim();
+}
+

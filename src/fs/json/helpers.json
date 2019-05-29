@@ -1,0 +1,6637 @@
+{
+  "addons": [
+    {
+      "id": null,
+      "icon": "extension",
+      "title": "Reconfigures (CC-D6)",
+      "content": "any standard item. For example, a door/drawer setup.",
+      "uid": "1bee7170-8265-11e9-ac44-b91bbbae2b77",
+      "active": false,
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "type": "default",
+      "notes": ["3"]
+    },
+    {
+      "id": null,
+      "icon": "add_to_photos",
+      "title": "Roll-out",
+      "content": "Melamine Dado Joint MOVENTO Rollout shelves.",
+      "uid": "1beebf90-8265-11e9-ac44-b91bbbae2b77",
+      "active": false,
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "type": "default",
+      "notes": []
+    },
+    {
+      "id": null,
+      "icon": "add_to_photos",
+      "link": "https://webquoin.com/catalog/SH-___-__.html",
+      "title": "3/4\" adjustable shelf",
+      "content": "Click on SH to see this option.",
+      "uid": "1beebf91-8265-11e9-ac44-b91bbbae2b77",
+      "active": false,
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "type": "default",
+      "notes": []
+    },
+    {
+      "id": null,
+      "icon": "add_to_photos",
+      "link": "http://webquoin.com/catalog/RGB-GC__-_H.html",
+      "title": "Garbage Can",
+      "content": "Click on RGB-GC to see this option.",
+      "uid": "1beebf92-8265-11e9-ac44-b91bbbae2b77",
+      "active": false,
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "type": "default",
+      "notes": []
+    },
+    {
+      "id": null,
+      "icon": "add_to_photos",
+      "link": "http://webquoin.com/catalog/MSC-POTB.html",
+      "title": "Pull Out Towel Bar",
+      "content": "Click on MSC-POTB to see this option.",
+      "uid": "1beebf93-8265-11e9-ac44-b91bbbae2b77",
+      "active": false,
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "type": "default",
+      "notes": []
+    },
+    {
+      "id": null,
+      "icon": "add_to_photos",
+      "link": "http://webquoin.com/catalog/MSC-SST-_H.html",
+      "title": "Flip down drawer",
+      "content": "front without soap tray with 1 pair of hinges Click on MSC-NST-WH to see this option.",
+      "uid": "1beebf94-8265-11e9-ac44-b91bbbae2b77",
+      "active": false,
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "type": "default",
+      "notes": []
+    },
+    {
+      "id": null,
+      "icon": "add_to_photos",
+      "link": "http://webquoin.com/catalog/MSC-SST-_H.html",
+      "title": "Single soap tray",
+      "content": "with 1 pair of hinges Click on MSC-NST-WH to see this option.",
+      "uid": "1beebf95-8265-11e9-ac44-b91bbbae2b77",
+      "active": false,
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "type": "default",
+      "notes": []
+    },
+    {
+      "id": null,
+      "icon": "add_to_photos",
+      "link": "http://webquoin.com/catalog/MSC-SST-_H.html",
+      "title": "Single soap tray no hinges",
+      "content": "Click on MSC-NST-WH to see this option.",
+      "uid": "1beebf96-8265-11e9-ac44-b91bbbae2b77",
+      "active": false,
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "type": "default",
+      "notes": []
+    },
+    {
+      "id": null,
+      "icon": "add_to_photos",
+      "link": "https://webquoin.com/catalog/MSC-SST-_H.html",
+      "title": "Two soap trays",
+      "content": "with 1 pair of hinges Click on MSC-NST-WH to see this option.",
+      "uid": "1beebf97-8265-11e9-ac44-b91bbbae2b77",
+      "active": false,
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "type": "default",
+      "notes": []
+    },
+    {
+      "id": null,
+      "icon": "add_to_photos",
+      "link": "http://webquoin.com/catalog/MSC-SST-_H.html",
+      "title": "Two soap trays no hinges",
+      "content": "Click on MSC-NST-WH to see this option.",
+      "uid": "1beebf98-8265-11e9-ac44-b91bbbae2b77",
+      "active": false,
+      "lines": {
+        "custom": false,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "type": "default",
+      "notes": []
+    }
+  ],
+  "notes": [
+    {
+      "id": 0,
+      "title": "",
+      "content": "3/4\" RGB’s only possible in 3/4\" cabinet rooms, same for 5/8\" only possible in 5/8\" cabinet rooms. undefined undefined.",
+      "uid": "1beebf99-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 1,
+      "title": "Change!",
+      "link": "https://webquoin.com/catalog/solidtop.html",
+      "content": "we are replacing stretchers for  Solid tops , please see link for details.",
+      "contentLink": "Solid tops",
+      "uid": "1bef0db0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2,
+      "title": "Movento slides",
+      "content": ", due to the size of Movento hardware, drawerboxes below 8 3/8\" wide will use Tandem not Movento slides. Roughly that translates to a 10\" cabinet for a Drawer and 11\" for Rollout undefined .",
+      "uid": "1bef34c0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3,
+      "title": "CC-D6",
+      "content": "due to the complexity of what this code can do, we require a detailed sketches/drawings of what you want to do undefined .",
+      "uid": "1bef34c1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 4,
+      "title": "CC-INCR-CORNER or CC-DCR-CORNER",
+      "content": "the left and right widths will always match (use a note to indicate widths that do not match and attach CC-INCR-CORNER or CC-DCR-CORNER custom charge) undefined .",
+      "uid": "1bef34c2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 5,
+      "title": "Door styles",
+      "content": "be aware of the minimum door widths available as some door styles (like wide rail doors) will not work. There is a U-shaped cutout at the top of the center backing on this unit to allow access for fastening counters undefined .",
+      "uid": "1bef34c3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 6,
+      "title": "Drawer styles",
+      "content": "drawers will only be available with a slab face for this cabinet type (regardless of the drawer standard that is normal for the door style selected). Available only with the Blum Intivo drawer systems. Be aware that the drawers in this cabinet may not match the drawer system chosen as a default in the room. undefined .",
+      "uid": "1bef34c4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 7,
+      "title": "Appliance specs,",
+      "content": "we recommend you include all appliance specifications when ordering. If specs are not included, the frame will be replaced by a veneer composite panel with square taped edges and cutouts will be done on site by others undefined .",
+      "uid": "1bef5bd0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 8,
+      "title": "Floating Cabinet,",
+      "content": "it is recommended that you use 3\" screws with washers for installation. These screws are to be installed into wall studs (16\" center) in order to secure the cabinet undefined .",
+      "uid": "1bef5bd1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 9,
+      "title": "Maximum cutout,",
+      "content": "the maximum cutout size for a single large cutout (double oven) is:  undefined E + F + G = 502\" high or E + F + *G = 542\" high.",
+      "uid": "1bef5bd2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 10,
+      "title": "A vertical center divider,",
+      "content": "will automatically be added in cabinets over 39\" wide and 12\" high. This vertical divider will be set back from the front edge by 1/16\". Each adjustable shelf will be separated into two, one on either side of the vertical center divider. In WebQuoin, each pair of shelves will remain as a quantity of one in the cabinet details undefined .",
+      "uid": "1bef5bd3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 11,
+      "title": "Doors,",
+      "content": "if doors are going on a unit with rods inside, only the 24\" deep and deeper units will work undefined .",
+      "uid": "1bef5bd4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 12,
+      "title": "Hanging Corner,",
+      "content": "by default, depth modifications ONLY affect the left (non-rod) side of the cabinet. The right (36\" long) side is to remain fixed in depth undefined .",
+      "uid": "1bef82e0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 13,
+      "title": "Flush mount,",
+      "content": "make and model of the appliance(s) must be supplied with the installation instructions.  undefined Model must be flush mount.",
+      "uid": "1bef82e1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 14,
+      "title": "CC-MILLWORK,",
+      "content": "may be added if complexity increases undefined .",
+      "itemcodes": ["CC-MILLWORK"],
+      "uid": "1bef82e2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 15,
+      "title": "Notches,",
+      "content": "may need to be cut in set shevling to allow for air flow dependent on appliance specifications undefined .",
+      "uid": "1bef82e3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 17,
+      "title": "Finishing,",
+      "content": "the bottom of the cabinet is unfinished. If finishing the bottom is required, attach Finish Cabinet Bottom (FCB) undefined .",
+      "uid": "1befa9f0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 18,
+      "title": "Dowelled,",
+      "content": "the back of the cabinet is dowelled for added strength and is joined with the Plywood top undefined .",
+      "uid": "1befa9f1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 19,
+      "title": "Finished ends,",
+      "content": "melamines and Soho materials do not have finished ends available. Attach accessories CLM-FEL, CLM-FER or CLM-FELR to finish sides undefined .",
+      "itemcodes": ["CLM-FEL", "CLM-FER", "CLM-FELR"],
+      "uid": "1befa9f2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 20,
+      "title": "Gables,",
+      "content": "the gable depth is controled in WebQuoin, the final depth is gable depth plus front undefined .",
+      "uid": "1befa9f3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 21,
+      "title": "Depth,",
+      "content": "the depth of a default regular COLUMN is 24\" plus the front, which is always additional to depth. For a MITERED COLUMN the depth is 24 7/8\" including the front of Column undefined .",
+      "uid": "1befa9f4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 22,
+      "title": "Materials,",
+      "content": "for Melanines, Euro Materials or Gloss Columns use CLM column with CLM-101 front undefined undefined.",
+      "itemcodes": ["CLM", "CLM-101"],
+      "uid": "1befd100-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 23,
+      "title": "Miter,",
+      "content": "for mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front undefined undefined.",
+      "itemcodes": ["CLM-MITER", "CLM-100"],
+      "uid": "1befd101-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 24,
+      "title": "Additional triades,",
+      "content": "use MSC-TRIADE to add extra(s) bracket to support more weight (7 kg/15 lbs per triade.) undefined undefined.",
+      "itemcodes": ["MSC-TRIADE"],
+      "uid": "1befd102-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 25,
+      "title": "Ordering,",
+      "content": "procedure: After entering the Floating Shelf code in WebQuoin, double click into the CC-SH-WXD and enter the width and depth dimensions. undefined undefined.",
+      "itemcodes": ["CC-SH-WXD"],
+      "uid": "1beff810-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 26,
+      "title": "Form,",
+      "link": "http://testquoin.com/catalog/build/assets/forms/Sink-Drawer-Dealer-Form-custom.pdf",
+      "content": "please fill out  this form and attach to job.",
+      "contentLink": "this form",
+      "uid": "1beff811-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 27,
+      "title": "Grain,",
+      "content": "(if applicable) will run vertically, or in the direction of the selection in the Exterior Material Header Drop-Down Menu if there is a choice of VG or HG undefined undefined.",
+      "uid": "1beff812-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 28,
+      "title": "Edge,",
+      "content": "only a square outside edge profile can be used in this application undefined undefined.",
+      "uid": "1bf01f20-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 29,
+      "title": "The door style,",
+      "content": "will only be applied onto the front face of the panel. Be aware that the joints may develop hairline cracks when applying paint onto a 5 piece door. This is considered normal and acceptable and therefore, not a warranty item. undefined undefined.",
+      "uid": "1bf01f21-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 30,
+      "title": "Factory join,",
+      "itemcodes": ["cc-fj"],
+      "content": "if a veneer panel width must exceed the material size use the customization charge cc-fj to Factory join a panel. Contact Dealer Service for restrictions before ordering. undefined undefined.",
+      "uid": "1bf04630-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 31,
+      "title": "Beads,",
+      "content": "will cut into material and expose the core on wood veneer applications. undefined undefined.",
+      "uid": "1bf04631-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 32,
+      "title": "Edge-tape grain,",
+      "content": "will run in direction of the edge. undefined undefined.",
+      "uid": "1bf04632-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 33,
+      "title": "Finished edges,",
+      "content": "euro Textured Melamine, Painted Gloss and UV Woodgrain Gloss must be a minimum of 4\" wide if you require all edges finished. undefined undefined.",
+      "uid": "1bf06d40-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 34,
+      "title": "Edges,",
+      "content": "to detail and finish all edges of the over filler, add custom charge CC-FO-FINISH undefined undefined.",
+      "itemcodes": ["CC-FO-FINISH"],
+      "uid": "1bf06d41-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 35,
+      "title": "Width,",
+      "content": "minimum width is 2\" wide undefined undefined.",
+      "uid": "1bf09450-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 36,
+      "title": "Finish side,",
+      "content": "to finish the side of a cabinet in Melamine, Soho or Gloss use a PO.75P panel from the Finish Side Header Drop-Down Menu or manually attach a panel accessory, such as order code P.75P. undefined undefined.",
+      "itemcodes": ["PO.75P", "P.75P"],
+      "uid": "1bf09451-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 37,
+      "title": "Finish top/bottom,",
+      "content": "to finish the top or bottom of a cabinet in TM (Textured Melamine), Soho or Gloss manually attach a panel accessory, such as order code P.75P or P.75P-1F. undefined undefined.",
+      "itemcodes": ["P.75P", "P.75P-1F"],
+      "uid": "1bf0bb60-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 38,
+      "title": "Finish bottom,",
+      "content": "to finish the bottom of a cabinet in M White, M Maple, or Solid/Patterned Melamine where the interior and exterior materials do not match, attach a panel accessory. undefined undefined.",
+      "uid": "1bf0bb61-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 39,
+      "title": "Movento slides,",
+      "content": "due to the size of Movento hardware, ROS below 7\" wide will use Tandem not Movento slides. undefined undefined.",
+      "uid": "1bf0bb62-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 40,
+      "title": "Tip-on,",
+      "content": "due to the size of Tip-on hardware, on ROS's no tip-on can be offered. undefined undefined.",
+      "uid": "1bf0e270-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 41,
+      "title": "Door and rail,",
+      "content": "will not fit a 20 7/8\" wide door with a 2 1/4\" rail. undefined undefined.",
+      "uid": "1bf0e271-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 42,
+      "title": "BB cabinets,",
+      "content": "when using the BB cabinet be aware that the gap between the drawer and the handle is very small and might not be easy to grip. It is recommended that the Magic Corner 2 be used in the BBFD. undefined undefined.",
+      "uid": "1bf10980-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 43,
+      "title": "Blind corner cabinets,",
+      "content": "lS-MSC2-MA is not available on 42\" and 43\" wide blind corner cabinets. When ordering on a 42\" BBFD the outer baskets will only be wire baskets. undefined undefined.",
+      "uid": "1bf10981-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 50,
+      "title": "Material and finish,",
+      "content": "matches interior of cabinet (Melamine bottom). undefined undefined.",
+      "uid": "1bf10982-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 51,
+      "title": "Cabinet dimensions,",
+      "content": "interior Dimensions Required - Height 26 to 31\" undefined undefined.",
+      "uid": "1bf13090-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    }
+  ],
+  "specifications": [
+    {
+      "id": 0,
+      "title": "Hinging",
+      "content": "Specify hinging L (left) or R (right) when applicable.",
+      "uid": "1bf13091-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 1,
+      "title": "Hinging",
+      "content": "Single door units (all units less than 49\") will be hinged on the blind side.",
+      "uid": "1bf13092-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2,
+      "title": "Hinging",
+      "content": "Single door units (all units less than 42\") will be hinged on the blind side.",
+      "uid": "1bf13093-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3,
+      "title": "Hinging",
+      "content": "Single door units (all units less than 46\" wide) will be hinged on the blind side",
+      "uid": "1bf13094-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 99,
+      "title": "Doors",
+      "content": "Doors are optional on this cabinet.",
+      "uid": "1bf13095-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 100,
+      "title": "Doors",
+      "content": "Units wider than 24\" will have a pair of doors.",
+      "uid": "1bf13096-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 101,
+      "title": "Doors",
+      "content": "Units over 42\" will have a pair of doors.",
+      "uid": "1bf13097-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 102,
+      "title": "Doors",
+      "content": "When opened, the folding doors are drawn inward by a cam system and revolve through the interior of the cabinet with the fittings.",
+      "uid": "1bf13098-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 103,
+      "title": "Damping",
+      "content": "An integral, adjustable pneumatic damping device ensures that the doors close quietly.",
+      "uid": "1bf13099-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 104,
+      "title": "Doors",
+      "content": "Three dimensional adjustment.",
+      "uid": "1bf157a0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 105,
+      "title": "Doors",
+      "content": "Units wider than 18\" will have a pair of doors.",
+      "uid": "1bf157a1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 106,
+      "title": "Doors",
+      "content": "Units over 46\" will have a pair of doors.",
+      "uid": "1bf157a2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 107,
+      "title": "Doors",
+      "content": "The door on these units are always hinged on the small side of the front of the unit.",
+      "uid": "1bf157a3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 200,
+      "title": "Door height",
+      "content": "By default, height reductions will decrease the door height of this cabinet.",
+      "uid": "1bf157a4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 201,
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top door section height of this cabinet down to a minimum of 12\", then the height of the bottom drawer section will decrease to a minimum of 6\" until the desired height is achieved.",
+      "uid": "1bf157a5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 202,
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top door section height of this cabinet down to a minimum of 12\", then the height of the bottom door will decrease until the desired height is achieved.",
+      "uid": "1bf157a6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 203,
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top section height of this cabinet down to a minimum of 12\", then the height of the bottom section will decrease until the desired height is achieved.",
+      "uid": "1bf157a7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 204,
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top door height of this cabinet to a minimum of 12 7/8\". The height of the bottom section can be decreased to 29\" high.",
+      "uid": "1bf157a8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 205,
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top door height of this cabinet to a minimum of 38 7/8\". The height of the bottom section can be decreased to 29\" high.",
+      "uid": "1bf157a9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 206,
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top door height of this cabinet to a minimum of 50 7/8\". The height of the bottom section can be decreased to 29\" high.",
+      "uid": "1bf157aa-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 207,
+      "title": "Height",
+      "content": "By default, height reductions will decrease the door height of this cabinet down to a minimum of 11 7/8\".",
+      "uid": "1bf157ab-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 208,
+      "title": "Appliance Frame",
+      "content": "By default, height reductions will decrease the total appliance frame section down to a minimum of 12 7/8\" until desired height is reached. The frame configuration will be changed according to your requirements and/or appliance specs.",
+      "uid": "1bf157ac-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 300,
+      "title": "Header",
+      "content": "On cabinets with double doors, a stretcher matching the cabinet interior will be added below the false front. The front and bottom edge of the stretcher will be finished to match the cabinet exterior.",
+      "uid": "1bf157ad-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 301,
+      "title": "Header",
+      "content": "The header is finished to match the cabinet exterior.",
+      "uid": "1bf157ae-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 302,
+      "title": "Stretcher",
+      "content": "A stretcher matching the cabinet interior will be added below the false front. The front and bottom edge of the stretcher will be finished to match the cabinet exterior.",
+      "uid": "1bf157af-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 400,
+      "title": "Installation",
+      "content": "This unit is designed to be installed 3\" off the wall on the blind side.",
+      "uid": "1bf157b0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 500,
+      "title": "Shelves",
+      "content": "No adjustable shelves or fixed shelves will be added by default for this height.",
+      "uid": "1bf157b1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 501,
+      "title": "Shelves",
+      "content": "One adjustable shelf will be added by default for this height.",
+      "uid": "1bf157b2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 502,
+      "title": "Shelves",
+      "content": "Two adjustable shelf will be added by default for this height.",
+      "uid": "1bf157b3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 503,
+      "title": "Shelves",
+      "content": "Three adjustable shelf will be added by default for this height.",
+      "uid": "1bf157b4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 507,
+      "title": "Shelves",
+      "content": "Four adjustable shelf will be added by default for this height.",
+      "uid": "1bf157b5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 508,
+      "title": "Shelves",
+      "content": "Five adjustable shelf will be added by default for this height.",
+      "uid": "1bf157b6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 504,
+      "title": "Trays",
+      "content": "Trays are height adjustable and have a non-slip grey or maple arena surface and chrome railing. 2 trays included.",
+      "uid": "1bf157b7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 505,
+      "title": "Trays",
+      "content": "Grey arena tray.",
+      "uid": "1bf157b8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 506,
+      "title": "Trays",
+      "content": "Maple arena tray.",
+      "uid": "1bf157b9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 509,
+      "title": "Shelves",
+      "content": "The top shelf changes from a 45° to a 90° corner on all widths less than 6\".",
+      "uid": "1bf157ba-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 511,
+      "title": "Shelves",
+      "content": "One adjustable shelf will be added by default for this height in lower section.",
+      "uid": "1bf157bb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 512,
+      "title": "Shelves",
+      "content": "Two adjustable shelfs will be added by default for this height in lower section.",
+      "uid": "1bf157bc-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 513,
+      "title": "Shelves",
+      "content": "Three adjustable shelfs will be added by default for this height in lower section.",
+      "uid": "1bf157bd-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 521,
+      "title": "Shelves",
+      "content": "One adjustable shelf will be added by default for this height in upper section.",
+      "uid": "1bf157be-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 522,
+      "title": "Shelves",
+      "content": "Two adjustable shelfs will be added by default for this height in upper section.",
+      "uid": "1bf157bf-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 523,
+      "title": "Shelves",
+      "content": "Three adjustable shelfs will be added by default for this height in upper section.",
+      "uid": "1bf157c0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 524,
+      "title": "Shelves",
+      "content": "Four adjustable shelfs will be added by default for this height in upper section.",
+      "uid": "1bf157c1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 525,
+      "title": "Shelves",
+      "content": "One fixed shelf will be added by default for this height.",
+      "uid": "1bf157c2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 526,
+      "title": "Shelves",
+      "content": "Two fixed shelves will be added by default for this height.",
+      "uid": "1bf157c3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 527,
+      "title": "Shelves",
+      "content": "Two fixed shelves will be added by default for this height.",
+      "uid": "1bf157c4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 600,
+      "title": "Drawer",
+      "content": "Drawer height may be decreased to a minimum of 5 7/8\" each.",
+      "uid": "1bf157c5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 601,
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the height of the bottom drawer down to a minimum of 5 7/8\" until the desired height is reached. ",
+      "uid": "1bf157c6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 602,
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the height of the first drawer over 5 7/8\" down to a minimum of 5 7/8\", then each successive drawer will be reduced in the same manner until the desired height is achieved.",
+      "uid": "1bf157c7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 603,
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the 3rd drawer (from top) height down to a minimum of 6 7/8\" until the desired height is reached.",
+      "uid": "1bf157c8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 604,
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the bottom drawer height down to a minimum of 6 7/8\" until the desired height is reached.",
+      "uid": "1bf157c9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 605,
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the height of the bottom drawer down to a minimum of 6 7/8\" until the desired height is reached.",
+      "uid": "1bf157ca-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 606,
+      "title": "Drawers",
+      "content": "3 drawer options, White Intivo Drawers / Black Intivo Drawers / Stainless Steel Intivo Drawers.",
+      "uid": "1bf157cb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 607,
+      "title": "Drawer",
+      "content": "By default, height reductions will reduce the height of the middle drawer down to a minimum of 5 7/8\" until the desired height is reached.",
+      "uid": "1bf157cc-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 608,
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the height of the top drawer down to a minimum of 6 7/8\" until the desired height is reached.",
+      "uid": "1bf157cd-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 1400,
+      "title": "Sink",
+      "content": "A 4 7/16\" high header will be included on cabinet (as shown), which will serve to support a sink.",
+      "uid": "1bf157ce-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 1401,
+      "title": "Sink",
+      "content": "A 3\" high header will be included on cabinet (as shown), which will serve to support a sink.",
+      "uid": "1bf157cf-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 1402,
+      "title": "Sink",
+      "content": "A 6\" high header will be included on cabinet, which will serve to support a sink.",
+      "uid": "1bf157d0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2000,
+      "title": "Cabinet",
+      "content": "Heavy duty slides are installed on cabinets over 42\" (42\" wide receive standard slides)",
+      "uid": "1bf157d1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2001,
+      "title": "Cabinet",
+      "content": "When something other than the default height reduction is required, you must specify the desired drawer heights on a drawing and as a note attached to the cabinet in webquoin. The modify section height custom charge (CC-MODSECTIONH) will apply.",
+      "uid": "1bf157d2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2002,
+      "title": "Cabinet",
+      "content": "If the cabinet is open, a note must be added in webquoin to remove the mini gables.",
+      "uid": "1bf157d3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2003,
+      "title": "Cabinet",
+      "content": "If a custom width greater than 36\" is ordered (CC-INCR-CORNER), both doors will be hinged and will open independently.",
+      "uid": "1bf157d4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2004,
+      "title": "Cabinet",
+      "content": "The left and right widths (W) will always match so the cabinet will always have a 45 degree angle.",
+      "uid": "1bf157d5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2005,
+      "title": "Cabinet",
+      "content": "For any height dimension or frame configuration changes, please specify your requirements on a drawing and as a note attached to the cabinet in webquoin. The frame configuration will be changed according to your requirements and/or the appliance specifications.",
+      "uid": "1bf157d6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2006,
+      "title": "Open Cabinets",
+      "content": "Finish of the cabinet is controlled with the interior material dropdown-menu, best pratice for \"Open Cabinets\" is to create a separate room default for them.",
+      "uid": "1bf157d7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2007,
+      "title": "Channel Cabinets",
+      "content": "The height of the cabinet can NOT be decreased due to the fixed location of the channel.",
+      "uid": "1bf157d8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2008,
+      "title": "Cabinets",
+      "content": "This unit is designed to be installed 3” off the wall on the blind side.",
+      "uid": "1bf157d9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2009,
+      "title": "Cabinets",
+      "content": "For a base corner cabinet with left and right widths that do NOT match, please specify your requirements on a drawing and as a note attached to the cabinet in webquoin.",
+      "uid": "1bf157da-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2010,
+      "title": "Cabinets",
+      "content": "Specify L (the front is small on the left side) or R (the front is small on the right side).",
+      "uid": "1bf157db-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2011,
+      "title": "Cabinets",
+      "content": "The top of the unit is filled in and the bottom has spreaders across the width at the front and back of the unit. This setup allows access from the bottom of the unit for installation purposes.",
+      "uid": "1bf157dc-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2012,
+      "title": "Cabinets",
+      "content": "The top set shelf is constructed of solid 5/8” plywood for strength and stability.",
+      "uid": "1bf157dd-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2013,
+      "title": "Cabinets bottom",
+      "content": "The bottom of the cabinet is unfinished. If finishing the bottom is required, attach an Finish Cabinet Bottom (FCB).",
+      "uid": "1bf157de-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2014,
+      "title": "Walloven frame",
+      "content": "The walloven frame will have a detailed edge with the material type matching the door if the cutout sizes have been specified. The walloven frame will have a square edge with a veneer composite core panel if cutout sizes are not specified so the cutouts can be done on site.",
+      "uid": "1bf157df-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2015,
+      "title": "Microwave frame",
+      "content": "The microwave area will only be finished inside (same color as the exterior of the cabinets) if requested on the cabinet order and the appropriate charges are applied.",
+      "uid": "1bf157e0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2016,
+      "title": "Microwave frame",
+      "content": "The microwave frame will have a detailed edge with the material type match the door edgeprofile.",
+      "uid": "1bf157e1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2017,
+      "title": "Cutout",
+      "content": "The standard cutout is 15\" H x 24\" W",
+      "uid": "1bf157e2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2018,
+      "title": "Blind wall",
+      "content": "Single door units (all units less than 37\") will be hinged on the blind side. This unit is designed to be installed 2\" off the wall on the blind side. ",
+      "uid": "1bf157e3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2019,
+      "title": "Cabinet bottom",
+      "content": "The bottom of an open cabinet will match the bottoms of the balance of cabinets in the room",
+      "uid": "1bf157e4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2020,
+      "title": "Micro frame",
+      "content": "Supply the microwave cutout sizes. The maximum cutout height is 17 5/8\". The microwave frame will have a profile and the material type matching the door. ",
+      "uid": "1bf157e5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2021,
+      "title": "Extended doors",
+      "content": "Doors for the wall cabinets extend 1/2\" below the bottom set shelf to allow for a handle-free opening. Wall cabinet codes are based on the box height and do not include the additional 1/2\" door overhang.",
+      "uid": "1bf157e6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2022,
+      "title": "L channel",
+      "content": "Actual height is 2 1/4\" (not 2\" as per the nomenclature). You may need to modify the door height of the cabinet onto which you stack this item so the door will overhang onto the L channel for handle-free opening.",
+      "uid": "1bf157e7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2023,
+      "title": "C channel",
+      "content": "Actual height is 2 7/8\" (not 3\" as per the nomenclature). You may need to modify the door height of the cabinet onto which you stack this item so the door will overhang onto the C channel for handle-free opening.",
+      "uid": "1bf157e8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2024,
+      "title": "Wardrobe",
+      "content": "Interior and exterior material and color MUST match.",
+      "uid": "1bf157e9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2025,
+      "title": "Setshelf",
+      "content": "The top set shelf  is constructed of solid 5/8” plywood for strength and stability.",
+      "uid": "1bf157ea-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3000,
+      "title": "Lazy Susan",
+      "content": "Adding a Lazy Susan does not automatically remove the adjustable shelf(s).",
+      "uid": "1bf157eb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3001,
+      "title": "Lazy Susan",
+      "content": "When a full round lazy susan is ordered for this cabinet, the 24\" depth increases to 28\" and the 11\" side width increases to 16 11/16\".",
+      "uid": "1bf157ec-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3002,
+      "title": "TO1FM",
+      "content": "The appliance(s) are meant for flush installation and have a door/face thickness that matches the cabinet doors (7/8\" thick).",
+      "uid": "1bf157ed-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3003,
+      "title": "TO2FM",
+      "content": "When one or multiple appliances have a door/face thickness that is greater than the cabinet doors. The cabinet is split into sections with varying depths to make the appliance face sit flush with the cabinet doors.",
+      "uid": "1bf157ee-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3004,
+      "title": "TO3FM",
+      "content": "When the cabinet being ordered is wider than the appliance spec recommends. A frame or overlay filler with finished inside edges is placed on top of a backer panel to give the illusion of a flush installation.",
+      "uid": "1bf157ef-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3005,
+      "title": "Gables",
+      "content": "Seams are visible on gables.",
+      "uid": "1bf157f0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3006,
+      "title": "Finished ends",
+      "content": "Seamless finished ends are possible.",
+      "uid": "1bf157f1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3007,
+      "title": "Available Materials",
+      "content": "All Wood Species and Painted applications.",
+      "uid": "1bf157f2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3008,
+      "title": "Finishing",
+      "content": "Top face, bottom face, front edge and both side edges are finished.",
+      "uid": "1bf157f3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3009,
+      "title": "Size",
+      "content": "W x D",
+      "uid": "1bf17eb0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3010,
+      "title": "Brackets",
+      "content": "Bracket hardware supplied will be 1 for every 16\" of shelf. See chart.",
+      "uid": "1bf17eb1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3011,
+      "title": "Construction",
+      "content": "Minimum shelf depth is 8\" and maximum shelf depth is 15 3/4\", 1 1/2\" thick composite core with a taped edge.",
+      "uid": "1bf17eb2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3012,
+      "title": "Options",
+      "content": "N/A",
+      "uid": "1bf17eb3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3013,
+      "title": "Restrictions",
+      "content": "Maximum load restriction is 7 kg (15 lbs) per bracket, not including the shelf. Maximum 94\" inch wide.",
+      "uid": "1bf17eb4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3014,
+      "title": "Finishing",
+      "content": "Shelf has a solid wood edge on the front and both sides, Top and bottom faces are finished.",
+      "uid": "1bf17eb5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3015,
+      "title": "Construction",
+      "content": "Minimum shelf depth is 8\" and maximum shelf depth is 15 3/4\". 2 1/4\" thick composite core with a taped edge.",
+      "uid": "1bf17eb6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3016,
+      "title": "Available Materials",
+      "content": "Available in Wood Veneer and Painted doors.",
+      "uid": "1bf17eb7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3017,
+      "title": "Finishing",
+      "content": "Finished both faces and 3 taped edges",
+      "uid": "1bf17eb8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3018,
+      "title": "Construction",
+      "content": "Nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH) or a tall vertical panel (DEPV). The dimensions for the stiles and rails will match the specifications of the selected door",
+      "uid": "1bf17eb9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3019,
+      "title": "Construction",
+      "content": "Nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH-EBR) or a tall vertical panel (DEPV-EBR)._Total height includes the extended bottom rail.",
+      "uid": "1bf17eba-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3020,
+      "title": "Construction",
+      "content": "Nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH-MK) or a tall vertical panel (DEPV-MK). Total height includes the mock kick.",
+      "uid": "1bf17ebb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3021,
+      "title": "Material",
+      "content": "The ABP material is ordered as either 1/8\" or 1/4\" thick unfinished material",
+      "uid": "1bf17ebc-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3022,
+      "title": "Finish",
+      "content": "Material is unfinished MDF",
+      "uid": "1bf17ebd-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3023,
+      "title": "Grain",
+      "content": "(if applicable) will run vertically, or in the direction of the selected exterior material if there is a choice of VG or HG.",
+      "uid": "1bf17ebe-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3024,
+      "title": "Material",
+      "content": "The Panel material is 7/32\" thick and is available in for all wood veneers and MDF for all painted applications.",
+      "uid": "1bf17ebf-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3025,
+      "title": "Maximum panel sizes",
+      "type": "table",
+      "astrixs": ["** Available as a special order"],
+      "table": {
+        "headers": [
+          { "title": "Material", "key": "title" },
+          { "title": "Width VG Maximum", "key": "wvgm" },
+          { "title": "Height VG Maximum", "key": "hvgm" },
+          { "title": "Width HG Maximum", "key": "whgm" },
+          { "title": "Height HG Maximum", "key": "hhgm" }
+        ],
+        "rows": [
+          {
+            "title": "Wood Veneer",
+            "wvgm": "48\"",
+            "hvgm": "120\"",
+            "whgm": "120\"",
+            "hhgm": "48\""
+          },
+          {
+            "title": "Engineered Veneer",
+            "wvgm": "48\"",
+            "hvgm": "96\" (120\"**)",
+            "whgm": "96\" (120\"**)",
+            "hhgm": "48\""
+          }
+        ]
+      },
+      "uid": "1bf17ec0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3026,
+      "title": "Finish",
+      "content": "Only the front face of the panel is finished.",
+      "uid": "1bf17ec1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3027,
+      "title": "Material",
+      "content": "Matches interior of cabinet.",
+      "uid": "1bf17ec2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3028,
+      "title": "Drilling",
+      "content": "Attached to door with DFS system.",
+      "uid": "1bf17ec3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3029,
+      "title": "Attached",
+      "content": "For attaching hardware to door.",
+      "uid": "1bf17ec4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3030,
+      "title": "Available Materials",
+      "content": "Available in Wood and Painted.",
+      "uid": "1bf17ec5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3031,
+      "title": "Finishing",
+      "content": "A 3/4\" panel with finished both faces and 3 taped edges (only for the regular version).",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for examples",
+        "button": "examples",
+        "title": "Examples of finishing edges",
+        "images": [
+          {
+            "title": "Vertical Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-L.png"
+          },
+          {
+            "title": "Vertical Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-S.png"
+          },
+          {
+            "title": "Horizontal Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-L.png"
+          },
+          {
+            "title": "Horizontal Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-S.png"
+          }
+        ]
+      },
+      "uid": "1bf17ec6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3032,
+      "title": "Construction",
+      "content": "3/4\" thick MDF. Raw material is A1 (see Materials and Finishes section of the catalog for more information)",
+      "uid": "1bf17ec7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3033,
+      "title": "Finishing",
+      "content": "A 1 1/2\" panel with finished both faces and 3 taped edges (only for the regular version).",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for examples",
+        "button": "examples",
+        "title": "Examples of finishing edges",
+        "images": [
+          {
+            "title": "Vertical Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-L.png"
+          },
+          {
+            "title": "Vertical Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-S.png"
+          },
+          {
+            "title": "Horizontal Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-L.png"
+          },
+          {
+            "title": "Horizontal Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-S.png"
+          }
+        ]
+      },
+      "uid": "1bf17ec8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3034,
+      "title": "Construction",
+      "content": "1 1/2\" thick MDF. Raw material is A1 (see Materials and Finishes section of the catalog for more information).",
+      "uid": "1bf17ec9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3035,
+      "title": "Construction",
+      "content": "1 1/2\" thick Plywood. Raw material is A1 (see Materials and Finishes section of the catalog for more information).",
+      "uid": "1bf17eca-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3036,
+      "title": "Plywood",
+      "content": "The panel is made using two sheets of 3/4\" thick material laminated together to form the 1 1/2\" nominal thickness (+/- 1/16\") and is approximately 30% lighter than the composite core.",
+      "uid": "1bf17ecb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3037,
+      "title": "Construction",
+      "content": "The panel is made out of composite core 3/4\".",
+      "uid": "1bf17ecc-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3038,
+      "title": "Edges",
+      "content": "Panel edges are not finished.",
+      "uid": "1bf17ecd-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3039,
+      "title": "Height",
+      "content": "We recommend that filler heights match adjacent cabinet heights.",
+      "uid": "1bf17ece-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3040,
+      "title": "Finish",
+      "content": "Front face will always be finished.",
+      "uid": "1bf17ecf-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3041,
+      "title": "Construction",
+      "content": "The panel is made out of composite core.",
+      "uid": "1bf17ed0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3042,
+      "title": "Width",
+      "content": "Available in 1/8\" increments from 2\" - 6\" wide.",
+      "uid": "1bf17ed1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3043,
+      "title": "Materials",
+      "content": "Available in All materials.",
+      "uid": "1bf17ed2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3044,
+      "title": "Materials",
+      "content": "Available in Wood, Mesa, Como, Plateau and Painted materials.",
+      "uid": "1bf17ed3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3045,
+      "title": "Construction",
+      "content": "Veneer for wood, MDF for painted applications. High Pressure laminate (HPL) for Mesa, Como and Plateau.",
+      "uid": "1bf17ed4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3046,
+      "title": "Specify",
+      "content": "Cabinet’s End Application, L (left), R (right) or L/R. Choose FE from the the Finish Side Header Drop-Down Menu in WQ.",
+      "uid": "1bf17ed5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3047,
+      "title": "Materials",
+      "content": "Available in all Wood, M White Melamine, M Maple Melamine, Solid and Patterned Melamine, Engineered and Painted materials.",
+      "uid": "1bf17ed6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3048,
+      "title": "Finishing",
+      "content": "Finished on face and gable edges.",
+      "uid": "1bf17ed7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3049,
+      "title": "Finishing",
+      "content": "The bottom of a wall cabinet will match the selection made in the Interior Mtrl header Drop-Down Menu in WQ. However, if a cabinet is in a default room (DFZ for example), the bottom of the wall cabinet will match the main room.",
+      "uid": "1bf17ed8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3050,
+      "title": "Materials",
+      "content": "Available in all Wood, Engineered and Painted.",
+      "uid": "1bf17ed9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3051,
+      "title": "Construction",
+      "content": "The PBU is MDF core available in wood veneer and painted materials.",
+      "uid": "1bf17eda-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3052,
+      "title": "Slides and width",
+      "type": "list",
+      "list": [
+        "Racks in cabinets 6\" - 8\" wide will have 1 pair of slides.",
+        "Racks in cabinets 9\" - 18\" wide will have 2 pairs of slides."
+      ],
+      "uid": "1bf17edb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3053,
+      "title": "Construction depths",
+      "content": "Available for cabinets with a minimum depth of 12\" and a maximum depth of 24\".",
+      "uid": "1bf17edc-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3054,
+      "title": "Construction and finish",
+      "content": "Prefinished birch plywood construction.",
+      "uid": "1bf17edd-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3055,
+      "title": "Slides",
+      "content": "Blum full extension slides.",
+      "uid": "1bf17ede-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3056,
+      "title": "Number of Adjustable Shelves",
+      "type": "table",
+      "table": {
+        "headers": [
+          { "title": "Height", "key": "title" },
+          { "title": "# of shelves", "key": "col2" }
+        ],
+        "rows": [
+          { "title": "24\" - 27\"", "col2": "0" },
+          { "title": "27\" - 37\"", "col2": "1" },
+          { "title": "37\" - 46\"", "col2": "3" }
+        ]
+      },
+      "uid": "1bf17edf-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3057,
+      "title": "Slides and width",
+      "type": "list",
+      "list": [
+        "Cabinets between 18\" - 9 7/8\" wide will have 2 pair of Movento slides.",
+        "Cabinets between 9 7/8\" - 6 7/8\" wide will have 1 pairs of Movento slides.",
+        "Cabinets between 6 7/8\" - 5 7/8\" wide will have 1 pairs of Tandem slides."
+      ],
+      "uid": "1bf17ee0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3058,
+      "title": "Number of Adjustable Shelves",
+      "type": "table",
+      "table": {
+        "headers": [
+          { "title": "Height", "key": "title" },
+          { "title": "# of shelves", "key": "col2" }
+        ],
+        "rows": [
+          { "title": "24\" - 26 7/8\"", "col2": "0" },
+          { "title": "27\" - 30\"", "col2": "1" }
+        ]
+      },
+      "uid": "1bf17ee1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3059,
+      "title": "Hardware",
+      "content": "For TBR : Tall Broom cabinets.",
+      "uid": "1bf17ee2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3060,
+      "title": "Attaches",
+      "content": "Unit is attached to door and pulls out when door is opened.",
+      "uid": "1bf17ee3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3061,
+      "title": "includes",
+      "content": "4 Chrome baskets.",
+      "uid": "1bf17ee4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3062,
+      "title": "includes",
+      "content": "4 Grey Arena non-slip baskets.",
+      "uid": "1bf17ee5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3063,
+      "title": "includes",
+      "content": "4 Maple Arena non-slip baskets.",
+      "uid": "1bf17ee6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3064,
+      "title": "Dimensions",
+      "type": "list",
+      "list": [
+        "Minimum cabinet depth is 21\"",
+        "Minimum opening height is 47 1/4\"",
+        "Maximum opening height is 90 5/8\""
+      ],
+      "uid": "1bf17ee7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3065,
+      "title": "Dimensions",
+      "type": "list",
+      "list": [
+        "Minimum cabinet depth is 21\"",
+        "Minimum cabinet height is 27\""
+      ],
+      "uid": "1bf17ee8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3066,
+      "title": "includes",
+      "content": "3 Chrome baskets.",
+      "uid": "1bf17ee9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3067,
+      "title": "Hardware",
+      "content": "For BFD : Tall Broom cabinets 27 - 36\" high.",
+      "uid": "1bf17eea-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3068,
+      "title": "includes",
+      "content": "3 Maple baskets.",
+      "uid": "1bf17eeb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3069,
+      "title": "Towel rack",
+      "content": "Has a non-slip surface to keep towels in place.",
+      "uid": "1bf17eec-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3070,
+      "title": "Shelf",
+      "content": "Chrome shelf on the bottom for additional storage.",
+      "uid": "1bf17eed-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3071,
+      "title": "Slide",
+      "content": "Uses a Soft-close mechanism.",
+      "uid": "1bf17eee-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3072,
+      "title": "Dimensions",
+      "type": "list",
+      "list": [
+        "Minimum inside dimensions: 23 1/4\" high x 4 7/16\" wide x 19\" deep.",
+        "Minimum cabinet size of 25\" high x 6\" wide x 20\" deep",
+        "Maximum cabinet width is 9\"."
+      ],
+      "uid": "1bf17eef-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3073,
+      "title": "Cookware",
+      "content": "Chrome rack for convenient baking pan storage.",
+      "uid": "1bf17ef0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3074,
+      "title": "Storage shelves",
+      "content": "Includes 2 chrome wire baskets.",
+      "uid": "1bf17ef1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3075,
+      "title": "Storage shelves",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\"",
+        "Number of Trays 2",
+        "Material: Polymer - White",
+        "Available in all standard BC units"
+      ],
+      "uid": "1bf17ef2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3076,
+      "title": "Dimensions",
+      "type": "list",
+      "list": [
+        "Available in 42\" (door width of 18\") or 45\" (door width of 21\").",
+        "Minimum cabinet depth of 21\" is required."
+      ],
+      "uid": "1bf17ef3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3077,
+      "title": "Applicable on the following cabinets",
+      "astrixs": [
+        "* cabinets need to be 30\" high",
+        "** width of doors cannot be changed"
+      ],
+      "type": "table",
+      "table": {
+        "headers": [
+          { "title": "Cabinet style", "key": "title" },
+          { "title": "Doors", "key": "col2" },
+          { "title": "Cabinet width", "key": "col3" },
+          { "title": "Fixed door width", "key": "col4" },
+          { "title": "Ordercode", "key": "ordercode" }
+        ],
+        "rows": [
+          {
+            "title": "Base Door & Drawer Left Blind",
+            "col2": "1 hinged left",
+            "col3": "42\"",
+            "col4": "18\"",
+            "ordercode": "BLB4230"
+          },
+          {
+            "title": "Base Door & Drawer Left Blind",
+            "col2": "1 hinged left",
+            "col3": "45\"",
+            "col4": "21\"",
+            "ordercode": "BLB4530"
+          },
+          {
+            "title": "Base Door & Drawer Right Blind",
+            "col2": "1 hinged right",
+            "col3": "42\"",
+            "col4": "18\"",
+            "ordercode": "BRB4230"
+          },
+          {
+            "title": "Base Door & Drawer Right Blind",
+            "col2": "1 hinged right",
+            "col3": "45\"",
+            "col4": "21\"",
+            "ordercode": "BRB4530"
+          },
+          {
+            "title": "Base Full Door Left Blind",
+            "col2": "1 hinged left",
+            "col3": "42\"",
+            "col4": "18\"",
+            "ordercode": "BFDLB4230"
+          },
+          {
+            "title": "Base Full Door Left Blind",
+            "col2": "1 hinged left",
+            "col3": "45\"",
+            "col4": "21\"",
+            "ordercode": "BFDLB4530"
+          },
+          {
+            "title": "Base Full Door Right Blind",
+            "col2": "1 hinged right",
+            "col3": "42\"",
+            "col4": "18\"",
+            "ordercode": "BFDRB4230"
+          },
+          {
+            "title": "Base Full Door Right Blind",
+            "col2": "1 hinged right",
+            "col3": "45\"",
+            "col4": "21\"",
+            "ordercode": "BFDRB4530"
+          }
+        ]
+      },
+      "uid": "1bf17ef4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3078,
+      "title": "Baskets",
+      "type": "list",
+      "list": [
+        "Each front basket holds up to 14 kg (30 lb.) and each rear basket holds up to 18 kg (40 lb.).",
+        "Trays are height adjustable and made of chrome wire or a non-slip grey or maple arena surface with chrome railing.",
+        "4 trays included (front unit x 2 plus back unit x 2)."
+      ],
+      "uid": "1bf17ef5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3079,
+      "title": "Applicable on",
+      "content": "All BB and BBFD units that are 41\" (minimum door width of 16 7/8\") and wider.",
+      "uid": "1bf17ef6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3080,
+      "title": "Baskets",
+      "type": "list",
+      "list": [
+        "Each front basket holds up to 10 kg (22 lb.) and each rear basket holds up to 8 kg (17 lb.).",
+        "Trays are height adjustable and made of a non-slip grey or maple arena surface with chrome railing.",
+        "4 trays included (front unit x 2 plus back unit x 2)."
+      ],
+      "uid": "1bf17ef7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3081,
+      "title": "Applicable on",
+      "content": "All BBFD units that are 42\" (minimum door width of 17\") and wider.",
+      "uid": "1bf1a5c0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3100,
+      "title": "Specifications",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\".",
+        "Finish: Chrome",
+        "Material: Metal",
+        "Trays included 2",
+        "Ordered as a pair of tray units",
+        "Melamine bottom with a wire rail.",
+        "Attaches to bottom shelf and middle shelf.",
+        "Available in all standard BC units."
+      ],
+      "uid": "1bf1a5c1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3101,
+      "title": "Specifications",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\".",
+        "Finish: Natural maple veneer",
+        "Material: Plywood",
+        "Load Rating: 64 lb",
+        "Trays included 2",
+        "Ordered as a pair of tray units",
+        "Wood bottom with a wood rail.",
+        "Attaches to bottom shelf and middle shelf.",
+        "Available in all standard BC units."
+      ],
+      "uid": "1bf1a5c2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3102,
+      "title": "Specifications",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\".",
+        "Rim Type: Laminated Hardwood",
+        "Finish: Natural maple veneer",
+        "Material: Plywood",
+        "Load Rating: 75 lb",
+        "Number of trays 2",
+        "Available in all standard BC units."
+      ],
+      "uid": "1bf1a5c3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3103,
+      "title": "Maximum panel sizes",
+      "content": "Maximum panel size is based on the exterior material and door style.",
+      "uid": "1bf1a5c4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    }
+  ],
+  "edges": [
+    {
+      "title": "SQ",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/SQ.gif",
+      "description": "Square",
+      "type": "de",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": true,
+        "lighthouse": true,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5c5-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "SC",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/SC.gif",
+      "description": "Step Cove",
+      "type": "de",
+      "size": { "inch": "1/4", "mm": "6.35" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5c6-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "OV",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/OV.gif",
+      "description": "",
+      "type": "de",
+      "size": { "inch": "1/4", "mm": "6.35" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5c7-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "CA",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/CA.gif",
+      "description": "",
+      "type": "de",
+      "size": { "inch": "11/16", "mm": "17.4625" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5c8-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "BV3",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/BV3.gif",
+      "description": "Bevel",
+      "type": "de",
+      "size": { "inch": "1/8", "mm": "3.175" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5c9-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "BV5",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/BV5.gif",
+      "description": "Bevel",
+      "type": "de",
+      "size": { "inch": "3/16", "mm": "4.7625" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": true,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5ca-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "CV6",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/CV6.gif",
+      "description": "Cove",
+      "type": "de",
+      "size": { "inch": "1/4", "mm": "6.35" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": true,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5cb-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "CV11",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/CV11.gif",
+      "description": "Cove",
+      "type": "de",
+      "size": { "inch": "7/16", "mm": "11.1125" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": true,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5cc-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "RD3",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/RD3.gif",
+      "description": "Round",
+      "type": "de",
+      "size": { "inch": "1/8", "mm": "3.175" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5cd-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "RD6",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/RD6.gif",
+      "description": "Round",
+      "type": "de",
+      "size": { "inch": "1/4", "mm": "6.35" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5ce-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "HS",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/HS.gif",
+      "description": "",
+      "type": "de",
+      "size": { "inch": "11/16", "mm": "17.4625" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5cf-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "SH",
+      "image": "https://webquoin.com/catalog/images/Edge-Details/SH.gif",
+      "description": "",
+      "type": "de",
+      "size": { "inch": "7/16", "mm": "11.1125" },
+      "replaces": [],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5d0-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W1",
+      "image": "http://testquoin.com/catalog/images/W1.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5d1-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W2",
+      "image": "http://testquoin.com/catalog/images/W2.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5d2-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W3",
+      "image": "http://testquoin.com/catalog/images/W3.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5d3-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W4",
+      "image": "http://testquoin.com/catalog/images/W4.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5d4-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W5",
+      "image": "http://testquoin.com/catalog/images/W5.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5d5-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W6",
+      "image": "http://testquoin.com/catalog/images/W6.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5d6-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W7",
+      "image": "http://testquoin.com/catalog/images/W7.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5d7-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W8",
+      "image": "http://testquoin.com/catalog/images/W8.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5d8-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W9",
+      "image": "http://testquoin.com/catalog/images/W9.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5d9-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W10",
+      "image": "http://testquoin.com/catalog/images/W10.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5da-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    },
+    {
+      "title": "W11",
+      "image": "http://testquoin.com/catalog/images/W11.gif",
+      "description": "",
+      "type": "we",
+      "size": { "inch": "0", "mm": "0" },
+      "replaces": [],
+      "active": false,
+      "lines": {
+        "custom": false,
+        "cornerstone": false,
+        "lighthouse": false,
+        "modal": false,
+        "modcon": false
+      },
+      "uid": "1bf1a5db-8265-11e9-ac44-b91bbbae2b77",
+      "id": null
+    }
+  ],
+  "iwhd": [
+    {
+      "id": null,
+      "title": "Increments",
+      "content": "1/8\"",
+      "uid": "1bf1a5dc-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Increments",
+      "content": "1\"",
+      "uid": "1bf1a5dd-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Width",
+      "content": "8\"",
+      "uid": "1bf1a5de-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Width",
+      "content": "17\"",
+      "uid": "1bf1a5df-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Width",
+      "content": "20\"",
+      "uid": "1bf1a5e0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Width",
+      "content": "24\"",
+      "uid": "1bf1a5e1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Width",
+      "content": "39\"",
+      "uid": "1bf1a5e2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "3\" - 12\"",
+      "uid": "1bf1a5e3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "6\" - 18\"",
+      "uid": "1bf1a5e4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "7\" - 27\"",
+      "uid": "1bf1a5e5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "21\" - 27\"",
+      "uid": "1bf1a5e6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "24\" or 27\"",
+      "uid": "1bf1a5e7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "21\" - 30\"",
+      "uid": "1bf1a5e8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "21\" - 33\"",
+      "uid": "1bf1a5e9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "24\" - 33\"",
+      "uid": "1bf1a5ea-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "24\" - 39\"",
+      "uid": "1bf1a5eb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "6\" - 36\"",
+      "uid": "1bf1a5ec-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "8\" - 36\"",
+      "uid": "1bf1a5ed-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "9\" - 36\"",
+      "uid": "1bf1a5ee-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "12\" - 36\"",
+      "uid": "1bf1a5ef-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "22\" - 36\"",
+      "uid": "1bf1a5f0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "33\" - 36\"",
+      "uid": "1bf1a5f1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "6\" - 39\"",
+      "uid": "1bf1a5f2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "7\" - 39\"",
+      "uid": "1bf1a5f3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "8\" - 39\"",
+      "uid": "1bf1a5f4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "13\" - 39\"",
+      "uid": "1bf1a5f5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "25\" - 39\"",
+      "uid": "1bf1a5f6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "27\" - 33\"",
+      "uid": "1bf1a5f7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "10\" - 39\"",
+      "uid": "1bf1a5f8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "27\" - 39\"",
+      "uid": "1bf1a5f9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "8\" - 42\"",
+      "uid": "1bf1a5fa-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "9\" - 42\"",
+      "uid": "1bf1a5fb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "12\" - 42\"",
+      "uid": "1bf1a5fc-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "22\" - 42\"",
+      "uid": "1bf1a5fd-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "30\" - 42\"",
+      "uid": "1bf1a5fe-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "33\" - 45\"",
+      "uid": "1bf1a5ff-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "6\" - 48\"",
+      "uid": "1bf1a600-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "8\" - 48\"",
+      "uid": "1bf1a601-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "9\" - 48\"",
+      "uid": "1bf1a602-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "10\" - 48\"",
+      "uid": "1bf1a603-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "13\" - 48\"",
+      "uid": "1bf1a604-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "15\" - 48\"",
+      "uid": "1bf1a605-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "25\" - 48\"",
+      "uid": "1bf1a606-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "24\" - 48\"",
+      "uid": "1bf1a607-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "33\" - 48\"",
+      "uid": "1bf1a608-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "36\" - 48\"",
+      "uid": "1bf1a609-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "39\" - 48\"",
+      "uid": "1bf1a60a-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "30\" - 57\"",
+      "uid": "1bf1a60b-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "33\" - 57\"",
+      "uid": "1bf1a60c-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Widths",
+      "content": "36\" - 60\"",
+      "uid": "1bf1a60d-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Height",
+      "content": "2 1/4\"",
+      "uid": "1bf1a60e-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Height",
+      "content": "2 7/8\"",
+      "uid": "1bf1a60f-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Height",
+      "content": "5\"",
+      "uid": "1bf1ccd0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Height",
+      "content": "15\"",
+      "uid": "1bf1ccd1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Height",
+      "content": "18\"",
+      "uid": "1bf1ccd2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Height",
+      "content": "24\"",
+      "uid": "1bf1ccd3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Height",
+      "content": "26\"",
+      "uid": "1bf1ccd4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Height",
+      "content": "27\"",
+      "uid": "1bf1ccd5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Height",
+      "content": "30\"",
+      "uid": "1bf1ccd6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Height",
+      "content": "47\"",
+      "uid": "1bf1ccd7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "5\" - 6\"",
+      "uid": "1bf1ccd8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "5\" - 17\"",
+      "uid": "1bf1ccd9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "6\" - 18\"",
+      "uid": "1bf1ccda-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "10\" - 18\"",
+      "uid": "1bf1ccdb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "12\" - 18\"",
+      "uid": "1bf1ccdc-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "16\" - 18\"",
+      "uid": "1bf1ccdd-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "12\" - 24\"",
+      "uid": "1bf1ccde-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "18\" - 24\"",
+      "uid": "1bf1ccdf-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "19\" - 24\"",
+      "uid": "1bf1cce0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "12\" - 26\"",
+      "uid": "1bf1cce1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "18\" - 26\"",
+      "uid": "1bf1cce2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "19\" - 26\"",
+      "uid": "1bf1cce3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "24\" - 26\"",
+      "uid": "1bf1cce4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "18\" - 30\"",
+      "uid": "1bf1cce5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "24\" - 30\"",
+      "uid": "1bf1cce6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "25\" - 30\"",
+      "uid": "1bf1cce7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "27\" - 30\"",
+      "uid": "1bf1cce8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "29\" - 30\"",
+      "uid": "1bf1cce9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "30\" - 36\"",
+      "uid": "1bf1ccea-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "31\" - 36\"",
+      "uid": "1bf1cceb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "27\" - 39\"",
+      "uid": "1bf1ccec-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "30\" - 42\"",
+      "uid": "1bf1cced-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "36\" - 42\"",
+      "uid": "1bf1ccee-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "36\" - 48\"",
+      "uid": "1bf1ccef-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "37\" - 48\"",
+      "uid": "1bf1ccf0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "42\" - 48\"",
+      "uid": "1bf1ccf1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "42\" - 54\"",
+      "uid": "1bf1ccf2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "49\" - 56\"",
+      "uid": "1bf1ccf3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "42\" - 60\"",
+      "uid": "1bf1ccf4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "54\" - 60\"",
+      "uid": "1bf1ccf5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "10\" - 60\"",
+      "uid": "1bf1ccf6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "10\" - 66\"",
+      "uid": "1bf1ccf7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "60\" - 66\"",
+      "uid": "1bf1ccf8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "43\" - 68\"",
+      "uid": "1bf1ccf9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "56\" - 68\"",
+      "uid": "1bf1ccfa-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "65\" - 77\"",
+      "uid": "1bf1ccfb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "68\" - 80\"",
+      "uid": "1bf1ccfc-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "80\" - 86\"",
+      "uid": "1bf1ccfd-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "77\" - 89\"",
+      "uid": "1bf1ccfe-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "80\" - 91\"",
+      "uid": "1bf1ccff-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Heights",
+      "content": "86\" - 91\"",
+      "uid": "1bf1cd00-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depth",
+      "content": "11\"",
+      "uid": "1bf1cd01-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depth",
+      "content": "23\"",
+      "uid": "1bf1cd02-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depth",
+      "content": "24\"",
+      "uid": "1bf1cd03-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depths",
+      "content": "7\" - 27\"",
+      "uid": "1bf1cd04-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depths",
+      "content": "4\" - 24\"",
+      "uid": "1bf1cd05-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depths",
+      "content": "12\" - 24\"",
+      "uid": "1bf1cd06-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depths",
+      "content": "8\" - 29\"",
+      "uid": "1bf1cd07-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depths",
+      "content": "4\" - 36\"",
+      "uid": "1bf1cd08-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depths",
+      "content": "6\" - 36\"",
+      "uid": "1bf1cd09-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depths",
+      "content": "12\" - 36\"",
+      "uid": "1bf1cd0a-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depths",
+      "content": "18\" - 36\"",
+      "uid": "1bf1cd0b-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": null,
+      "title": "Depths",
+      "content": "24\" - 36\"",
+      "uid": "1bf1cd0c-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    }
+  ],
+  "options": [
+    {
+      "id": 0,
+      "title": "Horizontal",
+      "type": "list",
+      "list": [
+        "Maximum horizontal panel size 120\" wide x 48\" tall.",
+        "Panels that are up to 35 7/8\" wide will be 1 panel wide x 1 panel high.",
+        "Panels that are from 36\" to 65 7/8\" wide will be 2 panels wide x 1 panel high.",
+        "Panels that are from 66\" to 95 7/8\" wide will be 3 panels wide x 1 panel high."
+      ],
+      "uid": "1bf1cd0d-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 1,
+      "title": "Vertical",
+      "type": "list",
+      "list": [
+        "Maximum vertical panel size 36\" wide x 120\" tall.",
+        "Panels that are up to 47 7/8\" high will be 1 panel high x 1 panel wide.",
+        "Panels that are from 48\" to 95 7/8\" high will be 2 panels high x 1 panel wide."
+      ],
+      "uid": "1bf1cd0e-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Options",
+      "content": "N/A",
+      "uid": "1bf1cd0f-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 3,
+      "title": "Edges",
+      "content": "detailed edge options panels 3/4\".",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Detailed Edge Options",
+        "images": [
+          {
+            "title": "SQ (Square)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SQ-panel.png"
+          },
+          {
+            "title": "BV3 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV3-panel.png"
+          },
+          {
+            "title": "BV5 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV5-panel.png"
+          },
+          {
+            "title": "RD3 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD3-panel.png"
+          },
+          {
+            "title": "RD6 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD6-panel.png"
+          },
+          {
+            "title": "CV6 (Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/CV6-panel.png"
+          },
+          {
+            "title": "SC (Step Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SC-panel.png"
+          }
+        ]
+      },
+      "uid": "1bf1cd10-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Edges",
+      "content": "detailed edge options panels 1 1/2\".",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Detailed Edge Options",
+        "images": [
+          {
+            "title": "SQ (Square)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SQ-panel-112.png"
+          },
+          {
+            "title": "BV3 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV3-panel-112.png"
+          },
+          {
+            "title": "BV5 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV5-panel-112.png"
+          },
+          {
+            "title": "RD3 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD3-panel-112.png"
+          },
+          {
+            "title": "RD6 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD6-panel-112.png"
+          },
+          {
+            "title": "CV6 (Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/CV6-panel-112.png"
+          },
+          {
+            "title": "SC (Step Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SC-panel-112.png"
+          },
+          {
+            "title": "OV",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/OV-panel-112.png"
+          }
+        ]
+      },
+      "uid": "1bf1cd11-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 5,
+      "title": "Wood Edges",
+      "content": "wood edge options panels 1 1/2\".",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Panel Edge Options",
+        "content": "Available in all wood (except Engineered) and painted applications.",
+        "note": "Note: The joint is 7/8\" from the front edge in solid wood applications.",
+        "images": [
+          {
+            "title": "W1",
+            "image": "http://testquoin.com/catalog/images/W1.gif"
+          },
+          {
+            "title": "W2",
+            "image": "http://testquoin.com/catalog/images/W2.gif"
+          },
+          {
+            "title": "W3",
+            "image": "http://testquoin.com/catalog/images/W3.gif"
+          },
+          {
+            "title": "W4",
+            "image": "http://testquoin.com/catalog/images/W4.gif"
+          },
+          {
+            "title": "W5",
+            "image": "http://testquoin.com/catalog/images/W5.gif"
+          },
+          {
+            "title": "W6",
+            "image": "http://testquoin.com/catalog/images/W6.gif"
+          },
+          {
+            "title": "W7",
+            "image": "http://testquoin.com/catalog/images/W7.gif"
+          },
+          {
+            "title": "W8",
+            "image": "http://testquoin.com/catalog/images/W8.gif"
+          },
+          {
+            "title": "W9",
+            "image": "http://testquoin.com/catalog/images/W9.gif"
+          },
+          {
+            "title": "W10",
+            "image": "http://testquoin.com/catalog/images/W10.gif"
+          },
+          {
+            "title": "W11",
+            "image": "http://testquoin.com/catalog/images/W11.gif"
+          }
+        ]
+      },
+      "uid": "1bf1cd12-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 6,
+      "title": "FO - Square",
+      "type": "list",
+      "list": [
+        "3/4\" thick composite core",
+        "The front face, top, bottom, and one long edge will be finished.",
+        "Taped edges"
+      ],
+      "uid": "1bf1cd13-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 7,
+      "title": "FO - Detailed edge",
+      "type": "list",
+      "list": [
+        "7/8\" thick composite core",
+        "A detailed edge will be applied on the top, bottom, and one long edge."
+      ],
+      "uid": "1bf1cd14-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 8,
+      "title": "Edges",
+      "content": "detailed edge options.",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Detailed Edge Options",
+        "images": [
+          {
+            "title": "SQ (Square)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/SQ.gif"
+          },
+          {
+            "title": "BV3 (Bevel)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/BV3.gif"
+          },
+          {
+            "title": "BV5 (Bevel)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/BV5.gif"
+          },
+          {
+            "title": "RD3 (Round)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/RD3.gif"
+          },
+          {
+            "title": "RD6 (Round)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/RD6.gif"
+          },
+          {
+            "title": "CV6 (Cove)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/CV6.gif"
+          },
+          {
+            "title": "CV11 (Cove)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/CV11.gif"
+          },
+          {
+            "title": "CA",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/CA.gif"
+          },
+          {
+            "title": "SC (Step Cove)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/SC.gif"
+          },
+          {
+            "title": "OV",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/OV.gif"
+          },
+          {
+            "title": "HS",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/HS.gif"
+          }
+        ]
+      },
+      "uid": "1bf1cd15-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 9,
+      "title": "GF",
+      "type": "list",
+      "list": [
+        "The front face, inside edge and inside gable face are finished.",
+        "Available in All materials."
+      ],
+      "uid": "1bf1cd16-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 10,
+      "title": "GF-R (with Return)",
+      "type": "list",
+      "list": [
+        "The front face, inside edge, inside gable face and return are finished.",
+        "Available in All materials."
+      ],
+      "uid": "1bf1cd17-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 11,
+      "title": "GF-M (Mitered)",
+      "type": "list",
+      "list": [
+        "The front face, inside edge and inside gable face are finished.",
+        "A mitered construction",
+        "Available only in wood species and painted applications."
+      ],
+      "uid": "1bf1cd18-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 12,
+      "title": "GF-MR (Mitered with Return)",
+      "type": "list",
+      "list": [
+        "The front face, inside edge, inside gable face and return are finished.",
+        "A mitered construction",
+        "Available only in wood species and painted applications."
+      ],
+      "uid": "1bf1cd19-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 13,
+      "title": "On-site",
+      "content": "if required to be applied on-site order a custom FE through the Order Desk.",
+      "uid": "1bf1cd1a-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 14,
+      "title": "On-site",
+      "content": "if required to be applied on-site order a VLAM or PLAM Accessory in WQ.",
+      "itemcodes": ["VLAM", "PLAM"],
+      "uid": "1bf1cd1b-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 15,
+      "title": "Two Sided",
+      "content": "For this panel (p.75b) the front and back are finished plus 3 taped edges.",
+      "itemcodes": ["p.75b"],
+      "uid": "1bf1cd1c-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 16,
+      "title": "One sided",
+      "content": "For this panel (p.75b-1f) the front is finished plus 4 taped edges.",
+      "itemcodes": ["p.75b-1f"],
+      "uid": "1bf1cd1d-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 17,
+      "title": "Two Sided",
+      "content": "For this panel (p.75g) the front and back are finished plus 3 taped edges.",
+      "itemcodes": ["p.75g"],
+      "uid": "1bf1cd1e-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 18,
+      "title": "One sided",
+      "content": "For this panel (p.75g-1f) the front is finished plus 4 taped edges.",
+      "itemcodes": ["p.75g-1f"],
+      "uid": "1bf1cd1f-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 19,
+      "title": "Two Sided",
+      "content": "For this panel (p.75p) the front and back are finished plus 3 taped edges.",
+      "itemcodes": ["p.75p"],
+      "uid": "1bf1f3e0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 20,
+      "title": "One sided",
+      "content": "For this panel (p.75p-1f) the front is finished plus 4 taped edges.",
+      "itemcodes": ["p.75p-1f"],
+      "uid": "1bf1f3e1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 21,
+      "title": "Detailed edge",
+      "content": "For this panel (p.75p-de) the front and back are finished plus  1 detailed edge and 2 taped edges.",
+      "itemcodes": ["p.75p-de"],
+      "uid": "1bf1f3e2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 22,
+      "title": "All sides and edges",
+      "content": "For this panel (p.75p-all) the front and back are finished plus 4 taped edges.",
+      "itemcodes": ["p.75p-all"],
+      "uid": "1bf1f3e3-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 23,
+      "title": "One sided",
+      "content": "For this panel (p1.5p-c-1f) the front is finished plus 4 taped edges.",
+      "itemcodes": ["p1.5p-c-1f"],
+      "uid": "1bf1f3e4-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 24,
+      "title": "Two Sided",
+      "content": "For this panel (p1.5p-c) the front and back are finished plus 3 taped edges.",
+      "itemcodes": ["p1.5p-c"],
+      "uid": "1bf1f3e5-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 25,
+      "title": "Detailed edge",
+      "content": "For this panel (p1.5p-c-de) the front and back are finished plus  1 detailed edge and 2 taped edges.",
+      "itemcodes": ["p1.5p-c-de"],
+      "uid": "1bf1f3e6-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 26,
+      "title": "All sides and edges",
+      "content": "For this panel (p1.5p-c-all) the front and back are finished plus 4 taped edges.",
+      "itemcodes": ["p1.5p-c-all"],
+      "uid": "1bf1f3e7-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 27,
+      "title": "One sided",
+      "content": "For this panel (p1.5p-p-1f) the front is finished plus 4 taped edges.",
+      "itemcodes": ["p1.5p-p-1f"],
+      "uid": "1bf1f3e8-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 28,
+      "title": "Two Sided",
+      "content": "For this panel (p1.5p-p) the front and back are finished plus 3 taped edges.",
+      "itemcodes": ["p1.5p-p"],
+      "uid": "1bf1f3e9-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 29,
+      "title": "Detailed edge",
+      "content": "For this panel (p1.5p-p-de) the front and back are finished plus 1 detailed edge and 2 taped edges.",
+      "itemcodes": ["p1.5p-p-de"],
+      "uid": "1bf1f3ea-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 30,
+      "title": "All sides and edges",
+      "content": "For this panel (p1.5p-p-all) the front and back are finished plus 4 taped edges.",
+      "itemcodes": ["p1.5p-p-all"],
+      "uid": "1bf1f3eb-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 31,
+      "title": "Wood edge",
+      "content": "For this panel (p1.5p-p-we) the front and back are finished plus 1 wood edge and 2 taped edges.",
+      "itemcodes": ["p1.5p-p-we"],
+      "uid": "1bf1f3ec-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    }
+  ],
+  "restrictions": [
+    {
+      "id": 0,
+      "title": "Knotty Woods",
+      "content": "not available in Knotty Woods (knotty material will be replaced with clear Alder), all Melamines, Engineered Veneer, Euro materials, and Gloss.",
+      "uid": "1bf1f3ed-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 1,
+      "title": "Maximum load",
+      "content": "restriction is 7 kg (15 lbs) per bracket, not including the shelf. Maximum 94\" inch wide.",
+      "uid": "1bf1f3ee-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 2,
+      "title": "Maximum panel sizes VG and HG",
+      "type": "table",
+      "codes": ["CC-FJ"],
+      "astrixs": [
+        "5/8\", 1 1/2\" or Plywood cannot be Factory Joined",
+        "* Material can go beyond maximum sizes using a Factory Join - Order code: CC-FJ.",
+        "** 120\" material is only available in 3/4\" thick.",
+        "*** Available as a special order"
+      ],
+      "table": {
+        "headers": [
+          { "title": "Material", "key": "title" },
+          { "title": "Width VG Maximum", "key": "col1" },
+          { "title": "Height VG Maximum", "key": "col2" },
+          { "title": "Width HG Maximum", "key": "col3" },
+          { "title": "Height HG Maximum", "key": "col4" }
+        ],
+        "rows": [
+          {
+            "title": "Wood Veneer *, **",
+            "col1": "48\"",
+            "col2": "120\"",
+            "col3": "120\"",
+            "col4": "48\""
+          },
+          {
+            "title": "Melamine Patterned",
+            "col1": "48\"",
+            "col2": "96\"",
+            "col3": "96\"",
+            "col4": "48\""
+          },
+          {
+            "title": "Textured Melamine",
+            "col1": "48\"",
+            "col2": "96\"",
+            "col3": "96\"",
+            "col4": "48\""
+          },
+          {
+            "title": "Engineered Veneer",
+            "col1": "48\"",
+            "col2": "96\" (120\"***)",
+            "col3": "96\" (120\"***)",
+            "col4": "48\""
+          },
+          {
+            "title": "Euro Textured Melamine",
+            "col1": "84\"",
+            "col2": "104\"",
+            "col3": "104\"",
+            "col4": "84\""
+          }
+        ]
+      },
+      "uid": "1bf1f3ef-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Maximum panel sizes",
+      "type": "table",
+      "codes": ["CC-FJ"],
+      "astrixs": [
+        "5/8\", 1 1/2\" or Plywood cannot be Factory Joined",
+        "* Material can go beyond maximum sizes using a Factory Join - Order code: CC-FJ.",
+        "** 120\" material is only available in 3/4\" thick.",
+        "*** Available as a special order"
+      ],
+      "table": {
+        "headers": [
+          { "title": "Material", "key": "title" },
+          { "title": "Width Maximum", "key": "col1" },
+          { "title": "Height Maximum", "key": "col2" }
+        ],
+        "rows": [
+          { "title": "Wood Veneer *, **", "col1": "48\"", "col2": "120\"" },
+          { "title": "Painted", "col1": "48\"", "col2": "120\"" },
+          { "title": "Melamine Solid Color", "col1": "48\"", "col2": "96\"" },
+          { "title": "Melamine Patterned", "col1": "48\"", "col2": "96\"" },
+          { "title": "Textured Melamine", "col1": "60\"", "col2": "96\"" },
+          {
+            "title": "Engineered Veneer",
+            "col1": "48\"",
+            "col2": "96\" (120\"***)"
+          },
+          { "title": "Euro Textured Melamine", "col1": "84\"", "col2": "104\"" }
+        ]
+      },
+      "uid": "1bf1f3f0-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Maximum depth Return",
+      "content": "the return is limited to a maximum depth of 6\".",
+      "uid": "1bf1f3f1-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    },
+    {
+      "id": 5,
+      "title": "Materials",
+      "content": "Not available in Euro materials, Melamines, Textured Melamines and Gloss.",
+      "uid": "1bf1f3f2-8265-11e9-ac44-b91bbbae2b77",
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "type": "default"
+    }
+  ]
+}

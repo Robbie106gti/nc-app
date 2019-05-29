@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import { createFile } from './create-json';
 import _ from 'lodash';
-import { hasLines, addonsCleanUp } from './item.mjs';
+import { hasLines, addonsCleanUp, notesCleanUp, changeActive } from './item.mjs';
 import { needsReview } from './utils/error.mjs';
 
 const addons = JSON.parse(fs.readFileSync('src/assets/json/addons.json'))[
@@ -35,8 +35,11 @@ const array = [
   { title: 'restrictions', var: restrictions }
 ];
 
+let helpers;
+
 array.forEach(section => {
-  const helpers = {
+  helpers = {
+    ...helpers,
     [section.title]: section.var.map(item => {
       item = hasLines(item);
       switch (section.title) {
@@ -44,7 +47,23 @@ array.forEach(section => {
           item = addonsCleanUp(item);
           break;
         case 'notes':
-
+          item = notesCleanUp(item);
+          item = { ...item, ...changeActive() };
+          break;
+        case 'specifications':
+          item = { ...item, ...changeActive() };
+          break;
+        case 'edges':
+          item = item;
+          break;
+        case 'iwhd':
+          item = { ...item, ...changeActive() };
+          break;
+        case 'options':
+          item = { ...item, ...changeActive() };
+          break;
+        case 'restrictions':
+          item = { ...item, ...changeActive() };
           break;
         default:
           needsReview(section);
@@ -52,7 +71,7 @@ array.forEach(section => {
       return item;
     })
   };
-  // When done with data manipulation, object to be stringified and title of file
-  createFile(helpers, 'helpers');
 }
-)
+);
+// When done with data manipulation, object to be stringified and title of file
+createFile(helpers, 'helpers');
