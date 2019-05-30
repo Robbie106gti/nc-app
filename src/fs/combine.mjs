@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import { createFile } from './create-json';
-import { checkLines, checkVersion, versionToGlobal, globalreduceVersion, needsReview } from './cabinet';
+import { checkLines, checkVersion, versionToGlobal, globalreduceVersion } from './cabinet';
 import _ from 'lodash';
 
 // Cabinet JSON base files
@@ -54,24 +54,25 @@ const cabinets = [
   { title: 'wardrobe-cabinets', var: wrc }
 ];
 
-cabinets.forEach(section => {
-  const newData = {
-    [section.title]: section.var.map(cab => {
-      cab = { ...cab, ...checkLines(cab) };
-      cab['versions'] = cab.attached.map(version =>
-        checkVersion(version, cab.code, codes)
-      );
-      delete cab.attached;
-      cab = versionToGlobal(cab);
-      cab = globalreduceVersion(cab);
-      cab.itemcodes = _.union(cab.csvitems, cab.itemcodes);
-      delete cab.csvitems;
-      return cab;
-    })
-  }
-
-  // When done with data manipulation, object to be stringified and title of file
-  createFile({ [section.title]: newData[section.title] }, section.title);
-});
-
+export function combineCabinets() {
+  cabinets.forEach(section => {
+    const newData = {
+      [section.title]: section.var.map(cab => {
+        cab = { ...cab, ...checkLines(cab) };
+        cab['versions'] = cab.attached.map(version =>
+          checkVersion(version, cab.code, codes)
+        );
+        delete cab.attached;
+        cab = versionToGlobal(cab);
+        cab = globalreduceVersion(cab);
+        cab.itemcodes = _.union(cab.csvitems, cab.itemcodes);
+        delete cab.csvitems;
+        return cab;
+      })
+    }
+  
+    // When done with data manipulation, object to be stringified and title of file
+    createFile({ [section.title]: newData[section.title] }, section.title);
+  });
+}
 // node --experimental-modules src/fs/combine.mjs
