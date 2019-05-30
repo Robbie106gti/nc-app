@@ -2,8 +2,6 @@ import * as fs from 'fs';
 import { createFile } from './create-json';
 import _ from 'lodash';
 import { RootCard } from './cards.mjs';
-import { combineCabinets } from './combine.mjs';
-import { sectionsCabinets } from './cablink.mjs';
 
 const root = [
   'General Information',
@@ -30,5 +28,3 @@ const root = [
 const cards = root.map(r => new RootCard(r, r));
 
 createFile(cards, 'root');
-combineCabinets();
-sectionsCabinets();

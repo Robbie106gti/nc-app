@@ -20,11 +20,11 @@ export class RootCard {
   }
 
   makeLink(title) {
-    return title.toLowerCase().replace(' ', '-');
+    return title.toLowerCase().replace(/ /g, '-');
   }
 
   imageJpgs(image) {
-    return image.toLowerCase().replace(' ', '%20') + '.jpg';
+    return image.toLowerCase().replace(/ /g, '%20') + '.jpg';
   }
 
   test() {
@@ -52,10 +52,10 @@ export class SubCard {
   }
 
   makeLink(title) {
-    return title.toLowerCase().replace(' ', '-');
+    return title.toLowerCase().replace(/ /g, '-');
   }
 
   imageJpgs(image) {
-    return image.toLowerCase().replace(' ', '%20') + '.jpg';
+    return image.toLowerCase().replace(/ /g, '%20') + '.jpg';
   }
 }

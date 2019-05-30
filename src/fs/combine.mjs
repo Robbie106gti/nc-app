@@ -54,7 +54,7 @@ const cabinets = [
   { title: 'wardrobe-cabinets', var: wrc }
 ];
 
-export function combineCabinets() {
+
   cabinets.forEach(section => {
     const newData = {
       [section.title]: section.var.map(cab => {
@@ -74,5 +74,5 @@ export function combineCabinets() {
     // When done with data manipulation, object to be stringified and title of file
     createFile({ [section.title]: newData[section.title] }, section.title);
   });
-}
+  
 // node --experimental-modules src/fs/combine.mjs
