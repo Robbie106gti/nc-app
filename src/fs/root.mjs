@@ -12,6 +12,7 @@ const root = [
   'Floating Vanity Cabinets',
   'Floating Vanity Channel Cabinets',
   'Wall Cabinets',
+  'Wall Channel Cabinets',
   'Tall Cabinet',
   'Tall Channel Cabinets',
   'Wardrobe Cabinets',

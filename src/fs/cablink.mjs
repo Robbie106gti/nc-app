@@ -32,6 +32,10 @@ import { createFile } from './create-json';
       items: []
     },
     {
+      title: 'Wall Channel Cabinets',
+      items: []
+    },
+    {
       title: 'Tall Cabinets',
       items: []
     },
