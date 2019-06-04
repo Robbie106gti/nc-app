@@ -76,3 +76,6 @@ const cabinets = [
   });
   
 // node --experimental-modules src/fs/combine.mjs
+// node --experimental-modules src/fs/cablink.mjs
+// node --experimental-modules src/fs/root.mjs
+// node --experimental-modules src/fs/helpersoptimizer.mjs
