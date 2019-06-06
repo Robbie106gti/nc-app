@@ -1,5 +1,3 @@
-import uuidv1 from 'uuid/v1';
-
 export class RootCard {
   constructor(title, image) {
     this.card = {

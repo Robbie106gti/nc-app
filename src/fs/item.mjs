@@ -1,9 +1,12 @@
 import uuidv1 from 'uuid/v1';
 import _ from 'lodash';
+import { setId } from './utils/setid';
+import { trimit } from './utils/trimit';
+import { commaContent, commaTitle } from './utils/comma';
 
 export function hasLines(item) {
   item.uid = uuidv1();
-  item.id = _.toNumber(item.id);
+  // item.id = setId(item.id);
   const active = item.active === true ? true : false;
   const lines = item.lines
     ? item.lines
@@ -71,21 +74,3 @@ function contentNote(note) {
   note.content = _.endsWith(note.content, '.') ? note.content : note.content + '.';
   return note;
 }
-
-function commaContent(con) {
-  const com = con.indexOf(',');
-  if (com >= 0 && com <= 4) { con.replace(',', ''); }
-  return con;
-}
-
-function commaTitle(con) {
-  const com = con.indexOf(',');
-  if (com >= 0) { con.replace(',', ''); }
-  return trimit(con);
-}
-
-function trimit(str) {
-  if (!str || str === '' || str === null) { console.log(str); return str; }
-  return str.trim();
-}
-

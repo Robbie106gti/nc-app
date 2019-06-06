@@ -75,3 +75,5 @@ array.forEach(section => {
 );
 // When done with data manipulation, object to be stringified and title of file
 createFile(helpers, 'helpers');
+
+// node --experimental-modules src/fs/helpers.mjs

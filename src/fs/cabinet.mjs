@@ -1,5 +1,6 @@
 import uuidv1 from 'uuid/v1';
 import { mergeDedupe } from './utils/arrayUnique';
+import { needsReview } from './utils/error';
 import _ from 'lodash';
 
 export function checkVersion(version, root, codes) {
@@ -65,7 +66,7 @@ function codeCleanUp(code) {
     images,
     notes,
     widths,
-    options,
+    addons,
     csvitems,
     itemcodes
   } = {
@@ -75,7 +76,7 @@ function codeCleanUp(code) {
     images: code.images || [],
     notes: code.notes || [],
     widths: code.widths || [],
-    options: code.options || [],
+    addons: code.addons || [],
     csvitems: code.csvitems || [],
     itemcodes: code.itemcodes || []
   };
@@ -87,7 +88,7 @@ function codeCleanUp(code) {
     images,
     notes,
     widths,
-    options,
+    addons,
     csvitems,
     itemcodes
   };
@@ -106,7 +107,7 @@ function getCode(codes, root, version) {
     code.images = [];
     code.notes = [];
     code.widths = [];
-    code.options = [];
+    code.addons = [];
     code.csvitems = [];
     code.itemcodes = [];
   }
@@ -116,7 +117,7 @@ function getCode(codes, root, version) {
 export function versionToGlobal(cab) {
   const itemcodes = new Array();
   const description = new Object();
-  let test = { specifications: {}, options: {}, notes: {}, versions: [], iwhd: {}, widths: {} };
+  let test = { specifications: {}, addons: {}, notes: {}, versions: [], iwhd: {}, widths: {} };
   cab.csvitems = new Array();
   cab.versions = cab.versions.map(version => {
     test.versions.push(version.version);
@@ -124,12 +125,14 @@ export function versionToGlobal(cab) {
     const dsc = descriptionCleaner(cab.title, version.description);
     if (dsc !== null) { description[version.version] = dsc; }
     if (version.specifications) { test.specifications[version.version] = version.specifications; }
-    if (version.options) { test.options[version.version] = version.options; }
+    if (version.addons) { test.addons[version.version] = version.addons; }
     if (version.notes) { test.notes[version.version] = version.notes; }
     if (version.iwhd) { test.iwhd[version.version] = version.iwhd; }
     if (version.widths) { test.widths[version.version] = version.widths; }
     version.csvitems.map(csv => cab.csvitems.push(csv.itemcode));
     delete version.csvitems;
+    version.addons = version.options;
+    delete version.options;
     return version;
   });
   cab.itemcodes = mergeDedupe(itemcodes);
@@ -169,8 +172,7 @@ function descriptionTweaker(desc, description, cab) {
       default:
         needsReview({ review, hello: 'switch' });
     }
-  } else { needsReview(desc) }
-  // const dif = desc.length === 2 ? needsReview((_.xor(desc[0].split(), desc[1].split()))) : needsReview(desc);
+  } else { needsReview(desc); }
   needsReview(review);
   return desc;
 }
@@ -182,22 +184,17 @@ function descriptionCleaner(title, desc) {
   return desc;
 }
 
-export function needsReview(obj) {
-  console.log(obj);
-  throw new Error('please stop here and review object');
-}
-
 function globalReduc(test) {
-  const first = test.versions[0]
+  const first = test.versions[0];
   const second = test.versions[1];
-  const k = { qt: test.versions.length, st: 2 }
+  const k = { qt: test.versions.length, st: 2 };
   const spec = _.intersection(test.specifications[first], test.specifications[second]);
-  const opt = _.intersection(test.options[first], test.options[second]);
+  const opt = _.intersection(test.addons[first], test.addons[second]);
   const nt = _.intersection(test.notes[first], test.notes[second]);
   const iw = _.intersection(test.iwhd[first], test.iwhd[second]);
   const wi = _.intersection(test.widths[first], test.widths[second]);
   test.specifications = arrayDepulicates(test.specifications, spec, k.st, k.qt);
-  test.options = arrayDepulicates(test.options, opt, k.st, k.qt);
+  test.addons = arrayDepulicates(test.addons, opt, k.st, k.qt);
   test.notes = arrayDepulicates(test.notes, nt, k.st, k.qt);
   test.iwhd = arrayDepulicates(test.iwhd, iw, k.st, k.qt);
   test.widths = arrayDepulicates(test.widths, wi, k.st, k.qt);
@@ -221,6 +218,6 @@ function cleanUpVersion(ver, cab) {
   ver.specifications = _.without(ver.specifications, ...cab.specifications);
   ver.iwhd = _.without(ver.iwhd, ...cab.iwhd);
   ver.notes = _.without(ver.notes, ...cab.notes);
-  ver.options = _.without(ver.options, ...cab.options);
+  ver.addons = _.without(ver.addons, ...cab.addons);
   return ver;
 }

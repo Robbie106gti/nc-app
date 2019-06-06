@@ -13,7 +13,7 @@ const root = [
   'Floating Vanity Channel Cabinets',
   'Wall Cabinets',
   'Wall Channel Cabinets',
-  'Tall Cabinet',
+  'Tall Cabinets',
   'Tall Channel Cabinets',
   'Wardrobe Cabinets',
   'Accessories',
@@ -29,3 +29,4 @@ const root = [
 const cards = root.map(r => new RootCard(r, r));
 
 createFile(cards, 'root');
+// node --experimental-modules src/fs/root.mjs

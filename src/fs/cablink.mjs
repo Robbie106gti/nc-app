@@ -48,7 +48,7 @@ import { createFile } from './create-json';
       items: []
     }
   ];
-  
+
   const filecabinets = cabinets.map(cab => {
     cab.file = cab.title.toLocaleLowerCase().replace(/ /g, '-');
     const itemsJSON = JSON.parse(
@@ -56,8 +56,7 @@ import { createFile } from './create-json';
     )[cab.file];
     const items = itemsJSON.map(item => {
       const title = item.title.replace(item.code + ' : ', '');
-      const image = item.image;
-      const uid = item.uid;
+      const { image, uid } = item;
       return {
         title,
         image,
@@ -71,3 +70,4 @@ import { createFile } from './create-json';
     return { ...cab, items };
   });
   createFile(filecabinets, 'structure');
+  // node --experimental-modules src/fs/cablink.mjs

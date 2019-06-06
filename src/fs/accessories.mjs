@@ -1,7 +1,6 @@
 import * as fs from 'fs';
 import { createFile } from './create-json';
 import _ from 'lodash';
-import { prependOnceListener } from 'cluster';
 
 const legs = JSON.parse(fs.readFileSync('src/assets/json/legs.json'))[
   'legs'

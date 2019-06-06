@@ -70,12 +70,9 @@ const cabinets = [
         return cab;
       })
     }
-  
+
     // When done with data manipulation, object to be stringified and title of file
     createFile({ [section.title]: newData[section.title] }, section.title);
   });
-  
+
 // node --experimental-modules src/fs/combine.mjs
-// node --experimental-modules src/fs/cablink.mjs
-// node --experimental-modules src/fs/root.mjs
-// node --experimental-modules src/fs/helpersoptimizer.mjs
