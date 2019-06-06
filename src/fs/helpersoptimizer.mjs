@@ -126,7 +126,7 @@ function addMissing(helper, category) {
     if (helpersV2[helper.uid]) {
         return;
     } else {
-        helpersV2[helper.uid] = { ...helper, category};
+        helpersV2[helper.uid] = { ...helper, category, cabinets: []};
     }
 }
 
