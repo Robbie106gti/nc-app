@@ -1,5 +1,6 @@
 import { needsReview } from './utils/error.mjs';
 import uuidv1 from 'uuid/v1';
+import _ from 'lodash';
 
 export class Door {
   constructor(door) {
@@ -9,11 +10,9 @@ export class Door {
     this.door = this.edges(this.door);
     this.door = this.types(this.door);
     this.door = this.images(this.door);
+    this.door = this.standards(this.door);
+    this.door = this.specifications(this.door);
     return this.door;
-  }
-
-  fixDoor(door) {
-      return door;
   }
 
   lines(door) {
@@ -36,16 +35,17 @@ export class Door {
     delete door.Cornerstone;
     delete door.Custom;
     delete door.Lighthouse;
-    lines.tags.push(door.material_menu);
-    lines.tags.push(door.doorstyle_menu);
+    lines.tags.push(door.material_menu.toLowerCase());
+    lines.tags.push(door.doorstyle_menu.toLowerCase());
     return { ...door, ...lines };
   }
 
   edges(door) {
     const edges = {
-      default: door.default_edge === '' ? 'sq' : door.default_edge,
+      default: door.default_edge === '' || door.default_edge === null ? 'sq' : door.default_edge.toLowerCase(),
       options: []
     };
+    delete door.default_edge;
     const arr = [
       'SQ',
       'BV3',
@@ -61,10 +61,13 @@ export class Door {
       'SH'
     ];
     arr.forEach(edge => {
-        if (door[edge]) {
-            door[edge] === '1' ? edges.options.push(edge.toLowerCase()) : '';
-            delete door[edge];
-        }
+      if (door[edge]) {
+        door[edge] === '1' ? edges.options.push(edge.toLowerCase()) : '';
+        delete door[edge];
+      }
+      if (door[edge] === null) {
+        delete door[edge];
+      }
     });
     return { ...door, edges };
   }
@@ -78,7 +81,7 @@ export class Door {
       material: door.material_menu,
       doorstyle: door.doorstyle_menu,
       menu: door.css_menu,
-      aka: door.also_know_as,
+      aka: this.otherNames(door),
       level: door.level_menu
     };
     door.title = door.item_name;
@@ -95,8 +98,34 @@ export class Door {
     delete door.css_menu;
     delete door.also_known_as;
     delete door.level_menu;
+    delete door.Custom_ref;
     return { ...door, types };
   }
+  otherNames(door) {
+    const array = new Array();
+    door.also_known_as !== '' ? array.push(door.also_known_as) : '';
+    door.Custom_ref !== null ? array.push(door.Custom_ref) : '';
+    const finarray = new Array();
+    array.forEach(arr => {
+      const words = new Array();
+      arr.toLowerCase();
+      if (arr.includes(',')) {
+        const lw = _.words(arr);
+        lw.forEach(l => words.push(l));
+      }
+      if (arr.includes('(')) {
+        const b = arr.split('(');
+        b.forEach(a => {
+          a = a.replace(')', '');
+          a.trim();
+          words.push(a);
+        });
+      }
+      words.forEach(w => finarray.push(w));
+    });
+    return finarray;
+  }
+
   images(door) {
     const images = {
       mainImage: door.url_image,
@@ -138,5 +167,100 @@ export class Door {
       delete door[image.key];
     });
     return { ...door, images };
+  }
+  standards(door) {
+    const standards = {
+      min_width: door.Min_Width,
+      min_height: door.Min_Height,
+      min_dr_face_st_rail_height: door.Minimum_Drawer_Face_Standard_Rail_Height,
+      min_dr_face_na_rail_height: door.Minimum_Drawer_Face_Narrow_Rail_Height,
+      all_dr_under_5_78_will_be_Slab: door.All_drawers_under_5_7_8_will_be_Slab,
+      min_dr_size: door.Min_drawer_size,
+      min_door_size: door.min_door_size,
+      all_sl: door.All_Slab === '1' ? true : false,
+      sl_under_6: door.Slab_under_6 === '1' ? true : false,
+      sl_under_9_78: door.Slab_under_9_7_8 === '1' ? true : false,
+      all_re: door.All_Recessed === '1' ? true : false,
+      all_re_under_6: door.All_Recessed_under_6 === '1' ? true : false,
+      all_re_under_9_78: door.All_Recessed_under_9_7_8 === '1' ? true : false,
+      all_ra: door.All_Raised === '1' ? true : false,
+      sm_rail_size: door.small_rail_size,
+      rail_size: door.reg_rail_size,
+      sm_rail_limit: door.Small_rail_limit,
+      mullions: door.Mullions === '1' ? true : false,
+      toplights: door.TopLights === '1' ? true : false,
+      glass: door.Glass_inserts === '1' ? true : false,
+      thickness: ''
+    };
+    door.Column_3_4 === '1' ? standards.thickness = '3/4"' : '';
+    door.Column_5_8 === '1' ? standards.thickness = '5/8"' : '';
+    door.Column_13_16 === '1' ? standards.thickness = '13/16"' : '';
+    const array = [
+      'Min_Width',
+      'Min_Height',
+      'Minimum_Drawer_Face_Standard_Rail_Height',
+      'Minimum_Drawer_Face_Narrow_Rail_Height',
+      'All_drawers_under_5_7_8_will_be_Slab',
+      'Min_drawer_size',
+      'min_door_size',
+      'All_Slab',
+      'Slab_under_6',
+      'Slab_under_9_7_8',
+      'All_Recessed',
+      'All_Recessed_under_6',
+      'All_Recessed_under_9_7_8',
+      'All_Raised',
+      'small_rail_size',
+      'reg_rail_size',
+      'Small_rail_limit',
+      'Mullions',
+      'TopLights',
+      'Glass_inserts',
+      'Column_3_4',
+      'Column_5_8',
+      'Column_13_16',
+      'us_sup',
+      'update_dt',
+      'door_name_sup',
+      'sup_code',
+      'leadtime',
+      'gi_door',
+      'gi_const',
+      'gi_opt',
+      'gi_restric',
+      'gi_excep',
+      'gen_comm'
+    ];
+    array.forEach(arr => delete door[arr]);
+    return { ...door, standards };
+  }
+  specifications(door) {
+    const specifications = {
+      finish: door.Finishing,
+      size: door.Size,
+      price: door.Pricing,
+      construction: door.Construction,
+      options: door.Options,
+      restrictions: door.Restrictions,
+    };
+    const notes = {
+      tip: door.Tip_info,
+      hgvg: door.HGM_VGM === '1' ? true : false,
+      note: door.Note_info,
+      double_panels: door.Double_panels,
+    };
+    const array = [
+      'Finishing',
+      'Size',
+      'Pricing',
+      'Construction',
+      'Options',
+      'Restrictions',
+      'Double_panels',
+      'Tip_info',
+      'HGM_VGM',
+      'Note_info'];
+    array.forEach(arr => delete door[arr]);
+    return { ...door, specifications, notes };
   }
 }
