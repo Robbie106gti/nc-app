@@ -2,6 +2,7 @@ import * as fs from 'fs';
 import { createFile } from './create-json';
 import { Material } from './material.mjs';
 import _ from 'lodash';
+import { needsReview } from './utils/error.mjs';
 
 const materials_dump = JSON.parse(
   fs.readFileSync('src/assets/json/materials_dump.json')
@@ -262,5 +263,19 @@ const key_doors = [
   'wr_victoriawr'
 ];
 
-createFile(materials, 'materials');
+const materials = materials_dump.map(mat => new Material(mat, key_doors));
+
+let categories = new Array();
+materials.forEach(mat => categories.push(trimReplace(mat.Material)));
+categories = _.uniq(categories);
+
+function trimReplace(str) {
+  return str.replace(' ...', '').trim().toLowerCase();
+}
+
+const sections = new Array();
+materials.forEach(mat => mat.url_image ? '' : sections.push(mat));
+// needsReview(categories);
+
+createFile(sections, 'sections');
 // node --experimental-modules src/fs/materials.mjs
