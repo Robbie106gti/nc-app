@@ -263,19 +263,74 @@ const key_doors = [
   'wr_victoriawr'
 ];
 
-const materials = materials_dump.map(mat => new Material(mat, key_doors));
+const options = {
+  vghg: ['Engineered', 'Black Walnut', 'PS White Oak', 'RC White Oak', 'Fir'],
+  sub_material: [
+    {key: 'MBASE', value: 'Base', parent: 'Melamine', vghg: false},
+    {key: 'MSOLID', value: 'Solid', parent: 'Melamine', vghg: false},
+    {key: 'MPATTERNED', value: 'Patterned', parent: 'Melamine', vghg: false},
+    {key: 'MTM', value: 'Textured', parent: 'Melamine', vghg: true},
+    {key: 'PLATEAU', value: 'Plateau Ultra Matte', parent: 'Euro Materials', vghg: false},
+    {key: 'MESA_WG', value: 'Mesa WG', parent: 'Euro Materials', vghg: true},
+    {key: 'MESA_SOLID', value: 'Mesa Solid', parent: 'Euro Materials', vghg: false},
+    {key: 'MESA_PATTERNED', value: 'Mesa Patterned', parent: 'Euro Materials', vghg: false},
+    {key: 'MESA_SELECT_WG', value: 'Mesa Select WG', parent: 'Euro Materials', vghg: true},
+    {key: 'COMO', value: 'Como', parent: 'Euro Materials', vghg: true},
+    {key: 'COMO_SELECT', value: 'Como Select', parent: 'Euro Materials', vghg: true},
+    {key: 'SOHO_SOLID_GLOSS', value: 'Soho Solid Gloss', other: 'SOHO_SOLID_GLOSS_1S', parent: 'Euro Materials', vghg: false},
+    {key: 'SOHO_WG_GLOSS', value: 'Soho WG Gloss', parent: 'Euro Materials', vghg: true},
+    {key: 'HABITAT_GLOSS', value: 'Habitate Gloss', parent: 'Gloss', vghg: false},
+    {key: 'FLUX_GLOSS', value: 'Flux Gloss', parent: 'Gloss', vghg: false}
+  ]
+ };
+
+const materials = materials_dump.map(mat => new Material(mat, key_doors, options));
 
 let categories = new Array();
-materials.forEach(mat => categories.push(trimReplace(mat.Material)));
+materials.forEach(mat => categories.push(trimReplace(mat.material)));
 categories = _.uniq(categories);
 
 function trimReplace(str) {
   return str.replace(' ...', '').trim().toLowerCase();
 }
 
+const file = new Object();
+categories.forEach(cat => file[cat.replace(' ', '_')] = { title: _.startCase(cat), uid: cat.replace(' ', '_'), sub: new Array() });
+
 const sections = new Array();
 materials.forEach(mat => mat.url_image ? '' : sections.push(mat));
-// needsReview(categories);
+const array = Object.values(file);
+array.forEach(arr => {
+  file[arr.uid]['sub'] = materials.filter(mat => mat.material.toLowerCase() === arr.title.toLowerCase());
+  file[arr.uid].sub = file[arr.uid].sub.filter(mat => mat.url_image !== null);
+  file[arr.uid]['sub_materials'] = options.sub_material.filter(sub => sub.parent === file[arr.uid].title);
+  const item = materials.filter(mat => trimReplace(mat.item_name.toLowerCase()) === arr.title.toLowerCase())[0];
+  let doors = new Array();
+  if (file[arr.uid].sub.length !== 0) {
+    doors = file[arr.uid].sub[0].doors;
+    file[arr.uid].sub.forEach(i => doors = _.intersection(doors, i.doors));
+    file[arr.uid].sub = file[arr.uid].sub.map(i => {
+      i.doors = _.without(i.doors, ...doors);
+      return i;
+    });
+  }
+  file[arr.uid] = {
+    ...file[arr.uid],
+    description: item.description,
+    active: item.active,
+    lines: item.lines,
+    tags: item.tags,
+    item_name: item.item_name,
+    mat_name: item.mat_name,
+    doors
+  };
+});
 
-createFile(sections, 'sections');
+function hgVGstring(str) {
+  return str.replace(' HG', '').replace(' VG', '');
+}
+
+//needsReview(file);
+
+createFile(file, 'test');
 // node --experimental-modules src/fs/materials.mjs

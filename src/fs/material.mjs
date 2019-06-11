@@ -3,11 +3,14 @@ import uuidv1 from 'uuid/v1';
 import _ from 'lodash';
 
 export class Material {
-  constructor(material, key_doors) {
+  constructor(material, key_doors, options) {
     this.material = material;
     this.material.uid = uuidv1();
     this.material = this.doorCleanUp(material, key_doors);
     this.material = this.lines(this.material);
+    this.material = this.setDescription(this.material);
+    this.material = this.setSubMaterial(this.material, options);
+    this.material = this.setHGnVG(this.material, options);
     return this.material;
   }
   doorCleanUp(material, key_doors) {
@@ -36,10 +39,12 @@ export class Material {
     const delet = [
       'visible',
       'cornerstone',
-      'parent_id',
       'us_sup',
       'mat_name_sup',
       'sup_code',
+      'sup_name',
+      'by_who',
+      'id',
       'leadtime',
       'us_sup',
       'mat_name_sup',
@@ -50,11 +55,57 @@ export class Material {
       'gi_restric',
       'gi_excep',
       'sup_con',
-      'update_dt'
+      'update_dt',
+      'cat_name',
+      'parent_id'
     ];
     delet.forEach(del => delete mat[del]);
     return { ...mat, ...lines };
   }
+  setDescription(mat) {
+    mat['title'] = this.hgVGstring(mat.item_name);
+    const description = mat.Info_material !== null || mat.Info_material !== '' ? mat.Info_material : mat.gi_mat;
+    if (description !== '' || description !== null) {
+      mat.url_image === null ? mat['description'] = description : '';
+    }
+    delete mat.gi_mat;
+    delete mat.Info_material;
+    mat.material = mat.Material;
+    delete mat.Material;
+    return mat;
+  }
+  setSubMaterial(mat, options) {
+    const sub = options.sub_material.filter(m => m.key === mat.mat_name)[0] || null;
+    if (sub === null) { return mat; }
+    mat['sub_material'] = sub.value;
+    mat.hg_vg = sub.vghg;
+    if (mat.hg_vg === true) {
+      mat.tags = [...mat.tags, 'hg', 'vg'];
+      mat['grain'] = this.hgvg(mat.item_name);
+    }
+    return mat;
+  }
+  setHGnVG(mat, options) {
+    if (mat.hg_vg) { return mat; }
+    const title = this.hgVGstring(mat.item_name);
+    mat.title ? '' : mat['title'] = title;
+    options.vghg.includes(title) ? mat.hg_vg = true : mat.hg_vg = false;
+    if (mat.hg_vg === true) {
+      mat.tags = [...mat.tags, 'hg', 'vg'];
+      mat['grain'] = this.hgvg(mat.item_name);
+    }
+    return mat;
+  }
+
+ hgVGstring(str) {
+  return str.replace(' HG', '').replace(' VG', '');
+}
+hgvg(str) {
+  let grain = false;
+  if (str.includes(' HG')) { grain = 'HG'}
+  if (str.includes(' VG')) { grain = 'VG'}
+  return grain;
+}
 }
 
 export class Combinematerial {
@@ -62,17 +113,3 @@ export class Combinematerial {
 
   }
 }
-
-const frosty = {
-  'id': '5',
-  'item_name': 'Frosty White',
-  'cat_name': 'Material',
-  'url_image': 'https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-frosty%20white.jpg',
-  'sup_name': 'Nickels Cabinets',
-  'by_who': 'Nickel',
-  'Material': 'Painted',
-  'mat_name': 'Painted',
-  'Info_material': null,
-  'gi_mat': 'Painted material is typically either a paint grade solid wood (like poplar or soft maple), MDF (CARB II compliant medium density fiberboard) or a combination of both.</p><p>As well some doors are painted on high-density fiberboard (HDF) which is much stronger and harder because it is made out of exploded wood fibers that have been highly compressed.  HDF differs from particle board in that the bonding of the wood fibers requires no additional materials and unlike particle board, it will not split or crack. This combination of materials provides a smooth and consistent finished surface. Nickels applies paint onto 1-piece HDF and 5-piece MDF/wood doors.</p><p>When a 5-piece door is painted, the joints will inevitably telegraph through the painted finish. On some occasions, the joints will open up, thereby developing hairline cracks on the door face. These cracks are considered normal and acceptable, and are therefore not covered as a warranty issue. When Nickels paints onto 1-piece MDF doors, the issue of the joints as described above is eliminated.',
-  'gen_comm': ''
-};
