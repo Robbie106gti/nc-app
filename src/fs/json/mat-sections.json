@@ -3,11 +3,11 @@
     "title": "Painted",
     "uid": "painted",
     "sub": {
-      "39ba2e71-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7a880-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Antique White",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e71-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7a880-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-antique%20white.jpg",
         "active": true,
@@ -23,11 +23,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e72-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7a881-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Cloud White",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e72-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7a881-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-cloud%20white.jpg",
         "active": true,
@@ -43,11 +43,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e73-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7a882-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Designer White",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e73-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7a882-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-designer%20white.jpg",
         "active": true,
@@ -63,11 +63,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e74-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7a883-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Frosty White",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e74-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7a883-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_eastcoast",
           "pr_eastcoastwr",
@@ -110,11 +110,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e75-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7a884-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Ultra White",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e75-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7a884-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-ultra%20white.jpg",
         "active": true,
@@ -130,11 +130,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e76-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7a885-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Cream",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e76-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7a885-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-cream.jpg",
         "active": true,
@@ -150,11 +150,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e77-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7a886-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Sand",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e77-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7a886-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-sand.jpg",
         "active": true,
@@ -170,11 +170,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e78-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7a887-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Pewter",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e78-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7a887-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-pewter.jpg",
         "active": true,
@@ -190,11 +190,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e79-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7a888-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Charcoal",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e79-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7a888-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-charcoal.jpg",
         "active": true,
@@ -210,11 +210,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e7a-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7a889-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Shale",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e7a-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7a889-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-shale.jpg",
         "active": true,
@@ -230,11 +230,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e7b-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7cf90-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Flint",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e7b-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7cf90-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-flint.jpg",
         "active": true,
@@ -250,11 +250,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e7c-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7cf91-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Hale Navy",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e7c-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7cf91-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_eastcoast",
           "pr_eastcoastwr",
@@ -299,11 +299,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39ba2e7d-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7cf92-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Black",
         "mat_name": "Painted",
         "gen_comm": "",
-        "uid": "39ba2e7d-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7cf92-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["pr_eastcoast", "pr_eastcoastwr", "ps_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-black.jpg",
         "active": true,
@@ -319,11 +319,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39bca013-8d4a-11e9-bc37-616a3999720c": {
+      "1ddb03e9-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Chantilly Lace",
         "mat_name": "Painted",
         "gen_comm": null,
-        "uid": "39bca013-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddb03e9-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_form57",
           "pr_form75",
@@ -365,11 +365,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39bca014-8d4a-11e9-bc37-616a3999720c": {
+      "1ddb03ea-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Chelsea Grey",
         "mat_name": "Painted",
         "gen_comm": null,
-        "uid": "39bca014-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddb03ea-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_form57",
           "pr_form75",
@@ -411,11 +411,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39bca015-8d4a-11e9-bc37-616a3999720c": {
+      "1ddb03eb-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Distance",
         "mat_name": "Painted",
         "gen_comm": null,
-        "uid": "39bca015-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddb03eb-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_form57",
           "pr_form75",
@@ -457,11 +457,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39bca016-8d4a-11e9-bc37-616a3999720c": {
+      "1ddb03ec-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Grey Owl",
         "mat_name": "Painted",
         "gen_comm": null,
-        "uid": "39bca016-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddb03ec-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_form57",
           "pr_form75",
@@ -503,11 +503,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39bca017-8d4a-11e9-bc37-616a3999720c": {
+      "1ddb03ed-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Kendall Charcoal",
         "mat_name": "Painted",
         "gen_comm": null,
-        "uid": "39bca017-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddb03ed-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_form57",
           "pr_form75",
@@ -549,11 +549,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39bca018-8d4a-11e9-bc37-616a3999720c": {
+      "1ddb03ee-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Off the Grid",
         "mat_name": "Painted",
         "gen_comm": null,
-        "uid": "39bca018-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddb03ee-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_form57",
           "pr_form75",
@@ -595,11 +595,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39bca019-8d4a-11e9-bc37-616a3999720c": {
+      "1ddb03ef-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Quiet Time",
         "mat_name": "Painted",
         "gen_comm": null,
-        "uid": "39bca019-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddb03ef-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_form57",
           "pr_form75",
@@ -641,11 +641,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39bca01a-8d4a-11e9-bc37-616a3999720c": {
+      "1ddb03f0-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Simple White",
         "mat_name": "Painted",
         "gen_comm": null,
-        "uid": "39bca01a-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddb03f0-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_form57",
           "pr_form75",
@@ -687,11 +687,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39bca01b-8d4a-11e9-bc37-616a3999720c": {
+      "1ddb2af0-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Shore White",
         "mat_name": "Painted",
         "gen_comm": null,
-        "uid": "39bca01b-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddb2af0-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_form57",
           "pr_form75",
@@ -733,11 +733,11 @@
         "material": "Painted",
         "hg_vg": false
       },
-      "39bca01c-8d4a-11e9-bc37-616a3999720c": {
+      "1ddb2af1-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "White Dove",
         "mat_name": "Painted",
         "gen_comm": null,
-        "uid": "39bca01c-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddb2af1-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "pr_form57",
           "pr_form75",
@@ -879,11 +879,11 @@
     "title": "Wood",
     "uid": "wood",
     "sub": {
-      "39ba2e7f-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7cf94-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Alder",
         "mat_name": "WOOD",
         "gen_comm": "",
-        "uid": "39ba2e7f-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7cf94-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "ws_alphavgm",
           "ws_breton",
@@ -964,11 +964,11 @@
         "material": "WOOD",
         "hg_vg": false
       },
-      "39ba2e80-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7cf95-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Black Walnut",
         "mat_name": "WOOD",
         "gen_comm": "",
-        "uid": "39ba2e80-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7cf95-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "ws_alphavgm",
           "ws_sierravgm",
@@ -1026,11 +1026,11 @@
         "hg_vg": true,
         "grain": false
       },
-      "39ba2e81-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7cf96-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Cherry",
         "mat_name": "WOOD",
         "gen_comm": "",
-        "uid": "39ba2e81-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7cf96-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "ws_alphavgm",
           "ws_breton",
@@ -1087,11 +1087,11 @@
         "material": "WOOD",
         "hg_vg": false
       },
-      "39ba2e84-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7cf99-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Maple",
         "mat_name": "WOOD",
         "gen_comm": "",
-        "uid": "39ba2e84-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7cf99-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "ws_alphavgm",
           "ws_breton",
@@ -1172,9 +1172,9 @@
         "material": "WOOD",
         "hg_vg": false
       },
-      "39ba2e82-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7cf97-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Fir",
-        "uid": "39ba2e82-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7cf97-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "WOOD",
         "active": true,
         "lines": {
@@ -1261,9 +1261,9 @@
           "wa_sonora"
         ]
       },
-      "39ba2e85-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7cf9a-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "PS White Oak",
-        "uid": "39ba2e85-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7cf9a-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "WOOD",
         "active": true,
         "lines": {
@@ -1354,9 +1354,9 @@
           "wa_sonora"
         ]
       },
-      "39ba2e87-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7cf9c-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "QS White Oak",
-        "uid": "39ba2e87-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7cf9c-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "WOOD",
         "active": true,
         "lines": {
@@ -1443,9 +1443,9 @@
           "wa_sonora"
         ]
       },
-      "39ba2e89-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7f6a1-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "RC White Oak",
-        "uid": "39ba2e89-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7f6a1-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "WOOD",
         "active": true,
         "lines": {
@@ -1571,9 +1571,9 @@
     "title": "Engineered",
     "uid": "engineered",
     "sub": {
-      "39ba2e8d-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7f6a5-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW QC Cherry",
-        "uid": "39ba2e8d-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7f6a5-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -1619,9 +1619,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-QC-Cherry.jpg",
         "doors": ["es_alphahgm", "es_sierrahgm", "es_alphavgm", "es_sierravgm"]
       },
-      "39ba2e8e-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7f6a6-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW Fir",
-        "uid": "39ba2e8e-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7f6a6-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -1667,9 +1667,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-Fir.jpg",
         "doors": ["es_alphahgm", "es_sierrahgm", "es_alphavgm", "es_sierravgm"]
       },
-      "39ba2e8f-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7f6a7-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW GM Ebony",
-        "uid": "39ba2e8f-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7f6a7-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -1715,9 +1715,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-GM-Ebony.jpg",
         "doors": ["es_alphahgm", "es_sierrahgm", "es_alphavgm", "es_sierravgm"]
       },
-      "39ba2e90-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7f6a8-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW QC Maple",
-        "uid": "39ba2e90-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7f6a8-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -1763,9 +1763,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-QC-Maple.jpg",
         "doors": ["es_alphahgm", "es_sierrahgm", "es_alphavgm", "es_sierravgm"]
       },
-      "39ba2e91-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7f6a9-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW PS Rosewood",
-        "uid": "39ba2e91-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7f6a9-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -1811,9 +1811,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-PS-Rosewood.png",
         "doors": ["es_alphahgm", "es_sierrahgm", "es_alphavgm", "es_sierravgm"]
       },
-      "39ba2e92-8d4a-11e9-bc37-616a3999720c": {
+      "1dd7f6aa-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW Sandstone",
-        "uid": "39ba2e92-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd7f6aa-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -1859,9 +1859,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-Sandstone.jpg",
         "doors": ["es_alphahgm", "es_sierrahgm", "es_alphavgm", "es_sierravgm"]
       },
-      "39ba2e93-8d4a-11e9-bc37-616a3999720c": {
+      "1dd81db0-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW Slate",
-        "uid": "39ba2e93-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd81db0-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -1907,9 +1907,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-Slate.jpg",
         "doors": ["es_alphahgm", "es_sierrahgm", "es_alphavgm", "es_sierravgm"]
       },
-      "39ba2e94-8d4a-11e9-bc37-616a3999720c": {
+      "1dd81db1-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW PS Walnut",
-        "uid": "39ba2e94-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd81db1-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -1955,9 +1955,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-PS-Walnut.png",
         "doors": ["es_alphahgm", "es_sierrahgm", "es_alphavgm", "es_sierravgm"]
       },
-      "39ba2e95-8d4a-11e9-bc37-616a3999720c": {
+      "1dd81db2-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW QC Walnut",
-        "uid": "39ba2e95-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd81db2-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -2003,9 +2003,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-QC-Walnut.jpg",
         "doors": ["es_alphahgm", "es_sierrahgm", "es_alphavgm", "es_sierravgm"]
       },
-      "39ba2e96-8d4a-11e9-bc37-616a3999720c": {
+      "1dd81db3-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW QC Wenge",
-        "uid": "39ba2e96-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd81db3-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -2051,9 +2051,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-QC-Wenge.jpg",
         "doors": ["es_alphahgm", "es_sierrahgm", "es_alphavgm", "es_sierravgm"]
       },
-      "39ba2e97-8d4a-11e9-bc37-616a3999720c": {
+      "1dd81db4-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "EW RC White Oak",
-        "uid": "39ba2e97-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd81db4-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "ENGINEERED",
         "active": true,
         "lines": {
@@ -2119,11 +2119,11 @@
     "title": "Melamine",
     "uid": "melamine",
     "sub": {
-      "39ba2ea5-8d4a-11e9-bc37-616a3999720c": {
+      "1dd86bd0-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M White",
         "mat_name": "MBASE",
         "gen_comm": "",
-        "uid": "39ba2ea5-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd86bd0-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["msb_alphavgm", "msb_element", "msb_lineal"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-White.jpg",
         "active": true,
@@ -2140,11 +2140,11 @@
         "sub_material": "Base",
         "hg_vg": false
       },
-      "39ba2ea6-8d4a-11e9-bc37-616a3999720c": {
+      "1dd86bd1-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Maple",
         "mat_name": "MBASE",
         "gen_comm": "",
-        "uid": "39ba2ea6-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd86bd1-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["msb_alphavgm", "msb_element", "msb_lineal"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Maple.jpg",
         "active": true,
@@ -2161,11 +2161,11 @@
         "sub_material": "Base",
         "hg_vg": false
       },
-      "39ba2ea8-8d4a-11e9-bc37-616a3999720c": {
+      "1dd86bd3-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Antique White",
         "mat_name": "MSOLID",
         "gen_comm": "",
-        "uid": "39ba2ea8-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd86bd3-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["mss_alphavgm", "mss_element", "mss_lineal"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Antique-White.jpg",
         "active": true,
@@ -2182,11 +2182,11 @@
         "sub_material": "Solid",
         "hg_vg": false
       },
-      "39ba2ea9-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892e0-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Black",
         "mat_name": "MSOLID",
         "gen_comm": "",
-        "uid": "39ba2ea9-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892e0-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["mss_alphavgm", "mss_element", "mss_lineal"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Black.jpg",
         "active": true,
@@ -2203,11 +2203,11 @@
         "sub_material": "Solid",
         "hg_vg": false
       },
-      "39ba2eaa-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892e1-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Fog Grey",
         "mat_name": "MSOLID",
         "gen_comm": "",
-        "uid": "39ba2eaa-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892e1-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["mss_alphavgm", "mss_element", "mss_lineal"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Fog-Grey.jpg",
         "active": true,
@@ -2224,11 +2224,11 @@
         "sub_material": "Solid",
         "hg_vg": false
       },
-      "39ba2eab-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892e2-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Folkstone Grey",
         "mat_name": "MSOLID",
         "gen_comm": "",
-        "uid": "39ba2eab-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892e2-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["mss_alphavgm", "mss_element", "mss_lineal"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Folkstone-Grey.jpg",
         "active": true,
@@ -2245,11 +2245,11 @@
         "sub_material": "Solid",
         "hg_vg": false
       },
-      "39ba2eac-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892e3-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Slate",
         "mat_name": "MSOLID",
         "gen_comm": "",
-        "uid": "39ba2eac-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892e3-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["mss_alphavgm", "mss_element", "mss_lineal"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Slate.jpg",
         "active": true,
@@ -2266,11 +2266,11 @@
         "sub_material": "Solid",
         "hg_vg": false
       },
-      "39ba2eae-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892e5-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Bloom Cherry",
         "mat_name": "MPATTERNED",
         "gen_comm": "",
-        "uid": "39ba2eae-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892e5-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["msp_alphavgm", "msp_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Bloom-Cherry.jpg",
         "active": true,
@@ -2287,11 +2287,11 @@
         "sub_material": "Patterned",
         "hg_vg": false
       },
-      "39ba2eaf-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892e6-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Chocolate Pear",
         "mat_name": "MPATTERNED",
         "gen_comm": "",
-        "uid": "39ba2eaf-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892e6-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["msp_alphavgm", "msp_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Chocolate-Pear.jpg",
         "active": true,
@@ -2308,11 +2308,11 @@
         "sub_material": "Patterned",
         "hg_vg": false
       },
-      "39ba2eb0-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892e7-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Pearwood",
         "mat_name": "MPATTERNED",
         "gen_comm": "",
-        "uid": "39ba2eb0-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892e7-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["msp_alphavgm"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Pearwood.jpg",
         "active": true,
@@ -2329,11 +2329,11 @@
         "sub_material": "Patterned",
         "hg_vg": false
       },
-      "39ba2eb1-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892e8-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Rustic Cherry",
         "mat_name": "MPATTERNED",
         "gen_comm": "",
-        "uid": "39ba2eb1-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892e8-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["msp_alphavgm", "msp_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Rustic-Cherry.jpg",
         "active": true,
@@ -2350,11 +2350,11 @@
         "sub_material": "Patterned",
         "hg_vg": false
       },
-      "39ba2eb2-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892e9-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Silver Frost",
         "mat_name": "MPATTERNED",
         "gen_comm": "",
-        "uid": "39ba2eb2-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892e9-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["msp_alphavgm", "msp_element", "msp_lineal"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Silver-Frost.jpg",
         "active": true,
@@ -2371,11 +2371,11 @@
         "sub_material": "Patterned",
         "hg_vg": false
       },
-      "39ba2eb3-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892ea-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Summerflame",
         "mat_name": "MPATTERNED",
         "gen_comm": "",
-        "uid": "39ba2eb3-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892ea-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["msp_alphavgm"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Summerflame.jpg",
         "active": true,
@@ -2392,11 +2392,11 @@
         "sub_material": "Patterned",
         "hg_vg": false
       },
-      "39ba2eb4-8d4a-11e9-bc37-616a3999720c": {
+      "1dd892eb-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Nitefall",
         "mat_name": "MPATTERNED",
         "gen_comm": "",
-        "uid": "39ba2eb4-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd892eb-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["msp_alphavgm", "msp_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/M-Nitefall.jpg",
         "active": true,
@@ -2413,11 +2413,11 @@
         "sub_material": "Patterned",
         "hg_vg": false
       },
-      "39bca000-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcd8-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "M Walnut",
         "mat_name": "MPATTERNED",
         "gen_comm": "",
-        "uid": "39bca000-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcd8-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["msp_alphavgm", "msp_element"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/m%20walnut.jpg",
         "active": true,
@@ -2434,9 +2434,9 @@
         "sub_material": "Patterned",
         "hg_vg": false
       },
-      "39ba2eb6-8d4a-11e9-bc37-616a3999720c": {
+      "1dd8e100-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Black Rain",
-        "uid": "39ba2eb6-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd8e100-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2482,9 +2482,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Black-Rain.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2eb7-8d4a-11e9-bc37-616a3999720c": {
+      "1dd8e101-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Cannella",
-        "uid": "39ba2eb7-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd8e101-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2530,9 +2530,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Cannella.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2eb8-8d4a-11e9-bc37-616a3999720c": {
+      "1dd8e102-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Chill",
-        "uid": "39ba2eb8-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd8e102-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2578,9 +2578,9 @@
         "image": "https://webquoin.com/catalog/doorstyler/images/Material/TM/TM-Chill-VG.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2eb9-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90810-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Dahat",
-        "uid": "39ba2eb9-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90810-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2626,9 +2626,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Dahat.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2eba-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90811-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Diva",
-        "uid": "39ba2eba-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90811-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2674,9 +2674,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Diva.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ebb-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90812-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Drift",
-        "uid": "39ba2ebb-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90812-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2722,9 +2722,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Drift.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ebc-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90813-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Ember",
-        "uid": "39ba2ebc-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90813-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2770,9 +2770,9 @@
         "image": "https://webquoin.com/catalog/doorstyler/images/Material/TM/TM-Ember-VG.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ebd-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90814-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Formosa",
-        "uid": "39ba2ebd-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90814-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2818,9 +2818,9 @@
         "image": "https://webquoin.com/catalog/doorstyler/images/Material/TM/TM-Formosa-VG.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ebe-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90815-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Gregio",
-        "uid": "39ba2ebe-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90815-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2866,9 +2866,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Gregio.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ebf-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90816-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Haze",
-        "uid": "39ba2ebf-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90816-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2914,9 +2914,9 @@
         "image": "https://webquoin.com/catalog/doorstyler/images/Material/TM/TM-Haze-VG.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ec0-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90817-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Midnight Echo",
-        "uid": "39ba2ec0-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90817-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -2962,9 +2962,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Midnight-Echo.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ec1-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90818-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Mystic",
-        "uid": "39ba2ec1-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90818-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3010,9 +3010,9 @@
         "image": "https://webquoin.com/catalog/doorstyler/images/Material/TM/TM-Mystic-VG.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ec2-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90819-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Notte",
-        "uid": "39ba2ec2-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90819-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3058,9 +3058,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Notte.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ec3-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9081a-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Ontano",
-        "uid": "39ba2ec3-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9081a-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3106,9 +3106,9 @@
         "image": "https://webquoin.com/catalog/doorstyler/images/Material/TM/TM-Ontano-VG.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ec4-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9081b-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Oxford White",
-        "uid": "39ba2ec4-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9081b-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3154,9 +3154,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Oxford-White.png",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ec5-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9081c-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Pewter Pine",
-        "uid": "39ba2ec5-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9081c-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3202,9 +3202,9 @@
         "image": "https://webquoin.com/catalog/doorstyler/images/Material/TM/TM-Pewter%20Pine-VG.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ec6-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9081d-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Richmond",
-        "uid": "39ba2ec6-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9081d-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3250,9 +3250,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Richmond.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ec7-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9081e-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Silva",
-        "uid": "39ba2ec7-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9081e-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3298,9 +3298,9 @@
         "image": "https://webquoin.com/catalog/doorstyler/images/Material/TM/TM-Silva-VG.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ec8-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9081f-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Skye",
-        "uid": "39ba2ec8-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9081f-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3346,9 +3346,9 @@
         "image": "https://webquoin.com/catalog/doorstyler/images/Material/TM/TM-Skye-VG.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element", "mst_lineal"]
       },
-      "39ba2ec9-8d4a-11e9-bc37-616a3999720c": {
+      "1dd90820-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Takase",
-        "uid": "39ba2ec9-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd90820-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3394,9 +3394,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Takase.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39ba2ecb-8d4a-11e9-bc37-616a3999720c": {
+      "1dd92f20-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Zahara",
-        "uid": "39ba2ecb-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd92f20-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3442,9 +3442,9 @@
         "image": "https://webquoin.com/catalog/doorstyler/images/Material/TM/TM-Zahara-VG.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39bca001-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcd9-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Cannes",
-        "uid": "39bca001-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcd9-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3490,9 +3490,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Cannes.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element", "mst_lineal"]
       },
-      "39bca002-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcda-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Canvas",
-        "uid": "39bca002-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcda-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3538,9 +3538,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Canvas.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39bca003-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcdb-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Cassis",
-        "uid": "39bca003-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcdb-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3586,9 +3586,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Cassis.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element", "mst_lineal"]
       },
-      "39bca004-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcdc-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Dalia",
-        "uid": "39bca004-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcdc-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3634,9 +3634,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Dalia.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39bca005-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcdd-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Driftwood",
-        "uid": "39bca005-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcdd-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3682,9 +3682,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Driftwood.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39bca006-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcde-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Esterel",
-        "uid": "39bca006-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcde-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3730,9 +3730,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Esterel.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element"]
       },
-      "39bca007-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcdf-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Mistral",
-        "uid": "39bca007-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcdf-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3778,9 +3778,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Mistral.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element", "mst_lineal"]
       },
-      "39bca008-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadce0-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Monaco",
-        "uid": "39bca008-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadce0-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3826,9 +3826,9 @@
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Monaco.jpg",
         "doors": ["mst_alphahgm", "mst_alphavgm", "mst_element", "mst_lineal"]
       },
-      "39bca009-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadce1-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "TM Nizza",
-        "uid": "39bca009-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadce1-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MTM",
         "active": true,
         "lines": {
@@ -3919,11 +3919,11 @@
     "title": "Euro Materials",
     "uid": "euro_materials",
     "sub": {
-      "39bc9f82-8d4a-11e9-bc37-616a3999720c": {
+      "1dd95639-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Plateau Premium White",
         "mat_name": "PLATEAU",
         "gen_comm": "",
-        "uid": "39bc9f82-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd95639-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [],
         "image": "https://webquoin.com/catalog/images/Finishes/Stijle/Premium%20White2.jpg",
         "active": true,
@@ -3940,11 +3940,11 @@
         "sub_material": "Plateau Ultra Matte",
         "hg_vg": false
       },
-      "39bc9f83-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9563a-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Plateau Light Grey",
         "mat_name": "PLATEAU",
         "gen_comm": "",
-        "uid": "39bc9f83-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9563a-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_plateau"],
         "image": "https://webquoin.com/catalog/images/Finishes/Stijle/Light%20Grey.jpg",
         "active": true,
@@ -3961,11 +3961,11 @@
         "sub_material": "Plateau Ultra Matte",
         "hg_vg": false
       },
-      "39bc9f84-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9563b-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Plateau Dust Grey",
         "mat_name": "PLATEAU",
         "gen_comm": "",
-        "uid": "39bc9f84-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9563b-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_plateau"],
         "image": "https://webquoin.com/catalog/images/Finishes/Stijle/Dust%20Grey.jpg",
         "active": true,
@@ -3982,11 +3982,11 @@
         "sub_material": "Plateau Ultra Matte",
         "hg_vg": false
       },
-      "39bc9f85-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9563c-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Plateau Stone Grey",
         "mat_name": "PLATEAU",
         "gen_comm": "",
-        "uid": "39bc9f85-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9563c-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_plateau"],
         "image": "https://webquoin.com/catalog/images/Finishes/Stijle/Stone%20Grey2.jpg",
         "active": true,
@@ -4003,11 +4003,11 @@
         "sub_material": "Plateau Ultra Matte",
         "hg_vg": false
       },
-      "39bc9f86-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9563d-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Plateau Crema",
         "mat_name": "PLATEAU",
         "gen_comm": "",
-        "uid": "39bc9f86-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9563d-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_plateau"],
         "image": "https://webquoin.com/catalog/images/Finishes/Stijle/Crema.jpg",
         "active": true,
@@ -4024,11 +4024,11 @@
         "sub_material": "Plateau Ultra Matte",
         "hg_vg": false
       },
-      "39bc9f87-8d4a-11e9-bc37-616a3999720c": {
+      "1dd97d40-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Plateau Cashmere",
         "mat_name": "PLATEAU",
         "gen_comm": "",
-        "uid": "39bc9f87-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd97d40-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_plateau"],
         "image": "https://webquoin.com/catalog/images/Finishes/Stijle/Cashmere.jpg",
         "active": true,
@@ -4045,11 +4045,11 @@
         "sub_material": "Plateau Ultra Matte",
         "hg_vg": false
       },
-      "39bc9f88-8d4a-11e9-bc37-616a3999720c": {
+      "1dd97d41-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Plateau Black",
         "mat_name": "PLATEAU",
         "gen_comm": "",
-        "uid": "39bc9f88-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd97d41-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_plateau"],
         "image": "https://webquoin.com/catalog/images/Finishes/Stijle/Black2_1.jpg",
         "active": true,
@@ -4066,11 +4066,11 @@
         "sub_material": "Plateau Ultra Matte",
         "hg_vg": false
       },
-      "39bc9f94-8d4a-11e9-bc37-616a3999720c": {
+      "1dd97d4d-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Mesa Premium White",
         "mat_name": "MESA_SOLID",
         "gen_comm": "",
-        "uid": "39bc9f94-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd97d4d-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_mesaso", "wr_blackcombvgm"],
         "image": "https://webquoin.com/catalog/images/Finishes/Stijle/Premium%20White2.jpg",
         "active": true,
@@ -4087,11 +4087,11 @@
         "sub_material": "Mesa Solid",
         "hg_vg": false
       },
-      "39bc9f95-8d4a-11e9-bc37-616a3999720c": {
+      "1dd97d4e-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Mesa Taupe Grey",
         "mat_name": "MESA_SOLID",
         "gen_comm": "",
-        "uid": "39bc9f95-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd97d4e-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_mesaso", "wr_blackcombvgm"],
         "image": "https://webquoin.com/catalog/images/materials/Taupe%20Grey.jpg",
         "active": true,
@@ -4108,11 +4108,11 @@
         "sub_material": "Mesa Solid",
         "hg_vg": false
       },
-      "39bc9f96-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a450-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Mesa Stone Grey",
         "mat_name": "MESA_SOLID",
         "gen_comm": "",
-        "uid": "39bc9f96-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a450-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_mesaso"],
         "image": "https://webquoin.com/catalog/images/Finishes/Stijle/Stone%20Grey2.jpg",
         "active": true,
@@ -4129,11 +4129,11 @@
         "sub_material": "Mesa Solid",
         "hg_vg": false
       },
-      "39bc9f97-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a451-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Mesa Brown Grey",
         "mat_name": "MESA_SOLID",
         "gen_comm": "",
-        "uid": "39bc9f97-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a451-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_mesaso"],
         "image": "https://webquoin.com/catalog/images/materials/Brown%20Grey.jpg",
         "active": true,
@@ -4150,11 +4150,11 @@
         "sub_material": "Mesa Solid",
         "hg_vg": false
       },
-      "39bc9f98-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a452-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Mesa Basalt",
         "mat_name": "MESA_SOLID",
         "gen_comm": "",
-        "uid": "39bc9f98-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a452-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_mesaso"],
         "image": "https://webquoin.com/catalog/images/materials/Basalt.jpg",
         "active": true,
@@ -4171,11 +4171,11 @@
         "sub_material": "Mesa Solid",
         "hg_vg": false
       },
-      "39bc9f99-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a453-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Mesa Lava",
         "mat_name": "MESA_SOLID",
         "gen_comm": "",
-        "uid": "39bc9f99-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a453-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_mesaso", "wr_blackcombvgm"],
         "image": "https://webquoin.com/catalog/images/materials/Lava.jpg",
         "active": true,
@@ -4192,11 +4192,11 @@
         "sub_material": "Mesa Solid",
         "hg_vg": false
       },
-      "39bc9f9a-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a454-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Mesa Aubergine",
         "mat_name": "MESA_SOLID",
         "gen_comm": "",
-        "uid": "39bc9f9a-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a454-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_mesaso"],
         "image": "https://webquoin.com/catalog/images/materials/Aubergine.jpg",
         "active": true,
@@ -4213,11 +4213,11 @@
         "sub_material": "Mesa Solid",
         "hg_vg": false
       },
-      "39bc9f9c-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a456-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Mesa Beige Linen",
         "mat_name": "MESA_PATTERNED",
         "gen_comm": "",
-        "uid": "39bc9f9c-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a456-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_mesapa"],
         "image": "https://webquoin.com/catalog/images/materials/MesaPatternedBeigeLinen.jpg",
         "active": true,
@@ -4234,11 +4234,11 @@
         "sub_material": "Mesa Patterned",
         "hg_vg": false
       },
-      "39bc9f9d-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a457-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Mesa Grey Linen",
         "mat_name": "MESA_PATTERNED",
         "gen_comm": "",
-        "uid": "39bc9f9d-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a457-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_mesapa"],
         "image": "https://webquoin.com/catalog/images/materials/MesaPatternedGreyLinen.jpg",
         "active": true,
@@ -4255,11 +4255,11 @@
         "sub_material": "Mesa Patterned",
         "hg_vg": false
       },
-      "39bc9fd3-8d4a-11e9-bc37-616a3999720c": {
+      "1dda4092-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Bright White",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fd3-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda4092-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Bright White2.jpg",
         "active": true,
@@ -4276,11 +4276,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9fd4-8d4a-11e9-bc37-616a3999720c": {
+      "1dda4093-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Warm White",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fd4-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda4093-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Warm%20White%202.jpg",
         "active": true,
@@ -4297,11 +4297,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9fd5-8d4a-11e9-bc37-616a3999720c": {
+      "1dda4094-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Premium White",
         "mat_name": "SOHO_SOLID_GLOSS_1S",
         "gen_comm": "",
-        "uid": "39bc9fd5-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda4094-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s"],
         "image": "https://webquoin.com/catalog/images/materials/Premium%20White2.jpg",
         "active": true,
@@ -4317,11 +4317,11 @@
         "material": "Euro materials",
         "hg_vg": false
       },
-      "39bc9fd6-8d4a-11e9-bc37-616a3999720c": {
+      "1dda4095-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Magnolia",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fd6-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda4095-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Magnolia2.jpg",
         "active": true,
@@ -4338,11 +4338,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9fd7-8d4a-11e9-bc37-616a3999720c": {
+      "1dda4096-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Alabaster",
         "mat_name": "SOHO_SOLID_GLOSS_1S",
         "gen_comm": "",
-        "uid": "39bc9fd7-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda4096-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s"],
         "image": "https://webquoin.com/catalog/images/materials/Alabaster2.jpg",
         "active": true,
@@ -4358,11 +4358,11 @@
         "material": "Euro materials",
         "hg_vg": false
       },
-      "39bc9fd8-8d4a-11e9-bc37-616a3999720c": {
+      "1dda4097-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Quartz",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fd8-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda4097-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Quartz2.jpg",
         "active": true,
@@ -4379,11 +4379,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9fd9-8d4a-11e9-bc37-616a3999720c": {
+      "1dda4098-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Stone Grey",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fd9-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda4098-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Stone%20Grey2.jpg",
         "active": true,
@@ -4400,11 +4400,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9fda-8d4a-11e9-bc37-616a3999720c": {
+      "1dda4099-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Black",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fda-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda4099-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Black2.jpg",
         "active": true,
@@ -4421,11 +4421,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9fdb-8d4a-11e9-bc37-616a3999720c": {
+      "1dda409a-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Umber",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fdb-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda409a-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Umber2.jpg",
         "active": true,
@@ -4442,11 +4442,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9fdc-8d4a-11e9-bc37-616a3999720c": {
+      "1dda409b-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Carbon",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fdc-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda409b-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Carbon.jpg",
         "active": true,
@@ -4463,11 +4463,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9fdd-8d4a-11e9-bc37-616a3999720c": {
+      "1dda8eb0-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Red",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fdd-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda8eb0-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Red2.jpg",
         "active": true,
@@ -4484,11 +4484,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9fde-8d4a-11e9-bc37-616a3999720c": {
+      "1dda8eb1-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Truffle",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fde-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda8eb1-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Truffle2.jpg",
         "active": true,
@@ -4505,11 +4505,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9fdf-8d4a-11e9-bc37-616a3999720c": {
+      "1dda8eb2-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Chili Red",
         "mat_name": "SOHO_SOLID_GLOSS_1S",
         "gen_comm": "",
-        "uid": "39bc9fdf-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda8eb2-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s"],
         "image": "https://webquoin.com/catalog/images/materials/Chili%20red2.jpg",
         "active": true,
@@ -4525,11 +4525,11 @@
         "material": "Euro materials",
         "hg_vg": false
       },
-      "39bc9fe0-8d4a-11e9-bc37-616a3999720c": {
+      "1dda8eb3-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Pearl Grey",
         "mat_name": "SOHO_SOLID_GLOSS_1S",
         "gen_comm": "",
-        "uid": "39bc9fe0-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda8eb3-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s"],
         "image": "https://webquoin.com/catalog/images/materials/Pearl%20Grey2.jpg",
         "active": true,
@@ -4545,11 +4545,11 @@
         "material": "Euro materials",
         "hg_vg": false
       },
-      "39bc9fe1-8d4a-11e9-bc37-616a3999720c": {
+      "1dda8eb4-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Soho Sahara",
         "mat_name": "SOHO_SOLID_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fe1-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda8eb4-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_sohogl1s", "eu_sohogl2s"],
         "image": "https://webquoin.com/catalog/images/materials/Sahara2.jpg",
         "active": true,
@@ -4566,11 +4566,11 @@
         "sub_material": "Soho Solid Gloss",
         "hg_vg": false
       },
-      "39bc9ff7-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5d1-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Mesa Black",
         "mat_name": "MESA_SOLID",
         "gen_comm": "",
-        "uid": "39bc9ff7-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5d1-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["eu_mesaso"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/FG-Carbon-Black.jpg",
         "active": true,
@@ -4587,9 +4587,9 @@
         "sub_material": "Mesa Solid",
         "hg_vg": false
       },
-      "39bc9f8a-8d4a-11e9-bc37-616a3999720c": {
+      "1dd97d43-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Sand Ash",
-        "uid": "39bc9f8a-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd97d43-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_WG",
         "active": true,
         "lines": {
@@ -4635,9 +4635,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaWgSandAshVg.jpg",
         "doors": ["eu_mesawghgm", "eu_mesawgvgm", "wr_blackcombvgmwg"]
       },
-      "39bc9f8b-8d4a-11e9-bc37-616a3999720c": {
+      "1dd97d44-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Grey Oak",
-        "uid": "39bc9f8b-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd97d44-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_WG",
         "active": true,
         "lines": {
@@ -4683,9 +4683,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaWgGreyOakVg.jpg",
         "doors": ["eu_mesawghgm", "eu_mesawgvgm", "wr_blackcombvgmwg"]
       },
-      "39bc9f8c-8d4a-11e9-bc37-616a3999720c": {
+      "1dd97d45-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Hacienda White",
-        "uid": "39bc9f8c-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd97d45-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_WG",
         "active": true,
         "lines": {
@@ -4731,9 +4731,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaWgHaciendaWhiteVg.jpg",
         "doors": ["eu_mesawghgm", "eu_mesawgvgm", "wr_blackcombvgmwg"]
       },
-      "39bc9f8d-8d4a-11e9-bc37-616a3999720c": {
+      "1dd97d46-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Hacienda Black",
-        "uid": "39bc9f8d-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd97d46-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_WG",
         "active": true,
         "lines": {
@@ -4779,9 +4779,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaWgHaciendaBlackVg.jpg",
         "doors": ["eu_mesawghgm", "eu_mesawgvgm", "wr_blackcombvgmwg"]
       },
-      "39bc9f9f-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a459-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Brown Oak",
-        "uid": "39bc9f9f-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a459-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -4827,9 +4827,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaBrownOakVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm", "wr_blackcombvgms"]
       },
-      "39bc9fa0-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a45a-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Highline Oak",
-        "uid": "39bc9fa0-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a45a-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -4875,9 +4875,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaSelectHighlineOakVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm"]
       },
-      "39bc9fa1-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a45b-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Tobacco Oak",
-        "uid": "39bc9fa1-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a45b-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -4923,9 +4923,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaSelectTobaccoOakVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm", "wr_blackcombvgms"]
       },
-      "39bc9fa2-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a45c-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Sand Oak",
-        "uid": "39bc9fa2-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a45c-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -4971,9 +4971,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaSelectSandOakVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm", "wr_blackcombvgms"]
       },
-      "39bc9fa3-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a45d-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Dark Elm",
-        "uid": "39bc9fa3-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a45d-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -5019,9 +5019,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaSelectDarkElmVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm", "wr_blackcombvgms"]
       },
-      "39bc9fa4-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9a45e-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa White Elm",
-        "uid": "39bc9fa4-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9a45e-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -5067,9 +5067,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaSelectWhiteElmVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm", "wr_blackcombvgms"]
       },
-      "39bc9fa5-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9cb60-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Natural Oak",
-        "uid": "39bc9fa5-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9cb60-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -5115,9 +5115,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaSelectNaturalOakVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm", "wr_blackcombvgms"]
       },
-      "39bc9fa6-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9cb61-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Halifax Oak",
-        "uid": "39bc9fa6-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9cb61-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -5163,9 +5163,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaSelectHalifaxOakVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm", "wr_blackcombvgms"]
       },
-      "39bc9fa7-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9cb62-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Thermo Pine",
-        "uid": "39bc9fa7-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9cb62-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -5211,9 +5211,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaSelectThermoPineVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm", "wr_blackcombvgms"]
       },
-      "39bc9fa8-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9cb63-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Lava Tortona",
-        "uid": "39bc9fa8-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9cb63-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -5259,9 +5259,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaSelectWgLavaTortonaVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm", "wr_blackcombvgms"]
       },
-      "39bc9fa9-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9cb64-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Jackson Pine",
-        "uid": "39bc9fa9-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9cb64-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -5307,9 +5307,9 @@
         "image": "https://webquoin.com/catalog/images/materials/MesaSelectJacksonPineVg.jpg",
         "doors": ["eu_mesasehgm", "eu_mesasevgm", "wr_blackcombvgms"]
       },
-      "39bc9fb7-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9f273-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Carbone",
-        "uid": "39bc9fb7-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9f273-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO",
         "active": true,
         "lines": {
@@ -5355,9 +5355,9 @@
         "image": "https://webquoin.com/catalog/images/materials/ComoCarboneVg.jpg",
         "doors": ["eu_comohgm", "eu_comovgm", "wr_blackcombvgc"]
       },
-      "39bc9fb8-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9f274-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Castellina",
-        "uid": "39bc9fb8-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9f274-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO",
         "active": true,
         "lines": {
@@ -5403,9 +5403,9 @@
         "image": "https://webquoin.com/catalog/images/materials/ComoCastellinaVg.jpg",
         "doors": ["eu_comohgm", "eu_comovgm", "wr_blackcombvgc"]
       },
-      "39bc9fb9-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9f275-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Noce Daniella",
-        "uid": "39bc9fb9-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9f275-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO",
         "active": true,
         "lines": {
@@ -5451,9 +5451,9 @@
         "image": "https://webquoin.com/catalog/images/materials/ComoNoceDaniellaVg.jpg",
         "doors": ["eu_comohgm", "eu_comovgm"]
       },
-      "39bc9fba-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9f276-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Oregon Pine",
-        "uid": "39bc9fba-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9f276-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO",
         "active": true,
         "lines": {
@@ -5499,9 +5499,9 @@
         "image": "https://webquoin.com/catalog/images/materials/ComoOregonPineVg.jpg",
         "doors": ["eu_comohgm", "eu_comovgm", "wr_blackcombvgc"]
       },
-      "39bc9fbb-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9f277-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Palissandro",
-        "uid": "39bc9fbb-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9f277-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO",
         "active": true,
         "lines": {
@@ -5547,9 +5547,9 @@
         "image": "https://webquoin.com/catalog/images/materials/ComoPalissandroVg.jpg",
         "doors": ["eu_comohgm", "eu_comovgm"]
       },
-      "39bc9fc3-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9f27f-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Select Portobello",
-        "uid": "39bc9fc3-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9f27f-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO_SELECT",
         "active": true,
         "lines": {
@@ -5600,9 +5600,9 @@
           "wr_blackcombvgcs"
         ]
       },
-      "39bc9fc4-8d4a-11e9-bc37-616a3999720c": {
+      "1dd9f280-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Select Conchiglia",
-        "uid": "39bc9fc4-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dd9f280-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO_SELECT",
         "active": true,
         "lines": {
@@ -5648,9 +5648,9 @@
         "image": "https://webquoin.com/catalog/images/materials/ComoSelectConchigliaVg.jpg",
         "doors": ["eu_comosehgm", "eu_comosevgm", "wr_blackcombvgcs"]
       },
-      "39bc9fc5-8d4a-11e9-bc37-616a3999720c": {
+      "1dda1980-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Select Moscata",
-        "uid": "39bc9fc5-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda1980-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO_SELECT",
         "active": true,
         "lines": {
@@ -5696,9 +5696,9 @@
         "image": "https://webquoin.com/catalog/images/materials/ComoSelectMoscataVg.jpg",
         "doors": ["eu_comosehgm", "eu_comosevgm", "wr_blackcombvgcs"]
       },
-      "39bc9fc6-8d4a-11e9-bc37-616a3999720c": {
+      "1dda1981-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Select Bruciato",
-        "uid": "39bc9fc6-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda1981-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO_SELECT",
         "active": true,
         "lines": {
@@ -5744,9 +5744,9 @@
         "image": "https://webquoin.com/catalog/images/materials/ComoSelectBruchiatoVg.jpg",
         "doors": ["eu_comosehgm", "eu_comosevgm", "wr_blackcombvgcs"]
       },
-      "39bc9fc7-8d4a-11e9-bc37-616a3999720c": {
+      "1dda1982-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Select Nocciola",
-        "uid": "39bc9fc7-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda1982-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO_SELECT",
         "active": true,
         "lines": {
@@ -5797,9 +5797,9 @@
           "wr_blackcombvgcs"
         ]
       },
-      "39bc9fc8-8d4a-11e9-bc37-616a3999720c": {
+      "1dda1983-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Select Legno",
-        "uid": "39bc9fc8-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda1983-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO_SELECT",
         "active": true,
         "lines": {
@@ -5850,9 +5850,9 @@
           "wr_blackcombvgcs"
         ]
       },
-      "39bc9fc9-8d4a-11e9-bc37-616a3999720c": {
+      "1dda1984-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Como Select Tostato",
-        "uid": "39bc9fc9-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda1984-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "COMO_SELECT",
         "active": true,
         "lines": {
@@ -5898,9 +5898,9 @@
         "image": "https://webquoin.com/catalog/images/materials/ComoSelectTostatoVg.jpg",
         "doors": ["eu_comosehgm", "eu_comosevgm", "wr_blackcombvgcs"]
       },
-      "39bc9fe3-8d4a-11e9-bc37-616a3999720c": {
+      "1dda8eb6-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Soho WG Dark Olive",
-        "uid": "39bc9fe3-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda8eb6-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "SOHO_WG_GLOSS",
         "active": true,
         "lines": {
@@ -5951,9 +5951,9 @@
           "eu_sohowggl2svg"
         ]
       },
-      "39bc9fe4-8d4a-11e9-bc37-616a3999720c": {
+      "1dda8eb7-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Soho WG Macassar",
-        "uid": "39bc9fe4-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1dda8eb7-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "SOHO_WG_GLOSS",
         "active": true,
         "lines": {
@@ -5999,9 +5999,9 @@
         "image": "https://webquoin.com/catalog/images/materials/SohoWgGlossMacassarVg.jpg",
         "doors": ["eu_sohowggl1shg", "eu_sohowggl1svg"]
       },
-      "39bc9ff8-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcd0-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Soho WG Guayana",
-        "uid": "39bc9ff8-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcd0-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "SOHO_WG_GLOSS",
         "active": true,
         "lines": {
@@ -6047,9 +6047,9 @@
         "image": "https://webquoin.com/catalog/images/materials/SohoWgGlossGuayanaVg.jpg",
         "doors": ["eu_sohowggl1shg", "eu_sohowggl1svg"]
       },
-      "39bc9ffa-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcd2-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Soho WG Hacienda White",
-        "uid": "39bc9ffa-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcd2-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "SOHO_WG_GLOSS",
         "active": true,
         "lines": {
@@ -6100,9 +6100,9 @@
           "eu_sohowggl2svg"
         ]
       },
-      "39bc9ffb-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcd3-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Soho WG Hacienda Black",
-        "uid": "39bc9ffb-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcd3-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "SOHO_WG_GLOSS",
         "active": true,
         "lines": {
@@ -6153,9 +6153,9 @@
           "eu_sohowggl2svg"
         ]
       },
-      "39bc9ffe-8d4a-11e9-bc37-616a3999720c": {
+      "1ddadcd6-8d55-11e9-a63f-fdd3bb9ae8de": {
         "title": "Mesa Cottage Oak",
-        "uid": "39bc9ffe-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddadcd6-8d55-11e9-a63f-fdd3bb9ae8de",
         "mat_name": "MESA_SELECT_WG",
         "active": true,
         "lines": {
@@ -6277,11 +6277,11 @@
     "title": "Gloss",
     "uid": "gloss",
     "sub": {
-      "39bc9fea-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5c4-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Habitat Gloss Snow White",
         "mat_name": "HABITAT_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fea-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5c4-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "gs_habitatgl1s",
           "gs_habitatgl1sv",
@@ -6303,11 +6303,11 @@
         "sub_material": "Habitate Gloss",
         "hg_vg": false
       },
-      "39bc9feb-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5c5-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Habitat Gloss Cloud White",
         "mat_name": "HABITAT_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9feb-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5c5-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "gs_habitatgl1s",
           "gs_habitatgl1sv",
@@ -6331,11 +6331,11 @@
         "sub_material": "Habitate Gloss",
         "hg_vg": false
       },
-      "39bc9fec-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5c6-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Habitat Gloss Style White",
         "mat_name": "HABITAT_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fec-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5c6-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "gs_habitatgl1s",
           "gs_habitatgl1sv",
@@ -6359,11 +6359,11 @@
         "sub_material": "Habitate Gloss",
         "hg_vg": false
       },
-      "39bc9fed-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5c7-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Habitat Gloss Cobalt Grey",
         "mat_name": "HABITAT_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fed-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5c7-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "gs_habitatgl1s",
           "gs_habitatgl1sv",
@@ -6387,11 +6387,11 @@
         "sub_material": "Habitate Gloss",
         "hg_vg": false
       },
-      "39bc9fee-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5c8-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Habitat Gloss Thunder Grey",
         "mat_name": "HABITAT_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9fee-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5c8-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "gs_habitatgl1s",
           "gs_habitatgl1sv",
@@ -6415,11 +6415,11 @@
         "sub_material": "Habitate Gloss",
         "hg_vg": false
       },
-      "39bc9fef-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5c9-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Habitat Gloss Stone Grey",
         "mat_name": "HABITAT_GLOSS",
         "gen_comm": "For some reason changed names, from Otter Grey to Stone Grey. Ken noticed this on 6 april 2018",
-        "uid": "39bc9fef-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5c9-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "gs_habitatgl1s",
           "gs_habitatgl1sv",
@@ -6441,11 +6441,11 @@
         "sub_material": "Habitate Gloss",
         "hg_vg": false
       },
-      "39bc9ff0-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5ca-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Habitat Gloss Arctic Grey",
         "mat_name": "HABITAT_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9ff0-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5ca-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": [
           "gs_habitatgl1s",
           "gs_habitatgl1sv",
@@ -6469,11 +6469,11 @@
         "sub_material": "Habitate Gloss",
         "hg_vg": false
       },
-      "39bc9ff2-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5cc-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Flux Gloss White",
         "mat_name": "FLUX_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9ff2-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5cc-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["gs_fluxgl1s", "gs_fluxgl1sv", "gs_fluxgl2s", "gs_fluxgl2sv"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/FG-White.jpg",
         "active": true,
@@ -6490,11 +6490,11 @@
         "sub_material": "Flux Gloss",
         "hg_vg": false
       },
-      "39bc9ff3-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5cd-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Flux Gloss Grey",
         "mat_name": "FLUX_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9ff3-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5cd-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["gs_fluxgl1s", "gs_fluxgl1sv", "gs_fluxgl2s", "gs_fluxgl2sv"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/FG-Grey.jpg",
         "active": true,
@@ -6511,11 +6511,11 @@
         "sub_material": "Flux Gloss",
         "hg_vg": false
       },
-      "39bc9ff4-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5ce-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Flux Gloss Cherry Red",
         "mat_name": "FLUX_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9ff4-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5ce-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["gs_fluxgl1s", "gs_fluxgl1sv", "gs_fluxgl2s", "gs_fluxgl2sv"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/FG-Cherry-Red.jpg",
         "active": true,
@@ -6532,11 +6532,11 @@
         "sub_material": "Flux Gloss",
         "hg_vg": false
       },
-      "39bc9ff5-8d4a-11e9-bc37-616a3999720c": {
+      "1ddab5cf-8d55-11e9-a63f-fdd3bb9ae8de": {
         "item_name": "Flux Gloss Carbon Black",
         "mat_name": "FLUX_GLOSS",
         "gen_comm": "",
-        "uid": "39bc9ff5-8d4a-11e9-bc37-616a3999720c",
+        "uid": "1ddab5cf-8d55-11e9-a63f-fdd3bb9ae8de",
         "doors": ["gs_fluxgl1s", "gs_fluxgl1sv", "gs_fluxgl2s", "gs_fluxgl2sv"],
         "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/FG-Carbon-Black.jpg",
         "active": true,

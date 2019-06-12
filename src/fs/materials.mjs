@@ -3,6 +3,7 @@ import { createFile } from './create-json';
 import { Material } from './material.mjs';
 import _ from 'lodash';
 import { needsReview } from './utils/error.mjs';
+import { Combinematerial } from './material.mjs';
 
 const materials_dump = JSON.parse(
   fs.readFileSync('src/assets/json/materials_dump.json')
@@ -264,25 +265,25 @@ const key_doors = [
 ];
 
 const options = {
-  vghg: ['Engineered', 'Black Walnut', 'PS White Oak', 'RC White Oak', 'Fir'],
+  vghg: ['Engineered', 'Black Walnut', 'PS White Oak', 'RC White Oak', 'QS White Oak', 'Fir', 'EW QC Cherry', 'EW Fir', 'EW GM Ebony', 'EW QC Maple', 'EW PS Rosewood', 'EW Sandstone', 'EW Slate', 'EW PS Walnut', 'EW QC Walnut', 'EW QC Wenge', 'EW RC White Oak'],
   sub_material: [
-    {key: 'MBASE', value: 'Base', parent: 'Melamine', vghg: false},
-    {key: 'MSOLID', value: 'Solid', parent: 'Melamine', vghg: false},
-    {key: 'MPATTERNED', value: 'Patterned', parent: 'Melamine', vghg: false},
-    {key: 'MTM', value: 'Textured', parent: 'Melamine', vghg: true},
-    {key: 'PLATEAU', value: 'Plateau Ultra Matte', parent: 'Euro Materials', vghg: false},
-    {key: 'MESA_WG', value: 'Mesa WG', parent: 'Euro Materials', vghg: true},
-    {key: 'MESA_SOLID', value: 'Mesa Solid', parent: 'Euro Materials', vghg: false},
-    {key: 'MESA_PATTERNED', value: 'Mesa Patterned', parent: 'Euro Materials', vghg: false},
-    {key: 'MESA_SELECT_WG', value: 'Mesa Select WG', parent: 'Euro Materials', vghg: true},
-    {key: 'COMO', value: 'Como', parent: 'Euro Materials', vghg: true},
-    {key: 'COMO_SELECT', value: 'Como Select', parent: 'Euro Materials', vghg: true},
-    {key: 'SOHO_SOLID_GLOSS', value: 'Soho Solid Gloss', other: 'SOHO_SOLID_GLOSS_1S', parent: 'Euro Materials', vghg: false},
-    {key: 'SOHO_WG_GLOSS', value: 'Soho WG Gloss', parent: 'Euro Materials', vghg: true},
-    {key: 'HABITAT_GLOSS', value: 'Habitate Gloss', parent: 'Gloss', vghg: false},
-    {key: 'FLUX_GLOSS', value: 'Flux Gloss', parent: 'Gloss', vghg: false}
+    { key: 'MBASE', value: 'Base', parent: 'Melamine', vghg: false },
+    { key: 'MSOLID', value: 'Solid', parent: 'Melamine', vghg: false },
+    { key: 'MPATTERNED', value: 'Patterned', parent: 'Melamine', vghg: false },
+    { key: 'MTM', value: 'Textured', parent: 'Melamine', vghg: true },
+    { key: 'PLATEAU', value: 'Plateau Ultra Matte', parent: 'Euro Materials', vghg: false },
+    { key: 'MESA_WG', value: 'Mesa WG', parent: 'Euro Materials', vghg: true },
+    { key: 'MESA_SOLID', value: 'Mesa Solid', parent: 'Euro Materials', vghg: false },
+    { key: 'MESA_PATTERNED', value: 'Mesa Patterned', parent: 'Euro Materials', vghg: false },
+    { key: 'MESA_SELECT_WG', value: 'Mesa Select WG', parent: 'Euro Materials', vghg: true },
+    { key: 'COMO', value: 'Como', parent: 'Euro Materials', vghg: true },
+    { key: 'COMO_SELECT', value: 'Como Select', parent: 'Euro Materials', vghg: true },
+    { key: 'SOHO_SOLID_GLOSS', value: 'Soho Solid Gloss', other: 'SOHO_SOLID_GLOSS_1S', parent: 'Euro Materials', vghg: false },
+    { key: 'SOHO_WG_GLOSS', value: 'Soho WG Gloss', parent: 'Euro Materials', vghg: true },
+    { key: 'HABITAT_GLOSS', value: 'Habitate Gloss', parent: 'Gloss', vghg: false },
+    { key: 'FLUX_GLOSS', value: 'Flux Gloss', parent: 'Gloss', vghg: false }
   ]
- };
+};
 
 const materials = materials_dump.map(mat => new Material(mat, key_doors, options));
 
@@ -298,11 +299,11 @@ const file = new Object();
 categories.forEach(cat => file[cat.replace(' ', '_')] = { title: _.startCase(cat), uid: cat.replace(' ', '_'), sub: new Array() });
 
 const sections = new Array();
-materials.forEach(mat => mat.url_image ? '' : sections.push(mat));
+materials.forEach(mat => mat.image ? '' : sections.push(mat));
 const array = Object.values(file);
 array.forEach(arr => {
   file[arr.uid]['sub'] = materials.filter(mat => mat.material.toLowerCase() === arr.title.toLowerCase());
-  file[arr.uid].sub = file[arr.uid].sub.filter(mat => mat.url_image !== null);
+  file[arr.uid].sub = file[arr.uid].sub.filter(mat => mat.image !== null);
   file[arr.uid]['sub_materials'] = options.sub_material.filter(sub => sub.parent === file[arr.uid].title);
   const item = materials.filter(mat => trimReplace(mat.item_name.toLowerCase()) === arr.title.toLowerCase())[0];
   let doors = new Array();
@@ -325,12 +326,18 @@ array.forEach(arr => {
     doors
   };
 });
+let mat = new Object();
+array.forEach(arr => {
+  file[arr.uid].sub = new Combinematerial(file[arr.uid].sub);
+  mat = { ...mat, ...file[arr.uid].sub };
+});
 
 function hgVGstring(str) {
   return str.replace(' HG', '').replace(' VG', '');
 }
 
-//needsReview(file);
+// needsReview(file);
 
-createFile(file, 'test');
+createFile(file, 'mat-sections');
+createFile(mat, 'materials');
 // node --experimental-modules src/fs/materials.mjs
