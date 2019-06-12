@@ -6,14 +6,17 @@ import _ from 'lodash';
 const doors_dump = JSON.parse(
   fs.readFileSync('src/assets/json/doors_dump.json')
 );
-const edges_dump = JSON.parse(
-  fs.readFileSync('src/assets/json/edges_dump.json')
+const materials = JSON.parse(
+  fs.readFileSync('src/fs/json/materials.json')
 );
-const materials_dump = JSON.parse(
-  fs.readFileSync('src/assets/json/materials_dump.json')
+const stains = JSON.parse(
+  fs.readFileSync('src/fs/json/stains.json')
 );
-const stains_dump = JSON.parse(
-  fs.readFileSync('src/assets/json/stains_dump.json')
+const edges = JSON.parse(
+  fs.readFileSync('src/fs/json/edges.json')
+);
+const helpers = JSON.parse(
+  fs.readFileSync('src/fs/json/helpers.json')
 );
 
 const doors = {};
