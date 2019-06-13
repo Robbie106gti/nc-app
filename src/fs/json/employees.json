@@ -296,13 +296,13 @@
     "active": false
   },
   {
-    "fname": "Liza",
-    "lname": "Vides",
+    "fname": "Nelliza M.",
+    "lname": "Gumabay",
     "image": "images/team/liza.jpg",
-    "position": "Showroom Host",
+    "position": "Showroom Hostess",
     "email": "",
     "phone": "",
-    "active": false
+    "active": true
   },
   {
     "fname": "JC",

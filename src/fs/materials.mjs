@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { createFile } from './create-json';
+import { createFile } from './utils/create-file';
 import { Material } from './material.mjs';
 import _ from 'lodash';
 import { needsReview } from './utils/error.mjs';

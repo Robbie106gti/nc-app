@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { createFile } from './create-json';
+import { createFile } from './utils/create-file';
 import _ from 'lodash';
 import { hasLines, addonsCleanUp, notesCleanUp, changeActive } from './item.mjs';
 import { needsReview } from './utils/error.mjs';

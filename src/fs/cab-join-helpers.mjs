@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { createFile } from './create-json.mjs';
+import { createFile } from './utils/create-file';
 import _ from 'lodash';
 
 const helpersv2 = JSON.parse(fs.readFileSync('src/fs/json/helpers-v2.json'));

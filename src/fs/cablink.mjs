@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { createFile } from './create-json';
+import { createFile } from './utils/create-file';
 
 
   const cabinets = [

@@ -10,10 +10,10 @@ employees.forEach(emp => emp.active === undefined ? needsReview(emp.fname, emp.a
 const emp_filtered = employees.filter(emp => emp.active);
 const sorted = emp_filtered.sort((a, b) => compare(a, b));
 function compare( a, b ) {
-    if ( a.lname < b.lname ){
+    if ( (a.lname + a.fname) < (b.lname + b.fname) ) {
       return -1;
     }
-    if ( a.lname > b.lname ){
+    if ( (a.lname + a.fname) > (b.lname + b.fname) ) {
       return 1;
     }
     return 0;
