@@ -1,0 +1,410 @@
+[
+  {
+    "uid": "53aa9132-8e17-11e9-a974-4d7af76ed5e8",
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": ["painted", "recessed panel doors"],
+    "edges": {
+      "default": "cv6",
+      "options": [
+        "sq",
+        "bv3",
+        "bv5",
+        "ca",
+        "cv6",
+        "cv11",
+        "hs",
+        "ov",
+        "rd3",
+        "rd6",
+        "sc"
+      ]
+    },
+    "title": "Coast",
+    "types": {
+      "id": "56",
+      "parent": "55",
+      "order": "999",
+      "alt": "pr_coast",
+      "cat": "Doorstyle",
+      "material": "Painted",
+      "doorstyle": "Recessed Panel Doors",
+      "menu": "menu-door",
+      "aka": ["coast", "pr_coast"],
+      "level": null
+    },
+    "images": {
+      "mainImage": "https://webquoin.com/Catalog/doorstyler/images/Doors/Coast-Alder-Frosty White.jpg",
+      "mainSpec": "https://webquoin.com/catalog/images/Doors/Spec/Coast.png",
+      "items": [
+        {
+          "title": "Technical drawing",
+          "image": "https://webquoin.com/catalog/images/Doors/Spec/Coast.png"
+        },
+        {
+          "title": "",
+          "image": "https://webquoin.com/Catalog/doorstyler/images/Doors/Coast-Alder-Frosty White.jpg"
+        },
+        {
+          "title": "Preview",
+          "image": "https://webquoin.com/Catalog/doorstyler/images/Doors/Coast-Alder-Frosty%20White.jpg"
+        },
+        { "title": "Extra", "image": "" },
+        { "title": "V-edge image", "image": "" },
+        {
+          "title": "Close up of edge or rail",
+          "image": "https://webquoin.com/catalog/images/Doors/Spec/CoastDF.png"
+        }
+      ]
+    },
+    "standards": {
+      "min_width": "5 7/8\"",
+      "min_height": "5 7/8\"",
+      "min_dr_face_st_rail_height": "7 7/8\"",
+      "min_dr_face_na_rail_height": "5 7/8\"",
+      "all_dr_under_5_78_will_be_Slab": "1",
+      "min_dr_size": "4 7/8 (H) by 4 7/8 (W)\"",
+      "min_door_size": "9 7/8 (H) by 6 7/8 (W)\"",
+      "all_sl": true,
+      "sl_under_6": true,
+      "sl_under_9_78": true,
+      "all_re": true,
+      "all_re_under_6": false,
+      "all_re_under_9_78": false,
+      "all_ra": false,
+      "sm_rail_size": "1 1/2\"",
+      "rail_size": "2 1/4\"",
+      "sm_rail_limit": null,
+      "mullions": true,
+      "toplights": true,
+      "glass": true,
+      "thickness": "13/16\""
+    },
+    "specifications": {
+      "finish": "Both faces and all edges.",
+      "size": "W x H",
+      "price": "sq. ft.",
+      "construction": "5 piece solid wood M&T frame with a recessed composite core center panel.",
+      "options": "N/A",
+      "restrictions": "N/A"
+    },
+    "notes": {
+      "tip": "",
+      "hgvg": false,
+      "note": "HS and CA edges not recommended on drawers with narrow rails.",
+      "double_panels": "Doors taller than 47 7/8\" will have double panels. Doors wider than 23 7/8\" will have double panels."
+    }
+  },
+  {
+    "uid": "53aa9133-8e17-11e9-a974-4d7af76ed5e8",
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": ["painted", "recessed panel doors"],
+    "edges": {
+      "default": "cv6",
+      "options": [
+        "sq",
+        "bv3",
+        "bv5",
+        "ca",
+        "cv6",
+        "cv11",
+        "hs",
+        "ov",
+        "rd3",
+        "rd6",
+        "sc"
+      ]
+    },
+    "title": "Coast WR",
+    "types": {
+      "id": "57",
+      "parent": "55",
+      "order": "999",
+      "alt": "pr_coastwr",
+      "cat": "Doorstyle",
+      "material": "Painted",
+      "doorstyle": "Recessed Panel Doors",
+      "menu": "menu-door",
+      "aka": ["coast", "pr_coastwr", "coastwr"],
+      "level": null
+    },
+    "images": {
+      "mainImage": "https://webquoin.com/Catalog/doorstyler/images/Doors/Coast%20WR-Alder-Frosty%20White.jpg",
+      "mainSpec": "https://webquoin.com/catalog/images/Doors/Spec/Coast-wr.png",
+      "items": [
+        {
+          "title": "Technical drawing",
+          "image": "https://webquoin.com/catalog/images/Doors/Spec/Coast-wr.png"
+        },
+        {
+          "title": "",
+          "image": "https://webquoin.com/Catalog/doorstyler/images/Doors/Coast%20WR-Alder-Frosty%20White.jpg"
+        },
+        {
+          "title": "Preview",
+          "image": "https://webquoin.com/Catalog/doorstyler/images/Doors/Coast%20WR-Alder-Frosty%20White.jpg"
+        },
+        { "title": "Extra", "image": "" },
+        { "title": "V-edge image", "image": "" },
+        {
+          "title": "Close up of edge or rail",
+          "image": "https://webquoin.com/catalog/images/Doors/Spec/CoastDF.png"
+        }
+      ]
+    },
+    "standards": {
+      "min_width": "5 7/8\"",
+      "min_height": "5 7/8\"",
+      "min_dr_face_st_rail_height": "9 7/8\"",
+      "min_dr_face_na_rail_height": "5 7/8\"",
+      "all_dr_under_5_78_will_be_Slab": "1",
+      "min_dr_size": "4 7/8 (H) by 4 7/8 (W)\"",
+      "min_door_size": "9 7/8 (H) by 8 7/8 (W)\"",
+      "all_sl": true,
+      "sl_under_6": true,
+      "sl_under_9_78": true,
+      "all_re": true,
+      "all_re_under_6": false,
+      "all_re_under_9_78": false,
+      "all_ra": false,
+      "sm_rail_size": "1 1/2\"",
+      "rail_size": "3\"",
+      "sm_rail_limit": null,
+      "mullions": true,
+      "toplights": true,
+      "glass": true,
+      "thickness": "13/16\""
+    },
+    "specifications": {
+      "finish": "Both faces and all edges.",
+      "size": "W x H",
+      "price": "sq. ft.",
+      "construction": "5 piece solid wood wide rail M&T frame with a recessed composite core center panel.",
+      "options": "N/A",
+      "restrictions": "N/A"
+    },
+    "notes": {
+      "tip": "",
+      "hgvg": false,
+      "note": "HS and CA edges not recommended on drawers with narrow rails.",
+      "double_panels": "Doors taller than 47 7/8\" will have double panels. Doors wider than 23 7/8\" will have double panels."
+    }
+  },
+  {
+    "uid": "53adc582-8e17-11e9-a974-4d7af76ed5e8",
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": ["wood", "recessed panel doors"],
+    "edges": {
+      "default": "cv6",
+      "options": [
+        "sq",
+        "bv3",
+        "bv5",
+        "ca",
+        "cv6",
+        "cv11",
+        "hs",
+        "ov",
+        "rd3",
+        "rd6",
+        "sc"
+      ]
+    },
+    "title": "Coast",
+    "types": {
+      "id": "148",
+      "parent": "147",
+      "order": "999",
+      "alt": "wr_coast",
+      "cat": "Doorstyle",
+      "material": "WOOD",
+      "doorstyle": "Recessed Panel Doors",
+      "menu": "menu-door",
+      "aka": ["coast", "wr_coast"],
+      "level": null
+    },
+    "images": {
+      "mainImage": "https://webquoin.com/catalog/images/Coast-2.jpg",
+      "mainSpec": "https://webquoin.com/catalog/images/Doors/Spec/Coast.png",
+      "items": [
+        {
+          "title": "Technical drawing",
+          "image": "https://webquoin.com/catalog/images/Doors/Spec/Coast.png"
+        },
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/Coast-2.jpg"
+        },
+        {
+          "title": "Preview",
+          "image": "https://webquoin.com/catalog/images/Coast-2.jpg"
+        },
+        { "title": "Extra", "image": "" },
+        { "title": "V-edge image", "image": "" },
+        {
+          "title": "Close up of edge or rail",
+          "image": "https://webquoin.com/catalog/images/Doors/Spec/CoastDF.png"
+        }
+      ]
+    },
+    "standards": {
+      "min_width": "5 7/8\"",
+      "min_height": "5 7/8\"",
+      "min_dr_face_st_rail_height": "7 7/8\"",
+      "min_dr_face_na_rail_height": "5 7/8\"",
+      "all_dr_under_5_78_will_be_Slab": "1",
+      "min_dr_size": "4 7/8 (H) by 4 7/8 (W)\"",
+      "min_door_size": "9 7/8 (H) by 6 7/8 (W)\"",
+      "all_sl": true,
+      "sl_under_6": true,
+      "sl_under_9_78": true,
+      "all_re": true,
+      "all_re_under_6": false,
+      "all_re_under_9_78": false,
+      "all_ra": false,
+      "sm_rail_size": "1 1/2\"",
+      "rail_size": "2 1/4\"",
+      "sm_rail_limit": null,
+      "mullions": true,
+      "toplights": true,
+      "glass": true,
+      "thickness": "13/16\""
+    },
+    "specifications": {
+      "finish": "Both faces and all edges.",
+      "size": "W x H",
+      "price": "sq. ft.",
+      "construction": "5 piece solid wood M&T frame with a recessed composite core center panel.",
+      "options": "N/A",
+      "restrictions": "Knotty Alder is available but the veneer center panel will be Clear Alder."
+    },
+    "notes": {
+      "tip": "",
+      "hgvg": false,
+      "note": "HS and CA edges not recommended on drawers with narrow rails.",
+      "double_panels": "Doors taller than 47 7/8\" will have double panels. Doors wider than 23 7/8\" will have double panels."
+    }
+  },
+  {
+    "uid": "53adc583-8e17-11e9-a974-4d7af76ed5e8",
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": ["wood", "recessed panel doors"],
+    "edges": {
+      "default": "cv6",
+      "options": [
+        "sq",
+        "bv3",
+        "bv5",
+        "ca",
+        "cv6",
+        "cv11",
+        "hs",
+        "ov",
+        "rd3",
+        "rd6",
+        "sc"
+      ]
+    },
+    "title": "Coast WR",
+    "types": {
+      "id": "149",
+      "parent": "147",
+      "order": "999",
+      "alt": "wr_coastwr",
+      "cat": "Doorstyle",
+      "material": "WOOD",
+      "doorstyle": "Recessed Panel Doors",
+      "menu": "menu-door",
+      "aka": ["coast", "wr_coastwr", "coastwr"],
+      "level": null
+    },
+    "images": {
+      "mainImage": "https://webquoin.com/catalog/images/CoastWR-2.jpg",
+      "mainSpec": "https://webquoin.com/catalog/images/Doors/Spec/Coast-wr.png",
+      "items": [
+        {
+          "title": "Technical drawing",
+          "image": "https://webquoin.com/catalog/images/Doors/Spec/Coast-wr.png"
+        },
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/CoastWR-2.jpg"
+        },
+        {
+          "title": "Preview",
+          "image": "https://webquoin.com/catalog/images/CoastWR-2.jpg"
+        },
+        { "title": "Extra", "image": "" },
+        { "title": "V-edge image", "image": "" },
+        {
+          "title": "Close up of edge or rail",
+          "image": "https://webquoin.com/catalog/images/Doors/Spec/CoastDF.png"
+        }
+      ]
+    },
+    "standards": {
+      "min_width": "5 7/8\"",
+      "min_height": "5 7/8\"",
+      "min_dr_face_st_rail_height": "9 7/8\"",
+      "min_dr_face_na_rail_height": "5 7/8\"",
+      "all_dr_under_5_78_will_be_Slab": "1",
+      "min_dr_size": "4 7/8 (H) by 4 7/8 (W)\"",
+      "min_door_size": "9 7/8 (H) by 8 7/8 (W)\"",
+      "all_sl": true,
+      "sl_under_6": true,
+      "sl_under_9_78": true,
+      "all_re": true,
+      "all_re_under_6": false,
+      "all_re_under_9_78": false,
+      "all_ra": false,
+      "sm_rail_size": "1 1/2\"",
+      "rail_size": "3\"",
+      "sm_rail_limit": null,
+      "mullions": true,
+      "toplights": true,
+      "glass": true,
+      "thickness": "13/16\""
+    },
+    "specifications": {
+      "finish": "Both faces and all edges.",
+      "size": "W x H",
+      "price": "sq. ft.",
+      "construction": "5 piece solid wood wide rail M&T frame with a recessed composite core center panel.",
+      "options": "N/A",
+      "restrictions": "Knotty Alder is available but the veneer center panel will be Clear Alder."
+    },
+    "notes": {
+      "tip": "",
+      "hgvg": false,
+      "note": "HS and CA edges not recommended on drawers with narrow rails.",
+      "double_panels": "Doors taller than 47 7/8\" will have double panels. Doors wider than 23 7/8\" will have double panels."
+    }
+  }
+]
