@@ -132,14 +132,6 @@ export class Combinematerial {
             title: items[0].title,
             uid: items[0].uid,
             mat_name: items[0].mat_name,
-            active: items[0].active,
-            lines: {
-              custom: items[0].lines.custom,
-              cornerstone: items[0].lines.cornerstone,
-              lighthouse: items[0].lines.lighthouse,
-              modcon: items[0].lines.modcon,
-              modal: items[0].lines.modal
-            },
             tags: items[0].tags,
             material: items[0].material,
             hg_vg: items[0].hg_vg,

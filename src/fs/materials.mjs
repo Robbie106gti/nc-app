@@ -265,61 +265,217 @@ const key_doors = [
 ];
 
 const options = {
-  vghg: ['Engineered', 'Black Walnut', 'PS White Oak', 'RC White Oak', 'QS White Oak', 'Fir', 'EW QC Cherry', 'EW Fir', 'EW GM Ebony', 'EW QC Maple', 'EW PS Rosewood', 'EW Sandstone', 'EW Slate', 'EW PS Walnut', 'EW QC Walnut', 'EW QC Wenge', 'EW RC White Oak'],
+  vghg: [
+    'Engineered',
+    'Black Walnut',
+    'PS White Oak',
+    'RC White Oak',
+    'QS White Oak',
+    'Fir',
+    'EW QC Cherry',
+    'EW Fir',
+    'EW GM Ebony',
+    'EW QC Maple',
+    'EW PS Rosewood',
+    'EW Sandstone',
+    'EW Slate',
+    'EW PS Walnut',
+    'EW QC Walnut',
+    'EW QC Wenge',
+    'EW RC White Oak'
+  ],
   sub_material: [
     { key: 'MBASE', value: 'Base', parent: 'Melamine', vghg: false },
     { key: 'MSOLID', value: 'Solid', parent: 'Melamine', vghg: false },
     { key: 'MPATTERNED', value: 'Patterned', parent: 'Melamine', vghg: false },
     { key: 'MTM', value: 'Textured', parent: 'Melamine', vghg: true },
-    { key: 'PLATEAU', value: 'Plateau Ultra Matte', parent: 'Euro Materials', vghg: false },
+    {
+      key: 'PLATEAU',
+      value: 'Plateau Ultra Matte',
+      parent: 'Euro Materials',
+      vghg: false
+    },
     { key: 'MESA_WG', value: 'Mesa WG', parent: 'Euro Materials', vghg: true },
-    { key: 'MESA_SOLID', value: 'Mesa Solid', parent: 'Euro Materials', vghg: false },
-    { key: 'MESA_PATTERNED', value: 'Mesa Patterned', parent: 'Euro Materials', vghg: false },
-    { key: 'MESA_SELECT_WG', value: 'Mesa Select WG', parent: 'Euro Materials', vghg: true },
+    {
+      key: 'MESA_SOLID',
+      value: 'Mesa Solid',
+      parent: 'Euro Materials',
+      vghg: false
+    },
+    {
+      key: 'MESA_PATTERNED',
+      value: 'Mesa Patterned',
+      parent: 'Euro Materials',
+      vghg: false
+    },
+    {
+      key: 'MESA_SELECT_WG',
+      value: 'Mesa Select WG',
+      parent: 'Euro Materials',
+      vghg: true
+    },
     { key: 'COMO', value: 'Como', parent: 'Euro Materials', vghg: true },
-    { key: 'COMO_SELECT', value: 'Como Select', parent: 'Euro Materials', vghg: true },
-    { key: 'SOHO_SOLID_GLOSS', value: 'Soho Solid Gloss', other: 'SOHO_SOLID_GLOSS_1S', parent: 'Euro Materials', vghg: false },
-    { key: 'SOHO_WG_GLOSS', value: 'Soho WG Gloss', parent: 'Euro Materials', vghg: true },
-    { key: 'HABITAT_GLOSS', value: 'Habitate Gloss', parent: 'Gloss', vghg: false },
+    {
+      key: 'COMO_SELECT',
+      value: 'Como Select',
+      parent: 'Euro Materials',
+      vghg: true
+    },
+    {
+      key: 'SOHO_SOLID_GLOSS',
+      value: 'Soho Solid Gloss',
+      other: 'SOHO_SOLID_GLOSS_1S',
+      parent: 'Euro Materials',
+      vghg: false
+    },
+    {
+      key: 'SOHO_WG_GLOSS',
+      value: 'Soho WG Gloss',
+      parent: 'Euro Materials',
+      vghg: true
+    },
+    {
+      key: 'HABITAT_GLOSS',
+      value: 'Habitate Gloss',
+      parent: 'Gloss',
+      vghg: false
+    },
     { key: 'FLUX_GLOSS', value: 'Flux Gloss', parent: 'Gloss', vghg: false }
-  ]
+  ],
+  cats2: {
+    painted: {
+      image: 'https://webquoin.com/catalog/images/Headers/Exterior-Materials/painted-hale%20navy.jpg',
+      active: true,
+      lines: {
+        cornerstone: true,
+        custom: true,
+        lighthouse: true,
+        modal: false,
+        modcon: true
+      }
+    },
+    wood: {
+      image: 'https://webquoin.com/catalog/images/Headers/Exterior-Materials/White-Oak-PlainSawn.jpg',
+      active: true,
+      lines: {
+        cornerstone: true,
+        custom: true,
+        lighthouse: true,
+        modal: false,
+        modcon: true
+      }
+    },
+    engineered: {
+      image: 'https://webquoin.com/catalog/images/Headers/Exterior-Materials/EW-PS-Walnut.png',
+      active: false,
+      lines: {
+        cornerstone: true,
+        custom: true,
+        lighthouse: true,
+        modal: false,
+        modcon: true
+      }
+    },
+    melamine: {
+      image: 'https://webquoin.com/catalog/images/Headers/Exterior-Materials/TM-Monaco.jpg',
+      active: true,
+      lines: {
+        cornerstone: true,
+        custom: true,
+        lighthouse: true,
+        modal: false,
+        modcon: true
+      }
+    },
+    euro_materials: {
+      image: 'https://webquoin.com/catalog/images/Finishes/Stijle/Grey%20Authentic%20Oak%202.jpg',
+      active: true,
+      lines: {
+        cornerstone: false,
+        custom: true,
+        lighthouse: false,
+        modal: false,
+        modcon: true
+      }
+    },
+    gloss: {
+      image: 'https://webquoin.com/catalog/images/Headers/Exterior-Materials/Cobolt-Grey.jpg',
+      active: true,
+      lines: {
+        cornerstone: true,
+        custom: true,
+        lighthouse: false,
+        modal: false,
+        modcon: true
+      }
+    },
+    special_request: {
+      image: 'https://webquoin.com/catalog/build/assets/samples/distance.jpg',
+      active: true,
+      lines: {
+        cornerstone: false,
+        custom: true,
+        lighthouse: false,
+        modal: false,
+        modcon: false
+      }
+    }
+  }
 };
 
-const materials = materials_dump.map(mat => new Material(mat, key_doors, options));
+const materials = materials_dump.map(
+  mat => new Material(mat, key_doors, options)
+);
 
 let categories = new Array();
 materials.forEach(mat => categories.push(trimReplace(mat.material)));
 categories = _.uniq(categories);
 
 function trimReplace(str) {
-  return str.replace(' ...', '').trim().toLowerCase();
+  return str
+    .replace(' ...', '')
+    .trim()
+    .toLowerCase();
 }
 
 const file = new Object();
-categories.forEach(cat => file[cat.replace(' ', '_')] = { title: _.startCase(cat), uid: cat.replace(' ', '_'), sub: new Array() });
+categories.forEach(
+  cat =>
+    (file[cat.replace(' ', '_')] = {
+      title: _.startCase(cat),
+      uid: cat.replace(' ', '_'),
+      sub: new Array()
+    })
+);
 
 const sections = new Array();
-materials.forEach(mat => mat.image ? '' : sections.push(mat));
+materials.forEach(mat => (mat.image ? '' : sections.push(mat)));
 const array = Object.values(file);
 array.forEach(arr => {
-  file[arr.uid]['sub'] = materials.filter(mat => mat.material.toLowerCase() === arr.title.toLowerCase());
+  file[arr.uid]['sub'] = materials.filter(
+    mat => mat.material.toLowerCase() === arr.title.toLowerCase()
+  );
   file[arr.uid].sub = file[arr.uid].sub.filter(mat => mat.image !== null);
-  file[arr.uid]['sub_materials'] = options.sub_material.filter(sub => sub.parent === file[arr.uid].title);
-  const item = materials.filter(mat => trimReplace(mat.item_name.toLowerCase()) === arr.title.toLowerCase())[0];
+  file[arr.uid]['sub_materials'] = options.sub_material.filter(
+    sub => sub.parent === file[arr.uid].title
+  );
+  const item = materials.filter(
+    mat => trimReplace(mat.item_name.toLowerCase()) === arr.title.toLowerCase()
+  )[0];
   let doors = new Array();
   if (file[arr.uid].sub.length !== 0) {
     doors = file[arr.uid].sub[0].doors;
-    file[arr.uid].sub.forEach(i => doors = _.intersection(doors, i.doors));
+    file[arr.uid].sub.forEach(i => (doors = _.intersection(doors, i.doors)));
     file[arr.uid].sub = file[arr.uid].sub.map(i => {
       i.doors = _.without(i.doors, ...doors);
       return i;
     });
   }
+
   file[arr.uid] = {
     ...file[arr.uid],
+    ...options.cats2[arr.uid],
     description: item.description,
-    active: item.active,
-    lines: item.lines,
     tags: item.tags,
     item_name: item.item_name,
     mat_name: item.mat_name,
