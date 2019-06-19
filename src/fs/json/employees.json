@@ -1,4 +1,5 @@
-[{
+[
+  {
     "fname": "Scott",
     "lname": "Alkema",
     "image": "images/team/scott.jpg",
@@ -104,7 +105,7 @@
     "position": "spray booth coordinator",
     "email": "",
     "phone": "",
-    "active":false
+    "active": false
   },
   {
     "fname": "Keith J.",
@@ -289,11 +290,11 @@
   {
     "fname": "Jimmy",
     "lname": "Vides",
-    "image": "images/team/jimmy.jpg",
+    "image": "images/team/jimmy2.jpg",
     "position": "Engineer",
     "email": "jimmy@nickelscabinets.com",
     "phone": "244",
-    "active": false
+    "active": true
   },
   {
     "fname": "Nelliza M.",
@@ -311,6 +312,15 @@
     "position": "Finishing Lead Hand",
     "email": "",
     "phone": "",
-    "active":false
+    "active": false
+  },
+  {
+    "fname": "Brandon",
+    "lname": "Ling",
+    "image": "images/team/brandon2.jpg",
+    "position": "Data and Information Associate",
+    "email": "brandon@nickelscabinets.com",
+    "phone": "",
+    "active": false
   }
 ]
