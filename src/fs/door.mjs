@@ -266,62 +266,63 @@ export class Door {
 }
 
 export class CombinedDoors {
-constructor(combined, door) {
-  this.door = this.lines({...door, versions: combined, uid: door.title });
-  this.door = this.images(this.door);
-  this.door = this.types(this.door);
-  this.door = this.edges(this.door);
-  return this.door;
-}
-
-lines(door) {
-  door = { ...door,
-  active: false,
-  lines: {
-    custom: false,
-    cornerstone: false,
-    lighthouse: false,
-    modcon: false,
-    modal: false
+  constructor(combined, door) {
+    this.door = this.lines({ ...door, versions: combined, uid: door.title });
+    this.door = this.images(this.door);
+    this.door = this.types(this.door);
+    this.door = this.edges(this.door);
+    return this.door;
   }
-};
-  door.versions.forEach(d => {
-    d.active ? door.active = true : '';
-    d.lines.custom ? door.lines.custom = true : '';
-    d.lines.cornerstone ? door.lines.cornerstone = true : '';
-    d.lines.lighthouse ? door.lines.lighthouse = true: '';
-  })
-  return door;
-}
 
-images(door) {
-  door['images'] = {mainImage: door.versions[0].images.mainImage, all: [] };
-  door.versions.forEach(d => {
-    if (d.types.material === 'Metal') door['images']['mainImage'] = d.images.mainImage;
-    if (d.types.material === 'WOOD') door['images']['mainImage'] = d.images.mainImage;
-    if (d.types.material === 'Painted') door['images']['mainImage'] = d.images.mainImage;
-    door.images.all = door.images.all.concat(d.images.items);
-  });
-  door.images.all = _.uniqBy(door.images.all, 'image');
-  return door;
-}
+  lines(door) {
+    door = {
+      ...door,
+      active: false,
+      lines: {
+        custom: false,
+        cornerstone: false,
+        lighthouse: false,
+        modcon: false,
+        modal: false
+      }
+    };
+    door.versions.forEach(d => {
+      d.active ? door.active = true : '';
+      d.lines.custom ? door.lines.custom = true : '';
+      d.lines.cornerstone ? door.lines.cornerstone = true : '';
+      d.lines.lighthouse ? door.lines.lighthouse = true : '';
+    })
+    return door;
+  }
 
-types(door) {
-  door['types'] = {aka: [], materials: []};
-  door.versions.forEach(d => {
-    door.types.aka.push(d.title);
-    door.types.materials.push(d.types.materials)
-  });
-  door.types.aka = _.uniq(door.types.aka);
-  door.types.mateials = _.uniq(door.types.mateials);
-  return door;
-}
+  images(door) {
+    door['images'] = { mainImage: door.versions[0].images.mainImage, all: [] };
+    door.versions.forEach(d => {
+      if (d.types.material === 'Metal') door['images']['mainImage'] = d.images.mainImage;
+      if (d.types.material === 'WOOD') door['images']['mainImage'] = d.images.mainImage;
+      if (d.types.material === 'Painted') door['images']['mainImage'] = d.images.mainImage;
+      door.images.all = door.images.all.concat(d.images.items);
+    });
+    door.images.all = _.uniqBy(door.images.all, 'image');
+    return door;
+  }
 
-edges(door) {
-  door['edges'] = {options: []};
-  door.versions.forEach(d => {
-    door.edges.options = _.union(door.edges.options, d.edges.options);
-  });
-  return door;
-}
+  types(door) {
+    door['types'] = { aka: [], materials: [] };
+    door.versions.forEach(d => {
+      door.types.aka.push(d.title);
+      door.types.materials.push(d.types.material)
+    });
+    door.types.aka = _.uniq(door.types.aka);
+    door.types.materials = _.uniq(door.types.materials);
+    return door;
+  }
+
+  edges(door) {
+    door['edges'] = { options: [], default: 'sq' };
+    door.versions.forEach(d => {
+      door.edges.options = _.union(door.edges.options, d.edges.options);
+    });
+    return door;
+  }
 }
