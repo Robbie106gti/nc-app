@@ -228,7 +228,17 @@
     {
       "id": "527",
       "title": "Shelves",
-      "content": "Two fixed shelves will be added by default for this height."
+      "content": "Three fixed shelves will be added by default for this height."
+    },
+    {
+      "id": "528",
+      "title": "Shelves",
+      "content": "Four fixed shelves will be added by default for this height."
+    },
+    {
+      "id": "529",
+      "title": "Shelves",
+      "content": "Five fixed shelves will be added by default for this height."
     },
     {
       "id": "600",
@@ -1106,6 +1116,17 @@
       "id": "3103",
       "title": "Maximum panel sizes",
       "content": "Maximum panel size is based on the exterior material and door style."
+    },
+    {
+      "id": "3104",
+      "title": "Specify",
+      "type": "list",
+      "list": [
+        "Depth: ",
+        "Width: 2\" to 6\"",
+        "Height: ",
+        "Return: Maximum of 6\" - (optional)."
+      ]
     }
   ]
 }

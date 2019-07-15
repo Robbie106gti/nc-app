@@ -170,7 +170,7 @@
           "image": "https://webquoin.com/catalog/images/CLM/GF-MR-01.jpg"
         }
       ],
-      "specifications": ["3042"],
+      "specifications": ["3042", "3104"],
       "options": ["9", "10", "11", "12"],
       "restrictions": ["4"],
       "notes": ["35", "27"]

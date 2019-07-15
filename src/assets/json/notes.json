@@ -303,6 +303,11 @@
       "id": "52",
       "title": "Door Closing Alert, ",
       "content": "Closing the cabinet door before it is fully extended will damage the door front and the slides. The leverage can cause slide separation"
+    },
+    {
+      "id": "53",
+      "title": "In order for flush look of panels with door-face. ",
+      "content": "The slight variation in door thickness needs to be accounted for (13/16\", 3/4\", 7/8\" to name a few), the panel width will need to be adjusted for this variation when panels are entered in webquoin"
     }
   ]
 }
