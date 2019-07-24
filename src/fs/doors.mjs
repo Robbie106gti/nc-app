@@ -135,6 +135,8 @@ organize.forEach(door => {
    doors_reduced[door.uid] = door;
 });
 
+
+// door dump address = https://webquoin.com/catalog/doorstyler/json/get_doors.php
 createFile(doors_reduced, 'doors');
 // createFile(alpha, 'alpha');
 // createFile(coast, 'coast');
