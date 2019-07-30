@@ -16,8 +16,8 @@ export class MainEffects {
   load_main_sop$ = this.actions$.pipe(
     ofType(mainActions.LOAD_MAIN_SOPS),
     switchMap(() => {
-      return this.firestoreService.col$('/sops').pipe(map((sops: any) => {
-        let entities = sops.map(sop => sop = { ...sop, 'sub': 'main'});
+      return this.firestoreService.colWithIds$('/sops').pipe(map((sops: any) => {
+        let entities = sops.map(sop => sop = { ...sop, 'sub': 'main', type: 'sop', link: 'sop/' + sop.link, loaded: false, loading: false});
         entities = sortAlfabet(entities);
         return new mainActions.LoadedMain(entities);
       }),

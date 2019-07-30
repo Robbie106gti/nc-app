@@ -9,8 +9,9 @@ import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 
 import { reducers, effects } from './store';
+import { CategoryComponent } from './views/category/category.component';
 @NgModule({
-  declarations: [SopComponent],
+  declarations: [SopComponent, CategoryComponent],
   imports: [
     CommonModule,
     SopRoutingModule,
