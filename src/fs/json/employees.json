@@ -42,7 +42,7 @@
     "position": "Purchasing",
     "email": "purchasing@nickelscabinets.com",
     "phone": "235",
-    "active": true
+    "active": false
   },
   {
     "fname": "Arion",
@@ -321,6 +321,6 @@
     "position": "Data and Information Associate",
     "email": "brandon@nickelscabinets.com",
     "phone": "",
-    "active": false
+    "active": true
   }
 ]
