@@ -18,9 +18,9 @@ export class SopGuard implements CanActivate {
         if (loaded === true) {
           return loaded;
         } else {
-          this.router.navigate(['home']);
+          // this.router.navigate(['/']);
           this.store.dispatch({ type: fromSopsState.LOAD_MAIN_SOPS });
-          return loaded;
+          return true;
         }
       }),
       catchError(() => of(false))

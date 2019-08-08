@@ -1,5 +1,6 @@
 import { createSelector, createFeatureSelector } from '@ngrx/store';
 
+import * as fromRoot from '../../../store';
 import * as fromFeature from '../reducers';
 import * as fromMain from '../reducers/main.reducer';
 
@@ -21,4 +22,15 @@ export const getMainSopEntities = createSelector(
 export const getMainSopArray = createSelector(
   getMainSopEntities,
   entities => Object.keys(entities).map(id => entities[id])
+);
+
+export const getMainSopCat = createSelector(
+  getMainSopEntities,
+  fromRoot.getRouterParams,
+  (entities, params) => entities[params.sop]
+);
+
+export const getMainSopCatSubLoaded = createSelector(
+  getMainSopCat,
+  (entity) => entity.loaded
 );

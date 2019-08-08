@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
+import * as fromGuards from './guards';
+
 import { SopComponent } from './sop.component';
 import { CategoryComponent } from './views/category/category.component';
 
@@ -11,7 +14,8 @@ const routes: Routes = [
   },
   {
     path: ':sop',
-    component: CategoryComponent
+    component: CategoryComponent,
+    canActivate: [fromGuards.CategoryGuard]
   }
 ];
 

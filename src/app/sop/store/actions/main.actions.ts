@@ -17,5 +17,16 @@ export class FailLoadingMain implements Action {
   constructor(public payload: any) {}
 }
 
+export const LOADING_ENTITIES_SOP = '[SOP] Entities loading for category';
+export const LOADED_ENTITIES_SOP = '[SOP] Entities loaded for category';
+
+export class LoadEntitiesCategory implements Action {
+  readonly type = LOADING_ENTITIES_SOP;
+  constructor(public payload: any) {}
+}
+export class LoadedEntitiesCategory implements Action {
+  readonly type = LOADED_ENTITIES_SOP;
+  constructor(public payload: any) {}
+}
 // action types
-export type ActionsMain = LoadMain | LoadedMain | FailLoadingMain;
+export type ActionsMain = LoadMain | LoadedMain | FailLoadingMain | LoadEntitiesCategory | LoadedEntitiesCategory;

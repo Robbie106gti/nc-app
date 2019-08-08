@@ -1,24 +1,17 @@
 import * as fromSub from '../actions/sub.actions';
-import * as common from '../../../common/link';
 import { Line } from './main.reducer';
-import { sortAlfabet } from 'src/app/common/sort';
+import { makeSubEntities } from 'src/app/common/entities';
 
 export interface SubState {
   entities: Line;
   load: any[];
-  loaded: boolean;
+  loaded: any[];
 }
 
 export const initialState: SubState = {
-  entities: {
-    start_item: {
-      image: './assets/images/underconstruction.png',
-      title: 'Sub Sopies',
-      link: 'linky'
-    }
-  },
+  entities: {},
   load: [],
-  loaded: false
+  loaded: []
 };
 
 export function reducer(
@@ -27,7 +20,8 @@ export function reducer(
 ): SubState {
   switch (action.type) {
     case fromSub.LOAD_SUB_SOPS: {
-      const load = [...state.load, action.payload.id];
+      const sop: any = action.payload;
+      const load = [...state.load.filter(item => !sop.link), sop.link];
       return {
         ...state,
         load
@@ -35,20 +29,13 @@ export function reducer(
     }
 
     case fromSub.LOAD_SUB_SOPS_SUCCESS: {
-      const items = sortAlfabet(action.payload);
-      let entity = {};
-      items.map(item => {
-        entity = {
-          ...entity,
-          [common.makelink(item.title)]: {
-            ...item,
-            link: common.makelink(item.title)
-          }
-        };
-      });
+      console.log(action.payload)
+      const cat = action.payload.sop;
+      state.entities[cat.link] = makeSubEntities(action.payload.items);
+      const loaded = [...state.loaded.filter(item => !cat.link), cat.link];
       return {
         ...state,
-        entities: { ...state.entities, [entity[0].cat]: entity }
+        loaded
       };
     }
 

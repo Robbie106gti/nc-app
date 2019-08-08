@@ -19,11 +19,9 @@ export class CategoryComponent implements OnInit {
       type: fromRoot.UI_SECTION,
       payload: this.title
     });
-    this.cats$ = this.store.select(fromStore.getMainSopArray);
+    this.cats$ = this.store.select(fromStore.getSubSopCat);
   }
 
-
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }

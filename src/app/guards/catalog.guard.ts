@@ -16,7 +16,7 @@ export class CatalogGuard implements CanActivate {
     return this.checkStore().pipe(
       map(logged_in => {
         if (logged_in === false) {
-          this.router.navigate(['home']);
+          this.router.navigate(['/']);
           return logged_in;
         } else {
           this.store.dispatch({ type: mainActions.LOAD_MAIN_CATALOG });
