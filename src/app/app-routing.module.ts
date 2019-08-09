@@ -15,12 +15,14 @@ const routes: Routes = [
   {
     path: 'mds',
     loadChildren: './mds/mds.module#MdsModule',
-    canActivate: [fromGuards.LoginGuard, fromGuards.MdsGuard]
+    canActivateChild: [fromGuards.LoginGuard],
+    canActivate: [fromGuards.MdsGuard]
   },
   {
     path: 'edit',
     loadChildren: './editor/editor.module#EditorModule',
-    canActivate: [fromGuards.LoginGuard, fromGuards.EditGuard]
+    canActivateChild: [fromGuards.LoginGuard],
+    canActivate: [fromGuards.EditGuard]
   },
   {
     path: 'search',
@@ -29,7 +31,7 @@ const routes: Routes = [
   {
     path: 'dashboard',
     loadChildren: './dashboard/dashboard.module#DashboardModule',
-    canActivate: [fromGuards.LoginGuard]
+    canActivateChild: [fromGuards.LoginGuard]
   },
   {
     path: '',
