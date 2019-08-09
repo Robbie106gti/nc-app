@@ -29,7 +29,7 @@ export function reducer(
     }
 
     case fromSub.LOAD_SUB_SOPS_SUCCESS: {
-      console.log(action.payload)
+      // console.log(action.payload)
       const cat = action.payload.sop;
       state.entities[cat.link] = makeSubEntities(action.payload.items);
       const loaded = [...state.loaded.filter(item => !cat.link), cat.link];

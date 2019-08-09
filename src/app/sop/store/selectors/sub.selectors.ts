@@ -14,7 +14,7 @@ export const getSubSopsLoaded = createSelector(
   fromRoot.getRouterParams,
   (state, params) => {
     const loaded = state.loaded.includes(params.sop);
-    console.log(loaded);
+    // console.log(loaded);
     return loaded;
   }
 );
@@ -33,10 +33,10 @@ export const getSubSopCat = createSelector(
   getSubSopEntities,
   fromRoot.getRouterParams,
   (entities, params) => {
-    console.log(entities);
+    // console.log(entities);
     if (!params.sop) { return []; }
     if (!entities[params.sop]) { return []; }
-    console.log(entities[params.sop]);
+    // console.log(entities[params.sop]);
     return Object.values(entities[params.sop]);
   }
 );
