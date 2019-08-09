@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { CanActivate, Router } from '@angular/router';
+import { CanActivateChild, Router } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { Observable, of } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
@@ -9,9 +9,9 @@ import * as fromStore from '../store';
 @Injectable({
   providedIn: 'root'
 })
-export class LoginGuard implements CanActivate {
+export class LoginGuard implements CanActivateChild {
   constructor(private store: Store<fromStore.State>, private router: Router) {}
-  canActivate(): Observable<boolean> {
+  canActivateChild(): Observable<boolean> {
     return this.checkStore().pipe(
       map(logged_in => {
         if (logged_in === false) {

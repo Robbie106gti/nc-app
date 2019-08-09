@@ -17,14 +17,13 @@ export class CategoryGuard implements CanActivate {
   canActivate(): Observable<boolean> {
     return this.checkStore().pipe(
       map(sop => {
-        console.log(sop)
-        if (sop.loaded) {
-          return true;
-        } else {
-          this.store.dispatch({ type: fromStore.LOAD_SUB_SOPS, payload: sop });
-          return true;
-        }
+        if (sop.loading === false && sop.loaded === false) {
+        this.store.dispatch({ type: fromStore.LOAD_SUB_SOPS, payload: sop });
+      }
+        return sop.loaded;
       }),
+      skipWhile(loaded => loaded === false),
+      map(loaded => loaded),
       catchError(() => of(false))
     );
   }

@@ -11,7 +11,7 @@ export const getMainSopState = createSelector(
 
 export const getMainSopsLoaded = createSelector(
   getMainSopState,
-  state => state.loaded
+  state => ({loaded: state.loaded, loading: state.loading})
 );
 
 export const getMainSopEntities = createSelector(

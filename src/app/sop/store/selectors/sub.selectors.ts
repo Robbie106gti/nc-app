@@ -35,7 +35,7 @@ export const getSubSopCat = createSelector(
   (entities, params) => {
     console.log(entities);
     if (!params.sop) { return []; }
-    if (!entities || !entities[params.sop]) { return []; }
+    if (!entities[params.sop]) { return []; }
     console.log(entities[params.sop]);
     return Object.values(entities[params.sop]);
   }

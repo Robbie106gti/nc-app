@@ -10,7 +10,7 @@ const routes: Routes = [
   {
     path: 'sop',
     loadChildren: './sop/sop.module#SopModule',
-    canActivate: [fromGuards.LoginGuard, fromGuards.SopGuard]
+    canActivateChild: [fromGuards.LoginGuard, fromGuards.SopGuard]
   },
   {
     path: 'mds',

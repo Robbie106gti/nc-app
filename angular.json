@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "nc-app": {
-      "root": "",
+      "root": "./",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",

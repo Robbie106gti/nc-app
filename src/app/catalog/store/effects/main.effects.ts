@@ -16,13 +16,39 @@ export class MainEffects {
   load_main_catalog$ = this.actions$.pipe(
     ofType(mainActions.LOAD_MAIN_CATALOG),
     switchMap(() => {
-      return this.firestoreService.col$('/categories').pipe(map((cats: any) => {
-        console.log(cats);
-        let entities = cats.map(cat => cat = { ...cat, 'sub': 'main'});
-        entities = sortAlfabet(entities);
-        return new mainActions.LoadedMainCatalog(entities);
-      }),
+      return this.firestoreService.col$('/categories').pipe(map((cats: any) => new mainActions.LoadedMainCatalog(cats)),
       catchError(err => of(new mainActions.FailLoadingMainCatalog(err))));
     }
     ));
+
+    ///// DANGER! TO update each main category CATALOG, use only once or twice. DANGER! /////
+    /*     @Effect({dispatch: false})
+        update_main_cat_load$ = this.actions$.pipe(
+          ofType(mainActions.LOADED_MAIN_CATALOG),
+          take(1),
+          map((action: any) => {
+            console.log('Hello');
+            const entities = action.payload;
+            const ref = '/???/';
+            entities.forEach(entity => {
+            console.log(entity.link.includes('undefined'));
+              const update = entity.link.includes('undefined') ? true : false;
+              const data: any = {
+                link: makelink(entity.title),
+                id: entity.id,
+                type: 'sop',
+                sub: 'main',
+                updated: true
+              };
+    
+              if (update === true) {
+                console.log({update, data});
+    
+                return this.firestoreService.update(ref + entity.id, data);
+              }
+            });
+            return of(null);
+          }),
+          catchError(err => of(err))
+          ); */
 }

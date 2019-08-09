@@ -43,13 +43,13 @@ export function reducer(
     }
     case fromMain.LOADING_ENTITIES_SOP: {
       const sop = action.payload;
-      console.log(sop);
+      // console.log(sop);
       const entities = {...state.entities, [sop.link]: { ...state.entities[sop.link], loading: true }};
       return { ...state, entities};
     }
     case fromMain.LOADED_ENTITIES_SOP: {
       const sop = action.payload;
-      console.log(sop);
+      // console.log(sop);
       const entities = {...state.entities, [sop.link]: { ...state.entities[sop.link], loaded: true, loading: false }};
       return { ...state, entities };
     }
