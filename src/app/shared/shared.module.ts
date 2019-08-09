@@ -4,10 +4,13 @@ import { UnderconstructionComponent } from './underconstruction/underconstructio
 import { SharedRoutingModule } from './shared-routing.module';
 import { CardComponent } from './card/card.component';
 import { DescriptionComponent } from './description/description.component';
+import { ImageBlockComponent } from './image-block/image-block.component';
+import { GeneralInfoComponent } from './general-info/general-info.component';
+import { NoteComponent } from './note/note.component';
 
 @NgModule({
-  declarations: [UnderconstructionComponent, CardComponent, DescriptionComponent],
+  declarations: [UnderconstructionComponent, CardComponent, DescriptionComponent, ImageBlockComponent, GeneralInfoComponent, NoteComponent],
   imports: [CommonModule, SharedRoutingModule],
-  exports: [UnderconstructionComponent, CardComponent ]
+  exports: [UnderconstructionComponent, CardComponent, DescriptionComponent, ImageBlockComponent, GeneralInfoComponent,NoteComponent ]
 })
 export class SharedModule {}

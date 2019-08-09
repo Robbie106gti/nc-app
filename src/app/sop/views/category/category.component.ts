@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import * as fromStore from '../../store';
 import * as fromRoot from '../../../store';
@@ -9,8 +9,9 @@ import { Observable } from 'rxjs';
   templateUrl: './category.component.html',
   styleUrls: ['./category.component.css']
 })
-export class CategoryComponent implements OnInit {
+export class CategoryComponent {
   title = 'SOP';
+  doc$: Observable<any>;
   cats$: Observable<any>;
   constructor(
     private store: Store<fromStore.SopsState>
@@ -19,9 +20,8 @@ export class CategoryComponent implements OnInit {
       type: fromRoot.UI_SECTION,
       payload: this.title
     });
+    this.doc$ = this.store.select(fromStore.getMainSopCat);
     this.cats$ = this.store.select(fromStore.getSubSopCat);
   }
-
-  ngOnInit() { }
 
 }

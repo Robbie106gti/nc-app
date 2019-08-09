@@ -7,7 +7,7 @@ import { Description } from './description';
   styleUrls: ['./description.component.css']
 })
 export class DescriptionComponent {
-  @Input() description: Description;
+  @Input()  description: Description;
 
   constructor() { }
 

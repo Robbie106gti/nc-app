@@ -1,4 +1,5 @@
-<div class="main">
+<div class="main" *ngIf="(doc$ | async) as doc">
+    <app-general-info [info]="doc"></app-general-info>
   <div class="row grid" *ngIf="(cats$ | async) as cards">
     <app-underconstruction [title]="title" *ngIf="cards.length === 0"></app-underconstruction>
     <app-card class="card" *ngFor="let card of cards" [card]="card">
