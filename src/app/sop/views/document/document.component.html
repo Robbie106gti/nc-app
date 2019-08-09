@@ -1,0 +1,5 @@
+<div class="main">
+  <div class="row" *ngIf="(doc$ | async) as doc">
+    {{ doc | json}}
+  </div>
+</div>

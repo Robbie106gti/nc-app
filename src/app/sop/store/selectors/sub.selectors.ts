@@ -40,3 +40,12 @@ export const getSubSopCat = createSelector(
     return Object.values(entities[params.sop]);
   }
 );
+
+export const getSopDoc = createSelector(
+  getSubSopEntities,
+  fromRoot.getRouterParams,
+  (entities, params) => {
+    if (!params.sop || !params.doc) { return {}; }
+    return entities[params.sop][params.doc];
+  }
+);

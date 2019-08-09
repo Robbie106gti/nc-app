@@ -13,8 +13,9 @@ import { EffectsModule } from '@ngrx/effects';
 
 import { reducers, effects } from './store';
 import { CategoryComponent } from './views/category/category.component';
+import { DocumentComponent } from './views/document/document.component';
 @NgModule({
-  declarations: [SopComponent, CategoryComponent],
+  declarations: [SopComponent, CategoryComponent, DocumentComponent],
   imports: [
     CommonModule,
     SopRoutingModule,
