@@ -1,0 +1,23 @@
+<div class="card">
+  <ul class="collection with-header">
+    <li class="collection-header">
+      <h4>{{ list.title }}</h4>
+    </li>
+    <li class="collection-item avatar" *ngFor="let item of list.items">
+      <i class="material-icons circle no-print">{{ item.icon || 'label' }}</i>
+      <span class="title"
+        ><b>{{ item.title }}:</b></span
+      >
+      <p [ngClass]="{ ' margin-image': item.image?.image }">{{ item.text }}</p>
+      <div class="secondary-content" *ngIf="item?.image">
+        <img
+          #materialboxed
+          appImgBoxed
+          class="responsive-img materialboxed"
+          [src]="item.image.image"
+          [alt]="item.image.title"
+        />
+      </div>
+    </li>
+  </ul>
+</div>

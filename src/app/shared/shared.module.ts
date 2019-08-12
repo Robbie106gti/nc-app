@@ -7,10 +7,12 @@ import { DescriptionComponent } from './description/description.component';
 import { ImageBlockComponent } from './image-block/image-block.component';
 import { GeneralInfoComponent } from './general-info/general-info.component';
 import { NoteComponent } from './note/note.component';
+import { ListComponent } from './list/list.component';
+import { ImagesComponent } from './image/images.component';
 
 @NgModule({
-  declarations: [UnderconstructionComponent, CardComponent, DescriptionComponent, ImageBlockComponent, GeneralInfoComponent, NoteComponent],
+  declarations: [UnderconstructionComponent, CardComponent, DescriptionComponent, ImageBlockComponent, GeneralInfoComponent, NoteComponent, ListComponent, ImagesComponent],
   imports: [CommonModule, SharedRoutingModule],
-  exports: [UnderconstructionComponent, CardComponent, DescriptionComponent, ImageBlockComponent, GeneralInfoComponent,NoteComponent ]
+  exports: [UnderconstructionComponent, CardComponent, DescriptionComponent, ImageBlockComponent, GeneralInfoComponent, NoteComponent, ListComponent, ImagesComponent]
 })
-export class SharedModule {}
+export class SharedModule { }

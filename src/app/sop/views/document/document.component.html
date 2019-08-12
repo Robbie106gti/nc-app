@@ -1,17 +1,39 @@
 <div class="main">
-  <div class="row" *ngIf="(doc$ | async) as doc">
+  <div class="row" *ngIf="doc$ | async as doc">
     <app-general-info [info]="doc"></app-general-info>
-    <app-description *ngIf="doc.description" [description]="doc.description"></app-description>
-    <section *ngFor="let section of doc.html?.sections" class="card-panel" [innerHTML]="section"></section>
-    <app-image-block [image]="{image: doc.image, title: doc.title, imageimportant: doc.imageimportant}"></app-image-block>
-    <app-image-block *ngFor="let image of doc.images" [image]="image" 
-    [ngClass]="{
-      's4 m3 l2': !image.size || image.size === 'default',
-      's3 m2 l1': image.size === 'small',
-      's8 m6 l4': image.size === 'medium',
-      's12 m12 l6': image.size === 'large'
-    }"></app-image-block>
-    <app-note  *ngFor="let note of doc.notes" [note]="note"></app-note>
-    {{ doc | json}}
+    <app-description
+      *ngIf="doc.description"
+      [description]="doc.description"
+    ></app-description>
+    <app-list
+      *ngIf="doc.listTitle"
+      [list]="{ title: doc.listTitle, items: doc.list }"
+    ></app-list>
+    <app-list *ngFor="let list of doc.lists" [list]="list"></app-list>
+    <section
+      *ngFor="let section of doc.html?.sections"
+      class="card-panel"
+      [innerHTML]="section"
+    ></section>
+    <app-image-block
+      [image]="{
+        image: doc.image,
+        title: doc.title,
+        imageimportant: doc.imageimportant
+      }"
+    ></app-image-block>
+    <app-image-block
+      *ngFor="let image of doc.images"
+      [image]="image"
+      [ngClass]="{
+        's4 m3 l2': !image.size || image.size === 'default',
+        's3 m2 l1': image.size === 'small',
+        's8 m6 l4': image.size === 'medium',
+        's12 m12 l6': image.size === 'large'
+      }"
+    ></app-image-block>
+    <app-note *ngFor="let note of doc.notes" [note]="note"></app-note>
+    <app-images [doc]="doc" [open]="false" [selected]="none"></app-images>
+    <!-- {{ doc | json }} -->
   </div>
 </div>

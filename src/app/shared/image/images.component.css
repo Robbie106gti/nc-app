@@ -1,0 +1,83 @@
+#images-carousel {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100vw;
+  scroll-behavior: smooth;
+  height: 100%;
+  background-color: rgba(50, 73, 95, 0.75);
+}
+
+.card-panel {
+  height: 80vh;
+  display: grid;
+  grid-column: 1;
+  align-content: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.card-image,
+.card-content {
+  text-align: center;
+}
+
+.thumbs {
+  max-height: 8rem;
+  width: 100%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0.5rem;
+  -ms-grid-columns: (minmax(5rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  margin-left: 0.5rem;
+}
+.thumb {
+  display: inline-block;
+  max-width: 8rem;
+  max-height: 8rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+.thumb > img {
+  max-height: 100% !important;
+  min-width: 100%;
+}
+.current {
+  background: red !important;
+  width: 108%;
+}
+.current > img {
+  opacity: 0.6;
+}
+.clicked {
+  background: grey;
+  width: 108%;
+}
+.clicked > img {
+  opacity: 0.6;
+}
+.btn-small {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(207, 73, 73);
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding: 0;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 0.8rem;
+  border-color: rgb(207, 73, 73);
+  color: white;
+  display: inline;
+  outline: 0;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+}

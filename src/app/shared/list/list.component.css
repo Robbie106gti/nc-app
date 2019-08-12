@@ -1,0 +1,15 @@
+.collection .collection-item:hover {
+  background-color: #e0e0e0 !important;
+}
+.secondary-content {
+  max-width: 8em;
+  right: 0.2em !important;
+  top: 0.2em !important;
+  display: block;
+}
+.margin-image {
+  margin-right: 8.2em !important;
+}
+img {
+  border: 1px solid #949494;
+}
