@@ -19,6 +19,8 @@
   grid-column: span 1;
   display: grid;
   grid-template-columns: 1fr;
+  /* justify-items: stretch; */
+  grid-gap: 0.5rem;
 }
 .default,
 .medium {
@@ -29,7 +31,4 @@
 }
 .large {
   grid-column: span 3;
-}
-.note {
-  align-self: stretch;
 }
