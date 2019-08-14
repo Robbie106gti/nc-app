@@ -6,3 +6,7 @@ interface Image {
 export interface Images {
   images: Array<Image>;
 }
+export interface ImageModal {
+  open: boolean;
+  imageurl: string;
+}

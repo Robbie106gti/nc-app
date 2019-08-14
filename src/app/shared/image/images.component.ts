@@ -1,5 +1,6 @@
 import { Component, Input, OnChanges, SimpleChanges, AfterContentInit } from '@angular/core';
-import { of } from 'rxjs';
+import { of, Observable } from 'rxjs';
+import { ImageModal } from './images';
 
 @Component({
   selector: 'app-images',
@@ -8,31 +9,33 @@ import { of } from 'rxjs';
 })
 export class ImagesComponent implements OnChanges, AfterContentInit {
   body: any = document.body;
-  @Input() open: boolean;
+  @Input() imageModal: ImageModal;
   @Input() doc: any;
-  @Input() selected: string;
   images: { items: any, current: { title: string; image: string; } } = { items: [], current: { title: 'none', image: 'none' } };
 
 
   constructor() { }
 
   ngAfterContentInit(): void {
-    this.stopScrolling(this.open);
+    this.stopScrolling();
     this.images.items = [...this.doc.images, { title: this.doc.title, image: this.doc.image }];
-    if (!this.selected) {
+    if (!this.imageModal.imageurl) {
       this.changeImage(this.doc.image)
+    } else {
+      this.changeImage(this.imageModal.imageurl)
     }
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if (changes['open']) {
-      console.log(this.open)
-      this.stopScrolling(this.open);
+    if (changes['imageModal.open']) {
+      // console.log(this.imageModal.open);
+      this.stopScrolling();
     }
   }
 
-  stopScrolling(open) {
-    open === true ? this.body.classList.add('stopScrolling') : this.body.classList.remove('stopScrolling');
+  stopScrolling() {
+    // console.log(this.imageModal);
+    this.imageModal.open === true ? this.body.classList.add('stopScrolling') : this.body.classList.remove('stopScrolling');
   }
 
   changeImage(image) {
@@ -45,11 +48,11 @@ export class ImagesComponent implements OnChanges, AfterContentInit {
       }
       return item;
     });
-    // this.images.current = this.images.items.filter(item => item.image === image)[0];
   }
 
-  close(close) {
-    this.open = close;
+  close() {
+    this.imageModal.open = false;
+    this.body.classList.remove('stopScrolling');
   }
 
 }

@@ -1,4 +1,15 @@
-h1, h4 {
-    margin-top: 0;
-    margin-bottom: 0;
+h1,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.image {
+  max-height: 100%;
+  max-width: 100%;
+}
+#topic {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  grid-column-gap: 0.5rem;
+  justify-content: center;
 }

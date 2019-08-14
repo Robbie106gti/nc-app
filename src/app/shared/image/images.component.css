@@ -81,3 +81,7 @@
   display: inline-block;
   overflow: hidden;
 }
+.full-image {
+  max-width: 100%;
+  max-height: 70vh;
+}

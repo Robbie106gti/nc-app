@@ -11,6 +11,7 @@
       <p [ngClass]="{ ' margin-image': item.image?.image }">{{ item.text }}</p>
       <div class="secondary-content" *ngIf="item?.image">
         <img
+          (click)="openImageModal(item.image.image)"
           #materialboxed
           appImgBoxed
           class="responsive-img materialboxed"

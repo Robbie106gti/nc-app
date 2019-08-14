@@ -1,8 +1,11 @@
 import {
   Component, Input,
-  ChangeDetectionStrategy
+  ChangeDetectionStrategy,
+  Output,
+  EventEmitter
 } from '@angular/core';
 import { ImageBlock } from './image-block';
+import { ImageModal } from '../image/images';
 
 @Component({
   selector: 'app-image-block',
@@ -12,7 +15,12 @@ import { ImageBlock } from './image-block';
 })
 export class ImageBlockComponent {
   @Input() image: ImageBlock;
+  @Output() imageModal = new EventEmitter<ImageModal>();
 
   constructor() { }
+
+  openImageModal(image) {
+    this.imageModal.emit({ open: true, imageurl: image });
+  }
 
 }

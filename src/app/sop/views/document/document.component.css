@@ -1,0 +1,35 @@
+.doc-grid {
+  display: grid;
+  grid-column-gap: 0.5rem;
+}
+
+.genInfo {
+  grid-column: span 4;
+}
+.block {
+  grid-column: span 2;
+}
+.images {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 0.5rem;
+}
+.notes {
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.default,
+.medium {
+  grid-column: span 2;
+}
+.small {
+  grid-column: span 1;
+}
+.large {
+  grid-column: span 3;
+}
+.note {
+  align-self: stretch;
+}

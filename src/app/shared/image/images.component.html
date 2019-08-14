@@ -1,4 +1,4 @@
-<div id="images-carousel" class="" *ngIf="open === true">
+<div id="images-carousel" class="">
   <button class="btn-small red" (click)="close(false)">
     <i class="material-icons">close</i>
   </button>
@@ -7,7 +7,7 @@
       <img
         [src]="images.current.image"
         [alt]="images.current.title"
-        class="responsive-img"
+        class="full-image"
       />
     </div>
     <div class="card-content">

@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import * as fromStore from '../../store';
 import * as fromRoot from '../../../store';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
+import { ImageModal } from 'src/app/shared/image/images';
 
 @Component({
   selector: 'app-document',
@@ -12,6 +13,7 @@ import { Observable } from 'rxjs';
 export class DocumentComponent {
   title = 'SOP';
   doc$: Observable<any>;
+  imageModal: ImageModal = { open: false, imageurl: null };
 
   constructor(private store: Store<fromStore.SopsState>) {
     this.store.dispatch({
@@ -19,6 +21,10 @@ export class DocumentComponent {
       payload: this.title
     });
     this.doc$ = this.store.select(fromStore.getSopDoc);
+  }
+
+  openImageModal(obj: ImageModal) {
+    this.imageModal = obj;
   }
 
 }

@@ -1,12 +1,11 @@
 import {
   Component, Input,
-  ViewChildren,
-  ElementRef,
-  AfterViewInit,
-  QueryList,
-  ChangeDetectionStrategy
+  ChangeDetectionStrategy,
+  Output,
+  EventEmitter
 } from '@angular/core';
 import { List } from './list';
+import { ImageModal } from '../image/images';
 declare var M: any;
 
 @Component({
@@ -15,19 +14,14 @@ declare var M: any;
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.css']
 })
-export class ListComponent // implements AfterViewInit
-{
+export class ListComponent {
   @Input() list: List;
-  /*   @ViewChildren('materialboxed', { read: ElementRef })
-    elemsMaterialboxed: QueryList<ElementRef>; */
+  @Output() imageModal = new EventEmitter<ImageModal>();
 
   constructor() { }
 
-  /*   ngAfterViewInit(): void {
-      const elems = this.elemsMaterialboxed;
-      elems.forEach(el => {
-        const instanceMaterialboxed = new M.Materialbox(el.nativeElement, {});
-      });
-    } */
+  openImageModal(image: string) {
+    this.imageModal.emit({ open: true, imageurl: image });
+  }
 
 }
