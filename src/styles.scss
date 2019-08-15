@@ -163,7 +163,9 @@ body {
   margin: auto;
 }
 
-.card {
+.card, .card-panel {
+  margin: 0 !important;
+  height: 100%;
   .card-image {
     img {
       width: auto !important;

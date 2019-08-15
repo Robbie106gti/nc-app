@@ -1,5 +1,5 @@
 <div id="images-carousel" class="">
-  <button class="btn-small red" (click)="close(false)">
+  <button class="btn-small red" (click)="close()">
     <i class="material-icons">close</i>
   </button>
   <div class="card-panel">
@@ -17,19 +17,16 @@
     </div>
   </div>
   <div class="thumbs">
-    <div class="thumb" *ngFor="let thumb of images.items">
-      <div
-        [ngClass]="{
-          current: thumb.current,
-          clicked: thumb.clicked
-        }"
-      >
+    <div class="thumb" *ngFor="let thumb of images.items" 
+    [ngClass]="{
+      current: thumb.current,
+      clicked: thumb.clicked
+    }">
         <img
           (click)="changeImage(thumb.image)"
           [src]="thumb.image"
           [alt]="thumb.title"
         />
-      </div>
     </div>
   </div>
 </div>

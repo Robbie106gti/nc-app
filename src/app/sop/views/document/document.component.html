@@ -9,7 +9,7 @@
         *ngIf="doc.description"
         [description]="doc.description"
       ></app-description>
-      <div class="notes">
+      <div class="notes" *ngIf="doc.notes">
         <app-note *ngFor="let note of doc.notes" [note]="note"></app-note>
       </div>
       <app-list

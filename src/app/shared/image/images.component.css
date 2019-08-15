@@ -13,7 +13,7 @@
 }
 
 .card-panel {
-  height: 80vh;
+  height: 90vh;
   display: grid;
   grid-column: 1;
   align-content: center;
@@ -25,8 +25,7 @@
   text-align: center;
 }
 
-.thumbs {
-  max-height: 8rem;
+.thumbs {    height: 8rem;
   width: 100%;
   margin: 0 auto;
   display: -ms-grid;
@@ -34,15 +33,16 @@
   grid-gap: 0.5rem;
   -ms-grid-columns: (minmax(5rem, 1fr)) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
-  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  background: white;
+  padding: 0.5rem;
 }
 .thumb {
-  display: inline-block;
-  max-width: 8rem;
-  max-height: 8rem;
   border-radius: 0.2rem;
   margin-bottom: 1rem;
   overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 .thumb > img {
   max-height: 100% !important;
@@ -50,14 +50,12 @@
 }
 .current {
   background: red !important;
-  width: 108%;
 }
 .current > img {
   opacity: 0.6;
 }
 .clicked {
   background: grey;
-  width: 108%;
 }
 .clicked > img {
   opacity: 0.6;

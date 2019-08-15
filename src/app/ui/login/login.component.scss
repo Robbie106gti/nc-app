@@ -1,11 +1,10 @@
 .login {
-  display: block;
   padding-bottom: 3rem !important;
   padding-right: 1rem !important;
   background-color: #fafafa;
   max-width: 25rem;
-  width: 100%;
-  margin: auto;
+  width: 100%;  
+  justify-self: center;
 }
 
 .form-flex {
@@ -33,6 +32,7 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  display: grid;
 }
 
 .blogin {
