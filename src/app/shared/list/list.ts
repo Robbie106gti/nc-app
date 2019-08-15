@@ -3,7 +3,7 @@ export interface List {
   items: Array<ListItem>;
 }
 
-interface ListItem {
+export interface ListItem {
   title: string;
   text: string;
   icon?: string;

@@ -3,30 +3,55 @@
     <i class="material-icons">close</i>
   </button>
   <div class="card-panel">
-    <div class="card-image">
-      <img
-        [src]="images.current.image"
-        [alt]="images.current.title"
-        class="full-image"
-      />
+    <div class="chevron">
+      <i class="material-icons large no-print" (click)="previousImage()">chevron_left</i>
     </div>
-    <div class="card-content">
-      <span class="card-title">
-        <b>{{ images.current.title }}</b>
-      </span>
+    <div class="item">
+      <div class="card-image">
+        <img
+          [src]="images.current.image"
+          [alt]="images.current.title"
+          class="full-image"
+        />
+        <small *ngIf="images.current.list" class="card-title">
+          <i>image title: {{ images.current.title }}</i>
+        </small>
+      </div>
+      <div class="card-content">
+        <span *ngIf="!images.current.list" class="card-title">
+          <i>image title: {{ images.current.title }}</i>
+        </span>
+        <span *ngIf="images.current.list">
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <i class="material-icons circle no-print">{{
+                images.current.list.icon || 'label'
+              }}</i>
+              <b class="card-title">{{ images.current.list.title }}: </b>
+              <p>{{ images.current.list.text }}</p>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </div>
+    <div class="chevron">
+      <i class="material-icons large no-print" (click)="nextImage()">chevron_right</i>
     </div>
   </div>
   <div class="thumbs">
-    <div class="thumb" *ngFor="let thumb of images.items" 
-    [ngClass]="{
-      current: thumb.current,
-      clicked: thumb.clicked
-    }">
-        <img
-          (click)="changeImage(thumb.image)"
-          [src]="thumb.image"
-          [alt]="thumb.title"
-        />
+    <div
+      class="thumb"
+      *ngFor="let thumb of images.items"
+      [ngClass]="{
+        current: thumb.current,
+        clicked: thumb.clicked
+      }"
+    >
+      <img
+        (click)="changeImage(thumb.image)"
+        [src]="thumb.image"
+        [alt]="thumb.title"
+      />
     </div>
   </div>
 </div>

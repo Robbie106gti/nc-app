@@ -15,14 +15,14 @@
 .card-panel {
   height: 90vh;
   display: grid;
-  grid-column: 1;
-  align-content: center;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  grid-template-columns: 2vw 1fr 2vw;
 }
 .card-image,
 .card-content {
-  text-align: center;
+  display: grid;
+  grid-column: 1;
+  text-align: center;  
+  justify-items: center;
 }
 
 .thumbs {    height: 8rem;
@@ -81,5 +81,19 @@
 }
 .full-image {
   max-width: 100%;
-  max-height: 70vh;
+  max-height: 75vh;
+}
+.chevron {  
+  grid-column: span 1;
+  display: grid;
+  align-self: center;
+}
+.item {
+  grid-column: span 1;
+  display: grid;
+  align-self: center;
+}
+.large {  
+  left: -1.8rem;
+  position: relative;
 }
