@@ -1,3 +1,6 @@
+.collection {
+  margin: 0;
+}
 .collection .collection-item:hover {
   background-color: #e0e0e0 !important;
 }
@@ -12,4 +15,7 @@
 }
 img {
   border: 1px solid #949494;
+}
+.card {
+  margin: 0;
 }

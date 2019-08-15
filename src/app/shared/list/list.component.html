@@ -5,7 +5,7 @@
     </li>
     <li class="collection-item avatar" *ngFor="let item of list.items">
       <i class="material-icons circle no-print">{{ item.icon || 'label' }}</i>
-      <span class="title"
+      <span class="title" [ngClass]="{ ' margin-image': item.image?.image }"
         ><b>{{ item.title }}:</b></span
       >
       <p [ngClass]="{ ' margin-image': item.image?.image }">{{ item.text }}</p>

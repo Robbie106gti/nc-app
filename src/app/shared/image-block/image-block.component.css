@@ -1,0 +1,15 @@
+.card {
+    margin: 0;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+.card-image {
+    align-self: center;
+
+}
+.card-content {
+
+    align-self: center;
+}
