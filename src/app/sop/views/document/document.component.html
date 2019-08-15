@@ -2,10 +2,9 @@
   <div class="doc-grid">
     <app-general-info class="genInfo col s12" [info]="doc"></app-general-info>
     <div class="block col s6"
-    *ngIf="doc.description || doc.notes || (doc.listTitle && doc?.imageimportant !== false)"
+    *ngIf="doc.description || doc.notes || doc.listTitle"
     >
       <app-description
-        class="block "
         *ngIf="doc.description"
         [description]="doc.description"
       ></app-description>
@@ -13,20 +12,20 @@
         <app-note *ngFor="let note of doc.notes" [note]="note"></app-note>
       </div>
       <app-list
-        *ngIf="doc.listTitle && doc?.imageimportant !== false"
+        *ngIf="doc.listTitle && !doc.imageimportant"
         (imageModal)="openImageModal($event)"
         [list]="{ title: doc.listTitle, items: doc.list }"
       ></app-list>
     </div>
     <app-image-block
-      class="block col s6"
-      *ngIf="doc?.imageimportant !== false"
+      class="image col s6"
+      *ngIf="!doc.imageimportant || doc.imageimportant === true"
       [image]="{title: doc.title, image: doc.image}"
       (imageModal)="openImageModal($event)"
     ></app-image-block>
     <app-list
       class="block col s6"
-      *ngIf="doc.listTitle && doc?.imageimportant === false"
+      *ngIf="doc.listTitle && doc.imageimportant"
       (imageModal)="openImageModal($event)"
       [list]="{ title: doc.listTitle, items: doc.list }"
     ></app-list>
