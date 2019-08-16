@@ -26,7 +26,8 @@ const routes: Routes = [
   },
   {
     path: 'search',
-    loadChildren: './search/search.module#SearchModule'
+    loadChildren: './search/search.module#SearchModule',
+    canActivateChild: [fromGuards.LoginGuard, fromGuards.SopGuard]
   },
   {
     path: 'dashboard',

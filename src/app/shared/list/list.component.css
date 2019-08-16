@@ -11,7 +11,7 @@
   align-self: center;
   margin: 0;
   margin-left: 0.5rem;
-  padding: 0;
+  padding: 0.5rem;
 }
 .secondary-content {
   grid-column: span 1;
@@ -20,6 +20,7 @@
   overflow: hidden;
   justify-self: right;
   align-self: center;
+  border: 1px solid #949494;
 }
 .content {
   grid-column: span 2;
@@ -48,9 +49,6 @@ p {
   grid-column: span 1;
   justify-self: left;
   align-self: center;
-}
-img {
-  border: 1px solid #949494;
 }
 .collection.with-header .collection-item {
   padding-left: 0;

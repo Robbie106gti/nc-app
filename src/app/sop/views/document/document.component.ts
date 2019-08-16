@@ -27,4 +27,8 @@ export class DocumentComponent {
     this.imageModal = obj;
   }
 
+  trackByFn(index, item) {
+    return item.id || index;
+  }
+
 }

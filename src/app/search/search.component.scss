@@ -1,0 +1,30 @@
+.dark-grey {
+    background-color: rgba(0,0,0,.8);
+}
+.search-results {
+    display: grid;
+}
+.search-loading {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.search-form {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 0.2rem;
+}
+.input-field {
+    grid-column: span 1;
+    min-width: 50vw;
+}
+.icon {
+    grid-column: span 1;
+    align-self: center;
+}
+.search-value {
+    grid-column: span 3;
+    align-self: center;
+}

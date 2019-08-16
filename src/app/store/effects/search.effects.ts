@@ -15,10 +15,11 @@ export class SearchEffects {
     private actions$: Actions
   ) {}
 
-  @Effect()
+  @Effect({dispatch: false})
   search$ = this.actions$.pipe(
     ofType(searchActions.SEARCH),
-    switchMap(action => {
+    switchMap((action: { type: string; payload: any }) => {
+      console.log(action.payload);
       return of(null);
     })
   );

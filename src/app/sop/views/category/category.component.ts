@@ -24,4 +24,8 @@ export class CategoryComponent {
     this.cats$ = this.store.select(fromStore.getSubSopCat);
   }
 
+  trackByFn(index, item) {
+    return item.id || index;
+  }
+
 }
