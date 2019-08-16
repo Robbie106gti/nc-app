@@ -1,14 +1,20 @@
 <div class="card">
   <ul class="collection with-header">
+      <span class="right"><small>List</small></span>
     <li class="collection-header">
       <h4>{{ list.title }}</h4>
     </li>
-    <li class="collection-item avatar" *ngFor="let item of list.items">
-      <i class="material-icons circle no-print">{{ item.icon || 'label' }}</i>
-      <span class="title" [ngClass]="{ ' margin-image': item.image?.image }"
-        ><b>{{ item.title }}:</b></span
-      >
-      <p [ngClass]="{ ' margin-image': item.image?.image }">{{ item.text }}</p>
+    <li class="collection-item" *ngFor="let item of list.items">
+      <div class="icon"><i class="material-icons circle no-print">{{ item.icon || 'label' }}</i></div>
+      <div [ngClass]="{ 
+        'margin-image': item.image?.image,
+        'content': !item.image
+      }">
+        <span class="title" >
+          <b>{{ item.title }}:</b>
+        </span>
+        <p>{{ item.text }}</p>
+      </div>
       <div class="secondary-content" *ngIf="item?.image">
         <img
           (click)="openImageModal(item.image.image)"

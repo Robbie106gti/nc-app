@@ -4,15 +4,57 @@
 .collection .collection-item:hover {
   background-color: #e0e0e0 !important;
 }
+.collection-item {
+  display: grid;
+  grid-template-columns: 3rem 1fr 8vw;
+  grid-gap: 0.5rem;
+  align-self: center;
+  margin: 0;
+  margin-left: 0.5rem;
+  padding: 0;
+}
 .secondary-content {
-  max-width: 8em;
-  right: 0.2em !important;
-  top: 0.2em !important;
-  display: block;
+  grid-column: span 1;
+  max-width: 8vw;
+  max-height: 5vw;
+  overflow: hidden;
+  justify-self: right;
+  align-self: center;
+}
+.content {
+  grid-column: span 2;
+  justify-self: left;
+  align-self: center;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.circle {
+  align-self: center;
+}
+.icon {
+  grid-column: span 1;
+  align-self: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  background-color: rgb(70, 70, 70);
+  color:  rgb(239, 240, 232);
+  text-align: center;
+  display: grid;
 }
 .margin-image {
-  margin-right: 8.2em !important;
+  grid-column: span 1;
+  justify-self: left;
+  align-self: center;
 }
 img {
   border: 1px solid #949494;
+}
+.collection.with-header .collection-item {
+  padding-left: 0;
+}
+.right {
+  padding-right: 1rem;
 }

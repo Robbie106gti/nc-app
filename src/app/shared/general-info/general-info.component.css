@@ -13,3 +13,8 @@ h4 {
   grid-column-gap: 0.5rem;
   justify-content: center;
 }
+.gi {
+  position: absolute;
+  margin-top: -1.5rem;
+  margin-left: -0.5rem;
+}

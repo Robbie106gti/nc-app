@@ -12,3 +12,11 @@ p {
   margin: 0;
   padding: 0;
 }
+.right {
+  padding-right: 1rem;
+}
+.icon {
+  left: -0.6rem;
+  top: -0.5rem;
+  position: relative;
+}
