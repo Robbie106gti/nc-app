@@ -10,4 +10,8 @@ export class CardComponent {
   @Input() card: Card;
 
   constructor() {  }
+
+  trackByFn(index, item) {
+    return item.id || index;
+  }
 }

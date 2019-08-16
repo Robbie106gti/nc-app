@@ -9,7 +9,7 @@
         [description]="doc.description"
       ></app-description>
       <div class="notes" *ngIf="doc.notes">
-        <app-note *ngFor="let note of doc.notes" [note]="note"></app-note>
+        <app-note *ngFor="let note of doc.notes; index as i; trackBy: trackByFn" [note]="note"></app-note>
       </div>
       <app-list
         *ngIf="doc.listTitle && !doc.imageimportant"
@@ -19,7 +19,7 @@
     </div>
     <app-image-block
       class="image col s6"
-      *ngIf="!doc.imageimportant || doc.imageimportant === true"
+      *ngIf="doc.imageimportant !== false"
       [image]="{title: doc.title, image: doc.image}"
       (imageModal)="openImageModal($event)"
     ></app-image-block>
@@ -33,13 +33,13 @@
 
     <app-list
       class="block col s6"
-      *ngFor="let list of doc.lists"
+      *ngFor="let list of doc.lists; index as i; trackBy: trackByFn"
       [list]="list"
       (imageModal)="openImageModal($event)"
     ></app-list>
     <div class="images col s6" *ngIf="doc.images">
       <app-image-block
-        *ngFor="let image of doc.images"
+        *ngFor="let image of doc.images; index as i; trackBy: trackByFn"
         [ngClass]="{
           default: !image.size || image.size === 'default',
           small: image.size === 'small',
@@ -52,7 +52,7 @@
     </div>
     <section
       class="block col s6"
-      *ngFor="let section of doc.html?.sections"
+      *ngFor="let section of doc.html?.sections; index as i; trackBy: trackByFn"
       class="card-panel block"
       [innerHTML]="section"
     ></section>

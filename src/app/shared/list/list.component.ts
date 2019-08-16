@@ -24,4 +24,8 @@ export class ListComponent {
     this.imageModal.emit({ open: true, imageurl: image });
   }
 
+  trackByFn(index, item) {
+    return index;
+  }
+
 }

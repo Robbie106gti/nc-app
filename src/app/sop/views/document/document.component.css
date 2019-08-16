@@ -25,7 +25,7 @@
 .images {
   grid-column: span 2;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
   grid-gap: 0.5rem;
 }
 .notes {
@@ -35,16 +35,19 @@
   /* justify-items: stretch; */
   grid-gap: 0.5rem;
 }
-.default,
 .medium {
   grid-column: span 3;
   justify-self: stretch;
+  overflow: hidden;
 }
+.default,
 .small {
   grid-column: span 1;
   justify-self: stretch;
+  overflow: hidden;
 }
 .large {
   grid-column: span 6;
   justify-self: stretch;
+  overflow: hidden;
 }

@@ -41,7 +41,7 @@
   <div class="thumbs">
     <div
       class="thumb"
-      *ngFor="let thumb of images.items"
+      *ngFor="let thumb of images.items; index as i; trackBy: trackByFn"
       [ngClass]="{
         current: thumb.current,
         clicked: thumb.clicked

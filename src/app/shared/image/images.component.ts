@@ -37,6 +37,10 @@ export class ImagesComponent implements OnChanges, AfterContentInit {
     }
   }
 
+  trackByFn(index, item) {
+    return index;
+  }
+
   stopScrolling() {
     // console.log(this.imageModal);
     this.imageModal.open === true ? this.body.classList.add('stopScrolling') : this.body.classList.remove('stopScrolling');

@@ -8,6 +8,11 @@ import { Note } from './note';
 })
 export class NoteComponent{
 @Input() note: Note;
-  constructor() { }
+  constructor() {
+  }
+
+  trackByFn(index, item) {
+    return index;
+  }
 
 }

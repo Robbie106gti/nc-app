@@ -23,4 +23,8 @@ export class ImageBlockComponent {
     this.imageModal.emit({ open: true, imageurl: image });
   }
 
+  trackByFn(index, item) {
+    return index;
+  }
+
 }
