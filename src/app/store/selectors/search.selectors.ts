@@ -18,9 +18,14 @@ export const getSearchLoading = createSelector(
   search => search.loading
 );
 
+export const getSearchItems = createSelector(
+  getSearchState,
+  search => search.loading
+);
+
 export const getSearch = createSelector(
   getSearchState,
   search => {
-    return { loaded: search.loaded, loading: search.loading , items: Object.values(search.results)};
+    return { loaded: search.loaded, loading: search.loading, items: Object.values(search.results) };
   }
 );
