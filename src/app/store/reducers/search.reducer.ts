@@ -29,7 +29,8 @@ export function reducer(
     }
 
     case fromSearch.SEARCH_SUCCESS: {
-      const search = Object.values(action.payload);
+      const search = action.payload;
+      console.log(state);
       const query = state.query;
       // tslint:disable-next-line:no-inferrable-types
       let max: number = 10;

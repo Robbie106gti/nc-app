@@ -9,7 +9,7 @@ import { of } from 'rxjs';
 @Injectable()
 export class MainEffects {
   constructor(private actions$: Actions, private router: Router,
-    private firestoreService: FirestoreService) {}
+    private firestoreService: FirestoreService) { }
 
   @Effect()
   load_main_sop$ = this.actions$.pipe(
@@ -22,34 +22,34 @@ export class MainEffects {
     }
     ));
 
-///// DANGER! TO update each main category SOPS, use only once or twice. DANGER! /////
-/*     @Effect({dispatch: false})
-    update_main_cat_load$ = this.actions$.pipe(
-      ofType(mainActions.LOADED_MAIN_SOPS),
-      take(1),
-      map((action: any) => {
-        console.log('Hello');
-        const entities = action.payload;
-        const ref = '/sops/';
-        entities.forEach(entity => {
-        console.log(entity.link.includes('undefined'));
-          const update = entity.link.includes('undefined') ? true : false;
-          const data: any = {
-            link: makelink(entity.title),
-            id: entity.id,
-            type: 'sop',
-            sub: 'main',
-            updated: true
-          };
-
-          if (update === true) {
-            console.log({update, data});
-
-            return this.firestoreService.update(ref + entity.id, data);
-          }
+  ///// DANGER! TO update each main category SOPS, use only once or twice. DANGER! /////
+  @Effect({ dispatch: false })
+  update_main_cat_load$ = this.actions$.pipe(
+    ofType(mainActions.LOADED_MAIN_SOPS),
+    take(1),
+    map((action: any) => {
+      const entities = action.payload;
+      const ref = '/search/sop';
+      const search = {
+        items0_250: [],
+        items250_500: [],
+        items500_750: [],
+        items750_1000: []
+      };
+      console.log(search)
+      entities.forEach(entity => {
+        entity.search.forEach(s => {
+          console.log(s)
+          if (search.items0_250.length < 250) { return search.items0_250.push(s); }
+          if (search.items250_500.length < 250) { return search.items0_250.push(s); }
+          if (search.items500_750.length < 250) { return search.items0_250.push(s); }
+          if (search.items750_1000.length < 250) { return search.items0_250.push(s); }
+          console.log('Oops something went wrong');
         });
-        return of(null);
-      }),
-      catchError(err => of(err))
-      ); */
+      });
+      console.log(search);
+      return this.firestoreService.update('/search/sop', { search });
+    }),
+    catchError(err => of(err))
+  );
 }

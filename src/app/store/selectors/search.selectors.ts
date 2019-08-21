@@ -1,6 +1,7 @@
 import { createSelector } from '@ngrx/store';
 
 import * as fromFeature from '../reducers';
+import * as fromSop from '../../sop/store/';
 import { SearchState } from '../reducers/search.reducer';
 
 export const getSearchState = createSelector(
@@ -17,11 +18,14 @@ export const getSearchLoading = createSelector(
   getSearchState,
   search => search.loading
 );
-
+/*
 export const getSearchItems = createSelector(
-  getSearchState,
-  search => search.loading
-);
+  fromSop.getMainSopArray,
+  sop => {
+    console.log(sop);
+    return sop;
+  }
+); */
 
 export const getSearch = createSelector(
   getSearchState,
