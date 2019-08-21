@@ -24,13 +24,13 @@ export class SearchEffects {
     })
   );
 
-  @Effect()
-  search_sop$ = this.actions$.ofType(searchActions.SEARCH_SOP).pipe(
-    switchMap((action: Ap) => {
-      return this.store.select(fromStore.getCats).pipe(
-        map(search => new searchActions.SearchSuccess(search)),
-        catchError(error => of(new searchActions.SearchFail(error)))
-      );
-    })
-  );
+  /*   @Effect()
+    search_sop$ = this.actions$.ofType(searchActions.SEARCH_SOP).pipe(
+      switchMap((action: Ap) => {
+        return this.store.select(fromStore.getCats).pipe(
+          map(search => new searchActions.SearchSuccess(search)),
+          catchError(error => of(new searchActions.SearchFail(error)))
+        );
+      })
+    ); */
 }
