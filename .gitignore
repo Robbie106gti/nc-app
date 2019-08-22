@@ -46,3 +46,8 @@ functions/nickels-catalog-firebase-adminsdk-m8g1g-600cf4ab30.json
 src/assets/user code temp.txt
 functions/node_modules/
 src/assets/json/app data json.code-workspace
+src/api/config/config.php
+src/api/config/db.php
+src/api/composer.json
+src/api/composer.lock
+src/api/vendor

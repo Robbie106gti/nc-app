@@ -6,6 +6,7 @@ import { FirestoreService } from 'src/app/services';
 import { switchMap, map, catchError, tap, take } from 'rxjs/operators';
 import { of } from 'rxjs';
 
+const root = window.location.hostname === 'localhost' ? 'http://localhost/' : 'https://webquoin.com/';
 @Injectable()
 export class MainEffects {
   constructor(private actions$: Actions, private router: Router,
@@ -30,26 +31,65 @@ export class MainEffects {
     map((action: any) => {
       const entities = action.payload;
       const ref = '/search/sop';
-      const search = {
-        items0_250: [],
-        items250_500: [],
-        items500_750: [],
-        items750_1000: []
-      };
-      console.log(search)
-      entities.forEach(entity => {
-        entity.search.forEach(s => {
-          console.log(s)
-          if (search.items0_250.length < 250) { return search.items0_250.push(s); }
-          if (search.items250_500.length < 250) { return search.items0_250.push(s); }
-          if (search.items500_750.length < 250) { return search.items0_250.push(s); }
-          if (search.items750_1000.length < 250) { return search.items0_250.push(s); }
-          console.log('Oops something went wrong');
+      entities.forEach(async entity => {
+        const catinSearch = fetch(root + 'catalog/api/public/index.php/search/s/' + entity.id)
+        .then((resp) => resp.json())
+        .then(resultcat => {
+          // console.log(resultcat.bodyUsed)
+        if (resultcat === false) {
+          console.log('not found in search', resultcat, entity);
+          addSearch({
+            title: entity.title,
+            id: entity.id,
+            idCat: entity.id,
+            link: entity.link,
+            image: entity.image,
+            content: '',
+            sub: entity.sub
+          });
+        }
+        return resultcat;
+        });
+        entity.search.forEach(async s => {
+          const inSearch = fetch(root + 'catalog/api/public/index.php/search/s/' + s.id)
+          .then((resp) => resp.json())
+          .then(result => {
+          if (!result) {
+            console.log('not found in search', result);
+            addSearch(s);
+          }
+          return result;
+          });
         });
       });
-      console.log(search);
-      return this.firestoreService.update('/search/sop', { search });
+      return of(null);
     }),
     catchError(err => of(err))
   );
+}
+
+async function addSearch(s) {
+  const url = root + 'catalog/api/public/index.php/search/add';
+  const data = new FormData();
+    data.append('id', s.id);
+    data.append('idCat', s.idCat);
+    data.append('title', s.title);
+    // tslint:disable-next-line: max-line-length
+    data.append('image', s.image);
+    data.append('content', s.content);
+    data.append('type', 'sop');
+    data.append('sub', s.sub);
+    data.append('link', s.link);
+  const result = await fetch(url, {
+    method: 'post',
+    body: data
+  }).then(function(response) {
+    console.log(response);
+    return response;
+  }).catch(function(err) {
+    console.log(err);
+    // Error :(
+      throw(err);
+  });
+  return result;
 }
