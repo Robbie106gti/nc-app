@@ -10,7 +10,7 @@ $app->options('/{routes:.+}', function ($request, $response, $args) {
 $app->add(function ($req, $res, $next) {
     $response = $next($req, $res);
     return $response
-            ->withHeader('Access-Control-Allow-Origin', $_SERVER['HTTP_ORIGIN'])
+            ->withHeader('Access-Control-Allow-Origin', '*')
             ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
             ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
 });
@@ -43,9 +43,8 @@ $app->get('/search/s/{id}', function(Request $request, Response $response){
         // Connect
         $db = $db->connect();
         $stmt = $db->query($sql);
-        $customer = $stmt->fetch(PDO::FETCH_OBJ);
-        $db = null;
-        echo json_encode($customer);
+        $item = $stmt->fetch(PDO::FETCH_OBJ);
+        echo json_encode($item);
     } catch(PDOException $e){
         echo '{"error": {"text": '.$e->getMessage().'}';
     }

@@ -32,12 +32,10 @@ export class MainEffects {
       const entities = action.payload;
       const ref = '/search/sop';
       entities.forEach(async entity => {
-        const catinSearch = fetch(root + 'catalog/api/public/index.php/search/s/' + entity.id)
-        .then((resp) => resp.json())
-        .then(resultcat => {
-          // console.log(resultcat.bodyUsed)
-        if (resultcat === false) {
-          console.log('not found in search', resultcat, entity);
+        const catinSearch = await searchId(entity.id);
+        const search = entity.search ? entity.search : [];
+        if (catinSearch === false) {
+          console.log('not found in search', catinSearch, entity);
           addSearch({
             title: entity.title,
             id: entity.id,
@@ -48,18 +46,12 @@ export class MainEffects {
             sub: entity.sub
           });
         }
-        return resultcat;
-        });
-        entity.search.forEach(async s => {
-          const inSearch = fetch(root + 'catalog/api/public/index.php/search/s/' + s.id)
-          .then((resp) => resp.json())
-          .then(result => {
-          if (!result) {
-            console.log('not found in search', result);
+        search.forEach(async s => {
+          const inSearch = await searchId(s.id);
+          if (inSearch === false) {
+            console.log('not found in search', inSearch);
             addSearch(s);
           }
-          return result;
-          });
         });
       });
       return of(null);
@@ -74,22 +66,35 @@ async function addSearch(s) {
     data.append('id', s.id);
     data.append('idCat', s.idCat);
     data.append('title', s.title);
-    // tslint:disable-next-line: max-line-length
     data.append('image', s.image);
     data.append('content', s.content);
     data.append('type', 'sop');
     data.append('sub', s.sub);
     data.append('link', s.link);
-  const result = await fetch(url, {
+  let result = {};
+  await fetch(url, {
     method: 'post',
     body: data
-  }).then(function(response) {
-    console.log(response);
-    return response;
-  }).catch(function(err) {
+  })
+  .then((response) => result = response.json())
+  .catch(function(err) {
     console.log(err);
     // Error :(
       throw(err);
   });
+  return result;
+}
+
+async function searchId(id) {
+  const url = root + 'catalog/api/public/index.php/search/s/';
+  let result = {};
+  await fetch(url + id, {
+    headers: new Headers({
+        'Content-Type': 'application/json'
+    }),
+    method: 'GET'
+})
+          .then((response) => result = response.json())
+          .catch(err => {throw(err); });
   return result;
 }
