@@ -10,6 +10,7 @@ $app->options('/{routes:.+}', function ($request, $response, $args) {
 $app->add(function ($req, $res, $next) {
     $response = $next($req, $res);
     return $response;
+      // IIS8.5 is setting headers for CORS do not set again. This will result in a CORS error;
 });
 
 // Get all Search items
