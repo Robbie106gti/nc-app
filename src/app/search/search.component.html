@@ -2,16 +2,32 @@
   <div id="top">
     <div class="card-panel dark-grey white-text search-form">
       <div class="icon"><i class="material-icons prefix">search</i></div>
-        <div class="input-field">
-          <input type="text" class="validate white-text" appAutoFocus required #search (keyup.enter)="Search(search.value)">
+      <div class="input-field">
+        <input
+          type="text"
+          class="validate white-text"
+          appAutoFocus
+          required
+          #search
+          (keyup.enter)="Search(search.value)"
+        />
         <label for="icon_prefix">Search</label>
       </div>
-      <div class="search-value" *ngIf="search.value">Searched for: {{search.value}}</div>
+      <div class="search-value" *ngIf="search.value">
+        Searched for: {{ search.value }}
+      </div>
     </div>
   </div>
-  <div *ngIf="(results$ |async) as results">
-    <app-loading class="search-loading" *ngIf="results.loading && results.loaded === false"></app-loading>
-    <app-results class="search-results" *ngIf="results.loaded === true"></app-results>
+  <div *ngIf="results$ | async as results">
+    <app-loading
+      class="search-loading"
+      *ngIf="results.loading && results.loaded === false"
+    ></app-loading>
+    <app-results
+      class="search-results"
+      *ngIf="results.loaded === true"
+      [cards]="results.results"
+    ></app-results>
     {{ results | json }}
   </div>
 </div>

@@ -27,7 +27,7 @@ const routes: Routes = [
   {
     path: 'search',
     loadChildren: './search/search.module#SearchModule',
-    canActivateChild: [fromGuards.LoginGuard, fromGuards.SopGuard]
+    canActivateChild: [fromGuards.LoginGuard]
   },
   {
     path: 'dashboard',
@@ -55,4 +55,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes, { enableTracing: false })],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

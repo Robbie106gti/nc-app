@@ -18,18 +18,13 @@ export const getSearchLoading = createSelector(
   getSearchState,
   search => search.loading
 );
-/*
-export const getSearchItems = createSelector(
-  fromSop.getMainSopArray,
-  sop => {
-    console.log(sop);
-    return sop;
-  }
-); */
+
+export const getSearchResults = createSelector(
+  getSearchState,
+  search => search.results
+);
 
 export const getSearch = createSelector(
   getSearchState,
-  search => {
-    return { loaded: search.loaded, loading: search.loading, items: Object.values(search.results) };
-  }
+  search => search
 );

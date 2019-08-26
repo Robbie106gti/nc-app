@@ -1,3 +1,7 @@
-<p>
-  results works!
-</p>
+<div class="grid" *ngIf="cats$ | async as cards">
+  <app-underconstruction
+    [title]="title"
+    *ngIf="cards.length === 0"
+  ></app-underconstruction>
+  <app-card class="card" *ngFor="let card of cards" [card]="card"> </app-card>
+</div>

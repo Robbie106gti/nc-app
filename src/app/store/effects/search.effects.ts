@@ -17,22 +17,21 @@ export class SearchEffects {
     private actions$: Actions
   ) { }
 
-  /*   @Effect({ dispatch: false })
-    search$ = this.actions$.pipe(
-      ofType(searchActions.SEARCH),
-      switchMap((action: { type: string; payload: any }) => {
-        console.log(action.payload);
-        return of(null);
-      })
-    ); */
+  @Effect()
+  search$ = this.actions$.pipe(
+    ofType(searchActions.SEARCH),
+    switchMap(async (action: { type: string; payload: any }) => {
+      const results = await searchWebquoin(action.payload);
+      return new searchActions.SearchSuccess(results);
+    }),
+    catchError(error => of(new searchActions.SearchFail(error)))
+  );
 
-  /*   @Effect()
-    search_sop$ = this.actions$.pipe(
-      ofType(searchActions.SEARCH),
-      switchMap((action: { type: string; payload: any }) => {
-        return this.store.select(fromSopStore.getMainSopArray);
-      }),
-      map(search => new searchActions.SearchSuccess(search)),
-      catchError(error => of(new searchActions.SearchFail(error)))
-    ); */
+}
+
+async function searchWebquoin(query) {
+  const results = await fetch('https://webquoin.com/catalog/api/public/index.php/search/' + query);
+  const data = await results.json();
+  console.log(data);
+  return data;
 }
