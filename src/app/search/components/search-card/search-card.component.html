@@ -1,0 +1,11 @@
+<a
+  [routerLink]="['/', card.type, card.sub, card.link]"
+  queryParamsHandling="merge"
+>
+  <div class="card-image card20">
+    <img [src]="card.image" [alt]="card.title" class="responsive-img" />
+  </div>
+  <div class="card-content" [ngClass]="{ 'white-text': !!card.color }">
+    <span [ngClass]="['card-title']">{{ card.title }}</span>
+  </div>
+</a>
