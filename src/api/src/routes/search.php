@@ -50,7 +50,7 @@ $app->get('/search/s/{id}', function(Request $request, Response $response){
 
 $app->get('/search/{query}', function(Request $request, Response $response) {
     $query = $request->getAttribute('query');
-    $sql = "SELECT * FROM search WHERE content LIKE '%{$query}%' OR title Like '%{$query}%'";
+    $sql = "SELECT * FROM search WHERE content LIKE '%{$query}%'";
 
     try {
         // Get DB Object
@@ -71,12 +71,14 @@ $app->post('/search/add', function(Request $request, Response $response) {
     $id = $request->getParam('id');
     $idCat = $request->getParam('idCat');
     $sub = $request->getParam('sub');
+    $idSub = $request->getParam('idSub');
+    $subCat = $request->getParam('subCat');
     $link = $request->getParam('link');
     $content = $request->getParam('content');
     $type = $request->getParam('type');
     $image = $request->getParam('image');
 
-    $sql = "INSERT INTO search (title, id, idCat, sub, link, content, type, image) VALUES(:title, :id, :idCat, :sub, :link, :content, :type, :image)";
+    $sql = "INSERT INTO search (title, id, idCat, sub, idSub, subCat, link, content, type, image) VALUES(:title, :id, :idCat, :sub, :idSub, :subCat, :link, :content, :type, :image)";
 
     try {
         // Get DB Object
@@ -89,6 +91,8 @@ $app->post('/search/add', function(Request $request, Response $response) {
         $stmt->bindParam(':id', $id);
         $stmt->bindParam(':idCat', $idCat);
         $stmt->bindParam(':sub', $sub);
+        $stmt->bindParam(':idSub', $idSub);
+        $stmt->bindParam(':subCat', $subCat);
         $stmt->bindParam(':link', $link);
         $stmt->bindParam(':content', $content);
         $stmt->bindParam(':type', $type);
@@ -108,12 +112,14 @@ $app->post('/search/update/{id}', function(Request $request, Response $response)
     $id = $request->getParam('id');
     $idCat = $request->getParam('idCat');
     $sub = $request->getParam('sub');
+    $idSub = $request->getParam('idSub');
+    $subCat = $request->getParam('subCat');
     $link = $request->getParam('link');
     $content = $request->getParam('content');
     $type = $request->getParam('type');
     $image = $request->getParam('image');
 
-    $sql = "UPDATE search SET title = :title, id = :id, idCat = :idCat, sub = :sub, link = :link, content = :content, type = :type, image = :image WHERE id = :docId";
+    $sql = "UPDATE search SET title = :title, id = :id, idCat = :idCat, sub = :sub, idSub = :idSub, subCat = :subCat, link = :link, content = :content, type = :type, image = :image WHERE id = :docId";
 
     try {
         // Get DB Object
@@ -127,6 +133,8 @@ $app->post('/search/update/{id}', function(Request $request, Response $response)
         $stmt->bindParam(':id', $id);
         $stmt->bindParam(':idCat', $idCat);
         $stmt->bindParam(':sub', $sub);
+        $stmt->bindParam(':idSub', $idSub);
+        $stmt->bindParam(':subCat', $subCat);
         $stmt->bindParam(':link', $link);
         $stmt->bindParam(':content', $content);
         $stmt->bindParam(':type', $type);

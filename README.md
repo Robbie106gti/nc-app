@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build. Use the `--base-href /mysubfolder/` flag if the application lives in a sub-directory.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build. Use the `--base-href /mysubfolder/` flag if the application lives in a sub-directory. // ng build --base-href /catalog/ng/ --prod
 
 ## Running unit tests
 
