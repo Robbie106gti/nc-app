@@ -27,7 +27,7 @@ $app->get('/search', function(Request $request, Response $response) {
         $links = $stmt->fetchAll(PDO::FETCH_OBJ);
         echo json_encode($links);
     } catch(PDOException $e){
-        echo '{"Error": {"text": '.$e->getMessage().'}';
+        echo json_encode('{"Error": {"text": '.$e->getMessage().'}');
     }
 });
 
@@ -44,7 +44,7 @@ $app->get('/search/s/{id}', function(Request $request, Response $response){
         $item = $stmt->fetch(PDO::FETCH_OBJ);
         echo json_encode($item);
     } catch(PDOException $e){
-        echo '{"error": {"text": '.$e->getMessage().'}';
+        echo json_encode('{"error": {"text": '.$e->getMessage().'}');
     }
 });
 
@@ -62,7 +62,7 @@ $app->get('/search/{query}', function(Request $request, Response $response) {
         $search = $stmt->fetchAll(PDO::FETCH_OBJ);
         echo json_encode($search);
     } catch(PDOException $e){
-        echo '{"Error": {"text": '.$e->getMessage().'}';
+        echo json_encode('{"Error": {"text": '.$e->getMessage().'}');
     }
 });
 
@@ -100,9 +100,9 @@ $app->post('/search/add', function(Request $request, Response $response) {
 
         $stmt->execute();
 
-        echo '{"notice": {"text": "Item added"}}';
+        echo json_encode('{"notice": {"text": "Item added"}}');
     } catch(PDOException $e){
-        echo '{"Error": {"text": '.$e->getMessage().'}';
+        echo json_encode('{"Error": {"text": '.$e->getMessage().'}');
     }
 });
 
@@ -142,9 +142,9 @@ $app->post('/search/update/{id}', function(Request $request, Response $response)
 
         $stmt->execute();
 
-        echo '{"notice": {"text": "Item Updated"}}';
+        echo json_encode('{"notice": {"text": "Item Updated"}}');
     } catch(PDOException $e){
-        echo '{"Error": {"text": '.$e->getMessage().', title: '.$title.', id: '.$id.'}';
+        echo json_encode('{"Error": {"text": '.$e->getMessage().', title: '.$title.', id: '.$id.'}');
     }
 });
 
@@ -163,9 +163,9 @@ $app->delete('/search/delete/{id}', function(Request $request, Response $respons
         $stmt->bindParam(':docId', $docId);
         $stmt->execute();
         $db = null;
-        echo '{"notice": {"text": "Item Deleted"}';
+        echo json_encode('{"notice": {"text": "Item Deleted"}');
     } catch(PDOException $e){
-        echo '{"Error": {"text": '.$e->getMessage().'}';
+        echo json_encode('{"Error": {"text": '.$e->getMessage().'}');
     }
 });
 
