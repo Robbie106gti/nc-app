@@ -45,6 +45,24 @@
     "active": false
   },
   {
+    "fname": "Fabio",
+    "lname": "Gandini",
+    "image": "images/team/Gandini,%20Fabio.JPG",
+    "position": "Purchasing",
+    "email": "purchasing@nickelscabinets.com",
+    "phone": "235",
+    "active": true
+  },
+  {
+    "fname": "Saif",
+    "lname": "Al-Azari",
+    "image": "images/team/Al-Azarai%20,%20Saif.jpg",
+    "position": "Final Assamble",
+    "email": "finalassembly_shipping@nickelscabinets.com",
+    "phone": "235",
+    "active": false
+  },
+  {
     "fname": "Arion",
     "lname": "Choi",
     "image": "images/team/arion.jpg",
