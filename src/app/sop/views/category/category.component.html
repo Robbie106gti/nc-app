@@ -5,4 +5,7 @@
     <app-card class="card" *ngFor="let card of cards; index as i; trackBy: trackByFn" [card]="card">
     </app-card>
   </div>
+  <app-loading
+    class="search-loading"
+  ></app-loading>
 </div>

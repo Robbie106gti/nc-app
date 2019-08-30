@@ -1,18 +1,15 @@
 <div class="main">
   <div id="top">
     <div class="card-panel dark-grey white-text search-form">
-      <div class="icon"><i class="material-icons prefix">search</i></div>
-      <div class="input-field">
-        <input
-          type="text"
-          class="validate white-text"
+      <div class="icon text-grey"><mat-icon aria-hidden="false" aria-label="Example search icon">search</mat-icon></div>
+        <mat-form-field class="input-field text-grey">
+          <input matInput placeholder="Search" 
+          class="validate"
           appAutoFocus
           required
           #search
-          (keyup.enter)="Search(search.value)"
-        />
-        <label for="icon_prefix">Search</label>
-      </div>
+          (keyup.enter)="Search(search.value)">
+        </mat-form-field>
       <div class="search-value" *ngIf="search.value">
         Searched for: {{ search.value }}
       </div>
@@ -27,7 +24,8 @@
       class="search-results"
       *ngIf="results.loaded === true"
       [cards]="results.results"
+      [query]="results.query"
     ></app-results>
-    <!--     {{ results | json }} -->
+    <!-- {{ results | json }} -->
   </div>
 </div>

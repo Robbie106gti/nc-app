@@ -14,10 +14,12 @@ import { EffectsModule } from '@ngrx/effects';
 import { reducers, effects } from './store';
 import { CategoryComponent } from './views/category/category.component';
 import { DocumentComponent } from './views/document/document.component';
+import { DemoMaterialModule } from '../material-module';
 @NgModule({
   declarations: [SopComponent, CategoryComponent, DocumentComponent],
   imports: [
     CommonModule,
+    DemoMaterialModule,
     SopRoutingModule,
     SharedModule,
     StoreModule.forFeature('sopsState', reducers),

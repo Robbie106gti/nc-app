@@ -9,10 +9,12 @@ import { GeneralInfoComponent } from './general-info/general-info.component';
 import { NoteComponent } from './note/note.component';
 import { ListComponent } from './list/list.component';
 import { ImagesComponent } from './image/images.component';
+import { LoadingComponent } from './loading/loading.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
-  declarations: [UnderconstructionComponent, CardComponent, DescriptionComponent, ImageBlockComponent, GeneralInfoComponent, NoteComponent, ListComponent, ImagesComponent],
-  imports: [CommonModule, SharedRoutingModule],
-  exports: [UnderconstructionComponent, CardComponent, DescriptionComponent, ImageBlockComponent, GeneralInfoComponent, NoteComponent, ListComponent, ImagesComponent]
+  declarations: [UnderconstructionComponent, CardComponent, DescriptionComponent, ImageBlockComponent, GeneralInfoComponent, NoteComponent, ListComponent, ImagesComponent, LoadingComponent],
+  imports: [CommonModule, SharedRoutingModule, MatCardModule],
+  exports: [UnderconstructionComponent, CardComponent, DescriptionComponent, ImageBlockComponent, GeneralInfoComponent, NoteComponent, ListComponent, ImagesComponent, LoadingComponent]
 })
 export class SharedModule { }

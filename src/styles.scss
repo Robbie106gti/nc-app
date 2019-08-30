@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 /* Materialize-css https://materializecss.com */
-// Color
+/* // Color
 @import '~materialize-css/sass/components/color-variables';
 @import '~materialize-css/sass/components/color-classes';
 // Variables;
@@ -18,15 +18,15 @@
 @import '~materialize-css/sass/components/cards';
 // @import "~materialize-css/sass/components/toast";
 // @import "~materialize-css/sass/components/tabs";
-// @import "~materialize-css/sass/components/tooltip";
-@import "~materialize-css/sass/components/buttons";
-// @import "~materialize-css/sass/components/dropdown";
+// @import "~materialize-css/sass/components/tooltip"; <-- Angular CDK is used do not try adding these
+// @import "~materialize-css/sass/components/buttons"; <-- Angular CDK is used do not try adding these
+// @import "~materialize-css/sass/components/dropdown"; <-- Angular CDK is used do not try adding these
 // @import "~materialize-css/sass/components/waves";
 @import '~materialize-css/sass/components/modal';
 // @import "~materialize-css/sass/components/collapsible";
 @import "~materialize-css/sass/components/chips";
 // @import "~materialize-css/sass/components/materialbox";
-@import "~materialize-css/sass/components/forms/forms";
+// @import "~materialize-css/sass/components/forms/forms"; <-- Angular CDK is used do not try adding these
 // @import "~materialize-css/sass/components/table_of_contents";
 // @import "~materialize-css/sass/components/sidenav";
 @import '~materialize-css/sass/components/preloader';
@@ -34,15 +34,51 @@
 // @import "~materialize-css/sass/components/carousel";
 // @import "~materialize-css/sass/components/tapTarget";
 // @import "~materialize-css/sass/components/pulse";
-// @import "~materialize-css/sass/components/datepicker";
-// @import "~materialize-css/sass/components/timepicker";
-/* Materialize-css end */
+// @import "~materialize-css/sass/components/datepicker"; <-- Angular CDK is used do not try adding these
+// @import "~materialize-css/sass/components/timepicker"; <-- Angular CDK is used do not try adding these
+ Materialize-css end */
 
 // scss tips and tricks https://sass-lang.com/guide
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 
 $primary-color: #4e342e;
 $secondary-color: rgba(255, 255, 255, 1);
 $primary: red;
+
+.text-grey {
+  color: #ccc;
+}
+.mat-card {
+  height: 100%;
+  overflow: hidden;
+  display: grid !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  .mat-card-header {
+    padding-top: 0.5rem;
+  }
+  a {
+    justify-content: center;
+    .mat-card-image {
+      display: grid;
+      width: auto !important;
+      max-width: 120%;
+      padding: 0 !important;
+      margin: 0 !important;
+      max-height: 20vh;
+      justify-content: center;
+      justify-self: center;
+    }
+  }
+  .mat-card-content {
+    padding: 0.5rem 1rem;
+    justify-self: left;
+    a {
+      text-decoration: none;
+      color: #ccc;
+    }
+  }
+}
 
 html,
 body {

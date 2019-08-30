@@ -14,7 +14,15 @@ h4 {
   justify-content: center;
 }
 .gi {
-  position: absolute;
-  margin-top: -1.5rem;
-  margin-left: -0.5rem;
+  position: relative;
+  left: 0.5rem;
+  top: 0.2rem;
+}
+.right {
+  display: block;
+  justify-self: right;
+  position: relative;
+  top: -0.9rem;
+  right: 0.5rem;
+  color: #ccc;
 }

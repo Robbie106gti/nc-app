@@ -1,4 +1,4 @@
-<div class="card-panel info" id="top">
+<!-- <div class="card-panel info" id="top">
     <span class="gi"><small>General Information</small></span>
   <a class="right" routerLink="../" queryParamsHandling="merge">
     <i class="small material-icons">arrow_back</i>
@@ -23,4 +23,38 @@
     </i>
   </span>
   <br />
-</div>
+</div> -->
+<mat-card class="card-panel info" id="top">
+  
+  <span class="gi"><small>General Information</small></span>
+  
+  <a class="right" routerLink="../" queryParamsHandling="merge">
+    <i class="small material-icons">arrow_back</i>
+  </a>
+  
+  <div id="topic">
+    
+    <div><img class="image" [src]="info.image" [alt]="info.title" /></div>
+    
+    <div>
+      <span *ngIf="info.sub !== 'main'">
+        <small>Category:</small>
+        <h4>{{ info.sub }}</h4></span
+      >
+      <small>Item:</small>
+      <h1>{{ info.title }}</h1>
+    </div>
+
+  </div>
+  
+  <span class="right">
+    <i>
+      <small
+        >{{ info.id }} || <span *ngIf="info.updatedAt">Updated by:{{ info?.updatedBy }} - on:
+        {{ info?.updatedAt.seconds * 1000 | date: 'medium' }}</span></small
+      >
+    </i>
+  </span>
+
+  <br />
+  </mat-card>

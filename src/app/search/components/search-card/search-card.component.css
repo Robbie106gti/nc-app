@@ -1,0 +1,17 @@
+
+
+.card-title > a {
+    text-decoration: none;
+    color: #cccccc;
+}
+.mat-card-subtitle {
+    padding-bottom: 0.5rem;
+}
+
+.mat-card {
+  justify-content: center;
+}
+
+.highlight {
+    background-color: rgb(129, 133, 72)
+}

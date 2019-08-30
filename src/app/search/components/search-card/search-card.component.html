@@ -1,11 +1,19 @@
-<a
-  [routerLink]="link"
-  queryParamsHandling="merge"
->
-  <div class="card-image card20">
-    <img [src]="card.image" [alt]="card.title" class="responsive-img" />
-  </div>
-  <div class="card-content" [ngClass]="{ 'white-text': !!card.color }">
-    <span [ngClass]="['card-title']">{{ card.title }}</span>
-  </div>
-</a>
+
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title [ngClass]="['card-title']">
+          <a
+          [routerLink]="link"
+          queryParamsHandling="merge"
+        >{{ card.title }}</a></mat-card-title>
+      <mat-card-subtitle>{{ card.sub }}<span *ngIf="card.subCat && card.subCat !== 'false'"> / {{ card.subCat}}</span></mat-card-subtitle>
+    </mat-card-header>
+    <a
+    [routerLink]="link"
+    queryParamsHandling="merge"
+  ><img mat-card-image [src]="card.image" [alt]="card.title"></a>
+  <mat-card-content [ngClass]="{ 'white-text': !!card.color }">
+    <span *ngFor="let c of content" [ngClass]="{'highlight': c.hg}">{{ c.text }}</span>
+  </mat-card-content>
+</mat-card>
