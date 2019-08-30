@@ -17,8 +17,8 @@
   <span class="right">
     <i>
       <small
-        >{{ info.id }} || Updated by:{{ info.updatedBy }} - on:
-        {{ info.updatedAt.seconds * 1000 | date: 'medium' }}</small
+        >{{ info.id }} || <span *ngIf="info.updatedAt">Updated by:{{ info?.updatedBy }} - on:
+        {{ info?.updatedAt.seconds * 1000 | date: 'medium' }}</span></small
       >
     </i>
   </span>

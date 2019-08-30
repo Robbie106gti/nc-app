@@ -11,6 +11,7 @@ import { sortAlfabet } from 'src/app/common/sort';
 import * as fromStore from '..';
 import * as subActions from '../actions/sub.actions';
 import * as mainActions from '../actions/main.actions';
+import { Action } from 'rxjs/internal/scheduler/Action';
 
 @Injectable()
 export class SubEffects {
@@ -25,9 +26,13 @@ export class SubEffects {
   load_sub_sop$ = this.actions$.pipe(
     ofType(subActions.LOAD_SUB_SOPS),
     switchMap((action: any) => {
-      return this.firestoreService.col$(`/sops/${action.payload.id}/entities`).pipe(
+      return fetch('https://webquoin.com/catalog/api/public/index.php/sops/' + action.payload.link)
+      .then(response =>  response.json())
+      .then(res => new subActions.LoadSubSopsSuccess({sop: action.payload, items: res}))
+      .catch(err => of(new subActions.LoadSubSopsFail(err)));
+      /* return this.firestoreService.col$(`/sops/${action.payload.id}/entities`).pipe(
         map((sops: any) => new subActions.LoadSubSopsSuccess({sop: action.payload, items: sops})),
-      catchError(err => of(new subActions.LoadSubSopsFail(err))));
+      catchError(err => of(new subActions.LoadSubSopsFail(err)))); */
     }
     ));
 

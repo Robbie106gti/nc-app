@@ -11,7 +11,7 @@ export function makeEntities(items, state) {
       if (cat.remove === true) {
         return entities;
       }
-      const link = Link.makelink(cat.title);
+      const link = cat.link ? cat.link : Link.makelink(cat.title);
       return {
         ...entities,
         [link]: {
@@ -31,7 +31,7 @@ export function makeSubEntities(items) {
   items = sortAlfabet(items);
   const entities = {};
   items.forEach(entity => {
-    const link = Link.makelink(entity.title);
+    const link = entity.link ? entity.link : Link.makelink(entity.title);
     entities[link] = {
       ...entity,
       link,

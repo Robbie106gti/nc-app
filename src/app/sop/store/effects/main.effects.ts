@@ -16,10 +16,14 @@ export class MainEffects {
   load_main_sop$ = this.actions$.pipe(
     ofType(mainActions.LOAD_MAIN_SOPS),
     switchMap(() => {
-      return this.firestoreService.col$('/sops').pipe(
+      return fetch('https://webquoin.com/catalog/api/public/index.php/sops/' + 'main')
+      .then(response =>  response.json())
+      .then( res => new mainActions.LoadedMain(res))
+      .catch(err => of(new mainActions.FailLoadingMain(err)));
+      /* return this.firestoreService.col$('/sops').pipe(
         map((sops: any) => new mainActions.LoadedMain(sops)),
         catchError(err => of(new mainActions.FailLoadingMain(err)))
-      );
+      ); */
     }
     ));
 
