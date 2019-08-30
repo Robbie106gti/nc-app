@@ -14,7 +14,7 @@ declare var M: any;
   styleUrls: ['./slider.component.scss']
 })
 export class SliderComponent implements AfterViewInit {
-  @ViewChild('slider', { read: ElementRef })
+  @ViewChild('slider', { read: ElementRef, static: true })
   slider: ElementRef;
 
   constructor() {}

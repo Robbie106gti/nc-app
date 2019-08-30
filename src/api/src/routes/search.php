@@ -2,8 +2,6 @@
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
-
-$app = new \Slim\App;
 $app->options('/{routes:.+}', function ($request, $response, $args) {
     return $response;
 });
