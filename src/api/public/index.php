@@ -16,5 +16,6 @@ $app->get('/hello/{name}', function (Request $request, Response $response, array
 // Search Routes
 require '../src/routes/search.php';
 require '../src/routes/sops.php';
+require '../src/routes/ds_view.php';
 
 $app->run();
