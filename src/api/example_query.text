@@ -1,0 +1,5 @@
+
+/* 		SELECT notes.*, content.content, content.codes, lines.custom FROM `notes`
+		JOIN `content` ON notes.content_id = content.id
+		JOIN `lines`ON notes.lines_id = lines.id
+		WHERE notes.active = 1 */

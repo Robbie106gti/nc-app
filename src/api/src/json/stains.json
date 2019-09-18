@@ -1,0 +1,498 @@
+{
+  "bb7bdd50-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-ancho.jpg",
+    "category": "Stain",
+    "title": "Ancho",
+    "uid": "bb7bdd50-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0460-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-barley.jpg",
+    "category": "Stain",
+    "title": "Barley",
+    "uid": "bb7c0460-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0461-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder", "Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-blue%20corn.jpg",
+    "category": "Stain",
+    "title": "Blue Corn",
+    "uid": "bb7c0461-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0462-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder", "Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-cardamon.jpg",
+    "category": "Stain",
+    "title": "Cardamon",
+    "uid": "bb7c0462-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0463-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder", "Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-chipotle.jpg",
+    "category": "Stain",
+    "title": "Chipotle",
+    "uid": "bb7c0463-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0464-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-cinnamon.jpg",
+    "category": "Stain",
+    "title": "Cinnamon",
+    "uid": "bb7c0464-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0465-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-clove.jpg",
+    "category": "Stain",
+    "title": "Clove",
+    "uid": "bb7c0465-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0466-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder", "Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-coffee%20bean.jpg",
+    "category": "Stain",
+    "title": "Coffee Bean",
+    "uid": "bb7c0466-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0467-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder", "Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-hazelnut.jpg",
+    "category": "Stain",
+    "title": "Hazelnut",
+    "uid": "bb7c0467-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0468-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-nutmeg.jpg",
+    "category": "Stain",
+    "title": "Nutmeg",
+    "uid": "bb7c0468-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0469-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-pasilla.jpg",
+    "category": "Stain",
+    "title": "Pasilla",
+    "uid": "bb7c0469-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c046a-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-peppercorn.jpg",
+    "category": "Stain",
+    "title": "Peppercorn",
+    "uid": "bb7c046a-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c046b-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder", "Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-sesame.jpg",
+    "category": "Stain",
+    "title": "Sesame",
+    "uid": "bb7c046b-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c046c-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-star%20anise.jpg",
+    "category": "Stain",
+    "title": "Star Anise",
+    "uid": "bb7c046c-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c046d-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder", "Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Finishes/JPEG/alder-tamarind.jpg",
+    "category": "Stain",
+    "title": "Tamarind",
+    "uid": "bb7c046d-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c046e-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/finishes/Driftwood-Black-Walnut-Matte.jpg",
+    "category": "Premium Stain",
+    "title": "Driftwood",
+    "uid": "bb7c046e-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c046f-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/finishes/Rain-Black-walnut-Matte.jpg",
+    "category": "Premium Stain",
+    "title": "Rain",
+    "uid": "bb7c046f-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0470-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/finishes/Winter-Black-Walnut-matte.jpg",
+    "category": "Premium Stain",
+    "title": "Winter",
+    "uid": "bb7c0470-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c0471-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/finishes/Earl-Grey-Black-Walnut.jpg",
+    "category": "Premium Stain",
+    "title": "Earl Grey",
+    "uid": "bb7c0471-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b70-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/finishes/Onix-PS-Oak-Wire-Brush-Matte-No-Glaze.jpg",
+    "category": "Premium Stain",
+    "title": "Onyx ",
+    "uid": "bb7c2b70-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b71-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": null,
+    "category": null,
+    "title": "Premium Stain",
+    "uid": "bb7c2b71-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b72-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": [],
+    "active": false,
+    "lines": {
+      "custom": false,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": null,
+    "category": null,
+    "title": "Stain",
+    "uid": "bb7c2b72-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b73-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder", "Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/build/assets/samples/coal.jpg",
+    "category": "Stain",
+    "title": "Coal",
+    "uid": "bb7c2b73-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b74-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/build/assets/samples/edler.jpg",
+    "category": "Stain",
+    "title": "Ecru",
+    "uid": "bb7c2b74-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b75-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/build/assets/samples/Oyster.jpg",
+    "category": "Stain",
+    "title": "Oyster",
+    "uid": "bb7c2b75-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b76-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/build/assets/samples/Pebble.jpg",
+    "category": "Stain",
+    "title": "Pebble",
+    "uid": "bb7c2b76-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b77-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/build/assets/samples/Shiitake.jpg",
+    "category": "Stain",
+    "title": "Shiitake",
+    "uid": "bb7c2b77-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b78-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/build/assets/samples/Sienna.jpg",
+    "category": "Stain",
+    "title": "Sienna",
+    "uid": "bb7c2b78-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b79-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/build/assets/samples/Smoke.jpg",
+    "category": "Stain",
+    "title": "Smoke",
+    "uid": "bb7c2b79-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b7a-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder", "Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/build/assets/samples/thunder.jpg",
+    "category": "Stain",
+    "title": "Thunder",
+    "uid": "bb7c2b7a-8d5e-11e9-8dfc-6d25bad8017f"
+  },
+  "bb7c2b7b-8d5e-11e9-8dfc-6d25bad8017f": {
+    "cornerstone_mat": ["Alder", "Maple"],
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/Catalog/build/assets/samples/polar.jpg",
+    "category": "Stain",
+    "title": "Polar",
+    "uid": "bb7c2b7b-8d5e-11e9-8dfc-6d25bad8017f"
+  }
+}

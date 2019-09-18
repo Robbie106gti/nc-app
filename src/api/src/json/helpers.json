@@ -185,7 +185,7 @@
         {
             "id": "0",
             "title": "",
-            "content": "3/4\" RGB’s only possible in 3/4\" cabinet rooms, same for 5/8\" only possible in 5/8\" cabinet rooms.",
+            "content": "3/4\" RGB’s only possible in 3/4\" cabinet rooms, same for 5/8\" only possible in 5/8\" cabinet rooms. undefined undefined.",
             "uid": "b0922009-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -201,7 +201,7 @@
             "id": "1",
             "title": "Change!",
             "link": "https://webquoin.com/catalog/solidtop.html",
-            "content": "we are replacing stretchers for Solid tops, please see link for details.",
+            "content": "we are replacing stretchers for  Solid tops , please see link for details.",
             "contentLink": "Solid tops",
             "uid": "b0926e20-8892-11e9-8eeb-1720330e23c5",
             "active": true,
@@ -510,7 +510,7 @@
         {
             "id": "22",
             "title": "Materials,",
-            "content": "for Melanines, Euro Materials or Gloss Columns use CLM column with CLM-101 front",
+            "content": "for Melanines, Euro Materials or Gloss Columns use CLM column with CLM-101 front undefined undefined.",
             "itemcodes": [
                 "CLM",
                 "CLM-101"
@@ -529,7 +529,7 @@
         {
             "id": "23",
             "title": "Miter,",
-            "content": "for mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front",
+            "content": "for mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front undefined undefined.",
             "itemcodes": [
                 "CLM-MITER",
                 "CLM-100"
@@ -548,7 +548,7 @@
         {
             "id": "24",
             "title": "Additional triades,",
-            "content": "use MSC-TRIADE to add extra(s) bracket to support more weight (7 kg/15 lbs per triade.)",
+            "content": "use MSC-TRIADE to add extra(s) bracket to support more weight (7 kg/15 lbs per triade.) undefined undefined.",
             "itemcodes": [
                 "MSC-TRIADE"
             ],
@@ -566,7 +566,7 @@
         {
             "id": "25",
             "title": "Ordering,",
-            "content": "procedure: After entering the Floating Shelf code in WebQuoin, double click into the CC-SH-WXD and enter the width and depth dimensions.",
+            "content": "procedure: After entering the Floating Shelf code in WebQuoin, double click into the CC-SH-WXD and enter the width and depth dimensions. undefined undefined.",
             "itemcodes": [
                 "CC-SH-WXD"
             ],
@@ -601,7 +601,7 @@
         {
             "id": "27",
             "title": "Grain,",
-            "content": "(if applicable) will run vertically, or in the direction of the selection in the Exterior Material Header Drop-Down Menu if there is a choice of VG or HG",
+            "content": "(if applicable) will run vertically, or in the direction of the selection in the Exterior Material Header Drop-Down Menu if there is a choice of VG or HG undefined undefined.",
             "uid": "b092e353-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -616,7 +616,7 @@
         {
             "id": "28",
             "title": "Edge,",
-            "content": "only a square outside edge profile can be used in this application",
+            "content": "only a square outside edge profile can be used in this application undefined undefined.",
             "uid": "b092e354-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -631,7 +631,7 @@
         {
             "id": "29",
             "title": "The door style,",
-            "content": "will only be applied onto the front face of the panel. Be aware that the joints may develop hairline cracks when applying paint onto a 5 piece door. This is considered normal and acceptable and therefore, not a warranty item.",
+            "content": "will only be applied onto the front face of the panel. Be aware that the joints may develop hairline cracks when applying paint onto a 5 piece door. This is considered normal and acceptable and therefore, not a warranty item. undefined undefined.",
             "uid": "b0930a60-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -649,7 +649,7 @@
             "itemcodes": [
                 "cc-fj"
             ],
-            "content": "if a veneer panel width must exceed the material size use the customization charge cc-fj to Factory join a panel. Contact Dealer Service for restrictions before ordering.",
+            "content": "if a veneer panel width must exceed the material size use the customization charge cc-fj to Factory join a panel. Contact Dealer Service for restrictions before ordering. undefined undefined.",
             "uid": "b0930a61-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -664,7 +664,7 @@
         {
             "id": "31",
             "title": "Beads,",
-            "content": "will cut into material and expose the core on wood veneer applications.",
+            "content": "will cut into material and expose the core on wood veneer applications. undefined undefined.",
             "uid": "b0930a62-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -679,7 +679,7 @@
         {
             "id": "32",
             "title": "Edge-tape grain,",
-            "content": "will run in direction of the edge.",
+            "content": "will run in direction of the edge. undefined undefined.",
             "uid": "b0930a63-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -694,7 +694,7 @@
         {
             "id": "33",
             "title": "Finished edges,",
-            "content": "euro Textured Melamine, Painted Gloss and UV Woodgrain Gloss must be a minimum of 4\" wide if you require all edges finished.",
+            "content": "euro Textured Melamine, Painted Gloss and UV Woodgrain Gloss must be a minimum of 4\" wide if you require all edges finished. undefined undefined.",
             "uid": "b0930a64-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -709,7 +709,7 @@
         {
             "id": "34",
             "title": "Edges,",
-            "content": "to detail and finish all edges of the over filler, add custom charge CC-FO-FINISH",
+            "content": "to detail and finish all edges of the over filler, add custom charge CC-FO-FINISH undefined undefined.",
             "itemcodes": [
                 "CC-FO-FINISH"
             ],
@@ -727,7 +727,7 @@
         {
             "id": "35",
             "title": "Width,",
-            "content": "minimum width is 2\" wide",
+            "content": "minimum width is 2\" wide undefined undefined.",
             "uid": "b0933171-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -742,7 +742,7 @@
         {
             "id": "36",
             "title": "Finish side,",
-            "content": "to finish the side of a cabinet in Melamine, Soho or Gloss use a PO.75P panel from the Finish Side Header Drop-Down Menu or manually attach a panel accessory, such as order code P.75P.",
+            "content": "to finish the side of a cabinet in Melamine, Soho or Gloss use a PO.75P panel from the Finish Side Header Drop-Down Menu or manually attach a panel accessory, such as order code P.75P. undefined undefined.",
             "itemcodes": [
                 "PO.75P",
                 "P.75P"
@@ -761,7 +761,7 @@
         {
             "id": "37",
             "title": "Finish top/bottom,",
-            "content": "to finish the top or bottom of a cabinet in TM (Textured Melamine), Soho or Gloss manually attach a panel accessory, such as order code P.75P or P.75P-1F.",
+            "content": "to finish the top or bottom of a cabinet in TM (Textured Melamine), Soho or Gloss manually attach a panel accessory, such as order code P.75P or P.75P-1F. undefined undefined.",
             "itemcodes": [
                 "P.75P",
                 "P.75P-1F"
@@ -780,7 +780,7 @@
         {
             "id": "38",
             "title": "Finish bottom,",
-            "content": "to finish the bottom of a cabinet in M White, M Maple, or Solid/Patterned Melamine where the interior and exterior materials do not match, attach a panel accessory.",
+            "content": "to finish the bottom of a cabinet in M White, M Maple, or Solid/Patterned Melamine where the interior and exterior materials do not match, attach a panel accessory. undefined undefined.",
             "uid": "b0933174-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -795,7 +795,7 @@
         {
             "id": "39",
             "title": "Movento slides,",
-            "content": "due to the size of Movento hardware, ROS below 7\" wide will use Tandem not Movento slides.",
+            "content": "due to the size of Movento hardware, ROS below 7\" wide will use Tandem not Movento slides. undefined undefined.",
             "uid": "b0935880-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -810,7 +810,7 @@
         {
             "id": "40",
             "title": "Tip-on,",
-            "content": "due to the size of Tip-on hardware, on ROS's no tip-on can be offered.",
+            "content": "due to the size of Tip-on hardware, on ROS's no tip-on can be offered. undefined undefined.",
             "uid": "b0935881-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -825,7 +825,7 @@
         {
             "id": "41",
             "title": "Door and rail,",
-            "content": "will not fit a 20 7/8\" wide door with a 2 1/4\" rail.",
+            "content": "will not fit a 20 7/8\" wide door with a 2 1/4\" rail. undefined undefined.",
             "uid": "b0935882-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -840,7 +840,7 @@
         {
             "id": "42",
             "title": "BB cabinets,",
-            "content": "when using the BB cabinet be aware that the gap between the drawer and the handle is very small and might not be easy to grip. It is recommended that the Magic Corner 2 be used in the BBFD.",
+            "content": "when using the BB cabinet be aware that the gap between the drawer and the handle is very small and might not be easy to grip. It is recommended that the Magic Corner 2 be used in the BBFD. undefined undefined.",
             "uid": "b0935883-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -855,7 +855,7 @@
         {
             "id": "43",
             "title": "Blind corner cabinets,",
-            "content": "lS-MSC2-MA is not available on 42\" and 43\" wide blind corner cabinets. When ordering on a 42\" BBFD the outer baskets will only be wire baskets.",
+            "content": "lS-MSC2-MA is not available on 42\" and 43\" wide blind corner cabinets. When ordering on a 42\" BBFD the outer baskets will only be wire baskets. undefined undefined.",
             "uid": "b0935884-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -870,7 +870,7 @@
         {
             "id": "50",
             "title": "Material and finish,",
-            "content": "matches interior of cabinet (Melamine bottom).",
+            "content": "matches interior of cabinet (Melamine bottom). undefined undefined.",
             "uid": "b0935885-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -885,7 +885,7 @@
         {
             "id": "51",
             "title": "Cabinet dimensions,",
-            "content": "interior Dimensions Required - Height 26 to 31\"",
+            "content": "interior Dimensions Required - Height 26 to 31\" undefined undefined.",
             "uid": "b0935886-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {
@@ -900,7 +900,7 @@
         {
             "id": "52",
             "title": "Door Closing Alert,",
-            "content": "closing the cabinet door before it is fully extended will damage the door front and the slides. The leverage can cause slide separation",
+            "content": "closing the cabinet door before it is fully extended will damage the door front and the slides. The leverage can cause slide separation undefined undefined.",
             "uid": "b0935887-8892-11e9-8eeb-1720330e23c5",
             "active": true,
             "lines": {

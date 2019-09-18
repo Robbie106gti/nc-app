@@ -1,0 +1,242 @@
+{
+  "5d88d560-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": true,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/SQ.gif",
+    "title": "SQ",
+    "description": "Square",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": [],
+    "uid": "5d88d560-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc70-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/BV3.gif",
+    "title": "BV3",
+    "description": "Bevel",
+    "size": {
+      "inch": "1/8",
+      "mm": "3.175"
+    },
+    "replaces": [],
+    "uid": "5d88fc70-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc71-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/BV5.gif",
+    "title": "BV5",
+    "description": "Bevel",
+    "size": {
+      "inch": "3/16",
+      "mm": "4.7625"
+    },
+    "replaces": [],
+    "uid": "5d88fc71-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc72-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/CV6.gif",
+    "title": "CV6",
+    "description": "Cove",
+    "size": {
+      "inch": "1/4",
+      "mm": "6.35"
+    },
+    "replaces": [],
+    "uid": "5d88fc72-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc73-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": true,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/CV11.gif",
+    "title": "CV11",
+    "description": "Cove",
+    "size": {
+      "inch": "7/16",
+      "mm": "11.1125"
+    },
+    "replaces": [],
+    "uid": "5d88fc73-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc74-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/RD3.gif",
+    "title": "RD3",
+    "description": "Round",
+    "size": {
+      "inch": "1/8",
+      "mm": "3.175"
+    },
+    "replaces": [],
+    "uid": "5d88fc74-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc75-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/RD6.gif",
+    "title": "RD6",
+    "description": "Round",
+    "size": {
+      "inch": "1/4",
+      "mm": "6.35"
+    },
+    "replaces": [],
+    "uid": "5d88fc75-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc76-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/OV.gif",
+    "title": "OV",
+    "description": "Step Round",
+    "size": {
+      "inch": "1/4",
+      "mm": "6.35"
+    },
+    "replaces": [],
+    "uid": "5d88fc76-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc77-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/CA.gif",
+    "title": "CA",
+    "description": "Cambridge",
+    "size": {
+      "inch": "11/16",
+      "mm": "17.4625"
+    },
+    "replaces": [],
+    "uid": "5d88fc77-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc78-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/SC.gif",
+    "title": "SC",
+    "description": "Step Cove",
+    "size": {
+      "inch": "1/4",
+      "mm": "6.35"
+    },
+    "replaces": [],
+    "uid": "5d88fc78-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc79-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/HS.gif",
+    "title": "HS",
+    "description": "Step Slope",
+    "size": {
+      "inch": "11/16",
+      "mm": "17.4625"
+    },
+    "replaces": [],
+    "uid": "5d88fc79-8d66-11e9-9357-91e1f25f5422"
+  },
+  "5d88fc7a-8d66-11e9-9357-91e1f25f5422": {
+    "active": true,
+    "lines": {
+      "custom": true,
+      "cornerstone": false,
+      "lighthouse": false,
+      "modcon": false,
+      "modal": false
+    },
+    "tags": [],
+    "image": "https://webquoin.com/catalog/images/Edge-Details/Sh.gif",
+    "title": "SH",
+    "description": "Round and Cove",
+    "size": {
+      "inch": "7/16",
+      "mm": "11.1125"
+    },
+    "replaces": [],
+    "uid": "5d88fc7a-8d66-11e9-9357-91e1f25f5422"
+  }
+}

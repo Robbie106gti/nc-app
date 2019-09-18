@@ -1,0 +1,344 @@
+[
+  {
+    "fname": "Scott",
+    "lname": "Alkema",
+    "image": "images/team/scott.jpg",
+    "position": "Team Leader - Engineering  / Product Development",
+    "email": "scott@nickelscabinets.com",
+    "phone": "228",
+    "active": true
+  },
+  {
+    "fname": "Leo",
+    "lname": "Almeida",
+    "image": "images/team/leo.jpg",
+    "position": "Office Manager",
+    "email": "leo@nickelscabinets.com",
+    "phone": "238",
+    "active": true
+  },
+  {
+    "fname": "Ken",
+    "lname": "Baerg",
+    "image": "images/team/ken.jpg",
+    "position": "Engineering Lead Hand",
+    "email": "ken@nickelscabinets.com",
+    "phone": "237",
+    "active": true
+  },
+  {
+    "fname": "Kal",
+    "lname": "Bopari",
+    "image": "images/team/kal.jpg",
+    "position": "Doors Lead Hand",
+    "email": "doors@nickelscabinets.com",
+    "phone": "252",
+    "active": true
+  },
+  {
+    "fname": "David",
+    "lname": "Chan",
+    "image": "images/team/dchan.jpg",
+    "position": "Purchasing",
+    "email": "purchasing@nickelscabinets.com",
+    "phone": "235",
+    "active": false
+  },
+  {
+    "fname": "Fabio",
+    "lname": "Gandini",
+    "image": "images/team/Gandini,%20Fabio.JPG",
+    "position": "Purchasing",
+    "email": "purchasing@nickelscabinets.com",
+    "phone": "235",
+    "active": true
+  },
+  {
+    "fname": "Saif",
+    "lname": "Al-Azari",
+    "image": "images/team/Al-Azarai%20,%20Saif.jpg",
+    "position": "Final Assamble",
+    "email": "finalassembly_shipping@nickelscabinets.com",
+    "phone": "235",
+    "active": false
+  },
+  {
+    "fname": "Arion",
+    "lname": "Choi",
+    "image": "images/team/arion.jpg",
+    "position": "Custom Millwork Engineer",
+    "email": "arion@nickelscabinets.com",
+    "phone": "225",
+    "active": true
+  },
+  {
+    "fname": "Giuliano Correa",
+    "lname": "Cristofaro",
+    "image": "images/team/Giuliano.jpg",
+    "position": "Finishing Team Coordinator",
+    "email": "finishing@nickelscabinets.com",
+    "phone": "226",
+    "active": true
+  },
+  {
+    "fname": "Chris",
+    "lname": "Czapiewski",
+    "image": "images/team/chris.jpg",
+    "position": "engineer",
+    "email": "chris@nickelscabinets.com",
+    "phone": "232",
+    "active": false
+  },
+  {
+    "fname": "Khin",
+    "lname": "Dang",
+    "image": "images/team/khin.jpg",
+    "position": "Drawer Assembly Lead Hand",
+    "email": "",
+    "phone": "",
+    "active": false
+  },
+  {
+    "fname": "Ted",
+    "lname": "Federau",
+    "image": "images/team/ted.jpg",
+    "position": "General Manager",
+    "email": "ted@nickelscabinets.com",
+    "phone": "236",
+    "active": true
+  },
+  {
+    "fname": "Elly",
+    "lname": "Federau",
+    "image": "images/team/elly.jpg",
+    "position": "Dealer Service",
+    "email": "elly@nickelscabinets.com",
+    "phone": "236",
+    "active": true
+  },
+  {
+    "fname": "Tony",
+    "lname": "Flores",
+    "image": "images/team/tony.jpg",
+    "position": "spray booth coordinator",
+    "email": "",
+    "phone": "",
+    "active": false
+  },
+  {
+    "fname": "Keith J.",
+    "lname": "Grubaugh",
+    "image": "images/team/keith.jpg",
+    "position": "Director of Sales and Marketing",
+    "email": "keith@nickelscabinets.com",
+    "phone": "241",
+    "active": true
+  },
+  {
+    "fname": "Harry",
+    "lname": "Janzen",
+    "image": "images/team/harry.jpg",
+    "position": "Continuous Improvement/Prod. Coord.",
+    "email": "harry@nickelscabinets.com",
+    "phone": "242",
+    "active": true
+  },
+  {
+    "fname": "Stanimir",
+    "lname": "Kolev",
+    "image": "images/team/stan.jpg",
+    "position": "Engineer",
+    "email": "stan@nickelscabinets.com",
+    "phone": "223",
+    "active": true
+  },
+  {
+    "fname": "Tina",
+    "lname": "Krumhardt",
+    "image": "images/team/tina.jpg",
+    "position": "Dealer Service Team Leader",
+    "email": "tina@nickelscabinets.com",
+    "phone": "249",
+    "active": true
+  },
+  {
+    "fname": "Robert",
+    "lname": "Leeuwerink",
+    "image": "images/team/rob.jpg",
+    "position": "Front end Developer",
+    "email": "rob@nickelscabinets.com",
+    "phone": "234",
+    "active": true
+  },
+  {
+    "fname": "Dan",
+    "lname": "Lenz",
+    "image": "images/team/dan.jpg",
+    "position": "Custom Millwork Lead Hand",
+    "email": "",
+    "phone": "",
+    "active": true
+  },
+  {
+    "fname": "Danny",
+    "lname": "Lenz",
+    "image": "images/team/danny.jpg",
+    "position": "Dealer Service Lead Hand",
+    "email": "danny@nickelscabinets.com",
+    "phone": "233",
+    "active": true
+  },
+  {
+    "fname": "Alex",
+    "lname": "Macdougall",
+    "image": "images/team/alex.jpg",
+    "position": "Breakout Team Leader",
+    "email": "breakout@nickelscabinets.com",
+    "phone": "",
+    "active": true
+  },
+  {
+    "fname": "Sophia",
+    "lname": "Li",
+    "image": "images/team/sophia.jpg",
+    "position": "Accountant",
+    "email": "sophia@nickelscabinets.com",
+    "phone": "229",
+    "active": true
+  },
+  {
+    "fname": "Megan",
+    "lname": "McCrea",
+    "image": "images/team/megan.jpg",
+    "position": "Creative Content Manager",
+    "email": "megan@nickelscabinets.com",
+    "phone": "221",
+    "active": true
+  },
+  {
+    "fname": "Benny",
+    "lname": "Ng",
+    "image": "images/team/benny.jpg",
+    "position": "engineer",
+    "email": "benny@nickelscabinets.com",
+    "phone": "",
+    "active": false
+  },
+  {
+    "fname": "Dennis",
+    "lname": "Ng",
+    "image": "images/team/dennis.jpg",
+    "position": "Service Lead Hand",
+    "email": "",
+    "phone": "",
+    "active": true
+  },
+  {
+    "fname": "Dieter",
+    "lname": "Nickel",
+    "image": "images/team/dieter.jpg",
+    "position": "President",
+    "email": "dieter@nickelscabinets.com",
+    "phone": "230",
+    "active": true
+  },
+  {
+    "fname": "David",
+    "lname": "Richer",
+    "image": "images/team/davidr.jpg",
+    "position": "Graphics designer",
+    "email": "dricher@nickelscabinets.com",
+    "phone": "231",
+    "active": true
+  },
+  {
+    "fname": "Derek",
+    "lname": "Stewart",
+    "image": "images/team/Derek%20Stewart.JPG",
+    "position": "shipping team leader",
+    "email": "shipping@nickelscabinets.com",
+    "phone": "243",
+    "active": false
+  },
+  {
+    "fname": "Miyuki",
+    "lname": "Tai",
+    "image": "images/team/miyuki.jpg",
+    "position": "Accounts Payable / Receivable",
+    "email": "accounting@nickelscabinets.com",
+    "phone": "224",
+    "active": true
+  },
+  {
+    "fname": "Sukhi",
+    "lname": "Uppal",
+    "image": "images/team/sukhi.jpg",
+    "position": "Final Assembly Lead Hand",
+    "email": "",
+    "phone": "",
+    "active": true
+  },
+  {
+    "fname": "Sven",
+    "lname": "Weller",
+    "image": "images/team/sven.jpg",
+    "position": "Millwright",
+    "email": "sven@nickelscabinets.com",
+    "phone": "242",
+    "active": true
+  },
+  {
+    "fname": "Garett",
+    "lname": "White",
+    "image": "images/team/garett.jpg",
+    "position": "Pre-assembly Team Leader",
+    "email": "garett@nickelscabinets.com",
+    "phone": "240",
+    "active": true
+  },
+  {
+    "fname": "Ide",
+    "lname": "Wong",
+    "image": "images/team/Wong-Ide.jpg",
+    "position": "Engineer",
+    "email": "ide@nickelscabinets.com",
+    "phone": "244",
+    "active": true
+  },
+  {
+    "fname": "Jimmy",
+    "lname": "Vides",
+    "image": "images/team/jimmy2.jpg",
+    "position": "Engineer",
+    "email": "jimmy@nickelscabinets.com",
+    "phone": "244",
+    "active": true
+  },
+  {
+    "fname": "Nelliza M.",
+    "lname": "Gumabay",
+    "image": "images/team/liza.jpg",
+    "position": "Showroom Hostess",
+    "email": "",
+    "phone": "",
+    "active": true
+  },
+  {
+    "fname": "JC",
+    "lname": "Mykytchuk",
+    "image": "images/team/liza.jpg",
+    "position": "Finishing Lead Hand",
+    "email": "",
+    "phone": "",
+    "active": false
+  },
+  {
+    "fname": "Brandon",
+    "lname": "Ling",
+    "image": "images/team/brandon2.jpg",
+    "position": "Data and Information Associate",
+    "email": "brandon@nickelscabinets.com",
+    "phone": "",
+    "active": true
+  }
+]
