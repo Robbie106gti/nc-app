@@ -168,7 +168,7 @@
     "position": "Front end Developer",
     "email": "rob@nickelscabinets.com",
     "phone": "234",
-    "active": true
+    "active": false
   },
   {
     "fname": "Dan",
@@ -249,7 +249,7 @@
     "position": "Graphics designer",
     "email": "dricher@nickelscabinets.com",
     "phone": "231",
-    "active": true
+    "active": false
   },
   {
     "fname": "Derek",
